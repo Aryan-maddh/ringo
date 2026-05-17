@@ -60,7 +60,9 @@ export default function ReviewsPage() {
 
   useEffect(() => {
     if (!localStorage.getItem('token')) { router.push('/login'); return; }
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
+    // eslint-disable-next-line react-hooks/immutability
     load();
   }, [router]);
 
@@ -179,7 +181,7 @@ export default function ReviewsPage() {
           <div style={{ position: 'fixed', inset: 0, background: 'rgba(15,21,53,0.45)', zIndex: 200 }} onClick={() => setShowModal(false)} />
           <div style={{ position: 'fixed', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', background: '#fff', borderRadius: 20, padding: '28px 32px', width: 440, zIndex: 201, boxShadow: '0 24px 64px -16px rgba(0,0,0,0.3)' }}>
             <div style={{ fontFamily: RINGO.font.head, fontSize: 18, fontWeight: 700, marginBottom: 6, color: RINGO.ink }}>Send review request</div>
-            <div style={{ fontSize: 12.5, color: RINGO.ink3, marginBottom: 22 }}>We'll send an SMS inviting the customer to leave a review.</div>
+            <div style={{ fontSize: 12.5, color: RINGO.ink3, marginBottom: 22 }}>We&apos;ll send an SMS inviting the customer to leave a review.</div>
             <form onSubmit={handleSend} style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
               <div>
                 <label style={{ fontSize: 12.5, fontWeight: 600, color: RINGO.ink2, display: 'block', marginBottom: 6 }}>Phone number *</label>

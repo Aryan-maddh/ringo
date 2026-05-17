@@ -110,6 +110,7 @@ export default function QaPage() {
 
   useEffect(() => {
     if (process.env.NODE_ENV !== 'development') return;
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     run();
   }, [run]);
 

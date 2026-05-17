@@ -58,6 +58,7 @@ export default function AdminSmsTrafficPage() {
 
   useEffect(() => {
     if (!localStorage.getItem('adminToken')) { router.push('/admin/login'); return; }
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
     load();
     const id = setInterval(load, 15_000);

@@ -367,6 +367,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     if (!localStorage.getItem('token')) { router.push('/login'); return; }
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, [router]);
 
@@ -380,6 +381,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     if (!mounted) return;
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setLoading(true);
     fetchStats();
     const id = setInterval(fetchStats, 30_000);

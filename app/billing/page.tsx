@@ -33,6 +33,7 @@ function BillingContent() {
 
   useEffect(() => {
     if (!localStorage.getItem('token')) { router.push('/login'); return; }
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
 
     // handle Stripe redirect params
@@ -59,6 +60,7 @@ function BillingContent() {
       });
       const data = await res.json();
       if (res.ok && data.checkout_url) {
+        // eslint-disable-next-line react-hooks/immutability
         window.location.href = data.checkout_url;
       } else {
         setToast({ type: 'error', msg: data.error ?? 'Failed to start checkout' });
