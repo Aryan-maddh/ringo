@@ -33,15 +33,37 @@ jobs:
 
       - uses: google-github-actions/setup-gcloud@v2
 
-      - name: Build & push image (Cloud Build)
+      - name: Build & push image (Cloud Build, async)
         run: |
           IMAGE="${REGION}-docker.pkg.dev/${{ vars.GCP_PROJECT_ID }}/${REPO}/ringo-backend:${GITHUB_SHA::12}"
           echo "IMAGE=$IMAGE" >> $GITHUB_ENV
-          gcloud builds submit backend/ \
+          # --async returns the build ID and exits 0 immediately, sidestepping
+          # gcloud's log-streaming permission requirement (project Viewer/Owner).
+          BUILD_ID=$(gcloud builds submit backend/ \
             --tag "$IMAGE" \
             --project "${{ vars.GCP_PROJECT_ID }}" \
-            --suppress-logs \
-            --quiet
+            --async \
+            --format='value(id)' \
+            --quiet)
+          echo "Build ID: $BUILD_ID"
+          echo "Polling build status..."
+          while true; do
+            STATUS=$(gcloud builds describe "$BUILD_ID" \
+              --project "${{ vars.GCP_PROJECT_ID }}" \
+              --format='value(status)')
+            case "$STATUS" in
+              SUCCESS)
+                echo "Build succeeded."
+                break ;;
+              FAILURE|TIMEOUT|CANCELLED|INTERNAL_ERROR|EXPIRED)
+                echo "::error::Build failed: $STATUS"
+                echo "View logs: https://console.cloud.google.com/cloud-build/builds/$BUILD_ID?project=${{ vars.GCP_PROJECT_ID }}"
+                exit 1 ;;
+              *)
+                echo "  status=$STATUS — waiting 10s..."
+                sleep 10 ;;
+            esac
+          done
 
       - name: Deploy revision to Cloud Run
         run: |
@@ -70,15 +92,35 @@ jobs:
 
       - uses: google-github-actions/setup-gcloud@v2
 
-      - name: Build & push image (Cloud Build)
+      - name: Build & push image (Cloud Build, async)
         run: |
           IMAGE="${REGION}-docker.pkg.dev/${{ vars.GCP_PROJECT_ID }}/${REPO}/ringo-frontend:${GITHUB_SHA::12}"
           echo "IMAGE=$IMAGE" >> $GITHUB_ENV
-          gcloud builds submit . \
+          BUILD_ID=$(gcloud builds submit . \
             --tag "$IMAGE" \
             --project "${{ vars.GCP_PROJECT_ID }}" \
-            --suppress-logs \
-            --quiet
+            --async \
+            --format='value(id)' \
+            --quiet)
+          echo "Build ID: $BUILD_ID"
+          echo "Polling build status..."
+          while true; do
+            STATUS=$(gcloud builds describe "$BUILD_ID" \
+              --project "${{ vars.GCP_PROJECT_ID }}" \
+              --format='value(status)')
+            case "$STATUS" in
+              SUCCESS)
+                echo "Build succeeded."
+                break ;;
+              FAILURE|TIMEOUT|CANCELLED|INTERNAL_ERROR|EXPIRED)
+                echo "::error::Build failed: $STATUS"
+                echo "View logs: https://console.cloud.google.com/cloud-build/builds/$BUILD_ID?project=${{ vars.GCP_PROJECT_ID }}"
+                exit 1 ;;
+              *)
+                echo "  status=$STATUS — waiting 10s..."
+                sleep 10 ;;
+            esac
+          done
 
       - name: Deploy revision to Cloud Run
         run: |
