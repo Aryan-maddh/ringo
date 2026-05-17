@@ -98,6 +98,7 @@ function CallLogTab() {
     } catch { /* keep state */ } finally { setLoading(false); }
   }, []);
 
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => { load(filter); }, [filter, load]);
 
   const filters: { id: CallFilter; label: string }[] = [
@@ -295,6 +296,7 @@ function SmsTab() {
   }, []);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     load();
     const id = setInterval(load, 10_000);
     return () => clearInterval(id);
@@ -371,6 +373,7 @@ export default function Inbox() {
 
   useEffect(() => {
     if (!localStorage.getItem('token')) { router.push('/login'); return; }
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, [router]);
 

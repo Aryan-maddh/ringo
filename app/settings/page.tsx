@@ -146,6 +146,7 @@ export default function Settings() {
 
   useEffect(() => {
     if (!localStorage.getItem('token')) { router.push('/login'); return; }
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
     apiFetch('/api/settings').then(r => r.ok ? r.json() : null).then(d => { if (d) setSettings(d); }).catch(() => {});
     const saved = localStorage.getItem('notifyPrefs');
@@ -446,7 +447,7 @@ export default function Settings() {
                   ) : (
                     <div style={{ padding: '24px', textAlign: 'center', borderRadius: 12, background: RINGO.bg, border: `1px dashed ${RINGO.borderStrong}` }}>
                       <div style={{ fontSize: 14, fontWeight: 600, color: RINGO.ink2, marginBottom: 8 }}>No primary number provisioned</div>
-                      <div style={{ fontSize: 13, color: RINGO.ink3, marginBottom: 12 }}>Please go to the "Your number" tab to provision a number first. Ringo will automatically use it for WhatsApp too.</div>
+                      <div style={{ fontSize: 13, color: RINGO.ink3, marginBottom: 12 }}>Please go to the &quot;Your number&quot; tab to provision a number first. Ringo will automatically use it for WhatsApp too.</div>
                       <button onClick={() => setTab('number')} style={{ padding: '9px 18px', borderRadius: 9, border: 'none', background: 'linear-gradient(135deg, #7c3aed, #06b6d4)', color: '#fff', fontSize: 13.5, fontWeight: 600, cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: 8 }}>
                         Go to Your number
                       </button>

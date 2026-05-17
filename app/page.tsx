@@ -61,6 +61,7 @@ function LazyMount({ children, threshold = 0 }: { children: React.ReactNode; thr
   useEffect(() => {
     const el = ref.current;
     if (!el) { setVisible(true); return; }
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (typeof IntersectionObserver === 'undefined') { setVisible(true); return; }
 
     // If already in/near viewport on mount, reveal immediately (no flash)
@@ -124,7 +125,7 @@ function HeroPhone() {
       { ph: 1, ms: 5000 },
       { ph: 2, ms: 2500 },
     ];
-    let timeouts: ReturnType<typeof setTimeout>[] = [];
+    const timeouts: ReturnType<typeof setTimeout>[] = [];
     let acc = 0;
     seq.forEach(({ ph, ms }) => {
       timeouts.push(setTimeout(() => setPhase(ph), acc));

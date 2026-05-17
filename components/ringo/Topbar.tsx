@@ -33,7 +33,7 @@ export function Topbar({ title, sub }: TopbarProps) {
         <div style={{ flex: 1 }}>
           <div style={{ fontSize: 12, color: RINGO.ink3 }}>
             <span style={{ fontWeight: 600, color: RINGO.ink }}>Good morning, Marco.</span>{' '}
-            Here's what's happening today.
+            Here&apos;s what&apos;s happening today.
           </div>
         </div>
       )}

@@ -43,6 +43,7 @@ export default function AdminAuditLogPage() {
 
   useEffect(() => {
     if (!localStorage.getItem('adminToken')) { router.push('/admin/login'); return; }
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
     adminApiFetch('/api/admin/audit-log?per_page=50')
       .then(r => r.ok ? r.json() : null)

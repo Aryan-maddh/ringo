@@ -76,10 +76,12 @@ export default function CallsPage() {
 
   useEffect(() => {
     if (!localStorage.getItem('token')) { router.push('/login'); return; }
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, [router]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (mounted) load(filter);
   }, [filter, load, mounted]);
 

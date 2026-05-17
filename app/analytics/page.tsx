@@ -201,11 +201,13 @@ export default function AnalyticsPage() {
 
   useEffect(() => {
     if (!localStorage.getItem('token')) { router.push('/login'); return; }
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, [router]);
 
   useEffect(() => {
     if (!mounted) return;
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setLoading(true);
     apiFetch(`/api/dashboard/stats?period=${PERIOD_API[period] ?? '30d'}`)
       .then(r => r.ok ? r.json() : null)

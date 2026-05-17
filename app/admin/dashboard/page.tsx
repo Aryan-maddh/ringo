@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect, useState, useCallback } from 'react';
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { adminApiFetch } from '@/lib/adminApi';
 import { AdminSidebar, AdminTopbar, StatCardA } from '@/components/admin/AdminSidebar';
@@ -237,6 +238,7 @@ export default function AdminDashboard() {
 
   useEffect(() => {
     if (!localStorage.getItem('adminToken')) { router.push('/admin/login'); return; }
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
     load();
     const id = setInterval(load, 30_000);
@@ -325,8 +327,8 @@ export default function AdminDashboard() {
                   <div style={{ fontFamily: RINGO.font.head, fontSize: 18, fontWeight: 700,
                     color: RINGO.ink, letterSpacing: '-0.02em', marginTop: 3 }}>By SMS sent</div>
                 </div>
-                <a href="/admin/businesses" style={{ marginLeft: 'auto', fontSize: 12,
-                  color: '#6d28d9', fontWeight: 600, textDecoration: 'none' }}>View all →</a>
+                <Link href="/admin/businesses" style={{ marginLeft: 'auto', fontSize: 12,
+                  color: '#6d28d9', fontWeight: 600, textDecoration: 'none' }}>View all →</Link>
               </div>
               <div style={{ padding: '0 10px 4px', display: 'grid',
                 gridTemplateColumns: '1fr auto auto', gap: '0 12px',

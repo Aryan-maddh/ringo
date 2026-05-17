@@ -57,6 +57,7 @@ export default function ContactsPage() {
 
   useEffect(() => {
     if (!localStorage.getItem('token')) { router.push('/login'); return; }
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
     load();
   }, [router, load]);
