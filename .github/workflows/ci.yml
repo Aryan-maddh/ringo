@@ -1,0 +1,67 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [master]
+  push:
+    branches-ignore: [master]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  frontend:
+    name: Frontend (lint + typecheck + build)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint --if-present
+
+      - name: Typecheck
+        run: npx tsc --noEmit -p .
+
+      - name: Build
+        run: npm run build
+        env:
+          NEXT_PUBLIC_API_URL: ''
+          BACKEND_API_URL: 'https://example.invalid'
+
+  backend:
+    name: Backend (syntax + import check)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: backend/requirements.txt
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Compile-check all Python sources
+        run: python -m compileall -q app run.py
+
+      - name: Smoke-import the Flask app
+        env:
+          DATABASE_URL: 'sqlite:///ci-smoke.db'
+          JWT_SECRET_KEY: 'ci-only-not-real'
+          SECRET_KEY: 'ci-only-not-real'
+          FLASK_ENV: 'testing'
+        run: python -c "from app import create_app; app = create_app(); print('app importable:', app.name)"
