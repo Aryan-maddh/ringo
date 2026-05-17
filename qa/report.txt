@@ -1,0 +1,64 @@
+Ringo QA Report — 2026-05-09T07:49:47.735Z
+============================================================
+
+## Auth (6/6)
+  PASS  Login with correct credentials returns 200 + token (124ms)
+  PASS  Login with wrong password returns 401 (126ms)
+  PASS  Login with empty body returns 401 (6ms)
+  PASS  Register with existing email returns 409 (7ms)
+  PASS  Register with short password returns 400 (4ms)
+  PASS  Protected route without token returns 401 (5ms)
+
+## Dashboard (5/5)
+  PASS  GET /api/dashboard/stats returns 200 (34ms)
+  PASS  Dashboard stats has all required fields (17ms)
+  PASS  calls_this_week has exactly 7 entries (16ms)
+  PASS  recent_calls is an array (17ms)
+  PASS  Dashboard response is under 3 seconds (17ms)
+
+## Call Log (4/4)
+  PASS  GET /api/calls returns 200 with calls array (8ms)
+  PASS  GET /api/calls?status=missed returns only missed calls (8ms)
+  PASS  GET /api/calls?emergency=true returns 200 (10ms)
+  PASS  Call log entries have required fields (7ms)
+
+## SMS Inbox (4/4)
+  PASS  GET /api/sms/conversations returns 200 (13ms)
+  PASS  Conversations response has conversations array and total (11ms)
+  PASS  Conversation entries have required fields (11ms)
+  PASS  GET /api/sms returns 200 with sms array (14ms)
+
+## Settings (4/4)
+  PASS  GET /api/settings returns 200 (6ms)
+  PASS  Settings has required fields (6ms)
+  PASS  PUT /api/settings returns 200 (14ms)
+  PASS  Settings does not include billing data (6ms)
+
+## Billing (4/4)
+  PASS  GET /api/billing returns 200 (5ms)
+  PASS  Billing response has plan, price, all_plans (7ms)
+  PASS  all_plans has starter ($29), growth ($79), pro ($149) (6ms)
+  PASS  Current plan is a valid plan name (6ms)
+
+## Admin (7/7)
+  PASS  Admin login with correct credentials returns 200 + token (5ms)
+  PASS  Admin login with wrong password returns 401 (5ms)
+  PASS  GET /api/admin/dashboard returns 200 (19ms)
+  PASS  Admin dashboard has mrr, active_businesses, total_users (11ms)
+  PASS  GET /api/admin/businesses returns 200 with businesses array (16ms)
+  PASS  GET /api/admin/revenue returns 200 with mrr and arr (7ms)
+  PASS  Admin route rejects user token (132ms)
+
+## Navigation (9/9)
+  PASS  / returns 200 (319ms)
+  PASS  /login returns 200 (318ms)
+  PASS  /dashboard returns 200 (319ms)
+  PASS  /inbox returns 200 (320ms)
+  PASS  /settings returns 200 (321ms)
+  PASS  /billing returns 200 (324ms)
+  PASS  /admin/login returns 200 (322ms)
+  PASS  /admin/dashboard returns 200 (324ms)
+  PASS  /admin/businesses returns 200 (349ms)
+
+============================================================
+SCORE: 43/43 (100%)

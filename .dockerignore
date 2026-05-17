@@ -1,0 +1,15 @@
+.git
+.next
+node_modules
+backend
+.env
+.env.*
+frontend.stdout.log
+frontend.stderr.log
+*.log
+README.md
+READY_PROMPTS.md
+ai_prompts
+qa
+.claude
+.tools

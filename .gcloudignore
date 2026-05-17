@@ -1,0 +1,16 @@
+.gcloudignore
+.git
+.next
+node_modules
+backend
+.env
+.env.*
+*.log
+tsconfig.tsbuildinfo
+READY_PROMPTS.md
+ai_prompts
+qa
+.claude
+.tools
+frontend.stdout.log
+frontend.stderr.log
