@@ -124,7 +124,7 @@ function HeroPhone() {
       { ph: 1, ms: 5000 },
       { ph: 2, ms: 2500 },
     ];
-    let timeouts: ReturnType<typeof setTimeout>[] = [];
+    const timeouts: ReturnType<typeof setTimeout>[] = [];
     let acc = 0;
     seq.forEach(({ ph, ms }) => {
       timeouts.push(setTimeout(() => setPhase(ph), acc));
