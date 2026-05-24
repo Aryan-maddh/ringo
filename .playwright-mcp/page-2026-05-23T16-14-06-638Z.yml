@@ -1,0 +1,583 @@
+- generic [active] [ref=e1]:
+  - main [ref=e6]:
+    - generic [ref=e11]:
+      - 'link "Limited time offer: Save up to 35% Save Now" [ref=e13] [cursor=pointer]':
+        - /url: /pricing/
+        - generic [ref=e14]: "Limited time offer: Save up to 35% Save Now"
+      - generic [ref=e15]:
+        - link "Español" [ref=e16] [cursor=pointer]:
+          - /url: /es/
+          - generic [ref=e18]: Español
+        - link "Log In login" [ref=e20] [cursor=pointer]:
+          - /url: https://secure.getjobber.com/login
+          - generic [ref=e22]: Log In
+          - img "login" [ref=e23]
+    - navigation [ref=e29]:
+      - generic [ref=e30]:
+        - link "Jobber" [ref=e32] [cursor=pointer]:
+          - /url: /
+          - img "Jobber" [ref=e33]
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - button "Product" [ref=e39] [cursor=pointer]:
+              - text: Product
+              - img [ref=e41]
+            - button "Industries" [ref=e45] [cursor=pointer]:
+              - text: Industries
+              - img [ref=e47]
+            - link "Pricing" [ref=e51] [cursor=pointer]:
+              - /url: /pricing/
+            - button "Resources" [ref=e54] [cursor=pointer]:
+              - text: Resources
+              - img [ref=e56]
+          - generic [ref=e58]:
+            - link "1-888-721-1115" [ref=e59] [cursor=pointer]:
+              - /url: tel:+18887211115
+              - img [ref=e60]
+              - text: 1-888-721-1115
+            - link "Start Free Trial" [ref=e62] [cursor=pointer]:
+              - /url: /sign-up/
+              - generic [ref=e63]: Start Free Trial
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - heading "Run a stronger service business" [level=1] [ref=e69]
+        - paragraph [ref=e71]: From first quote to final payment, Jobber keeps your work, team, and revenue moving forward from one powerful platform.
+        - generic [ref=e73]:
+          - link "Start Free Trial" [ref=e74] [cursor=pointer]:
+            - /url: /sign-up/
+          - link "Find Your Plan" [ref=e75] [cursor=pointer]:
+            - /url: /pricing/
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - img [ref=e80]
+            - generic [ref=e84]:
+              - generic [ref=e85]:
+                - generic [ref=e86]: "4.8"
+                - generic [ref=e87]:
+                  - img "Full star" [ref=e88]
+                  - img "Full star" [ref=e90]
+                  - img "Full star" [ref=e92]
+                  - img "Full star" [ref=e94]
+                  - img "Half star" [ref=e96]
+              - generic [ref=e98]: 13,861 App Store reviews
+          - generic [ref=e99]:
+            - img [ref=e101]
+            - generic [ref=e110]:
+              - generic [ref=e111]:
+                - generic [ref=e112]: "4.5"
+                - generic [ref=e113]:
+                  - img "Full star" [ref=e114]
+                  - img "Full star" [ref=e116]
+                  - img "Full star" [ref=e118]
+                  - img "Full star" [ref=e120]
+                  - img "Half star" [ref=e122]
+              - generic [ref=e124]: 4,883 Google Play Reviews
+      - generic [ref=e126]:
+        - generic [ref=e129]:
+          - figure "Victor Sanchez Primero TX Landscaping" [ref=e130]:
+            - img "Primero TX Landscaping" [ref=e132]
+            - generic [ref=e135]:
+              - generic [ref=e136]: Victor Sanchez
+              - generic [ref=e138]: Primero TX Landscaping
+          - figure "Neil Atzinger Atzinger Gardens" [ref=e139]:
+            - img "Atzinger Gardens" [ref=e141]
+            - generic [ref=e144]:
+              - generic [ref=e145]: Neil Atzinger
+              - generic [ref=e147]: Atzinger Gardens
+          - figure "Stephen Jobe Jobe & Sons Plumbing" [ref=e148]:
+            - img "Jobe & Sons Plumbing" [ref=e150]
+            - generic [ref=e153]:
+              - generic [ref=e154]: Stephen Jobe
+              - generic [ref=e156]: Jobe & Sons Plumbing
+          - figure "Mary Anne Bowcott Westcom Plumbing and Gas" [ref=e157]:
+            - img "Westcom Plumbing and Gas" [ref=e159]
+            - generic [ref=e162]:
+              - generic [ref=e163]: Mary Anne Bowcott
+              - generic [ref=e165]: Westcom Plumbing and Gas
+          - figure "Clover Hubbard Love Green Clean" [ref=e166]:
+            - img "Love Green Clean" [ref=e168]
+            - generic [ref=e171]:
+              - generic [ref=e172]: Clover Hubbard
+              - generic [ref=e174]: Love Green Clean
+          - figure "Victor Sanchez Primero TX Landscaping" [ref=e175]:
+            - img "Primero TX Landscaping" [ref=e177]
+            - generic [ref=e180]:
+              - generic [ref=e181]: Victor Sanchez
+              - generic [ref=e183]: Primero TX Landscaping
+          - figure "Neil Atzinger Atzinger Gardens" [ref=e184]:
+            - img "Atzinger Gardens" [ref=e186]
+            - generic [ref=e189]:
+              - generic [ref=e190]: Neil Atzinger
+              - generic [ref=e192]: Atzinger Gardens
+          - figure "Stephen Jobe Jobe & Sons Plumbing" [ref=e193]:
+            - img "Jobe & Sons Plumbing" [ref=e195]
+            - generic [ref=e198]:
+              - generic [ref=e199]: Stephen Jobe
+              - generic [ref=e201]: Jobe & Sons Plumbing
+          - figure "Mary Anne Bowcott Westcom Plumbing and Gas" [ref=e202]:
+            - img "Westcom Plumbing and Gas" [ref=e204]
+            - generic [ref=e207]:
+              - generic [ref=e208]: Mary Anne Bowcott
+              - generic [ref=e210]: Westcom Plumbing and Gas
+          - figure "Clover Hubbard Love Green Clean" [ref=e211]:
+            - img "Love Green Clean" [ref=e213]
+            - generic [ref=e216]:
+              - generic [ref=e217]: Clover Hubbard
+              - generic [ref=e219]: Love Green Clean
+        - generic [ref=e222]:
+          - figure "Adrian Garcia Reliable Kitchen Services" [ref=e223]:
+            - img "Reliable Kitchen Services" [ref=e225]
+            - generic [ref=e228]:
+              - generic [ref=e229]: Adrian Garcia
+              - generic [ref=e231]: Reliable Kitchen Services
+          - figure "Erica Krupin Kroopin's Poopin Scoopin" [ref=e232]:
+            - img "Kroopin's Poopin Scoopin" [ref=e234]
+            - generic [ref=e237]:
+              - generic [ref=e238]: Erica Krupin
+              - generic [ref=e240]: Kroopin's Poopin Scoopin
+          - figure "Jessica Bannister Cam Cool Refrigeration" [ref=e241]:
+            - img "Cam Cool Refrigeration" [ref=e243]
+            - generic [ref=e246]:
+              - generic [ref=e247]: Jessica Bannister
+              - generic [ref=e249]: Cam Cool Refrigeration
+          - figure "Jesse Jurkowski Montreal Contractors" [ref=e250]:
+            - img "Montreal Contractors" [ref=e252]
+            - generic [ref=e255]:
+              - generic [ref=e256]: Jesse Jurkowski
+              - generic [ref=e258]: Montreal Contractors
+          - figure "Adrian Garcia Reliable Kitchen Services" [ref=e259]:
+            - img "Reliable Kitchen Services" [ref=e261]
+            - generic [ref=e264]:
+              - generic [ref=e265]: Adrian Garcia
+              - generic [ref=e267]: Reliable Kitchen Services
+          - figure "Erica Krupin Kroopin's Poopin Scoopin" [ref=e268]:
+            - img "Kroopin's Poopin Scoopin" [ref=e270]
+            - generic [ref=e273]:
+              - generic [ref=e274]: Erica Krupin
+              - generic [ref=e276]: Kroopin's Poopin Scoopin
+          - figure "Jessica Bannister Cam Cool Refrigeration" [ref=e277]:
+            - img "Cam Cool Refrigeration" [ref=e279]
+            - generic [ref=e282]:
+              - generic [ref=e283]: Jessica Bannister
+              - generic [ref=e285]: Cam Cool Refrigeration
+          - figure "Jesse Jurkowski Montreal Contractors" [ref=e286]:
+            - img "Montreal Contractors" [ref=e288]
+            - generic [ref=e291]:
+              - generic [ref=e292]: Jesse Jurkowski
+              - generic [ref=e294]: Montreal Contractors
+    - generic [ref=e296]:
+      - heading "The all-in-one system for high-performing service pros" [level=2] [ref=e297]
+      - generic [ref=e298]:
+        - tablist "Content sections" [ref=e299]:
+          - generic [ref=e300]:
+            - tab "Get Noticed" [selected] [ref=e301] [cursor=pointer]
+            - tab "Win Jobs" [ref=e302] [cursor=pointer]
+            - tab "Work Smarter" [ref=e303] [cursor=pointer]
+            - tab "Boost Profits" [ref=e304] [cursor=pointer]
+        - tabpanel "Get Noticed" [ref=e306]:
+          - generic [ref=e308]:
+            - img "A quote in the Jobber app" [ref=e310]
+            - generic [ref=e312]:
+              - heading "Help the right customers find you" [level=4] [ref=e313]
+              - paragraph [ref=e314]: Marketing tools to help you stand out, attract the right customers, and keep your schedule full.
+              - link "Learn more" [ref=e315] [cursor=pointer]:
+                - /url: /solutions/get-noticed/
+              - img [ref=e317]
+              - paragraph [ref=e319]:
+                - strong [ref=e320]: 29 million+ Jobs completed by Jobber-powered businesses
+              - blockquote [ref=e321]:
+                - paragraph [ref=e322]: “I went from 20 customers to now 60 customers. And a lot of my paperwork is electronic, so I don't have to worry about keeping a lot of files.”
+                - generic [ref=e323]:
+                  - img "Stacy Flanagan avatar" [ref=e325]
+                  - generic [ref=e326]:
+                    - generic [ref=e327]: Stacy Flanagan
+                    - generic [ref=e329]: SEF The Lawn Surgeon
+    - generic [ref=e331]:
+      - heading "Join over 400,000 service pros who trust Jobber" [level=3] [ref=e332]:
+        - text: Join over
+        - generic [ref=e333]:
+          - text: 400,000
+          - generic:
+            - img
+        - text: service pros who trust Jobber
+      - generic [ref=e335]:
+        - generic [ref=e336]:
+          - generic [ref=e337]:
+            - img [ref=e339]
+            - heading "29 million+" [level=4] [ref=e400]
+          - paragraph [ref=e401]: Jobs completed by Jobber-powered businesses
+        - generic [ref=e402]:
+          - generic [ref=e403]:
+            - img [ref=e405]
+            - heading "100K+" [level=4] [ref=e466]
+          - paragraph [ref=e467]: Businesses that use Jobber
+        - generic [ref=e468]:
+          - generic [ref=e469]:
+            - img [ref=e471]
+            - heading "12 hours+" [level=4] [ref=e532]
+          - paragraph [ref=e533]: Saved on average per week
+        - generic [ref=e534]:
+          - generic [ref=e535]:
+            - img [ref=e537]
+            - heading "44%" [level=4] [ref=e598]
+          - paragraph [ref=e599]: Revenue growth on average in first year using Jobber
+      - generic [ref=e601]:
+        - generic [ref=e604]:
+          - textbox "Email Address" [ref=e607]
+          - button "Start Free Trial" [ref=e608] [cursor=pointer]
+        - paragraph [ref=e610]:
+          - strong [ref=e611]: No credit card required.
+    - img [ref=e615]
+    - generic [ref=e617]:
+      - heading "AI built for blue collar businesses" [level=2] [ref=e619]
+      - generic [ref=e620]:
+        - article [ref=e621]:
+          - generic [ref=e622]:
+            - generic [ref=e623]:
+              - heading "Made for the field" [level=4] [ref=e624]
+              - paragraph [ref=e625]: Jobber AI understands how service businesses succeed. It helps you price jobs accurately, flag up-sell opportunities, and recognize when work will take more time or resources.
+            - img "Made for the field" [ref=e627]
+        - article [ref=e628]:
+          - generic [ref=e629]:
+            - generic [ref=e630]:
+              - heading "Adapts to your style" [level=4] [ref=e631]
+              - paragraph [ref=e632]: The more you use it, the smarter it gets. Adapting to how you quote, schedule, and describe your work, so everything feels natural and consistent.
+            - img "Adapts to your style" [ref=e634]
+        - article [ref=e635]:
+          - generic [ref=e636]:
+            - generic [ref=e637]:
+              - heading "Shows up when it matters" [level=4] [ref=e638]
+              - paragraph [ref=e639]: Jobber AI jumps in at the right moment. Whether it's drafting a quote, adding a line item, or nudging you on client communication. You can keep moving without missing a beat.
+            - img "Shows up when it matters" [ref=e641]
+      - link "Learn More" [ref=e643] [cursor=pointer]:
+        - /url: https://www.getjobber.com/features/ai/
+    - generic [ref=e646]:
+      - heading "Proud partner to service pros in over 50 industries." [level=2] [ref=e648]
+      - generic [ref=e649]:
+        - link "Cleaning" [ref=e650] [cursor=pointer]:
+          - /url: https://www.getjobber.com/industries/cleaning-business-software/
+          - img [ref=e652]
+          - generic [ref=e654]: Cleaning
+        - link "Construction & Contracting" [ref=e655] [cursor=pointer]:
+          - /url: https://www.getjobber.com/industries/construction-management-software/
+          - img [ref=e657]
+          - generic [ref=e659]: Construction & Contracting
+        - link "Electrical" [ref=e660] [cursor=pointer]:
+          - /url: https://www.getjobber.com/industries/electrical-contractor-software/
+          - img [ref=e662]
+          - generic [ref=e664]: Electrical
+        - link "HVAC" [ref=e665] [cursor=pointer]:
+          - /url: https://www.getjobber.com/industries/hvac/
+          - img [ref=e667]
+          - generic [ref=e670]: HVAC
+        - link "Handyman" [ref=e671] [cursor=pointer]:
+          - /url: https://www.getjobber.com/industries/handyman-invoice-software/
+          - img [ref=e673]
+          - generic [ref=e675]: Handyman
+        - link "Landscaping" [ref=e676] [cursor=pointer]:
+          - /url: https://www.getjobber.com/industries/landscaping-software/
+          - img [ref=e678]
+          - generic [ref=e680]: Landscaping
+        - link "Lawn Care" [ref=e681] [cursor=pointer]:
+          - /url: https://www.getjobber.com/industries/lawn-care-software/
+          - img [ref=e683]
+          - generic [ref=e685]: Lawn Care
+        - link "Painting" [ref=e686] [cursor=pointer]:
+          - /url: https://www.getjobber.com/industries/painting-contractor-software/
+          - img [ref=e688]
+          - generic [ref=e690]: Painting
+        - link "Plumbing" [ref=e691] [cursor=pointer]:
+          - /url: https://www.getjobber.com/industries/plumbing-software/
+          - img [ref=e693]
+          - generic [ref=e695]: Plumbing
+        - link "Roofing" [ref=e696] [cursor=pointer]:
+          - /url: https://www.getjobber.com/industries/roofing-software/
+          - img [ref=e698]
+          - generic [ref=e700]: Roofing
+        - link "Tree Care" [ref=e701] [cursor=pointer]:
+          - /url: https://www.getjobber.com/industries/tree-care-software/
+          - img [ref=e703]
+          - generic [ref=e705]: Tree Care
+      - link "See All Industries arrow-right" [ref=e707] [cursor=pointer]:
+        - /url: https://www.getjobber.com/industries/
+        - generic [ref=e708]:
+          - generic [ref=e709]: See All Industries
+          - img [ref=e710]
+        - img "arrow-right" [ref=e712]
+    - generic [ref=e714]:
+      - generic [ref=e716]:
+        - generic:
+          - img
+        - paragraph [ref=e717]: “Jobber has taken a lot of stress off my shoulders. I can invoice from my cell phone. I'm not tied to my office.”
+        - generic [ref=e719]:
+          - img "Mitchell Gordy avatar" [ref=e721]
+          - generic [ref=e722]:
+            - generic [ref=e723]: Mitchell Gordy
+            - generic [ref=e725]: MITHGO Outdoor Services
+      - generic [ref=e727]:
+        - generic [ref=e728]:
+          - generic [ref=e729]:
+            - heading "You've got this, and we've got your back." [level=3] [ref=e730]
+            - paragraph [ref=e731]: Your work is essential to our homes, businesses, and communities—so we're all in on providing the technology, knowledge, and support to make sure you win.
+          - generic [ref=e735]:
+            - textbox "Work Email" [ref=e738]
+            - button "Start Free Trial" [ref=e739] [cursor=pointer]
+        - paragraph [ref=e741]:
+          - strong [ref=e742]: No credit card required
+    - generic [ref=e743]:
+      - heading "Our business is helping yours succeed." [level=2] [ref=e745]:
+        - text: Our business is
+        - text: helping
+        - generic [ref=e746]:
+          - text: yours
+          - generic:
+            - img
+        - text: succeed.
+      - generic [ref=e748]:
+        - link "Masters of Home Service Bringing together successful business owners to share their successes, best tips, biggest downfalls, and more, so you can make your home service business the best it can be. Learn more arrow-right Masters of Home Service - A Jobber Podcast" [ref=e749] [cursor=pointer]:
+          - /url: https://www.getjobber.com/podcast/
+          - generic [ref=e750]:
+            - generic [ref=e751]:
+              - heading "Masters of Home Service" [level=4] [ref=e752]
+              - paragraph [ref=e753]: Bringing together successful business owners to share their successes, best tips, biggest downfalls, and more, so you can make your home service business the best it can be.
+              - generic [ref=e754]:
+                - text: Learn more
+                - img "arrow-right" [ref=e755]
+            - img "Masters of Home Service - A Jobber Podcast" [ref=e758]
+        - link "Jobber Academy Expert advice, entrepreneur success stories, best practices, and tools to run smarter, more efficient service businesses. Learn more arrow-right Jobber Academy" [ref=e759] [cursor=pointer]:
+          - /url: https://www.getjobber.com/academy/
+          - generic [ref=e760]:
+            - generic [ref=e761]:
+              - heading "Jobber Academy" [level=4] [ref=e762]
+              - paragraph [ref=e763]: Expert advice, entrepreneur success stories, best practices, and tools to run smarter, more efficient service businesses.
+              - generic [ref=e764]:
+                - text: Learn more
+                - img "arrow-right" [ref=e765]
+            - img "Jobber Academy" [ref=e768]
+      - link "Free Tools Estimate templates, profit margin calculators, receipt generators. Simplify your day-to-day with free tools from Jobber. Learn more arrow-right Free Tools" [ref=e771] [cursor=pointer]:
+        - /url: https://www.getjobber.com/free-tools/
+        - generic [ref=e772]:
+          - generic [ref=e773]:
+            - heading "Free Tools" [level=4] [ref=e774]
+            - paragraph [ref=e775]: Estimate templates, profit margin calculators, receipt generators. Simplify your day-to-day with free tools from Jobber.
+            - generic [ref=e776]:
+              - text: Learn more
+              - img "arrow-right" [ref=e777]
+          - img "Free Tools" [ref=e780]
+      - generic [ref=e782]:
+        - link "Jobber Grants Our $150,000 grant program recognizes excellence in home service. We want to recognize home service professionals' accomplishments and accelerate their plans for the future.. Learn more arrow-right Jobber Grants" [ref=e783] [cursor=pointer]:
+          - /url: https://www.getjobber.com/grants
+          - generic [ref=e784]:
+            - generic [ref=e785]:
+              - heading "Jobber Grants" [level=4] [ref=e786]
+              - paragraph [ref=e787]: Our $150,000 grant program recognizes excellence in home service. We want to recognize home service professionals' accomplishments and accelerate their plans for the future..
+              - generic [ref=e788]:
+                - text: Learn more
+                - img "arrow-right" [ref=e789]
+            - img "Jobber Grants" [ref=e792]
+        - link "Jobber Summit Connect with your community at this FREE, online event and get the expert advice you need to reach new heights of success in your home service business. Learn more arrow-right Jobber Summit" [ref=e793] [cursor=pointer]:
+          - /url: https://www.getjobber.com/summit/
+          - generic [ref=e794]:
+            - generic [ref=e795]:
+              - heading "Jobber Summit" [level=4] [ref=e796]
+              - paragraph [ref=e797]: Connect with your community at this FREE, online event and get the expert advice you need to reach new heights of success in your home service business.
+              - generic [ref=e798]:
+                - text: Learn more
+                - img "arrow-right" [ref=e799]
+            - img "Jobber Summit" [ref=e802]
+    - generic [ref=e803]:
+      - link "Visit the Jobber home page" [ref=e806] [cursor=pointer]:
+        - /url: /
+        - img "Visit the Jobber home page" [ref=e808]
+      - generic [ref=e810]:
+        - generic [ref=e812]:
+          - navigation [ref=e813]:
+            - strong [ref=e815]: Industries We Serve
+            - list [ref=e816]:
+              - listitem [ref=e817]:
+                - link "Cleaning" [ref=e818] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/industries/cleaning-business-software/
+              - listitem [ref=e819]:
+                - link "Construction & Contracting" [ref=e820] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/industries/general-contracting/
+              - listitem [ref=e821]:
+                - link "Electrical" [ref=e822] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/industries/electrical-contractor-software/
+              - listitem [ref=e823]:
+                - link "Handyman" [ref=e824] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/industries/handyman-invoice-software/
+              - listitem [ref=e825]:
+                - link "HVAC" [ref=e826] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/industries/hvac/
+              - listitem [ref=e827]:
+                - link "Landscaping" [ref=e828] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/industries/landscaping-software/
+              - listitem [ref=e829]:
+                - link "Lawn Care" [ref=e830] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/industries/lawn-care-software/
+              - listitem [ref=e831]:
+                - link "Painting" [ref=e832] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/industries/painting-contractor-software/
+              - listitem [ref=e833]:
+                - link "Pest Control" [ref=e834] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/industries/pest-control-software/
+              - listitem [ref=e835]:
+                - link "Plumbing" [ref=e836] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/industries/plumbing-software/
+              - listitem [ref=e837]:
+                - link "Pool Service" [ref=e838] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/industries/pool-service-software/
+              - listitem [ref=e839]:
+                - link "Pressure Washing" [ref=e840] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/industries/pressure-washing-software/
+              - listitem [ref=e841]:
+                - link "Roofing" [ref=e842] [cursor=pointer]:
+                  - /url: /industries/roofing-software/
+              - listitem [ref=e843]:
+                - link "Tree Care" [ref=e844] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/industries/tree-care-software/
+              - listitem [ref=e845]:
+                - link "More..." [ref=e846] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/industries/
+          - navigation [ref=e847]:
+            - strong [ref=e849]: Features
+            - list [ref=e850]:
+              - listitem [ref=e851]:
+                - link "Scheduling" [ref=e852] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/features/scheduling/
+              - listitem [ref=e853]:
+                - link "Invoicing" [ref=e854] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/features/field-service-invoicing-software/
+              - listitem [ref=e855]:
+                - link "Client manager (CRM)" [ref=e856] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/features/field-service-crm/
+              - listitem [ref=e857]:
+                - link "Drag and drop calendar" [ref=e858] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/features/drag-drop-calendar/
+              - listitem [ref=e859]:
+                - link "Complete Job" [ref=e860] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/features/jobs/
+              - listitem [ref=e861]:
+                - link "Receptionist" [ref=e862] [cursor=pointer]:
+                  - /url: /features/ai-receptionist/
+              - listitem [ref=e863]:
+                - link "Credit card processing" [ref=e864] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/features/field-service-credit-card-processing/
+              - listitem [ref=e865]:
+                - link "Jobber Capital" [ref=e866] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/features/jobber-capital/
+              - listitem [ref=e867]:
+                - link "More..." [ref=e868] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/features/
+          - navigation [ref=e869]:
+            - strong [ref=e871]: Resources
+            - list [ref=e872]:
+              - listitem [ref=e873]:
+                - link "Pricing" [ref=e874] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/pricing/
+              - listitem [ref=e875]:
+                - link "Integrations" [ref=e876] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/integrations/
+              - listitem [ref=e877]:
+                - link "Developer Center" [ref=e878] [cursor=pointer]:
+                  - /url: https://developer.getjobber.com/
+              - listitem [ref=e879]:
+                - link "Podcast" [ref=e880] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/podcast/
+              - listitem [ref=e881]:
+                - link "Jobber Grants" [ref=e882] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/grants
+              - listitem [ref=e883]:
+                - link "FAQ" [ref=e884] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/faq/
+              - listitem [ref=e885]:
+                - link "Support" [ref=e886] [cursor=pointer]:
+                  - /url: https://help.getjobber.com/hc/en-us
+              - listitem [ref=e887]:
+                - link "Product Updates" [ref=e888] [cursor=pointer]:
+                  - /url: https://productupdates.getjobber.com/
+              - listitem [ref=e889]:
+                - link "HomeServiceScore.com" [ref=e890] [cursor=pointer]:
+                  - /url: /free-tools/home-service-score/
+          - navigation [ref=e891]:
+            - strong [ref=e893]: Company
+            - list [ref=e894]:
+              - listitem [ref=e895]:
+                - link "Our Story" [ref=e896] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/about/
+              - listitem [ref=e897]:
+                - link "Our Team" [ref=e898] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/about/team/
+              - listitem [ref=e899]:
+                - link "Press & media" [ref=e900] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/about/media/
+              - listitem [ref=e901]:
+                - link "Become a Partner" [ref=e902] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/partners/
+              - listitem [ref=e903]:
+                - link "Jobber Franchise Partnership Program" [ref=e904] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/franchise-partnership-program/
+              - listitem [ref=e905]:
+                - link "Partner Directory" [ref=e906] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/partner-directory/
+              - listitem [ref=e907]:
+                - link "Careers" [ref=e908] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/about/careers/
+              - listitem [ref=e909]:
+                - link "Home Service Trends" [ref=e910] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/home-service-reports-2/
+              - listitem [ref=e911]:
+                - link "Hey AI, learn about us" [ref=e912] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/llm-info/
+              - listitem [ref=e913]:
+                - link "Jobber Field Gear" [ref=e914] [cursor=pointer]:
+                  - /url: https://www.jobberfieldgear.com/?utm_source=website&utm_medium=footer&utm_campaign=jobber-field-gear-launch
+              - listitem [ref=e915]:
+                - link "Contact" [ref=e916] [cursor=pointer]:
+                  - /url: https://www.getjobber.com/contact/
+          - navigation [ref=e917]:
+            - list [ref=e919]:
+              - listitem [ref=e920]:
+                - link "1-888-721-1115" [ref=e921] [cursor=pointer]:
+                  - /url: tel:18887211115
+              - listitem [ref=e922]:
+                - link "hello@getjobber.com" [ref=e923] [cursor=pointer]:
+                  - /url: mailto:hello@getjobber.com
+            - generic [ref=e924]:
+              - link "social-facebook" [ref=e925] [cursor=pointer]:
+                - /url: https://www.facebook.com/GetJobber
+                - img "social-facebook" [ref=e927]
+              - link "social-x" [ref=e929] [cursor=pointer]:
+                - /url: https://x.com/getjobber
+                - img "social-x" [ref=e931]
+              - link "social-instagram" [ref=e933] [cursor=pointer]:
+                - /url: https://www.instagram.com/jobber/
+                - img "social-instagram" [ref=e935]
+              - link "social-youtube" [ref=e937] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/GetJobber
+                - img "social-youtube" [ref=e939]
+              - link "social-linkedin" [ref=e941] [cursor=pointer]:
+                - /url: https://ca.linkedin.com/company/jobber-software
+                - img "social-linkedin" [ref=e943]
+            - generic [ref=e945]:
+              - link [ref=e946] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.getjobber.jobber
+                - img [ref=e948]
+              - link [ref=e959] [cursor=pointer]:
+                - /url: https://itunes.apple.com/us/app/jobber-field/id1014146758?mt=8
+                - img [ref=e961]
+        - generic [ref=e966]:
+          - generic [ref=e967]: © Jobber 2026
+          - link "Privacy" [ref=e968] [cursor=pointer]:
+            - /url: https://www.getjobber.com/privacy-policy/
+          - link "Accessibility" [ref=e969] [cursor=pointer]:
+            - /url: https://www.getjobber.com/accessibility-policy/
+          - link "Terms of Service" [ref=e970] [cursor=pointer]:
+            - /url: https://www.getjobber.com/terms-of-service/
+          - link "Security" [ref=e971] [cursor=pointer]:
+            - /url: https://www.getjobber.com/security/
+          - link "Sitemap" [ref=e972] [cursor=pointer]:
+            - /url: https://www.getjobber.com/sitemap/
+          - link "Cookie Preferences" [ref=e973] [cursor=pointer]:
+            - /url: "#"
+  - alert [ref=e974]

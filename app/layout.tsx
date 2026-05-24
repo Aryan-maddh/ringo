@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter, Manrope } from 'next/font/google';
 import './globals.css';
+import { InquiryModal } from '@/components/ringo/InquiryModal';
 
 const inter = Inter({
   variable: '--font-inter',
@@ -15,7 +16,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: 'Ringo — Missed-call autoresponder',
+  title: 'Ripe Lead — Missed-call AI',
   description: 'Every missed call, answered in 11 seconds.',
 };
 
@@ -26,7 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${manrope.variable}`}>
-      <body style={{ margin: 0, padding: 0 }}>{children}</body>
+      <body style={{ margin: 0, padding: 0 }}>
+        {children}
+        <InquiryModal />
+      </body>
     </html>
   );
 }

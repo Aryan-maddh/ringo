@@ -1,0 +1,767 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - button "English" [ref=e9] [cursor=pointer]:
+          - figure [ref=e10]:
+            - img [ref=e11]
+          - generic [ref=e16]: English
+          - figure [ref=e18]
+        - generic [ref=e20]:
+          - button "Support" [ref=e22] [cursor=pointer]:
+            - text: Support
+            - figure [ref=e23]
+          - button "Login" [ref=e26] [cursor=pointer]:
+            - text: Login
+            - figure [ref=e27]
+      - generic [ref=e30]:
+        - link "Twilio" [ref=e32] [cursor=pointer]:
+          - /url: https://www.twilio.com/en-us
+          - img [ref=e35]
+        - navigation [ref=e39]:
+          - button "Products" [ref=e41] [cursor=pointer]:
+            - text: Products
+            - figure [ref=e42]
+          - button "Solutions" [ref=e45] [cursor=pointer]:
+            - text: Solutions
+            - figure [ref=e46]
+          - button "Why Twilio" [ref=e49] [cursor=pointer]:
+            - text: Why Twilio
+            - figure [ref=e50]
+          - button "Resources" [ref=e53] [cursor=pointer]:
+            - text: Resources
+            - figure [ref=e54]
+          - button "Pricing" [ref=e57] [cursor=pointer]:
+            - text: Pricing
+            - figure [ref=e58]
+        - generic [ref=e60]:
+          - button "Search" [ref=e62] [cursor=pointer]:
+            - figure [ref=e63]
+          - generic [ref=e66]:
+            - link "Contact sales" [ref=e67] [cursor=pointer]:
+              - /url: https://www.twilio.com/en-us/help/sales
+              - generic [ref=e68]: Contact sales
+            - link "Start for free" [ref=e69] [cursor=pointer]:
+              - /url: https://www.twilio.com/try-twilio
+              - generic [ref=e70]: Start for free
+  - main [ref=e71]:
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - heading "The platform for conversations in the AI era" [level=1] [ref=e77]
+          - paragraph [ref=e78]: The Twilio platform empowers humans and AI agents to work together, coordinate across channels, and pick up every customer conversation where the last one left off.
+        - generic [ref=e79]:
+          - link "Start for free" [ref=e80] [cursor=pointer]:
+            - /url: https://www.twilio.com/try-twilio
+            - generic [ref=e81]: Start for free
+          - link "Explore what's possible" [ref=e82] [cursor=pointer]:
+            - /url: /en-us/customer-engagement-platform
+            - generic [ref=e83]: Explore what's possible
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - figure [ref=e87]:
+              - img [ref=e88]
+            - generic [ref=e90]: Free trial
+          - generic [ref=e91]:
+            - figure [ref=e93]:
+              - img [ref=e94]
+            - generic [ref=e96]: No credit card required
+          - generic [ref=e97]:
+            - figure [ref=e99]:
+              - img [ref=e100]
+            - generic [ref=e102]: Flexible pricing
+      - button "Video" [ref=e104] [cursor=pointer]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - 'button "Play Video: Twilio: Infrastructure for the agentic era"'
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img "Video Thumbnail"
+        - img [ref=e108]
+    - generic [ref=e110]:
+      - generic [ref=e114]:
+        - img "Platform introduction" [ref=e115]
+        - heading "The infrastructure behind every magical customer moment" [level=1] [ref=e116]
+      - generic [ref=e118]:
+        - generic [ref=e120]:
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - generic [ref=e126]:
+                - heading "Intelligent self-service" [level=2] [ref=e127]:
+                  - text: Intelligent
+                  - generic [ref=e128]: self-service
+                - paragraph [ref=e129]: The Twilio platform turns every interaction — including first contact — into a personalized experience. AI agents draw from internal knowledge and real-time data so every conversation feels like a natural dialogue.
+              - generic [ref=e130]:
+                - generic [ref=e131]: Products
+                - generic [ref=e132]:
+                  - generic [ref=e133]: Voice
+                  - generic [ref=e134]: Conversation Orchestrator
+                  - generic [ref=e135]: Conversation Relay
+                  - generic [ref=e136]: Conversation Intelligence
+                  - generic [ref=e137]: Conversation Memory
+            - img "Lottie animation" [ref=e146]:
+              - img [ref=e148]:
+                - generic "I’m planning a two-week overland trip with 300 lbs of gear. \u0003Does the Premium Touring package include reinforced roof rails?" [ref=e159]
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading "Contextual hand-off" [level=2]:
+                        - text: Contextual
+                        - generic: hand-off
+                      - paragraph: AI agents know when to bring in a human based on complexity or customer intent. Conversations are transferred with full context, so customers never have to repeat themselves.
+                - generic:
+                  - generic: Products
+                  - generic:
+                    - generic: Voice
+                    - generic: Conversation Orchestrator
+                    - generic: Conversation Intelligence
+                    - generic: Conversation Memory
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img "Lottie animation":
+                              - generic:
+                                - img
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading "Cross-channel continuity" [level=2]:
+                        - text: Cross-channel
+                        - generic: continuity
+                      - paragraph: Customers can easily switch between channels like chat, text, voice, and email without interruption.
+                - generic:
+                  - generic: Products
+                  - generic:
+                    - generic: Voice
+                    - generic: RCS
+                    - generic: Conversation Intelligence
+                    - generic: Conversation Memory
+                    - generic: Conversation Orchestrator
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img "Lottie animation":
+                              - generic:
+                                - img
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading "Persistent memory" [level=2]:
+                        - text: Persistent
+                        - generic: memory
+                      - paragraph: Twilio unifies customer data into a living memory, offering insight into a person's preferences, interests, and sentiment. This way, you can anticipate customer needs in the moment without them having to ask.
+                - generic:
+                  - generic: Products
+                  - generic:
+                    - generic: Conversation Memory
+                    - generic: Conversation Intelligence
+                    - generic: Conversation Orchestrator
+                    - generic: Segment Engage
+                    - generic: RCS
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img "Lottie animation":
+                              - generic:
+                                - img
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading "Remember every customer, reach them on any channel" [level=2]:
+                        - text: Remember every customer,
+                        - generic: reach them on any channel
+                      - paragraph: The Twilio platform connects channels, customer data, and AI orchestration to ensure every interaction, whether it's between humans or AI agents, feels continuous, contextual, and personal.
+                    - generic:
+                      - link "Discover the Twilio Platform":
+                        - /url: /en-us/customer-engagement-platform
+                        - generic: Discover the Twilio Platform
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img "Lottie animation":
+                              - generic:
+                                - img
+        - navigation [ref=e667]:
+          - button "Service" [ref=e668] [cursor=pointer]:
+            - generic [ref=e670]: Service
+            - img "Twilio Programmable Voice logo" [ref=e674]
+          - button "Handoff" [ref=e677] [cursor=pointer]:
+            - generic [ref=e679]: Handoff
+          - button "Continuity" [ref=e682] [cursor=pointer]:
+            - generic [ref=e684]: Continuity
+          - button "Memory" [ref=e687] [cursor=pointer]:
+            - generic [ref=e689]: Memory
+          - button "Platform" [ref=e692] [cursor=pointer]:
+            - generic [ref=e694]: Platform
+    - generic [ref=e699]:
+      - generic [ref=e703]:
+        - heading "Building blocks for every conversation" [level=2] [ref=e704]
+        - paragraph [ref=e705]: Your toolkit is expanding. Discover a new generation of building blocks designed to orchestrate context-rich conversations across channels, for humans and AI agents.
+      - link "View all products" [ref=e708] [cursor=pointer]:
+        - /url: /en-us/products
+        - generic [ref=e709]: View all products
+    - generic [ref=e711]:
+      - generic [ref=e712]:
+        - generic [ref=e713] [cursor=pointer]:
+          - generic:
+            - figure:
+              - generic:
+                - img "Profile of a customer interacting with AI agent for flight change and confirmation."
+          - generic [ref=e714]:
+            - heading "Conversations New" [level=4] [ref=e715]:
+              - text: Conversations
+              - generic [ref=e716]: New
+            - paragraph [ref=e717]: Build continuous conversations with persistent memory, intelligence, and orchestration for humans and AI.
+          - link "Start conversations" [ref=e721]:
+            - /url: /en-us/products/conversational-ai
+            - generic [ref=e722]: Start conversations
+        - generic [ref=e723] [cursor=pointer]:
+          - generic:
+            - figure:
+              - generic:
+                - img "Hotel reservation interface with options for RCS, WhatsApp, SMS, and more."
+          - generic [ref=e724]:
+            - heading "Messaging" [level=4] [ref=e725]
+            - paragraph [ref=e726]: Send, receive, and manage SMS, RCS, WhatsApp, MMS, and more on our globally reliable platform.
+          - link "Send messages" [ref=e730]:
+            - /url: /en-us/messaging
+            - generic [ref=e731]: Send messages
+        - generic [ref=e732] [cursor=pointer]:
+          - generic:
+            - figure:
+              - generic:
+                - img "Flowchart showing TwilStore's promotional campaign offering 30% off on men's perfumes for Valentine's Day."
+          - generic [ref=e733]:
+            - heading "Email" [level=4] [ref=e734]
+            - paragraph [ref=e735]: Deliver email at incredible scale with the trusted Twilio SendGrid Email API.
+          - link "Send emails" [ref=e739]:
+            - /url: /en-us/products/email-api
+            - generic [ref=e740]: Send emails
+      - generic [ref=e741]:
+        - generic [ref=e742] [cursor=pointer]:
+          - generic:
+            - figure:
+              - generic:
+                - img "Chat interface where a customer reports a laptop issue and a support agent processes a warranty replacement."
+          - generic [ref=e743]:
+            - heading "Voice" [level=4] [ref=e744]
+            - paragraph [ref=e745]: Build voice experiences that strengthen customer connections while unlocking ROI with data and AI.
+          - link "Make calls" [ref=e749]:
+            - /url: /en-us/voice
+            - generic [ref=e750]: Make calls
+        - generic [ref=e751] [cursor=pointer]:
+          - generic:
+            - figure:
+              - generic:
+                - img "Verification screen showing options of Email, SMS, WhatsApp, and verification code 731692."
+          - generic [ref=e752]:
+            - heading "User authentication" [level=4] [ref=e753]
+            - paragraph [ref=e754]: Fight fraud and keep customer accounts secure with verification and identity lookup tools.
+          - link "Verify users" [ref=e758]:
+            - /url: /en-us/user-authentication-identity/verify
+            - generic [ref=e759]: Verify users
+        - generic [ref=e760] [cursor=pointer]:
+          - generic:
+            - figure:
+              - generic:
+                - img "Profile card displaying a user's name, email, and recent activity on a dark background."
+          - generic [ref=e761]:
+            - heading "Customer data" [level=4] [ref=e762]
+            - paragraph [ref=e763]: Unify clean, consented customer data from any source for real-time insights on every customer.
+          - link "Connect data" [ref=e767]:
+            - /url: /en-us/customer-data-platform
+            - generic [ref=e768]: Connect data
+    - generic [ref=e772]:
+      - generic [ref=e773]:
+        - heading "Build. Without limits." [level=2] [ref=e774]
+        - paragraph [ref=e775]: Sign up for a free Twilio account and grab one of our official server-side SDKs to get started. Send your first text message, phone call, or email in minutes.
+      - link "View docs" [ref=e777] [cursor=pointer]:
+        - /url: https://www.twilio.com/docs
+        - generic [ref=e778]: View docs
+      - generic [ref=e779]:
+        - tablist [ref=e780]:
+          - tab [selected]
+          - tab [ref=e781] [cursor=pointer]
+          - tab [ref=e785] [cursor=pointer]
+          - tab [ref=e789] [cursor=pointer]
+          - tab [ref=e793] [cursor=pointer]
+          - tab [ref=e797] [cursor=pointer]
+          - tab [ref=e801] [cursor=pointer]
+        - tabpanel [ref=e806]:
+          - code [ref=e809]:
+            - generic [ref=e810]: ▎
+    - generic [ref=e812]:
+      - generic [ref=e813]:
+        - generic [ref=e817]:
+          - heading "Different teams, different stacks. Same trusted platform." [level=2] [ref=e818]
+          - paragraph [ref=e819]: From scaling startups to global enterprises, companies are building standout customer experiences with Twilio.
+        - link "Get inspired" [ref=e822] [cursor=pointer]:
+          - /url: https://customers.twilio.com/en-us
+          - generic [ref=e823]: Get inspired
+      - region "Customer stories" [ref=e826]:
+        - generic [ref=e827]:
+          - group "IBM Logo - 30% increased product adoption" [ref=e828]:
+            - generic:
+              - img "IBM Logo"
+              - generic:
+                - generic: 30%
+                - generic: increased product adoption
+          - group "SMAVA Logo - 150% higher click rates" [ref=e829]:
+            - generic:
+              - img "SMAVA Logo"
+              - generic:
+                - generic: 150%
+                - generic: higher click rates
+          - group "OhMD Logo - 1min appointment flow target" [ref=e830]:
+            - generic:
+              - img "OhMD Logo"
+              - generic:
+                - generic: 1min
+                - generic: appointment flow target
+          - group "Toyota Logo - 13% after call work reduction" [ref=e831]:
+            - generic:
+              - img "Toyota Logo"
+              - generic:
+                - generic: 13%
+                - generic: after call work reduction
+          - group "Resy Logo - 21M+ messages sent monthly" [ref=e832]:
+            - generic:
+              - img "Resy Logo"
+              - generic:
+                - generic: 21M+
+                - generic: messages sent monthly
+          - group "Lyft Logo - 30M interactions weekly" [ref=e833]:
+            - generic:
+              - img "Lyft Logo"
+              - generic:
+                - generic: 30M
+                - generic: interactions weekly
+          - group "Posh Logo - 97k+ fraud attempts blocked" [ref=e834]:
+            - generic:
+              - img "Posh Logo"
+              - generic:
+                - generic: 97k+
+                - generic: fraud attempts blocked
+          - group "Delivery Hero Logo - 60% fewer escalations" [ref=e835]:
+            - generic:
+              - img "Delivery Hero Logo"
+              - generic:
+                - generic: 60%
+                - generic: fewer escalations
+          - group [ref=e836]:
+            - generic:
+              - img
+              - generic:
+                - generic: 30%
+                - generic: increased product adoption
+          - group [ref=e837]:
+            - generic:
+              - img
+              - generic:
+                - generic: 150%
+                - generic: higher click rates
+          - group [ref=e838]:
+            - generic:
+              - img
+              - generic:
+                - generic: 1min
+                - generic: appointment flow target
+          - group [ref=e839]:
+            - generic:
+              - img
+              - generic:
+                - generic: 13%
+                - generic: after call work reduction
+          - group [ref=e840]:
+            - generic:
+              - img
+              - generic:
+                - generic: 21M+
+                - generic: messages sent monthly
+          - group [ref=e841]:
+            - generic:
+              - img
+              - generic:
+                - generic: 30M
+                - generic: interactions weekly
+          - group [ref=e842]:
+            - generic:
+              - img
+              - generic:
+                - generic: 97k+
+                - generic: fraud attempts blocked
+          - group [ref=e843]:
+            - generic:
+              - img
+              - generic:
+                - generic: 60%
+                - generic: fewer escalations
+    - generic [ref=e847]:
+      - heading "We think our track record speaks for itself" [level=2] [ref=e849]
+      - generic [ref=e850]:
+        - link "Read the report" [ref=e851] [cursor=pointer]:
+          - /url: /en-us/report/gartner-mq-cpaas-2026
+          - generic [ref=e853]:
+            - generic "Gartner logo" [ref=e856]:
+              - img "Gartner logo" [ref=e857]
+            - generic [ref=e861]:
+              - paragraph [ref=e862]: 4x
+              - paragraph [ref=e863]:
+                - text: Twilio was named a Leader in the 2026 Gartner® Magic Quadrant™ for CPaaS
+                - superscript [ref=e864]: "1"
+            - link "Read the report" [ref=e868]:
+              - /url: /en-us/report/gartner-mq-cpaas-2026
+              - generic [ref=e869]:
+                - text: Read the report
+                - img "Outbound link arrow" [ref=e871]
+        - link "Read the report" [ref=e874] [cursor=pointer]:
+          - /url: /en-us/lp/omdia-cep-universe-2026
+          - generic [ref=e876]:
+            - generic "Omdia" [ref=e879]:
+              - img "Omdia" [ref=e880]
+            - generic [ref=e897]:
+              - paragraph [ref=e898]: 4x
+              - paragraph [ref=e899]:
+                - text: "Twilio was named a leader in the Omdia Universe: Customer Engagement Platforms (CEP)"
+                - superscript [ref=e900]: "2"
+            - link "Read the report" [ref=e904]:
+              - /url: /en-us/lp/omdia-cep-universe-2026
+              - generic [ref=e905]:
+                - text: Read the report
+                - img "Outbound link arrow" [ref=e907]
+        - link "View the excerpt" [ref=e910] [cursor=pointer]:
+          - /url: /en-us/lp/idc-marketscape-cpaas-2025
+          - generic [ref=e912]:
+            - generic "IDC logo" [ref=e915]:
+              - img "IDC logo" [ref=e916]
+            - generic [ref=e919]:
+              - paragraph [ref=e920]: 5x
+              - paragraph [ref=e921]:
+                - generic [ref=e922]:
+                  - text: "Twilio was named a leader in the IDC MarketScape: Worldwide CPaaS"
+                  - superscript [ref=e923]: "3"
+            - link "View the excerpt" [ref=e927]:
+              - /url: /en-us/lp/idc-marketscape-cpaas-2025
+              - generic [ref=e928]:
+                - text: View the excerpt
+                - img "Outbound link arrow" [ref=e930]
+    - generic [ref=e935]:
+      - generic [ref=e936]:
+        - 'heading "TL;DR: Don’t wait for the future. Build it." [level=2] [ref=e938]'
+        - paragraph [ref=e940]: Twilio gives you the tools to connect digital experiences on any channel, full customer context, and AI to work efficiently. All on a single platform with flexible plans and pay-as-you-go pricing.
+        - generic [ref=e941]:
+          - link "Start for free" [ref=e942] [cursor=pointer]:
+            - /url: /en-us/try-twilio
+            - generic [ref=e943]: Start for free
+          - link "View pricing" [ref=e944] [cursor=pointer]:
+            - /url: /en-us/pricing
+            - generic [ref=e945]: View pricing
+      - generic [ref=e946]:
+        - generic:
+          - generic:
+            - figure:
+              - generic:
+                - img "A gradient with multiple blue layers transitioning from dark to light from top to bottom."
+    - button "Sources" [ref=e953] [cursor=pointer]:
+      - heading "Sources" [level=3] [ref=e955]
+  - contentinfo [ref=e962]:
+    - generic [ref=e966]:
+      - generic [ref=e967]:
+        - figure [ref=e970]:
+          - link "Twilio" [ref=e971] [cursor=pointer]:
+            - /url: /en-us
+            - generic "Twilio" [ref=e972]:
+              - img "Twilio" [ref=e973]
+        - list [ref=e986]:
+          - listitem [ref=e987]:
+            - link "Twilio careers" [ref=e990] [cursor=pointer]:
+              - /url: http://jobs.twilio.com/
+              - generic [ref=e991]: Twilio careers
+          - listitem [ref=e992]:
+            - link "Twilio.org" [ref=e995] [cursor=pointer]:
+              - /url: https://www.twilio.org/en-us
+              - generic [ref=e996]: Twilio.org
+          - listitem [ref=e997]:
+            - link "Press and media" [ref=e1000] [cursor=pointer]:
+              - /url: /en-us/press
+              - generic [ref=e1001]: Press and media
+          - listitem [ref=e1002]:
+            - link "Investor relations" [ref=e1005] [cursor=pointer]:
+              - /url: https://investors.twilio.com/
+              - generic [ref=e1006]: Investor relations
+          - listitem [ref=e1007]:
+            - link "Legal" [ref=e1010] [cursor=pointer]:
+              - /url: /en-us/legal/tos
+              - generic [ref=e1011]: Legal
+          - listitem [ref=e1012]:
+            - link "Privacy" [ref=e1015] [cursor=pointer]:
+              - /url: /en-us/legal/privacy
+              - generic [ref=e1016]: Privacy
+          - listitem [ref=e1017]:
+            - link "Security" [ref=e1020] [cursor=pointer]:
+              - /url: /en-us/security
+              - generic [ref=e1021]: Security
+          - listitem [ref=e1022]:
+            - link "Sitemap" [ref=e1025] [cursor=pointer]:
+              - /url: https://www.twilio.com/sitemap.xml
+              - generic [ref=e1026]: Sitemap
+          - listitem [ref=e1027]:
+            - link "LLMS" [ref=e1030] [cursor=pointer]:
+              - /url: https://www.twilio.com/llms.txt
+              - generic [ref=e1031]: LLMS
+        - list [ref=e1035]:
+          - listitem [ref=e1036]:
+            - link "Twilio on Facebook" [ref=e1037] [cursor=pointer]:
+              - /url: https://www.facebook.com/TeamTwilio
+          - listitem [ref=e1041]:
+            - link "Twilio on X" [ref=e1042] [cursor=pointer]:
+              - /url: https://x.com/twilio
+              - img "Twitter Logo" [ref=e1044]
+          - listitem [ref=e1046]:
+            - link "Twilio on LinkedIn" [ref=e1047] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/twilio-inc-
+          - listitem [ref=e1051]:
+            - link "Twilio on Youtube" [ref=e1052] [cursor=pointer]:
+              - /url: https://www.youtube.com/@twilio
+        - paragraph [ref=e1055]: Copyright © 2026 Twilio Inc. All rights reserved.
+      - generic [ref=e1057]:
+        - button "Considering Twilio?":
+          - generic: Considering Twilio?
+        - list [ref=e1059]:
+          - listitem [ref=e1060]:
+            - link "About Twilio" [ref=e1063] [cursor=pointer]:
+              - /url: /en-us/company
+              - generic [ref=e1064]: About Twilio
+          - listitem [ref=e1065]:
+            - link "Customer Engagement Platform (CEP)" [ref=e1068] [cursor=pointer]:
+              - /url: /en-us/customer-engagement-platform
+              - generic [ref=e1069]: Customer Engagement Platform (CEP)
+          - listitem [ref=e1070]:
+            - link "Communications" [ref=e1073] [cursor=pointer]:
+              - /url: /en-us/cpaas
+              - generic [ref=e1074]: Communications
+          - listitem [ref=e1075]:
+            - link "Conversational AI" [ref=e1078] [cursor=pointer]:
+              - /url: /en-us/products/conversational-ai
+              - generic [ref=e1079]: Conversational AI
+          - listitem [ref=e1080]:
+            - link "User authentication and identity" [ref=e1083] [cursor=pointer]:
+              - /url: /en-us/user-authentication-identity
+              - generic [ref=e1084]: User authentication and identity
+          - listitem [ref=e1085]:
+            - link "Customer Data Platform (CDP)" [ref=e1088] [cursor=pointer]:
+              - /url: /en-us/customer-data-platform
+              - generic [ref=e1089]: Customer Data Platform (CDP)
+          - listitem [ref=e1090]:
+            - link "AI" [ref=e1093] [cursor=pointer]:
+              - /url: /en-us/ai
+              - generic [ref=e1094]: AI
+          - listitem [ref=e1095]:
+            - link "Customer stories" [ref=e1098] [cursor=pointer]:
+              - /url: https://customers.twilio.com/en-us
+              - generic [ref=e1099]: Customer stories
+          - listitem [ref=e1100]:
+            - link "Events" [ref=e1103] [cursor=pointer]:
+              - /url: /en-us/events
+              - generic [ref=e1104]: Events
+          - listitem [ref=e1105]:
+            - link "Contact sales" [ref=e1108] [cursor=pointer]:
+              - /url: /en-us/help/sales
+              - generic [ref=e1109]: Contact sales
+          - listitem [ref=e1110]:
+            - link "Why Twilio" [ref=e1113] [cursor=pointer]:
+              - /url: /en-us/why-twilio
+              - generic [ref=e1114]: Why Twilio
+              - figure [ref=e1115]
+      - generic [ref=e1118]:
+        - button "Products and Features":
+          - generic: Products and Features
+        - list [ref=e1120]:
+          - listitem [ref=e1121]:
+            - link "SMTP" [ref=e1124] [cursor=pointer]:
+              - /url: /en-us/products/email-api/smtp-service
+              - generic [ref=e1125]: SMTP
+          - listitem [ref=e1126]:
+            - link "Branded Calling" [ref=e1129] [cursor=pointer]:
+              - /url: /en-us/voice/branded-calling
+              - generic [ref=e1130]: Branded Calling
+          - listitem [ref=e1131]:
+            - link "Twilio Segment" [ref=e1134] [cursor=pointer]:
+              - /url: /en-us/customer-data-platform
+              - generic [ref=e1135]: Twilio Segment
+          - listitem [ref=e1136]:
+            - link "Twilio Engage" [ref=e1139] [cursor=pointer]:
+              - /url: /en-us/products/engage
+              - generic [ref=e1140]: Twilio Engage
+          - listitem [ref=e1141]:
+            - link "Connections" [ref=e1144] [cursor=pointer]:
+              - /url: /en-us/products/connections
+              - generic [ref=e1145]: Connections
+          - listitem [ref=e1146]:
+            - link "SendGrid Email API" [ref=e1149] [cursor=pointer]:
+              - /url: /en-us/products/email-api
+              - generic [ref=e1150]: SendGrid Email API
+          - listitem [ref=e1151]:
+            - link "RCS messaging" [ref=e1154] [cursor=pointer]:
+              - /url: /en-us/messaging/channels/rcs
+              - generic [ref=e1155]: RCS messaging
+          - listitem [ref=e1156]:
+            - link "Latest innovations" [ref=e1159] [cursor=pointer]:
+              - /url: /en-us/products/beta
+              - generic [ref=e1160]: Latest innovations
+          - listitem [ref=e1161]:
+            - link "Pre-built solutions" [ref=e1164] [cursor=pointer]:
+              - /url: /en-us/partners/saas
+              - generic [ref=e1165]: Pre-built solutions
+          - listitem [ref=e1166]:
+            - link "Support plans" [ref=e1169] [cursor=pointer]:
+              - /url: /en-us/support-plans
+              - generic [ref=e1170]: Support plans
+          - listitem [ref=e1171]:
+            - link "All products" [ref=e1174] [cursor=pointer]:
+              - /url: /en-us/products
+              - generic [ref=e1175]: All products
+              - figure [ref=e1176]
+      - generic [ref=e1179]:
+        - button "Use Cases":
+          - generic: Use Cases
+        - list [ref=e1181]:
+          - listitem [ref=e1182]:
+            - link "AI agent productivity" [ref=e1185] [cursor=pointer]:
+              - /url: /en-us/solutions/agent-productivity
+              - generic [ref=e1186]: AI agent productivity
+          - listitem [ref=e1187]:
+            - link "Customer data management" [ref=e1190] [cursor=pointer]:
+              - /url: /en-us/use-cases/customer-data-management-integration
+              - generic [ref=e1191]: Customer data management
+          - listitem [ref=e1192]:
+            - link "Audience segmentation" [ref=e1195] [cursor=pointer]:
+              - /url: /en-us/use-cases/segmentation-audience-activation
+              - generic [ref=e1196]: Audience segmentation
+          - listitem [ref=e1197]:
+            - link "Contact center" [ref=e1200] [cursor=pointer]:
+              - /url: /en-us/flex/use-cases/contact-center
+              - generic [ref=e1201]: Contact center
+          - listitem [ref=e1202]:
+            - link "SMS marketing" [ref=e1205] [cursor=pointer]:
+              - /url: /en-us/solutions/text-marketing
+              - generic [ref=e1206]: SMS marketing
+          - listitem [ref=e1207]:
+            - link "Customer acquisition" [ref=e1210] [cursor=pointer]:
+              - /url: /en-us/use-cases/customer-acquisition-activation
+              - generic [ref=e1211]: Customer acquisition
+          - listitem [ref=e1212]:
+            - link "Fraud prevention" [ref=e1215] [cursor=pointer]:
+              - /url: /en-us/use-cases/fraud-prevention
+              - generic [ref=e1216]: Fraud prevention
+          - listitem [ref=e1217]:
+            - link "Voice response system (IVR)" [ref=e1220] [cursor=pointer]:
+              - /url: /en-us/use-cases/ivr
+              - generic [ref=e1221]: Voice response system (IVR)
+          - listitem [ref=e1222]:
+            - link "Bulk text messaging" [ref=e1225] [cursor=pointer]:
+              - /url: /en-us/use-cases/mass-texting
+              - generic [ref=e1226]: Bulk text messaging
+          - listitem [ref=e1227]:
+            - link "Mass email sender" [ref=e1230] [cursor=pointer]:
+              - /url: /en-us/resource-center/bulk-email-guide
+              - generic [ref=e1231]: Mass email sender
+          - listitem [ref=e1232]:
+            - link "All use cases" [ref=e1235] [cursor=pointer]:
+              - /url: https://www.twilio.com/en-us/solutions#use-cases
+              - generic [ref=e1236]: All use cases
+              - figure [ref=e1237]
+      - generic [ref=e1240]:
+        - button "Developers":
+          - generic: Developers
+        - list [ref=e1242]:
+          - listitem [ref=e1243]:
+            - link "Developer resources" [ref=e1246] [cursor=pointer]:
+              - /url: https://www.twilio.com/docs#developer-toolkit
+              - generic [ref=e1247]: Developer resources
+          - listitem [ref=e1248]:
+            - link "Twilio Essentials" [ref=e1251] [cursor=pointer]:
+              - /url: https://www.twilio.com/docs#twilio-essentials
+              - generic [ref=e1252]: Twilio Essentials
+          - listitem [ref=e1253]:
+            - link "SDKs" [ref=e1256] [cursor=pointer]:
+              - /url: https://www.twilio.com/docs/libraries
+              - generic [ref=e1257]: SDKs
+          - listitem [ref=e1258]:
+            - link "CDP integrations" [ref=e1261] [cursor=pointer]:
+              - /url: /en-us/catalog
+              - generic [ref=e1262]: CDP integrations
+          - listitem [ref=e1263]:
+            - link "Serverless" [ref=e1266] [cursor=pointer]:
+              - /url: /en-us/serverless
+              - generic [ref=e1267]: Serverless
+          - listitem [ref=e1268]:
+            - link "Conversations" [ref=e1271] [cursor=pointer]:
+              - /url: https://www.twilio.com/docs/conversations
+              - generic [ref=e1272]: Conversations
+          - listitem [ref=e1273]:
+            - link "SMTP Email API" [ref=e1276] [cursor=pointer]:
+              - /url: https://www.twilio.com/docs/sendgrid/for-developers/sending-email/getting-started-smtp
+              - generic [ref=e1277]: SMTP Email API
+          - listitem [ref=e1278]:
+            - link "SMS API" [ref=e1281] [cursor=pointer]:
+              - /url: https://www.twilio.com/docs/messaging/api
+              - generic [ref=e1282]: SMS API
+          - listitem [ref=e1283]:
+            - link "WhatsApp API" [ref=e1286] [cursor=pointer]:
+              - /url: https://www.twilio.com/docs/whatsapp
+              - generic [ref=e1287]: WhatsApp API
+          - listitem [ref=e1288]:
+            - link "Voice API" [ref=e1291] [cursor=pointer]:
+              - /url: https://www.twilio.com/docs/voice
+              - generic [ref=e1292]: Voice API
+          - listitem [ref=e1293]:
+            - link "Connections" [ref=e1296] [cursor=pointer]:
+              - /url: https://www.twilio.com/docs/segment/connections
+              - generic [ref=e1297]: Connections
+          - listitem [ref=e1298]:
+            - link "All docs" [ref=e1301] [cursor=pointer]:
+              - /url: https://www.twilio.com/docs
+              - generic [ref=e1302]: All docs
+              - figure [ref=e1303]

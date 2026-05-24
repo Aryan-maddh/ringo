@@ -1,0 +1,793 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ripe Lead" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - img [ref=e8]
+            - img [ref=e12]
+          - generic [ref=e14]:
+            - generic [ref=e15]: Ripe
+            - generic [ref=e16]: Lead
+      - generic [ref=e17]:
+        - link "Product" [ref=e18] [cursor=pointer]:
+          - /url: /product
+        - link "About Us" [ref=e19] [cursor=pointer]:
+          - /url: /about
+        - link "Blog" [ref=e20] [cursor=pointer]:
+          - /url: /blog
+        - link "Pricing" [ref=e21] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=e22]:
+        - link "Sign in" [ref=e23] [cursor=pointer]:
+          - /url: /login
+        - button "Inquiry Now" [active] [ref=e24] [cursor=pointer]:
+          - text: Inquiry Now
+          - img [ref=e25]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]: New · SMS · WhatsApp · Instagram · Facebook — one inbox
+        - heading "Every missed call, answered in 11s." [level=1] [ref=e32]:
+          - text: Every missed call,
+          - text: answered in 11s.
+        - generic [ref=e33]: Ripe Lead replies to missed calls, WhatsApp pings, Instagram DMs & Facebook messages — instantly, in your voice — books the job, lands the lead in one inbox.
+        - generic [ref=e34]:
+          - button "Inquiry Now" [ref=e35] [cursor=pointer]:
+            - text: Inquiry Now
+            - img [ref=e36]
+          - button "Book a demo" [ref=e38] [cursor=pointer]
+        - generic [ref=e39]:
+          - generic [ref=e40]: WORKS ON
+          - generic [ref=e41]:
+            - generic [ref=e42] [cursor=pointer]:
+              - img [ref=e43]
+              - text: SMS
+            - generic [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+              - text: WhatsApp
+            - generic [ref=e49] [cursor=pointer]:
+              - img [ref=e50]
+              - text: Instagram
+            - generic [ref=e54] [cursor=pointer]:
+              - img [ref=e55]
+              - text: Facebook
+            - generic [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - text: Messenger
+            - generic [ref=e61] [cursor=pointer]:
+              - img [ref=e62]
+              - text: Google Business
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - img [ref=e69]
+            - text: Keep your number
+          - generic [ref=e71]:
+            - img [ref=e72]
+            - text: Live in 4 minutes
+          - generic [ref=e74]:
+            - img [ref=e75]
+            - text: No long-term contracts
+      - generic [ref=e78]:
+        - generic [ref=e82]:
+          - generic [ref=e1032]:
+            - generic [ref=e1033]:
+              - generic [ref=e1034]: LP
+              - img [ref=e1036]
+            - generic [ref=e1038]:
+              - generic [ref=e1039]: Lina Park
+              - generic [ref=e1040]: active · 11s ago
+            - generic [ref=e1041]: RIPE LEAD
+          - generic [ref=e1043]:
+            - generic [ref=e1044]: ✕ MISSED · SMS
+            - generic [ref=e1045]: fuse keeps tripping in the kitchen, breaker box is buzzing
+          - generic [ref=e1055]: Ripe Lead is replying…
+        - generic [ref=e105]: Ripe Lead replying
+    - generic [ref=e107]:
+      - generic [ref=e108]: Trusted infrastructure · built on the rails you already know
+      - generic [ref=e110]:
+        - generic [ref=e111]:
+          - generic [ref=e113]: tw
+          - text: Twilio Partner
+        - generic [ref=e114]:
+          - generic [ref=e116]: S
+          - text: Stripe Verified
+        - generic [ref=e117]:
+          - img [ref=e119]
+          - text: A2P 10DLC Certified
+        - generic [ref=e121]:
+          - img [ref=e123]
+          - text: SOC 2 Type II
+        - generic [ref=e125]:
+          - generic [ref=e127]: HH
+          - text: HIPAA Ready
+        - generic [ref=e128]:
+          - generic [ref=e130]: G
+          - text: Google Cloud
+        - generic [ref=e131]:
+          - generic [ref=e133]: JB
+          - text: Jobber Integration
+        - generic [ref=e134]:
+          - generic [ref=e136]: Z
+          - text: Zapier Compatible
+        - generic [ref=e137]:
+          - generic [ref=e139]: GC
+          - text: Google Calendar
+        - generic [ref=e140]:
+          - img [ref=e142]
+          - text: TCPA Compliant
+        - generic [ref=e144]:
+          - generic [ref=e146]: tw
+          - text: Twilio Partner
+        - generic [ref=e147]:
+          - generic [ref=e149]: S
+          - text: Stripe Verified
+        - generic [ref=e150]:
+          - img [ref=e152]
+          - text: A2P 10DLC Certified
+        - generic [ref=e154]:
+          - img [ref=e156]
+          - text: SOC 2 Type II
+        - generic [ref=e158]:
+          - generic [ref=e160]: HH
+          - text: HIPAA Ready
+        - generic [ref=e161]:
+          - generic [ref=e163]: G
+          - text: Google Cloud
+        - generic [ref=e164]:
+          - generic [ref=e166]: JB
+          - text: Jobber Integration
+        - generic [ref=e167]:
+          - generic [ref=e169]: Z
+          - text: Zapier Compatible
+        - generic [ref=e170]:
+          - generic [ref=e172]: GC
+          - text: Google Calendar
+        - generic [ref=e173]:
+          - img [ref=e175]
+          - text: TCPA Compliant
+    - generic [ref=e179]:
+      - paragraph [ref=e180]: Ripe Lead by the numbers
+      - generic [ref=e181]:
+        - generic [ref=e183]:
+          - generic [ref=e184]: 0.0M+
+          - generic [ref=e185]: Missed calls answered
+        - generic [ref=e188]:
+          - generic [ref=e189]: 0K+
+          - generic [ref=e190]: Jobs booked for customers
+        - generic [ref=e193]:
+          - generic [ref=e194]: 0s
+          - generic [ref=e195]: Avg AI response time
+        - generic [ref=e198]:
+          - generic [ref=e199]: $0M+
+          - generic [ref=e200]: Revenue recovered
+    - generic [ref=e203]:
+      - generic [ref=e204]:
+        - generic [ref=e205]: How Ripe Lead works
+        - heading "Watch a missed call become a booked job." [level=2] [ref=e206]
+        - generic [ref=e207]: Three steps. Four-minute setup. No new phone, no new number.
+      - generic [ref=e208]:
+        - generic [ref=e209]:
+          - button "STEP 01 Customer rings — you can't pick up A 30-second carrier code routes unanswered calls to Ripe Lead. Real calls still ring your phone first." [ref=e210] [cursor=pointer]:
+            - generic [ref=e212]:
+              - img [ref=e214]
+              - generic [ref=e216]:
+                - generic [ref=e217]: STEP 01
+                - generic [ref=e218]: Customer rings — you can't pick up
+            - generic [ref=e219]: A 30-second carrier code routes unanswered calls to Ripe Lead. Real calls still ring your phone first.
+          - button "STEP 02 Ripe Lead texts back in 11 seconds The model writes a friendly, on-brand reply — gathering address, issue, and urgency before the lead cools off." [ref=e220] [cursor=pointer]:
+            - generic [ref=e221]:
+              - img [ref=e223]
+              - generic [ref=e225]:
+                - generic [ref=e226]: STEP 02
+                - generic [ref=e227]: Ripe Lead texts back in 11 seconds
+            - generic [ref=e228]: The model writes a friendly, on-brand reply — gathering address, issue, and urgency before the lead cools off.
+          - button "STEP 03 You wake up to a booked job Confirmed appointments land on your calendar; quotes and leads land in your inbox. Pick the cherries." [ref=e229] [cursor=pointer]:
+            - generic [ref=e230]:
+              - img [ref=e232]
+              - generic [ref=e234]:
+                - generic [ref=e235]: STEP 03
+                - generic [ref=e236]: You wake up to a booked job
+            - generic [ref=e237]: Confirmed appointments land on your calendar; quotes and leads land in your inbox. Pick the cherries.
+        - generic [ref=e1057]:
+          - generic [ref=e1058]: INCOMING CALL
+          - img [ref=e1064]
+          - generic [ref=e1066]: Jenna Holcomb
+          - generic [ref=e1067]: +1 (415) 555-0136
+          - generic [ref=e1068]:
+            - img [ref=e1070]
+            - img [ref=e1073]
+    - generic [ref=e266]:
+      - generic [ref=e268]:
+        - generic [ref=e269]: One inbox
+        - heading "Every channel. One Ripe Lead." [level=2] [ref=e270]
+        - generic [ref=e271]: SMS, WhatsApp, Instagram DMs, Facebook Messenger, Google Business chat — every customer message lands in one place and gets a reply in 11 seconds.
+      - generic [ref=e272]:
+        - img
+        - generic [ref=e273]:
+          - generic [ref=e274]:
+            - generic [ref=e275]:
+              - img [ref=e278]
+              - generic [ref=e280]:
+                - generic [ref=e281]: SMS
+                - generic [ref=e282]: SMS & MMS · A2P 10DLC
+            - generic [ref=e284]:
+              - img [ref=e287]
+              - generic [ref=e290]:
+                - generic [ref=e291]: WhatsApp
+                - generic [ref=e292]: WhatsApp Business API
+            - generic [ref=e294]:
+              - img [ref=e297]
+              - generic [ref=e301]:
+                - generic [ref=e302]: Instagram
+                - generic [ref=e303]: Instagram DMs & comments
+            - generic [ref=e305]:
+              - img [ref=e308]
+              - generic [ref=e310]:
+                - generic [ref=e311]: Facebook
+                - generic [ref=e312]: Facebook Messenger
+            - generic [ref=e314]:
+              - img [ref=e317]
+              - generic [ref=e322]:
+                - generic [ref=e323]: Google Business
+                - generic [ref=e324]: Google Business chat
+          - generic [ref=e326]:
+            - generic [ref=e327]:
+              - generic [ref=e328]: R
+              - generic [ref=e329]:
+                - generic [ref=e330]: Ripe Lead Inbox
+                - generic [ref=e331]: Today · 6 conversations
+              - generic [ref=e332]: LIVE
+            - generic [ref=e334]:
+              - generic [ref=e335] [cursor=pointer]:
+                - generic [ref=e337]:
+                  - generic [ref=e338]: SK
+                  - img [ref=e340]
+                - generic [ref=e343]:
+                  - generic [ref=e344]: Sarah K.
+                  - generic [ref=e345]: Can you do tomorrow morning?
+                - generic [ref=e346]: BOOKED
+              - generic [ref=e347] [cursor=pointer]:
+                - generic [ref=e349]:
+                  - generic [ref=e350]: M
+                  - img [ref=e352]
+                - generic [ref=e356]:
+                  - generic [ref=e357]: "@marcoplumb"
+                  - generic [ref=e358]: Hey — do you do gas lines?
+                - generic [ref=e359]: REPLYING
+              - generic [ref=e360] [cursor=pointer]:
+                - generic [ref=e362]:
+                  - generic [ref=e363]: JH
+                  - img [ref=e365]
+                - generic [ref=e367]:
+                  - generic [ref=e368]: Jenna Holcomb
+                  - generic [ref=e369]: kitchen sink leak, 2204 folsom
+                - generic [ref=e370]: BOOKED
+              - generic [ref=e371] [cursor=pointer]:
+                - generic [ref=e373]:
+                  - generic [ref=e374]: MB
+                  - img [ref=e376]
+                - generic [ref=e378]:
+                  - generic [ref=e379]: Mike Brennan
+                  - generic [ref=e380]: Need a quote for water heater
+                - generic [ref=e381]: REPLYING
+              - generic [ref=e382] [cursor=pointer]:
+                - generic [ref=e384]:
+                  - generic [ref=e385]: LP
+                  - img [ref=e387]
+                - generic [ref=e390]:
+                  - generic [ref=e391]: Lina Park
+                  - generic [ref=e392]: water in basement again 😬
+                - generic [ref=e393]: WAITING
+              - generic [ref=e394] [cursor=pointer]:
+                - generic [ref=e396]:
+                  - generic [ref=e397]: AP
+                  - img [ref=e399]
+                - generic [ref=e404]:
+                  - generic [ref=e405]: Aisha Patel
+                  - generic [ref=e406]: Saturday emergency call possible?
+                - generic [ref=e407]: BOOKED
+            - generic [ref=e408]:
+              - generic [ref=e409]:
+                - generic [ref=e410]: Replied
+                - generic [ref=e411]: 6/6
+              - generic [ref=e412]:
+                - generic [ref=e413]: Booked
+                - generic [ref=e414]: "3"
+              - generic [ref=e415]:
+                - generic [ref=e416]: Avg
+                - generic [ref=e417]: 9s
+        - generic [ref=e418]:
+          - generic [ref=e419]:
+            - img [ref=e421]
+            - text: SMS
+          - generic [ref=e423]:
+            - img [ref=e425]
+            - text: WhatsApp
+          - generic [ref=e428]:
+            - img [ref=e430]
+            - text: Instagram
+          - generic [ref=e434]:
+            - img [ref=e436]
+            - text: Facebook
+          - generic [ref=e438]:
+            - img [ref=e440]
+            - text: Messenger
+          - generic [ref=e443]:
+            - img [ref=e445]
+            - text: Google Business
+          - generic [ref=e450]:
+            - img [ref=e452]
+            - text: Call
+          - generic [ref=e454]:
+            - img [ref=e456]
+            - text: Voicemail
+    - generic [ref=e461]:
+      - generic [ref=e462]:
+        - generic [ref=e465]:
+          - generic [ref=e466]: got a leak under sink, can u come today
+          - generic [ref=e467]: Yep! Shut your angle stops first. We can be there 1–2 PM, $95 trip applied to repair. ✓?
+        - generic [ref=e472]: Speaks like you
+        - generic [ref=e473]: A model fine-tuned on your trade. No "as an AI" — just a plumber, electrician, or stylist who answers fast.
+      - generic [ref=e474]:
+        - generic [ref=e475]:
+          - img [ref=e477]
+          - generic [ref=e480]:
+            - generic [ref=e481]: A2P 10DLC
+            - generic [ref=e482]: Opt-out
+            - generic [ref=e483]: Quiet hours
+        - generic [ref=e484]: TCPA-clean by default
+        - generic [ref=e485]: A2P 10DLC registration, opt-out handling, and quiet hours — all built in. No fines, no headaches.
+      - generic [ref=e486]:
+        - generic [ref=e487]:
+          - generic [ref=e488]:
+            - img [ref=e490]
+            - generic [ref=e493]:
+              - generic [ref=e494]: Auto Warranty Co.
+              - generic [ref=e495]: +1 (555) 010-…
+            - generic [ref=e496]: BLOCKED
+          - generic [ref=e497]:
+            - img [ref=e499]
+            - generic [ref=e501]:
+              - generic [ref=e502]: Jenna Holcomb
+              - generic [ref=e503]: real customer · drain repair
+            - generic [ref=e504]: REPLIED
+          - generic [ref=e505]:
+            - generic [ref=e506]: "142"
+            - generic [ref=e507]: spam calls blocked this month
+        - generic [ref=e508]: Spam & robocall guard
+        - generic [ref=e509]: Ripe Lead silently ignores known spam numbers so your inbox stays full of real customers, not warranty calls.
+      - generic [ref=e510]:
+        - generic [ref=e513]:
+          - generic [ref=e514]:
+            - generic [ref=e515]: GC
+            - generic [ref=e516]: Google Cal
+          - generic [ref=e517]:
+            - generic [ref=e518]: JB
+            - generic [ref=e519]: Jobber
+          - generic [ref=e520]:
+            - generic [ref=e521]: SL
+            - generic [ref=e522]: Slack
+          - generic [ref=e523]:
+            - generic [ref=e524]: ZP
+            - generic [ref=e525]: Zapier
+        - generic [ref=e526]: Works with your tools
+        - generic [ref=e527]: Drops bookings into Google Calendar and Jobber, fires Slack alerts, and Zapiers everywhere else.
+    - generic [ref=e530]:
+      - generic [ref=e531]:
+        - generic [ref=e532]: Built for the trades
+        - heading "Replies that sound like you wrote them at 11:43 AM between jobs." [level=2] [ref=e533]
+        - generic [ref=e534]: Templates are tuned per trade — emergency keywords, trip-charge handling, calendar holds, parts-ordering disclaimers. Drop in your prices and tone once; Ripe Lead speaks fluent plumber from then on.
+        - generic [ref=e535]:
+          - generic [ref=e536]:
+            - img [ref=e538]
+            - text: Detects emergency keywords like "leak", "no power", "burst"
+          - generic [ref=e540]:
+            - img [ref=e542]
+            - text: Pulls service area from ZIP — politely declines out-of-area calls
+          - generic [ref=e544]:
+            - img [ref=e546]
+            - text: Confirms appointments and adds them to your calendar
+          - generic [ref=e548]:
+            - img [ref=e550]
+            - text: Re-engages no-shows 48h later with a one-touch reschedule link
+      - generic [ref=e552]:
+        - generic [ref=e553]:
+          - button "Plumbing" [ref=e554] [cursor=pointer]
+          - button "Electrical" [ref=e555] [cursor=pointer]
+          - button "HVAC" [ref=e556] [cursor=pointer]
+          - button "Salon" [ref=e557] [cursor=pointer]
+        - generic [ref=e558]:
+          - generic [ref=e559]: 11:42 AM · missed call from +1 (415) 555-0117
+          - generic [ref=e560]: Hi Jenna! This is Pacific Plumbing 👋 sorry we missed you — Marco’s on a job. What’s going on, & what’s the address?
+          - generic [ref=e561]: "sink leaking under cabinet. 2204 folsom #3"
+          - generic [ref=e562]:
+            - text: Got it. Shut the angle stops below the basin first. We can be there
+            - strong [ref=e563]: 1–2 PM today
+            - text: — $95 trip applied to repair. ✓?
+          - generic [ref=e564]: yes!! 🙏
+          - generic [ref=e565]: ✓ BOOKED · 1:00 PM · added to Google Calendar
+    - generic [ref=e568]:
+      - generic [ref=e569]: Pricing
+      - heading "Pay for jobs saved. Not seats." [level=2] [ref=e570]
+      - generic [ref=e571]:
+        - generic [ref=e573]:
+          - generic [ref=e574]: Solo
+          - generic [ref=e575]: For one-truck operators
+          - generic [ref=e576]:
+            - generic [ref=e577]: $29
+            - generic [ref=e578]: / mo, billed monthly
+          - button "Inquiry Now" [ref=e579] [cursor=pointer]
+          - generic [ref=e580]:
+            - generic [ref=e581]:
+              - img [ref=e582]
+              - generic [ref=e584]: 1 number
+            - generic [ref=e585]:
+              - img [ref=e586]
+              - generic [ref=e588]: 100 AI replies / mo
+            - generic [ref=e589]:
+              - img [ref=e590]
+              - generic [ref=e592]: Google Calendar sync
+            - generic [ref=e593]:
+              - img [ref=e594]
+              - generic [ref=e596]: Spam guard
+            - generic [ref=e597]:
+              - img [ref=e598]
+              - generic [ref=e600]: SMS & voicemail
+        - generic [ref=e601]:
+          - generic [ref=e603]: Most popular
+          - generic [ref=e604]:
+            - generic [ref=e605]: Crew
+            - generic [ref=e606]: Most owners pick this
+            - generic [ref=e607]:
+              - generic [ref=e608]: $79
+              - generic [ref=e609]: / mo, billed monthly
+            - button "Inquiry Now" [ref=e610] [cursor=pointer]
+            - generic [ref=e611]:
+              - generic [ref=e612]:
+                - img [ref=e613]
+                - generic [ref=e615]: 3 numbers + after-hours line
+              - generic [ref=e616]:
+                - img [ref=e617]
+                - generic [ref=e619]: Unlimited AI replies
+              - generic [ref=e620]:
+                - img [ref=e621]
+                - generic [ref=e623]: Jobber, Slack & Zapier
+              - generic [ref=e624]:
+                - img [ref=e625]
+                - generic [ref=e627]: Lead scoring + AI brief
+              - generic [ref=e628]:
+                - img [ref=e629]
+                - generic [ref=e631]: Team inbox · 5 seats
+        - generic [ref=e633]:
+          - generic [ref=e634]: Shop
+          - generic [ref=e635]: For multi-location teams
+          - generic [ref=e636]:
+            - generic [ref=e637]: $149
+            - generic [ref=e638]: / mo, billed monthly
+          - button "Talk to sales" [ref=e639] [cursor=pointer]
+          - generic [ref=e640]:
+            - generic [ref=e641]:
+              - img [ref=e642]
+              - generic [ref=e644]: Unlimited numbers
+            - generic [ref=e645]:
+              - img [ref=e646]
+              - generic [ref=e648]: Multi-location routing
+            - generic [ref=e649]:
+              - img [ref=e650]
+              - generic [ref=e652]: Custom voice training
+            - generic [ref=e653]:
+              - img [ref=e654]
+              - generic [ref=e656]: SOC 2 + DPA
+            - generic [ref=e657]:
+              - img [ref=e658]
+              - generic [ref=e660]: Priority human support
+      - generic [ref=e661]: All plans include carrier & A2P fees. Cancel anytime.
+    - generic [ref=e664]:
+      - generic [ref=e665]:
+        - generic [ref=e666]: Customers
+        - heading "Loved by the builders of America." [level=2] [ref=e667]
+        - generic [ref=e668]: Real shops, real revenue saved — from solo plumbers to multi-truck fleets.
+      - generic [ref=e670]:
+        - generic [ref=e671]:
+          - generic [ref=e673]: “Booked $4,200 in jobs my first weekend on Ripe Lead. Clients have no clue it's automated — they just think I'm fast.”
+          - generic [ref=e674]:
+            - generic [ref=e675]: MR
+            - generic [ref=e676]:
+              - generic [ref=e677]: Marco Reyes
+              - generic [ref=e678]: Pacific Plumbing · SF
+            - generic [ref=e679]:
+              - img [ref=e680]
+              - img [ref=e682]
+              - img [ref=e684]
+              - img [ref=e686]
+              - img [ref=e688]
+        - generic [ref=e690]:
+          - generic [ref=e692]: “I run my salon alone between cuts. Ripe Lead replies while I have scissors in my hand. Easily 15 saved bookings a month.”
+          - generic [ref=e693]:
+            - generic [ref=e694]: LP
+            - generic [ref=e695]:
+              - generic [ref=e696]: Lina Park
+              - generic [ref=e697]: Salon Lume · Austin
+            - generic [ref=e698]:
+              - img [ref=e699]
+              - img [ref=e701]
+              - img [ref=e703]
+              - img [ref=e705]
+              - img [ref=e707]
+        - generic [ref=e709]:
+          - generic [ref=e711]: “The TCPA stuff used to terrify me. Ripe Lead set up our 10DLC in a day and I haven't thought about it since.”
+          - generic [ref=e712]:
+            - generic [ref=e713]: DW
+            - generic [ref=e714]:
+              - generic [ref=e715]: Dre Whitfield
+              - generic [ref=e716]: Brightspark Electric · Denver
+            - generic [ref=e717]:
+              - img [ref=e718]
+              - img [ref=e720]
+              - img [ref=e722]
+              - img [ref=e724]
+              - img [ref=e726]
+        - generic [ref=e728]:
+          - generic [ref=e730]: “Used to lose 4–5 leads a week to voicemail. Now my mornings start with a list of booked jobs, not missed calls.”
+          - generic [ref=e731]:
+            - generic [ref=e732]: AP
+            - generic [ref=e733]:
+              - generic [ref=e734]: Aisha Patel
+              - generic [ref=e735]: Patel HVAC · Phoenix
+            - generic [ref=e736]:
+              - img [ref=e737]
+              - img [ref=e739]
+              - img [ref=e741]
+              - img [ref=e743]
+              - img [ref=e745]
+        - generic [ref=e747]:
+          - generic [ref=e749]: “The replies sound exactly like me. Customers reply back thinking they're texting my cell — and I never have to lift a finger.”
+          - generic [ref=e750]:
+            - generic [ref=e751]: TV
+            - generic [ref=e752]:
+              - generic [ref=e753]: Tony Vega
+              - generic [ref=e754]: Vega Roofing · San Diego
+            - generic [ref=e755]:
+              - img [ref=e756]
+              - img [ref=e758]
+              - img [ref=e760]
+              - img [ref=e762]
+              - img [ref=e764]
+        - generic [ref=e766]:
+          - generic [ref=e768]: “Setup took less than coffee. By lunch Ripe Lead had already booked an emergency call I would've missed in surgery.”
+          - generic [ref=e769]:
+            - generic [ref=e770]: DT
+            - generic [ref=e771]:
+              - generic [ref=e772]: Dr. Mei Tanaka
+              - generic [ref=e773]: Tanaka Dental · Seattle
+            - generic [ref=e774]:
+              - img [ref=e775]
+              - img [ref=e777]
+              - img [ref=e779]
+              - img [ref=e781]
+              - img [ref=e783]
+        - generic [ref=e785]:
+          - generic [ref=e787]: “Booked $4,200 in jobs my first weekend on Ripe Lead. Clients have no clue it's automated — they just think I'm fast.”
+          - generic [ref=e788]:
+            - generic [ref=e789]: MR
+            - generic [ref=e790]:
+              - generic [ref=e791]: Marco Reyes
+              - generic [ref=e792]: Pacific Plumbing · SF
+            - generic [ref=e793]:
+              - img [ref=e794]
+              - img [ref=e796]
+              - img [ref=e798]
+              - img [ref=e800]
+              - img [ref=e802]
+        - generic [ref=e804]:
+          - generic [ref=e806]: “I run my salon alone between cuts. Ripe Lead replies while I have scissors in my hand. Easily 15 saved bookings a month.”
+          - generic [ref=e807]:
+            - generic [ref=e808]: LP
+            - generic [ref=e809]:
+              - generic [ref=e810]: Lina Park
+              - generic [ref=e811]: Salon Lume · Austin
+            - generic [ref=e812]:
+              - img [ref=e813]
+              - img [ref=e815]
+              - img [ref=e817]
+              - img [ref=e819]
+              - img [ref=e821]
+        - generic [ref=e823]:
+          - generic [ref=e825]: “The TCPA stuff used to terrify me. Ripe Lead set up our 10DLC in a day and I haven't thought about it since.”
+          - generic [ref=e826]:
+            - generic [ref=e827]: DW
+            - generic [ref=e828]:
+              - generic [ref=e829]: Dre Whitfield
+              - generic [ref=e830]: Brightspark Electric · Denver
+            - generic [ref=e831]:
+              - img [ref=e832]
+              - img [ref=e834]
+              - img [ref=e836]
+              - img [ref=e838]
+              - img [ref=e840]
+        - generic [ref=e842]:
+          - generic [ref=e844]: “Used to lose 4–5 leads a week to voicemail. Now my mornings start with a list of booked jobs, not missed calls.”
+          - generic [ref=e845]:
+            - generic [ref=e846]: AP
+            - generic [ref=e847]:
+              - generic [ref=e848]: Aisha Patel
+              - generic [ref=e849]: Patel HVAC · Phoenix
+            - generic [ref=e850]:
+              - img [ref=e851]
+              - img [ref=e853]
+              - img [ref=e855]
+              - img [ref=e857]
+              - img [ref=e859]
+        - generic [ref=e861]:
+          - generic [ref=e863]: “The replies sound exactly like me. Customers reply back thinking they're texting my cell — and I never have to lift a finger.”
+          - generic [ref=e864]:
+            - generic [ref=e865]: TV
+            - generic [ref=e866]:
+              - generic [ref=e867]: Tony Vega
+              - generic [ref=e868]: Vega Roofing · San Diego
+            - generic [ref=e869]:
+              - img [ref=e870]
+              - img [ref=e872]
+              - img [ref=e874]
+              - img [ref=e876]
+              - img [ref=e878]
+        - generic [ref=e880]:
+          - generic [ref=e882]: “Setup took less than coffee. By lunch Ripe Lead had already booked an emergency call I would've missed in surgery.”
+          - generic [ref=e883]:
+            - generic [ref=e884]: DT
+            - generic [ref=e885]:
+              - generic [ref=e886]: Dr. Mei Tanaka
+              - generic [ref=e887]: Tanaka Dental · Seattle
+            - generic [ref=e888]:
+              - img [ref=e889]
+              - img [ref=e891]
+              - img [ref=e893]
+              - img [ref=e895]
+              - img [ref=e897]
+    - generic [ref=e904]:
+      - generic [ref=e905]:
+        - generic [ref=e906]: Live in the same day
+        - heading "Stop bleeding jobs to voicemail." [level=2] [ref=e908]
+        - generic [ref=e909]: Set up takes 4 minutes. The first job Ripe Lead saves usually pays for the year.
+      - generic [ref=e910]:
+        - button "Inquiry Now" [ref=e911] [cursor=pointer]:
+          - text: Inquiry Now
+          - img [ref=e912]
+        - button "Book a demo" [ref=e914] [cursor=pointer]
+        - generic [ref=e915]:
+          - generic [ref=e916]:
+            - img [ref=e917]
+            - text: Keep your number
+          - generic [ref=e919]:
+            - img [ref=e920]
+            - text: Live in 4 min
+          - generic [ref=e922]:
+            - img [ref=e923]
+            - text: Cancel anytime
+    - contentinfo [ref=e925]:
+      - generic [ref=e926]:
+        - generic [ref=e927]:
+          - generic [ref=e928]:
+            - generic [ref=e929]:
+              - img [ref=e931]
+              - img [ref=e935]
+            - generic [ref=e937]:
+              - generic [ref=e938]: Ripe
+              - generic [ref=e939]: Lead
+          - generic [ref=e940]: Missed-call autoresponder for plumbers, electricians, salons, and the rest of the builders of America.
+          - generic [ref=e941]:
+            - generic [ref=e942]: SOC 2 Type II
+            - generic [ref=e943]: TCPA · A2P 10DLC
+        - generic [ref=e944]:
+          - generic [ref=e945]: Product
+          - link "Features" [ref=e946] [cursor=pointer]:
+            - /url: "#"
+          - link "Pricing" [ref=e947] [cursor=pointer]:
+            - /url: "#"
+          - link "Integrations" [ref=e948] [cursor=pointer]:
+            - /url: "#"
+          - link "Changelog" [ref=e949] [cursor=pointer]:
+            - /url: "#"
+          - link "Status" [ref=e950] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e951]:
+          - generic [ref=e952]: Trades
+          - link "Plumbing" [ref=e953] [cursor=pointer]:
+            - /url: "#"
+          - link "Electrical" [ref=e954] [cursor=pointer]:
+            - /url: "#"
+          - link "HVAC" [ref=e955] [cursor=pointer]:
+            - /url: "#"
+          - link "Salons" [ref=e956] [cursor=pointer]:
+            - /url: "#"
+          - link "Cleaning" [ref=e957] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e958]:
+          - generic [ref=e959]: Company
+          - link "About" [ref=e960] [cursor=pointer]:
+            - /url: "#"
+          - link "Customers" [ref=e961] [cursor=pointer]:
+            - /url: "#"
+          - link "Careers" [ref=e962] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact" [ref=e963] [cursor=pointer]:
+            - /url: "#"
+          - link "Press" [ref=e964] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e965]:
+          - generic [ref=e966]: Resources
+          - link "Docs" [ref=e967] [cursor=pointer]:
+            - /url: "#"
+          - link "API" [ref=e968] [cursor=pointer]:
+            - /url: "#"
+          - link "Compliance" [ref=e969] [cursor=pointer]:
+            - /url: "#"
+          - link "Playbook" [ref=e970] [cursor=pointer]:
+            - /url: "#"
+          - link "Help center" [ref=e971] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e972]:
+        - generic [ref=e973]: © 2026 Ripe Lead, Inc. · 548 Market St, San Francisco
+        - generic [ref=e974]:
+          - link "Privacy" [ref=e975] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms" [ref=e976] [cursor=pointer]:
+            - /url: "#"
+          - link "DPA" [ref=e977] [cursor=pointer]:
+            - /url: "#"
+  - button "Open Next.js Dev Tools" [ref=e983] [cursor=pointer]:
+    - img [ref=e984]
+  - alert [ref=e1031]
+  - dialog "Request a consultation" [ref=e1075]:
+    - generic [ref=e1076]:
+      - button "Close" [ref=e1078] [cursor=pointer]:
+        - img [ref=e1079]
+      - generic [ref=e1082]:
+        - generic [ref=e1083]: Limited spots
+        - heading "Get in touch" [level=2] [ref=e1085]
+        - paragraph [ref=e1086]: Tell us about your business and we'll reach out within 24 hours.
+        - generic [ref=e1087]:
+          - generic [ref=e1088]:
+            - img [ref=e1090]
+            - generic [ref=e1093]: 2.4M+
+            - generic [ref=e1094]: Calls answered
+          - generic [ref=e1095]:
+            - img [ref=e1097]
+            - generic [ref=e1100]: 180K+
+            - generic [ref=e1101]: Jobs booked
+          - generic [ref=e1102]:
+            - img [ref=e1104]
+            - generic [ref=e1106]: $18M+
+            - generic [ref=e1107]: Revenue recovered
+        - generic [ref=e1108]:
+          - generic [ref=e1109]:
+            - generic [ref=e1110]: Full name *
+            - generic [ref=e1111]:
+              - img [ref=e1113]
+              - textbox "Full name *" [ref=e1116]:
+                - /placeholder: Marcus Chen
+          - generic [ref=e1117]:
+            - generic [ref=e1118]: Email *
+            - generic [ref=e1119]:
+              - img [ref=e1121]
+              - textbox "Email *" [ref=e1124]:
+                - /placeholder: marcus@pacificplumbing.com
+          - generic [ref=e1125]:
+            - generic [ref=e1126]: Phone *
+            - generic [ref=e1127]:
+              - img [ref=e1129]
+              - textbox "Phone *" [ref=e1131]:
+                - /placeholder: (415) 555-0136
+          - generic [ref=e1132]:
+            - generic [ref=e1133]: Business name
+            - generic [ref=e1134]:
+              - img [ref=e1136]
+              - textbox "Business name" [ref=e1140]:
+                - /placeholder: Pacific Plumbing
+          - button "Submit Inquiry" [ref=e1141] [cursor=pointer]:
+            - text: Submit Inquiry
+            - img [ref=e1142]
+          - generic [ref=e1144]:
+            - img [ref=e1145]
+            - text: Your info is secure. We never share your data.

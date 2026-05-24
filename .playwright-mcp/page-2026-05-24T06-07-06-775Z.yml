@@ -1,0 +1,186 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ripe Lead" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - img [ref=e8]
+            - img [ref=e12]
+          - generic [ref=e14]:
+            - generic [ref=e15]: Ripe
+            - generic [ref=e16]: Lead
+      - button "Open menu" [ref=e17] [cursor=pointer]:
+        - img [ref=e18]
+    - generic [ref=e20]:
+      - generic [ref=e21]: OUR STORY
+      - heading "We believe every missed call is a missed opportunity." [level=1] [ref=e22]
+      - paragraph [ref=e23]: Ripe Lead was built by a team who watched great contractors lose jobs simply because they couldn't answer the phone fast enough.
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]: 2.4M+
+          - generic [ref=e27]: Calls answered
+        - generic [ref=e28]:
+          - generic [ref=e29]: 180K+
+          - generic [ref=e30]: Jobs booked
+        - generic [ref=e31]:
+          - generic [ref=e32]: "2023"
+          - generic [ref=e33]: Founded
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]: OUR MISSION
+        - heading "Make every contractor unreachable — in a good way." [level=2] [ref=e38]
+        - paragraph [ref=e39]: The best contractors we know aren't glued to their phones — they're on the job, doing the work that earns their reputation. But the moment they miss a call, they risk losing that lead to someone who picked up.
+        - paragraph [ref=e40]: Ripe Lead gives every contractor the response time of a 24/7 call center without the overhead. We handle the reply, the qualification, the booking — so the contractor handles the job.
+        - paragraph [ref=e41]: "We measure success one way: jobs booked that would otherwise have been lost to voicemail."
+      - generic [ref=e43]:
+        - generic [ref=e45]:
+          - generic [ref=e46]: 4 min
+          - generic [ref=e47]: Setup time
+        - generic [ref=e50]:
+          - generic [ref=e51]: $0
+          - generic [ref=e52]: Upfront cost
+        - generic [ref=e55]:
+          - generic [ref=e56]: 100%
+          - generic [ref=e57]: Automated
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - generic [ref=e61]: History
+        - heading "How we got here" [level=2] [ref=e62]
+      - generic [ref=e63]:
+        - generic [ref=e65]: "2023"
+        - generic [ref=e67]:
+          - heading "The problem nobody was solving" [level=3] [ref=e68]
+          - paragraph [ref=e69]: Founded after watching a friend's plumbing business lose $80K in missed leads over a single year. The calls came in — the phone just couldn't be answered in time.
+      - generic [ref=e70]:
+        - generic [ref=e72]: "2024"
+        - generic [ref=e74]:
+          - heading "Compliance before scale" [level=3] [ref=e75]
+          - paragraph [ref=e76]: Launched our TCPA-compliant A2P 10DLC system. Became one of the first AI messaging platforms purpose-built for the trades with full regulatory compliance baked in from day one.
+      - generic [ref=e77]:
+        - generic [ref=e79]: "2025"
+        - generic [ref=e80]:
+          - heading "Two million calls later" [level=3] [ref=e81]
+          - paragraph [ref=e82]: Crossed 2 million calls handled and 180,000+ jobs booked for contractors across the US. Expanded to WhatsApp, Instagram DMs, Facebook Messenger, and Google Business.
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - generic [ref=e86]: Principles
+        - heading "What we stand for" [level=2] [ref=e87]
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - img [ref=e91]
+          - heading "Contractors first" [level=3] [ref=e93]
+          - paragraph [ref=e94]: Built for the trades, not for enterprise. Every feature is designed around the reality of a one-truck operator or a small crew — not a Fortune 500 IT department.
+        - generic [ref=e95]:
+          - img [ref=e97]
+          - heading "Compliance built in" [level=3] [ref=e100]
+          - paragraph [ref=e101]: TCPA, A2P 10DLC registration, opt-out handling, quiet hours — all handled before you send your first message. We keep you legal so you can focus on the work.
+        - generic [ref=e102]:
+          - img [ref=e104]
+          - heading "Radically simple" [level=3] [ref=e106]
+          - paragraph [ref=e107]: 4-minute setup, no IT required. If you can send a text message, you can run Ripe Lead. We built the complexity so you never have to think about it.
+    - generic [ref=e109]:
+      - generic [ref=e110]:
+        - generic [ref=e111]: The people behind it
+        - heading "The team" [level=2] [ref=e112]
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - generic [ref=e115]: AR
+          - generic [ref=e116]: Alex Rivera
+          - generic [ref=e117]: CEO
+          - paragraph [ref=e118]: Former contractor-software founder. Watched too many great tradespeople lose jobs to voicemail. Built Ripe Lead to fix it.
+        - generic [ref=e119]:
+          - generic [ref=e120]: PS
+          - generic [ref=e121]: Priya Sharma
+          - generic [ref=e122]: CTO
+          - paragraph [ref=e123]: Led infrastructure at two YC-backed companies. Obsessed with latency — which is why Ripe Lead replies in 11 seconds, not 11 minutes.
+        - generic [ref=e124]:
+          - generic [ref=e125]: MC
+          - generic [ref=e126]: Marcus Chen
+          - generic [ref=e127]: Head of AI
+          - paragraph [ref=e128]: Fine-tuned language models at a top AI lab. Responsible for making the AI sound like a plumber, not a press release.
+        - generic [ref=e129]:
+          - generic [ref=e130]: JO
+          - generic [ref=e131]: Jamie Okafor
+          - generic [ref=e132]: Head of Growth
+          - paragraph [ref=e133]: Helped 3 SaaS companies cross $10M ARR. Believes the best growth strategy is a product that actually works.
+    - generic [ref=e135]:
+      - heading "Join 10,000+ contractors who never miss a lead" [level=2] [ref=e136]
+      - paragraph [ref=e137]: 4-minute setup. No credit card. Your first week is free.
+      - link "Start free" [ref=e138] [cursor=pointer]:
+        - /url: /onboarding
+        - text: Start free
+        - img [ref=e139]
+    - contentinfo [ref=e141]:
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - generic [ref=e145]:
+              - img [ref=e147]
+              - img [ref=e151]
+            - generic [ref=e153]:
+              - generic [ref=e154]: Ripe
+              - generic [ref=e155]: Lead
+          - generic [ref=e156]: Missed-call autoresponder for plumbers, electricians, salons, and the rest of the builders of America.
+          - generic [ref=e157]:
+            - generic [ref=e158]: SOC 2 Type II
+            - generic [ref=e159]: TCPA · A2P 10DLC
+        - generic [ref=e160]:
+          - generic [ref=e161]: Product
+          - link "Features" [ref=e162] [cursor=pointer]:
+            - /url: "#"
+          - link "Pricing" [ref=e163] [cursor=pointer]:
+            - /url: "#"
+          - link "Integrations" [ref=e164] [cursor=pointer]:
+            - /url: "#"
+          - link "Changelog" [ref=e165] [cursor=pointer]:
+            - /url: "#"
+          - link "Status" [ref=e166] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e167]:
+          - generic [ref=e168]: Trades
+          - link "Plumbing" [ref=e169] [cursor=pointer]:
+            - /url: "#"
+          - link "Electrical" [ref=e170] [cursor=pointer]:
+            - /url: "#"
+          - link "HVAC" [ref=e171] [cursor=pointer]:
+            - /url: "#"
+          - link "Salons" [ref=e172] [cursor=pointer]:
+            - /url: "#"
+          - link "Cleaning" [ref=e173] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e174]:
+          - generic [ref=e175]: Company
+          - link "About" [ref=e176] [cursor=pointer]:
+            - /url: "#"
+          - link "Customers" [ref=e177] [cursor=pointer]:
+            - /url: "#"
+          - link "Careers" [ref=e178] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact" [ref=e179] [cursor=pointer]:
+            - /url: "#"
+          - link "Press" [ref=e180] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e181]:
+          - generic [ref=e182]: Resources
+          - link "Docs" [ref=e183] [cursor=pointer]:
+            - /url: "#"
+          - link "API" [ref=e184] [cursor=pointer]:
+            - /url: "#"
+          - link "Compliance" [ref=e185] [cursor=pointer]:
+            - /url: "#"
+          - link "Playbook" [ref=e186] [cursor=pointer]:
+            - /url: "#"
+          - link "Help center" [ref=e187] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e188]:
+        - generic [ref=e189]: © 2026 Ripe Lead, Inc. · 548 Market St, San Francisco
+        - generic [ref=e190]:
+          - link "Privacy" [ref=e191] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms" [ref=e192] [cursor=pointer]:
+            - /url: "#"
+          - link "DPA" [ref=e193] [cursor=pointer]:
+            - /url: "#"
+  - button "Open Next.js Dev Tools" [ref=e199] [cursor=pointer]:
+    - img [ref=e200]

@@ -1,0 +1,146 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ripe Lead" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - img [ref=e8]
+            - img [ref=e13]
+          - generic [ref=e15]:
+            - generic [ref=e16]: Ripe
+            - generic [ref=e17]: Lead
+      - generic [ref=e18]:
+        - link "Product" [ref=e19] [cursor=pointer]:
+          - /url: /product
+        - link "About Us" [ref=e20] [cursor=pointer]:
+          - /url: /about
+        - link "Blog" [ref=e21] [cursor=pointer]:
+          - /url: /blog
+        - link "Pricing" [ref=e22] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=e23]:
+        - link "Sign in" [ref=e24] [cursor=pointer]:
+          - /url: /login
+        - link "Start free" [ref=e25] [cursor=pointer]:
+          - /url: /onboarding
+          - text: Start free
+          - img [ref=e26]
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - heading "Ripe Lead Blog" [level=1] [ref=e31]
+        - paragraph [ref=e32]: Insights on AI, the trades, and converting more leads.
+      - generic [ref=e33]:
+        - button "All" [ref=e34] [cursor=pointer]
+        - button "AI & Automation" [ref=e35] [cursor=pointer]
+        - button "Lead Generation" [ref=e36] [cursor=pointer]
+        - button "Compliance" [ref=e37] [cursor=pointer]
+        - button "Case Studies" [ref=e38] [cursor=pointer]
+    - generic [ref=e39]:
+      - generic [ref=e40]: Featured
+      - generic [ref=e41]:
+        - generic [ref=e45]:
+          - generic [ref=e47]: Case Studies
+          - generic [ref=e48]: 6 min read
+        - generic [ref=e49]:
+          - generic [ref=e50]: Case Studies
+          - heading "How AI Texting Booked 47 Jobs in One Weekend for a Dallas Plumber" [level=2] [ref=e51]
+          - paragraph [ref=e52]: Marcus ran his plumbing business solo for six years. He was good at the work — great, even — but every missed call felt like money walking out the door. Then he set up Ripe Lead on a Friday afternoon.
+          - generic [ref=e53]:
+            - generic [ref=e54]: JO
+            - generic [ref=e55]:
+              - generic [ref=e56]: Jamie Okafor
+              - generic [ref=e57]: May 18, 2026 · 6 min read
+            - link "Read article" [ref=e58] [cursor=pointer]:
+              - /url: "#"
+              - text: Read article
+              - img [ref=e59]
+    - generic [ref=e62]:
+      - generic [ref=e65]:
+        - generic [ref=e66]: Compliance
+        - 'heading "TCPA Compliance for Contractors: The 2026 Guide" [level=3] [ref=e67]'
+        - paragraph [ref=e68]: Everything you need to know about A2P 10DLC registration, opt-out handling, and quiet hours — without the legalese.
+        - generic [ref=e69]:
+          - generic [ref=e70]: PS
+          - generic [ref=e71]:
+            - generic [ref=e72]: Priya Sharma
+            - generic [ref=e73]: May 14, 2026
+          - generic [ref=e74]: 8 min read
+      - generic [ref=e77]:
+        - generic [ref=e78]: Lead Generation
+        - 'heading "WhatsApp Business for Plumbers: Why It Books More Jobs" [level=3] [ref=e79]'
+        - paragraph [ref=e80]: WhatsApp messages have a 98% open rate. SMS has 82%. Here's how to leverage both without managing two inboxes.
+        - generic [ref=e81]:
+          - generic [ref=e82]: MC
+          - generic [ref=e83]:
+            - generic [ref=e84]: Marcus Chen
+            - generic [ref=e85]: May 10, 2026
+          - generic [ref=e86]: 5 min read
+      - generic [ref=e89]:
+        - generic [ref=e90]: AI & Automation
+        - 'heading "The 11-Second Reply: Why Speed Beats Price Every Time" [level=3] [ref=e91]'
+        - paragraph [ref=e92]: Customers who get a response within 60 seconds are 391% more likely to book. Here's the data behind why reply speed is your biggest competitive advantage.
+        - generic [ref=e93]:
+          - generic [ref=e94]: AR
+          - generic [ref=e95]:
+            - generic [ref=e96]: Alex Rivera
+            - generic [ref=e97]: May 5, 2026
+          - generic [ref=e98]: 4 min read
+      - generic [ref=e101]:
+        - generic [ref=e102]: Case Studies
+        - 'heading "From 3 Missed Calls to 3 Booked Jobs: A Case Study" [level=3] [ref=e103]'
+        - paragraph [ref=e104]: Aisha runs a one-person HVAC shop in Phoenix. In her first week with Ripe Lead, she converted three calls she would have completely missed into confirmed appointments.
+        - generic [ref=e105]:
+          - generic [ref=e106]: JO
+          - generic [ref=e107]:
+            - generic [ref=e108]: Jamie Okafor
+            - generic [ref=e109]: Apr 28, 2026
+          - generic [ref=e110]: 5 min read
+      - generic [ref=e113]:
+        - generic [ref=e114]: AI & Automation
+        - heading "How to Write an AI Voice That Sounds Like You" [level=3] [ref=e115]
+        - paragraph [ref=e116]: The difference between "I'm an AI assistant" and "Hey! It's Pacific Plumbing — sorry we missed you." This guide walks you through crafting a voice profile that sounds human.
+        - generic [ref=e117]:
+          - generic [ref=e118]: MC
+          - generic [ref=e119]:
+            - generic [ref=e120]: Marcus Chen
+            - generic [ref=e121]: Apr 21, 2026
+          - generic [ref=e122]: 6 min read
+      - generic [ref=e125]:
+        - generic [ref=e126]: Lead Generation
+        - 'heading "Instagram DMs vs SMS: Which Converts Better for Trades?" [level=3] [ref=e127]'
+        - paragraph [ref=e128]: We analyzed 40,000 conversations across both channels. The winner surprised us — and the margin was bigger than anyone expected.
+        - generic [ref=e129]:
+          - generic [ref=e130]: JO
+          - generic [ref=e131]:
+            - generic [ref=e132]: Jamie Okafor
+            - generic [ref=e133]: Apr 15, 2026
+          - generic [ref=e134]: 7 min read
+    - generic [ref=e136]:
+      - generic [ref=e137]: Newsletter
+      - heading "Get insights in your inbox" [level=2] [ref=e138]
+      - paragraph [ref=e139]: Weekly guides on AI, lead conversion, and growing a trades business. No fluff.
+      - generic [ref=e140]:
+        - textbox "your@email.com" [ref=e141]
+        - button "Subscribe" [ref=e142] [cursor=pointer]
+      - generic [ref=e143]: No spam. Unsubscribe anytime.
+    - contentinfo [ref=e144]:
+      - generic [ref=e145]:
+        - generic [ref=e146]:
+          - img [ref=e148]
+          - img [ref=e153]
+        - generic [ref=e155]:
+          - generic [ref=e156]: Ripe
+          - generic [ref=e157]: Lead
+      - generic [ref=e158]:
+        - link "Product" [ref=e159] [cursor=pointer]:
+          - /url: /product
+        - link "About Us" [ref=e160] [cursor=pointer]:
+          - /url: /about
+        - link "Blog" [ref=e161] [cursor=pointer]:
+          - /url: /blog
+        - link "Pricing" [ref=e162] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=e163]: © 2026 Ripe Lead, Inc.
+  - button "Open Next.js Dev Tools" [ref=e169] [cursor=pointer]:
+    - img [ref=e170]

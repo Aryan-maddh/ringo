@@ -1,0 +1,300 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ripe Lead" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - img [ref=e8]
+            - img [ref=e12]
+          - generic [ref=e14]:
+            - generic [ref=e15]: Ripe
+            - generic [ref=e16]: Lead
+      - button "Open menu" [ref=e17] [cursor=pointer]:
+        - img [ref=e18]
+    - generic [ref=e20]:
+      - heading "Simple pricing that scales with you" [level=1] [ref=e21]
+      - paragraph [ref=e22]: No setup fees. No long-term contracts. Cancel anytime.
+      - generic [ref=e23]:
+        - button "Monthly" [ref=e24] [cursor=pointer]
+        - button "Annual Save 20%" [ref=e25] [cursor=pointer]:
+          - text: Annual
+          - generic [ref=e26]: Save 20%
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]: Starter
+        - generic [ref=e31]: For solo operators
+        - generic [ref=e32]:
+          - generic [ref=e33]: $49
+          - generic [ref=e34]: / mo
+        - button "Inquiry Now" [ref=e35] [cursor=pointer]
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - img [ref=e39]
+            - text: 1 phone number
+          - generic [ref=e41]:
+            - img [ref=e43]
+            - text: SMS only
+          - generic [ref=e45]:
+            - img [ref=e47]
+            - text: 500 replies / month
+          - generic [ref=e49]:
+            - img [ref=e51]
+            - text: Basic analytics
+          - generic [ref=e53]:
+            - img [ref=e55]
+            - text: Spam guard
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - generic [ref=e60]: Pro
+          - generic [ref=e61]: MOST POPULAR
+        - generic [ref=e62]: For growing businesses
+        - generic [ref=e63]:
+          - generic [ref=e64]: $99
+          - generic [ref=e65]: / mo
+        - button "Inquiry Now" [ref=e66] [cursor=pointer]
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - img [ref=e70]
+            - text: 3 phone numbers
+          - generic [ref=e72]:
+            - img [ref=e74]
+            - text: SMS + WhatsApp + Instagram
+          - generic [ref=e76]:
+            - img [ref=e78]
+            - text: Unlimited replies
+          - generic [ref=e80]:
+            - img [ref=e82]
+            - text: Google Calendar + Jobber
+          - generic [ref=e84]:
+            - img [ref=e86]
+            - text: Team inbox · 5 seats
+          - generic [ref=e88]:
+            - img [ref=e90]
+            - text: Priority support
+      - generic [ref=e92]:
+        - generic [ref=e93]: Agency
+        - generic [ref=e94]: For multi-location teams
+        - generic [ref=e95]:
+          - generic [ref=e96]: $249
+          - generic [ref=e97]: / mo
+        - button "Contact sales" [ref=e98] [cursor=pointer]
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - img [ref=e102]
+            - text: 10 phone numbers
+          - generic [ref=e104]:
+            - img [ref=e106]
+            - text: All channels
+          - generic [ref=e108]:
+            - img [ref=e110]
+            - text: White-label branding
+          - generic [ref=e112]:
+            - img [ref=e114]
+            - text: Unlimited team inbox
+          - generic [ref=e116]:
+            - img [ref=e118]
+            - text: Dedicated onboarding
+          - generic [ref=e120]:
+            - img [ref=e122]
+            - text: API access
+    - generic [ref=e125]:
+      - heading "Compare plans" [level=2] [ref=e126]
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - generic [ref=e129]: Phone numbers
+          - generic [ref=e130]:
+            - text: Starter
+            - generic [ref=e131]: 1 number
+          - generic [ref=e132]:
+            - text: Pro
+            - generic [ref=e133]: 3 numbers
+          - generic [ref=e134]:
+            - text: Agency
+            - generic [ref=e135]: 10 numbers
+        - generic [ref=e136]:
+          - generic [ref=e137]: AI replies
+          - generic [ref=e138]:
+            - text: Starter
+            - generic [ref=e139]: 500 / month
+          - generic [ref=e140]:
+            - text: Pro
+            - generic [ref=e141]: Unlimited
+          - generic [ref=e142]:
+            - text: Agency
+            - generic [ref=e143]: Unlimited
+        - generic [ref=e144]:
+          - generic [ref=e145]: SMS
+          - generic [ref=e146]:
+            - text: Starter
+            - img [ref=e149]
+          - generic [ref=e151]:
+            - text: Pro
+            - img [ref=e154]
+          - generic [ref=e156]:
+            - text: Agency
+            - img [ref=e159]
+        - generic [ref=e161]:
+          - generic [ref=e162]: WhatsApp & Instagram
+          - generic [ref=e163]:
+            - text: Starter
+            - generic [ref=e164]: —
+          - generic [ref=e165]:
+            - text: Pro
+            - img [ref=e168]
+          - generic [ref=e170]:
+            - text: Agency
+            - img [ref=e173]
+        - generic [ref=e175]:
+          - generic [ref=e176]: Google Calendar sync
+          - generic [ref=e177]:
+            - text: Starter
+            - generic [ref=e178]: —
+          - generic [ref=e179]:
+            - text: Pro
+            - img [ref=e182]
+          - generic [ref=e184]:
+            - text: Agency
+            - img [ref=e187]
+        - generic [ref=e189]:
+          - generic [ref=e190]: White-label branding
+          - generic [ref=e191]:
+            - text: Starter
+            - generic [ref=e192]: —
+          - generic [ref=e193]:
+            - text: Pro
+            - generic [ref=e194]: —
+          - generic [ref=e195]:
+            - text: Agency
+            - img [ref=e198]
+        - generic [ref=e200]:
+          - generic [ref=e201]: API access
+          - generic [ref=e202]:
+            - text: Starter
+            - generic [ref=e203]: —
+          - generic [ref=e204]:
+            - text: Pro
+            - generic [ref=e205]: —
+          - generic [ref=e206]:
+            - text: Agency
+            - img [ref=e209]
+        - generic [ref=e211]:
+          - generic [ref=e212]: Dedicated onboarding
+          - generic [ref=e213]:
+            - text: Starter
+            - generic [ref=e214]: —
+          - generic [ref=e215]:
+            - text: Pro
+            - generic [ref=e216]: —
+          - generic [ref=e217]:
+            - text: Agency
+            - img [ref=e220]
+    - generic [ref=e222]:
+      - heading "Frequently asked questions" [level=2] [ref=e223]
+      - generic [ref=e224]:
+        - button "How do I get started?" [ref=e225] [cursor=pointer]:
+          - generic [ref=e226]: How do I get started?
+          - img [ref=e228]
+        - generic [ref=e230]: Submit an inquiry through the form on this site and our team will reach out within 24 hours. We'll walk you through setup, port your number if needed, and have you live the same day.
+      - button "Can I change plans?" [ref=e232] [cursor=pointer]:
+        - generic [ref=e233]: Can I change plans?
+        - img [ref=e235]
+      - button "What counts as a reply?" [ref=e238] [cursor=pointer]:
+        - generic [ref=e239]: What counts as a reply?
+        - img [ref=e241]
+      - button "Do you handle TCPA compliance?" [ref=e244] [cursor=pointer]:
+        - generic [ref=e245]: Do you handle TCPA compliance?
+        - img [ref=e247]
+      - button "What integrations are included?" [ref=e250] [cursor=pointer]:
+        - generic [ref=e251]: What integrations are included?
+        - img [ref=e253]
+    - generic [ref=e256]:
+      - generic [ref=e257]: Live in the same day
+      - heading "Ready to stop missing leads?" [level=2] [ref=e259]
+      - paragraph [ref=e260]: Tell us about your business and we'll have you live within 24 hours.
+      - button "Inquiry Now" [ref=e261] [cursor=pointer]:
+        - text: Inquiry Now
+        - img [ref=e262]
+      - generic [ref=e264]:
+        - generic [ref=e265]:
+          - img [ref=e266]
+          - text: Keep your number
+        - generic [ref=e268]:
+          - img [ref=e269]
+          - text: Cancel anytime
+        - generic [ref=e271]:
+          - img [ref=e272]
+          - text: Live in 4 min
+    - contentinfo [ref=e274]:
+      - generic [ref=e275]:
+        - generic [ref=e276]:
+          - generic [ref=e277]:
+            - generic [ref=e278]:
+              - img [ref=e280]
+              - img [ref=e284]
+            - generic [ref=e286]:
+              - generic [ref=e287]: Ripe
+              - generic [ref=e288]: Lead
+          - generic [ref=e289]: Missed-call autoresponder for plumbers, electricians, salons, and the rest of the builders of America.
+          - generic [ref=e290]:
+            - generic [ref=e291]: SOC 2 Type II
+            - generic [ref=e292]: TCPA · A2P 10DLC
+        - generic [ref=e293]:
+          - generic [ref=e294]: Product
+          - link "Features" [ref=e295] [cursor=pointer]:
+            - /url: "#"
+          - link "Pricing" [ref=e296] [cursor=pointer]:
+            - /url: "#"
+          - link "Integrations" [ref=e297] [cursor=pointer]:
+            - /url: "#"
+          - link "Changelog" [ref=e298] [cursor=pointer]:
+            - /url: "#"
+          - link "Status" [ref=e299] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e300]:
+          - generic [ref=e301]: Trades
+          - link "Plumbing" [ref=e302] [cursor=pointer]:
+            - /url: "#"
+          - link "Electrical" [ref=e303] [cursor=pointer]:
+            - /url: "#"
+          - link "HVAC" [ref=e304] [cursor=pointer]:
+            - /url: "#"
+          - link "Salons" [ref=e305] [cursor=pointer]:
+            - /url: "#"
+          - link "Cleaning" [ref=e306] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e307]:
+          - generic [ref=e308]: Company
+          - link "About" [ref=e309] [cursor=pointer]:
+            - /url: "#"
+          - link "Customers" [ref=e310] [cursor=pointer]:
+            - /url: "#"
+          - link "Careers" [ref=e311] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact" [ref=e312] [cursor=pointer]:
+            - /url: "#"
+          - link "Press" [ref=e313] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e314]:
+          - generic [ref=e315]: Resources
+          - link "Docs" [ref=e316] [cursor=pointer]:
+            - /url: "#"
+          - link "API" [ref=e317] [cursor=pointer]:
+            - /url: "#"
+          - link "Compliance" [ref=e318] [cursor=pointer]:
+            - /url: "#"
+          - link "Playbook" [ref=e319] [cursor=pointer]:
+            - /url: "#"
+          - link "Help center" [ref=e320] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e321]:
+        - generic [ref=e322]: © 2026 Ripe Lead, Inc. · 548 Market St, San Francisco
+        - generic [ref=e323]:
+          - link "Privacy" [ref=e324] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms" [ref=e325] [cursor=pointer]:
+            - /url: "#"
+          - link "DPA" [ref=e326] [cursor=pointer]:
+            - /url: "#"
+  - button "Open Next.js Dev Tools" [ref=e332] [cursor=pointer]:
+    - img [ref=e333]

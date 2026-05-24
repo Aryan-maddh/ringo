@@ -1,0 +1,220 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ripe Lead" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - img [ref=e8]
+            - img [ref=e13]
+          - generic [ref=e15]:
+            - generic [ref=e16]: Ripe
+            - generic [ref=e17]: Lead
+      - generic [ref=e18]:
+        - link "Product" [ref=e19] [cursor=pointer]:
+          - /url: /product
+        - link "About Us" [ref=e20] [cursor=pointer]:
+          - /url: /about
+        - link "Blog" [ref=e21] [cursor=pointer]:
+          - /url: /blog
+        - link "Pricing" [ref=e22] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=e23]:
+        - link "Sign in" [ref=e24] [cursor=pointer]:
+          - /url: /login
+        - link "Start free" [ref=e25] [cursor=pointer]:
+          - /url: /onboarding
+          - text: Start free
+          - img [ref=e26]
+    - generic [ref=e29]:
+      - heading "Simple, honest pricing" [level=1] [ref=e30]
+      - paragraph [ref=e31]: No setup fees. No contracts. Cancel anytime.
+      - generic [ref=e32]:
+        - button "Monthly" [ref=e33] [cursor=pointer]
+        - button "Annual Save 20%" [ref=e34] [cursor=pointer]:
+          - text: Annual
+          - generic [ref=e35]: Save 20%
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]: Starter
+        - generic [ref=e40]: For solo operators
+        - generic [ref=e41]:
+          - generic [ref=e42]: $49
+          - generic [ref=e43]: / mo
+        - link "Start free" [ref=e44] [cursor=pointer]:
+          - /url: /onboarding
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - img [ref=e47]
+            - text: 1 phone number
+          - generic [ref=e50]:
+            - img [ref=e51]
+            - text: SMS only
+          - generic [ref=e54]:
+            - img [ref=e55]
+            - text: 500 replies / month
+          - generic [ref=e58]:
+            - img [ref=e59]
+            - text: Basic analytics
+          - generic [ref=e62]:
+            - img [ref=e63]
+            - text: Spam guard
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - generic [ref=e70]: Pro
+          - generic [ref=e71]: Most popular
+        - generic [ref=e72]: For growing businesses
+        - generic [ref=e73]:
+          - generic [ref=e74]: $99
+          - generic [ref=e75]: / mo
+        - link "Start free trial" [ref=e76] [cursor=pointer]:
+          - /url: /onboarding
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - img [ref=e79]
+            - text: 3 phone numbers
+          - generic [ref=e82]:
+            - img [ref=e83]
+            - text: SMS + WhatsApp + Instagram
+          - generic [ref=e86]:
+            - img [ref=e87]
+            - text: Unlimited replies
+          - generic [ref=e90]:
+            - img [ref=e91]
+            - text: Google Calendar integration
+          - generic [ref=e94]:
+            - img [ref=e95]
+            - text: Priority support
+      - generic [ref=e98]:
+        - generic [ref=e99]: Agency
+        - generic [ref=e100]: For multi-location teams
+        - generic [ref=e101]:
+          - generic [ref=e102]: $249
+          - generic [ref=e103]: / mo
+        - link "Contact sales" [ref=e104] [cursor=pointer]:
+          - /url: "#"
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - img [ref=e107]
+            - text: 10 phone numbers
+          - generic [ref=e110]:
+            - img [ref=e111]
+            - text: All channels
+          - generic [ref=e114]:
+            - img [ref=e115]
+            - text: White-label branding
+          - generic [ref=e118]:
+            - img [ref=e119]
+            - text: Team inbox
+          - generic [ref=e122]:
+            - img [ref=e123]
+            - text: Dedicated onboarding
+          - generic [ref=e126]:
+            - img [ref=e127]
+            - text: API access
+    - generic [ref=e131]:
+      - heading "Compare plans" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - generic [ref=e135]: Feature
+          - generic [ref=e136]: Starter
+          - generic [ref=e137]: Pro
+          - generic [ref=e138]: Agency
+        - generic [ref=e139]:
+          - generic [ref=e140]: Phone numbers
+          - generic [ref=e142]: 1 number
+          - generic [ref=e144]: 3 numbers
+          - generic [ref=e146]: 10 numbers
+        - generic [ref=e147]:
+          - generic [ref=e148]: AI replies
+          - generic [ref=e150]: 500 / month
+          - generic [ref=e152]: Unlimited
+          - generic [ref=e154]: Unlimited
+        - generic [ref=e155]:
+          - generic [ref=e156]: SMS
+          - img [ref=e158]
+          - img [ref=e162]
+          - img [ref=e166]
+        - generic [ref=e169]:
+          - generic [ref=e170]: WhatsApp & Instagram
+          - img [ref=e172]
+          - img [ref=e176]
+          - img [ref=e180]
+        - generic [ref=e183]:
+          - generic [ref=e184]: Google Calendar sync
+          - img [ref=e186]
+          - img [ref=e190]
+          - img [ref=e194]
+        - generic [ref=e197]:
+          - generic [ref=e198]: White-label branding
+          - img [ref=e200]
+          - img [ref=e204]
+          - img [ref=e208]
+        - generic [ref=e211]:
+          - generic [ref=e212]: API access
+          - img [ref=e214]
+          - img [ref=e218]
+          - img [ref=e222]
+        - generic [ref=e225]:
+          - generic [ref=e226]: Dedicated onboarding
+          - img [ref=e228]
+          - img [ref=e232]
+          - img [ref=e236]
+    - generic [ref=e239]:
+      - heading "Frequently asked questions" [level=2] [ref=e240]
+      - generic [ref=e241]:
+        - generic [ref=e242]:
+          - button "Is there a free trial?" [ref=e243] [cursor=pointer]:
+            - generic [ref=e244]: Is there a free trial?
+            - img [ref=e246]
+          - generic [ref=e248]: Yes — every plan comes with a 7-day free trial, no credit card required. You can set up Ripe Lead, try it on real conversations, and only pay if you decide to continue.
+        - button "Can I change plans?" [ref=e250] [cursor=pointer]:
+          - generic [ref=e251]: Can I change plans?
+          - img [ref=e253]
+        - button "What counts as a reply?" [ref=e256] [cursor=pointer]:
+          - generic [ref=e257]: What counts as a reply?
+          - img [ref=e259]
+        - button "Do you handle TCPA compliance?" [ref=e262] [cursor=pointer]:
+          - generic [ref=e263]: Do you handle TCPA compliance?
+          - img [ref=e265]
+        - button "What integrations are included?" [ref=e268] [cursor=pointer]:
+          - generic [ref=e269]: What integrations are included?
+          - img [ref=e271]
+    - generic [ref=e274]:
+      - generic [ref=e275]: 7-day free trial
+      - heading "Start your free 7-day trial" [level=2] [ref=e277]
+      - paragraph [ref=e278]: No credit card required. No contracts. Set up in 4 minutes.
+      - link "Get started free" [ref=e279] [cursor=pointer]:
+        - /url: /onboarding
+        - text: Get started free
+        - img [ref=e280]
+      - generic [ref=e282]:
+        - generic [ref=e283]:
+          - img [ref=e284]
+          - text: No credit card
+        - generic [ref=e286]:
+          - img [ref=e287]
+          - text: Cancel anytime
+        - generic [ref=e289]:
+          - img [ref=e290]
+          - text: Free 7-day trial
+    - contentinfo [ref=e292]:
+      - generic [ref=e293]:
+        - generic [ref=e294]:
+          - img [ref=e296]
+          - img [ref=e301]
+        - generic [ref=e303]:
+          - generic [ref=e304]: Ripe
+          - generic [ref=e305]: Lead
+      - generic [ref=e306]:
+        - link "Product" [ref=e307] [cursor=pointer]:
+          - /url: /product
+        - link "About Us" [ref=e308] [cursor=pointer]:
+          - /url: /about
+        - link "Blog" [ref=e309] [cursor=pointer]:
+          - /url: /blog
+        - link "Pricing" [ref=e310] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=e311]: © 2026 Ripe Lead, Inc.
+  - button "Open Next.js Dev Tools" [ref=e317] [cursor=pointer]:
+    - img [ref=e318]
