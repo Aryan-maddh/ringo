@@ -1,0 +1,1022 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e4]:
+    - link [ref=e6] [cursor=pointer]:
+      - /url: /
+      - img [ref=e7]
+    - navigation [ref=e16]:
+      - list [ref=e17]:
+        - listitem [ref=e18]:
+          - generic [ref=e20] [cursor=pointer]: Business Types
+        - listitem [ref=e21]:
+          - generic [ref=e23] [cursor=pointer]: Solutions
+        - listitem [ref=e24]:
+          - link "Pricing" [ref=e25] [cursor=pointer]:
+            - /url: /getpricing/
+            - generic [ref=e26]: Pricing
+        - listitem [ref=e27]:
+          - generic [ref=e29] [cursor=pointer]: Resources
+      - generic [ref=e30]:
+        - 'link "Sales: 1-801-438-4425" [ref=e31] [cursor=pointer]':
+          - /url: tel:18014384425
+        - link "Sign in" [ref=e32] [cursor=pointer]:
+          - /url: https://auth.podium.com
+        - link "Get a demo" [ref=e33] [cursor=pointer]:
+          - /url: /watch-demo
+  - main [ref=e34]:
+    - paragraph [ref=e35]: "Select your industry:"
+    - generic [ref=e36]:
+      - generic [ref=e39]:
+        - link "All" [ref=e40] [cursor=pointer]:
+          - /url: /
+        - link "Auto" [ref=e41] [cursor=pointer]:
+          - /url: /experience/auto
+        - link "Aesthetics & Wellness" [ref=e42] [cursor=pointer]:
+          - /url: /experience/wellness
+        - link "Home Services" [ref=e43] [cursor=pointer]:
+          - /url: /experience/home_services
+        - link "Retail" [ref=e44] [cursor=pointer]:
+          - /url: /experience/retail
+      - generic [ref=e46]:
+        - generic [ref=e48]:
+          - heading "AI that converts leads and makes you money." [level=1] [ref=e49]
+          - paragraph [ref=e50]: An AI Employee that puts in the work 24/7, turning leads into loyal customers and messages into revenue—around the clock.
+          - generic [ref=e51]:
+            - link "Watch a demo" [ref=e55] [cursor=pointer]:
+              - /url: /watch-demo/home/
+              - text: Watch a demo
+              - img [ref=e57]
+            - generic:
+              - generic:
+                - img
+        - img [ref=e67] [cursor=pointer]
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - paragraph [ref=e72]: Podium's AI Solution
+            - heading "What Podium AI can do for you." [level=2] [ref=e73]
+            - paragraph [ref=e74]: Podium’s AI is built to talk to more leads, set more appointments, and follow up for your business with little oversight.
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - button "Capture every lead. Capture every lead." [ref=e79] [cursor=pointer]:
+                - generic [ref=e80]:
+                  - img "Capture every lead." [ref=e83]
+                  - generic [ref=e84]: Capture every lead.
+                - img [ref=e85]
+              - generic [ref=e88]: Never miss a lead again—see every call, text, website chat, review, and third-party app message—all from a consolidated inbox.
+            - generic [ref=e89]:
+              - button "Convert more leads. Convert more leads." [ref=e90] [cursor=pointer]:
+                - generic [ref=e91]:
+                  - img "Convert more leads." [ref=e94]
+                  - generic [ref=e95]: Convert more leads.
+                - img [ref=e96]
+              - generic [ref=e99]: Podium AI responds to leads in <1 minute to boost your chance of a sale by >45%. Help your customers immediately, accurately, and 24/7.
+            - generic [ref=e100]:
+              - button "Drive repeat business. Drive repeat business." [ref=e101] [cursor=pointer]:
+                - generic [ref=e102]:
+                  - img "Drive repeat business." [ref=e105]
+                  - generic [ref=e106]: Drive repeat business.
+                - img [ref=e107]
+              - generic [ref=e110]: Let AI put in the work to drive repeat sales. Our AI Employee proactively follows up with customers at the right time to guide them to a sale.
+            - generic [ref=e111]:
+              - button "Get found. Get chosen. Get found. Get chosen." [ref=e112] [cursor=pointer]:
+                - generic [ref=e113]:
+                  - img "Get found. Get chosen." [ref=e116]
+                  - generic [ref=e117]: Get found. Get chosen.
+                - img [ref=e118]
+              - generic [ref=e121]: More reviews = more business. Our AI requests reviews after each sale and responds to customers on review sites, helping you rank high on Google.
+          - link "Get a demo" [ref=e123] [cursor=pointer]:
+            - /url: /watch-demo/home
+        - generic [ref=e124]:
+          - img [ref=e126]
+          - generic [ref=e130]: AI Employee
+          - generic [ref=e131]: Expand your team exponentially with Podium's AI Employee
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - img "Boosts your sales" [ref=e135]
+              - img "Knows your industry" [ref=e136]
+              - img "Sets up quickly" [ref=e137]
+            - generic [ref=e138]:
+              - heading "Boosts your sales" [level=4] [ref=e139]
+              - heading "Knows your industry" [level=4] [ref=e140]
+              - heading "Sets up quickly" [level=4] [ref=e141]
+            - generic [ref=e142]:
+              - paragraph [ref=e143]: Focused on customer satisfaction and driving sales, our AI Employee increases your bottom line by up to 30%.
+              - paragraph [ref=e144]: Pre-trained on 10+ years of industry expertise, our AI Employee boosts customer engagement rates by 24%.
+              - paragraph [ref=e145]: Customized to your policies and services, our AI Employee is easy to set up, tailored to your needs by our experts and your guidance.
+            - generic [ref=e146] [cursor=pointer]:
+              - link "Learn more" [ref=e147]:
+                - /url: /product/ai-employee
+                - text: Learn more
+                - img [ref=e148]
+              - link "Learn more" [ref=e150]:
+                - /url: /product/ai-employee
+                - text: Learn more
+                - img [ref=e151]
+              - link "Learn more" [ref=e153]:
+                - /url: /product/ai-employee
+                - text: Learn more
+                - img [ref=e154]
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - paragraph [ref=e164]: Named "Best agentic AI Software"
+            - paragraph [ref=e165]: See why Podium is G2's clear choice for local business agents.
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - img "Star" [ref=e169]
+                - img "Star" [ref=e171]
+                - img "Star" [ref=e173]
+                - img "Star" [ref=e175]
+                - img "Star" [ref=e177]
+              - paragraph [ref=e178]: 4.6 out of 5 stars | ~2000 reviews on G2
+            - link "Watch the demo" [ref=e179] [cursor=pointer]:
+              - /url: /watch-demo/home
+          - 'img "G2 badges: Best Software 2026 — Top 50 Agentic AI Products, Top 50 Customer Service Products" [ref=e181]'
+        - generic [ref=e182]:
+          - generic [ref=e183]:
+            - paragraph [ref=e184]: Grow with us
+            - heading "Over 100,000 businesses trust Podium." [level=2] [ref=e185]:
+              - generic [ref=e186]:
+                - text: Over 100,000 businesses
+                - text: trust Podium.
+          - generic [ref=e188]:
+            - generic [ref=e189]:
+              - generic [ref=e190]:
+                - generic [ref=e192]:
+                  - text: “[Our AI Employee] is
+                  - strong [ref=e194]: excellent.
+                  - text: We were going to hire a customer service rep, but now we don't have to.”
+                - generic [ref=e195]:
+                  - generic [ref=e196]: Gannon Kennedy
+                  - generic [ref=e197]: Epione
+              - generic [ref=e198]:
+                - generic [ref=e201]:
+                  - text: “
+                  - strong [ref=e203]: Podium AI has 2x’d our lead response
+                  - text: and lead closing rates.”
+                - generic [ref=e204]:
+                  - generic [ref=e205]: Ben Johnson, Internet and Marketing Director
+                  - generic [ref=e206]: Stuart Powell Ford Mazda
+            - generic [ref=e207]:
+              - generic [ref=e208]:
+                - generic [ref=e209]:
+                  - generic [ref=e210]: 72%
+                  - generic [ref=e212]:
+                    - text: "\"Amount Podium’s AI has cut their median response time, from over 5 minutes to"
+                    - strong [ref=e214]: under 2 minutes.
+                    - text: ”
+                - generic [ref=e216]: Auto companies using Podium
+              - generic [ref=e217]:
+                - generic [ref=e219]:
+                  - text: “The AI Employee can start and end the conversation and
+                  - strong [ref=e221]: actually book an appointment
+                  - text: into ServiceTitan. It's doing almost all of the work.”
+                - generic [ref=e222]:
+                  - generic [ref=e223]: Reed Borton, Owner/President
+                  - generic [ref=e224]: Premier Heating and Air
+        - generic [ref=e225]:
+          - generic [ref=e227]:
+            - generic [ref=e228]:
+              - generic [ref=e230] [cursor=pointer]:
+                - img "Dustin Marriot" [ref=e231]
+                - generic [ref=e233]:
+                  - generic [ref=e234]: Auto OEM
+                  - generic [ref=e235]:
+                    - generic [ref=e236]:
+                      - text: Play
+                      - img [ref=e238]
+                    - generic [ref=e240]: Dustin Marriot
+                    - generic [ref=e241]: Nate Wade Subaru
+              - generic [ref=e243] [cursor=pointer]:
+                - img "Tyson Brown" [ref=e244]
+                - generic [ref=e246]:
+                  - generic [ref=e247]: Auto
+                  - generic [ref=e248]:
+                    - generic [ref=e249]:
+                      - text: Play
+                      - img [ref=e251]
+                    - generic [ref=e253]: Tyson Brown
+                    - generic [ref=e254]: Quick Fix Auto Glass
+              - generic [ref=e256] [cursor=pointer]:
+                - img "Josh Stegman" [ref=e257]
+                - generic [ref=e259]:
+                  - generic [ref=e260]: Auto OEM
+                  - generic [ref=e261]:
+                    - generic [ref=e262]:
+                      - text: Play
+                      - img [ref=e264]
+                    - generic [ref=e266]: Josh Stegman
+                    - generic [ref=e267]: Ron Hodgson Chevrolet Buick GMC
+              - generic [ref=e269] [cursor=pointer]:
+                - img "Rob Morgan" [ref=e270]
+                - generic [ref=e272]:
+                  - generic [ref=e273]: Auto OEM
+                  - generic [ref=e274]:
+                    - generic [ref=e275]:
+                      - text: Play
+                      - img [ref=e277]
+                    - generic [ref=e279]: Rob Morgan
+                    - generic [ref=e280]: Monarch Honda
+              - generic [ref=e282] [cursor=pointer]:
+                - img "Tina Tasche" [ref=e283]
+                - generic [ref=e285]:
+                  - generic [ref=e286]: Auto OEM
+                  - generic [ref=e287]:
+                    - generic [ref=e288]:
+                      - text: Play
+                      - img [ref=e290]
+                    - generic [ref=e292]: Tina Tasche
+                    - generic [ref=e293]: Van Horn Auto Group
+              - generic [ref=e295] [cursor=pointer]:
+                - img "Amir Alahwal" [ref=e296]
+                - generic [ref=e298]:
+                  - generic [ref=e299]: Auto OEM
+                  - generic [ref=e300]:
+                    - generic [ref=e301]:
+                      - text: Play
+                      - img [ref=e303]
+                    - generic [ref=e305]: Amir Alahwal
+                    - generic [ref=e306]: Unstoppable Auto Group
+              - generic [ref=e308] [cursor=pointer]:
+                - img "Amber Damico" [ref=e309]
+                - generic [ref=e311]:
+                  - generic [ref=e312]: Auto OEM
+                  - generic [ref=e313]:
+                    - generic [ref=e314]:
+                      - text: Play
+                      - img [ref=e316]
+                    - generic [ref=e318]: Amber Damico
+                    - generic [ref=e319]: BCS Auto Sales
+              - generic [ref=e321] [cursor=pointer]:
+                - img "Alex Lawrence" [ref=e322]
+                - generic [ref=e324]:
+                  - generic [ref=e325]: Auto OEM
+                  - generic [ref=e326]:
+                    - generic [ref=e327]:
+                      - text: Play
+                      - img [ref=e329]
+                    - generic [ref=e331]: Alex Lawrence
+                    - generic [ref=e332]: EV Auto
+              - generic [ref=e334] [cursor=pointer]:
+                - img "Chuck Shwan" [ref=e335]
+                - generic [ref=e337]:
+                  - generic [ref=e338]: Auto OEM
+                  - generic [ref=e339]:
+                    - generic [ref=e340]:
+                      - text: Play
+                      - img [ref=e342]
+                    - generic [ref=e344]: Chuck Shwan
+                    - generic [ref=e345]: Muscatell Automotive
+              - generic [ref=e347] [cursor=pointer]:
+                - img "Jason Harris" [ref=e348]
+                - generic [ref=e350]:
+                  - generic [ref=e351]: Auto OEM
+                  - generic [ref=e352]:
+                    - generic [ref=e353]:
+                      - text: Play
+                      - img [ref=e355]
+                    - generic [ref=e357]: Jason Harris
+                    - generic [ref=e358]: The Strategy with Jason
+              - generic [ref=e360] [cursor=pointer]:
+                - img "Erica Estes" [ref=e361]
+                - generic [ref=e363]:
+                  - generic [ref=e364]: HVAC
+                  - generic [ref=e365]:
+                    - generic [ref=e366]:
+                      - text: Play
+                      - img [ref=e368]
+                    - generic [ref=e370]: Erica Estes
+                    - generic [ref=e371]: Southern Heating & Cooling
+              - generic [ref=e373] [cursor=pointer]:
+                - img "Reed Borton" [ref=e374]
+                - generic [ref=e376]:
+                  - generic [ref=e377]: HVAC
+                  - generic [ref=e378]:
+                    - generic [ref=e379]:
+                      - text: Play
+                      - img [ref=e381]
+                    - generic [ref=e383]: Reed Borton
+                    - generic [ref=e384]: Premier Air Colorado
+              - generic [ref=e386] [cursor=pointer]:
+                - img "Devron Larson" [ref=e387]
+                - generic [ref=e389]:
+                  - generic [ref=e390]: Home Services
+                  - generic [ref=e391]:
+                    - generic [ref=e392]:
+                      - text: Play
+                      - img [ref=e394]
+                    - generic [ref=e396]: Devron Larson
+                    - generic [ref=e397]: Power Plus Cleaning
+              - generic [ref=e399] [cursor=pointer]:
+                - img "Kellie Waldron" [ref=e400]
+                - generic [ref=e402]:
+                  - generic [ref=e403]: HVAC
+                  - generic [ref=e404]:
+                    - generic [ref=e405]:
+                      - text: Play
+                      - img [ref=e407]
+                    - generic [ref=e409]: Kellie Waldron
+                    - generic [ref=e410]: AllSeasons HVAC/R LLC
+              - generic [ref=e412] [cursor=pointer]:
+                - img "Morganne" [ref=e413]
+                - generic [ref=e415]:
+                  - generic [ref=e416]: Home Service
+                  - generic [ref=e417]:
+                    - generic [ref=e418]:
+                      - text: Play
+                      - img [ref=e420]
+                    - generic [ref=e422]: Morganne
+                    - generic [ref=e423]: EZ Flow Plumbing
+              - generic [ref=e425] [cursor=pointer]:
+                - img "Crissy Russo" [ref=e426]
+                - generic [ref=e428]:
+                  - generic [ref=e429]: Home Service
+                  - generic [ref=e430]:
+                    - generic [ref=e431]:
+                      - text: Play
+                      - img [ref=e433]
+                    - generic [ref=e435]: Crissy Russo
+                    - generic [ref=e436]: Junk King
+              - generic [ref=e438] [cursor=pointer]:
+                - img "Jessica Hansen" [ref=e439]
+                - generic [ref=e441]:
+                  - generic [ref=e442]: Jewelry
+                  - generic [ref=e443]:
+                    - generic [ref=e444]:
+                      - text: Play
+                      - img [ref=e446]
+                    - generic [ref=e448]: Jessica Hansen
+                    - generic [ref=e449]: Wilson's Jewelry
+              - generic [ref=e451] [cursor=pointer]:
+                - img "Kelly Christal" [ref=e452]
+                - generic [ref=e454]:
+                  - generic [ref=e455]: Furniture
+                  - generic [ref=e456]:
+                    - generic [ref=e457]:
+                      - text: Play
+                      - img [ref=e459]
+                    - generic [ref=e461]: Kelly Christal
+                    - generic [ref=e462]: Dakota Mattress
+              - generic [ref=e464] [cursor=pointer]:
+                - img "Mark Kinsley" [ref=e465]
+                - generic [ref=e467]:
+                  - generic [ref=e468]: Retail
+                  - generic [ref=e469]:
+                    - generic [ref=e470]:
+                      - text: Play
+                      - img [ref=e472]
+                    - generic [ref=e474]: Mark Kinsley
+                    - generic [ref=e475]: The FAM
+              - generic [ref=e477] [cursor=pointer]:
+                - img "Brian Morgan" [ref=e478]
+                - generic [ref=e480]:
+                  - generic [ref=e481]: Furniture
+                  - generic [ref=e482]:
+                    - generic [ref=e483]:
+                      - text: Play
+                      - img [ref=e485]
+                    - generic [ref=e487]: Brian Morgan
+                    - generic [ref=e488]: Couch Potatoes
+              - generic [ref=e490] [cursor=pointer]:
+                - img "Jay Villegas" [ref=e491]
+                - generic [ref=e493]:
+                  - generic [ref=e494]: HVAC
+                  - generic [ref=e495]:
+                    - generic [ref=e496]:
+                      - text: Play
+                      - img [ref=e498]
+                    - generic [ref=e500]: Jay Villegas
+                    - generic [ref=e501]: Frontier Air
+              - generic [ref=e503] [cursor=pointer]:
+                - img "Kyle Farr" [ref=e504]
+                - generic [ref=e506]:
+                  - generic [ref=e507]: Medspa
+                  - generic [ref=e508]:
+                    - generic [ref=e509]:
+                      - text: Play
+                      - img [ref=e511]
+                    - generic [ref=e513]: Kyle Farr
+                    - generic [ref=e514]: Kyle Farr Aesthetics
+              - generic [ref=e516] [cursor=pointer]:
+                - img "Tarik Elmas" [ref=e517]
+                - generic [ref=e519]:
+                  - generic [ref=e520]: Medspa
+                  - generic [ref=e521]:
+                    - generic [ref=e522]:
+                      - text: Play
+                      - img [ref=e524]
+                    - generic [ref=e526]: Tarik Elmas
+                    - generic [ref=e527]: Tinytox Collab
+              - generic [ref=e529] [cursor=pointer]:
+                - img "Abigail Fraher" [ref=e530]
+                - generic [ref=e532]:
+                  - generic [ref=e533]: Medspa
+                  - generic [ref=e534]:
+                    - generic [ref=e535]:
+                      - text: Play
+                      - img [ref=e537]
+                    - generic [ref=e539]: Abigail Fraher
+                    - generic [ref=e540]: Kate Somerville
+              - generic [ref=e542] [cursor=pointer]:
+                - img "Lisa" [ref=e543]
+                - generic [ref=e545]:
+                  - generic [ref=e546]: Medspa
+                  - generic [ref=e547]:
+                    - generic [ref=e548]:
+                      - text: Play
+                      - img [ref=e550]
+                    - generic [ref=e552]: Lisa
+                    - generic [ref=e553]: SkinBoss
+              - generic [ref=e555] [cursor=pointer]:
+                - img "Cortney Hall" [ref=e556]
+                - generic [ref=e558]:
+                  - generic [ref=e559]: Medspa
+                  - generic [ref=e560]:
+                    - generic [ref=e561]:
+                      - text: Play
+                      - img [ref=e563]
+                    - generic [ref=e565]: Cortney Hall
+                    - generic [ref=e566]: Imago Medspa
+              - generic [ref=e568] [cursor=pointer]:
+                - img "Jennifer Welch" [ref=e569]
+                - generic [ref=e571]:
+                  - generic [ref=e572]: Services
+                  - generic [ref=e573]:
+                    - generic [ref=e574]:
+                      - text: Play
+                      - img [ref=e576]
+                    - generic [ref=e578]: Jennifer Welch
+                    - generic [ref=e579]: Shire Marketing
+            - generic [ref=e580]:
+              - generic [ref=e582] [cursor=pointer]:
+                - img "Dustin Marriot" [ref=e583]
+                - generic [ref=e585]:
+                  - generic [ref=e586]: Auto OEM
+                  - generic [ref=e587]:
+                    - generic [ref=e588]:
+                      - text: Play
+                      - img [ref=e590]
+                    - generic [ref=e592]: Dustin Marriot
+                    - generic [ref=e593]: Nate Wade Subaru
+              - generic [ref=e595] [cursor=pointer]:
+                - img "Tyson Brown" [ref=e596]
+                - generic [ref=e598]:
+                  - generic [ref=e599]: Auto
+                  - generic [ref=e600]:
+                    - generic [ref=e601]:
+                      - text: Play
+                      - img [ref=e603]
+                    - generic [ref=e605]: Tyson Brown
+                    - generic [ref=e606]: Quick Fix Auto Glass
+              - generic [ref=e608] [cursor=pointer]:
+                - img "Josh Stegman" [ref=e609]
+                - generic [ref=e611]:
+                  - generic [ref=e612]: Auto OEM
+                  - generic [ref=e613]:
+                    - generic [ref=e614]:
+                      - text: Play
+                      - img [ref=e616]
+                    - generic [ref=e618]: Josh Stegman
+                    - generic [ref=e619]: Ron Hodgson Chevrolet Buick GMC
+              - generic [ref=e621] [cursor=pointer]:
+                - img "Rob Morgan" [ref=e622]
+                - generic [ref=e624]:
+                  - generic [ref=e625]: Auto OEM
+                  - generic [ref=e626]:
+                    - generic [ref=e627]:
+                      - text: Play
+                      - img [ref=e629]
+                    - generic [ref=e631]: Rob Morgan
+                    - generic [ref=e632]: Monarch Honda
+              - generic [ref=e634] [cursor=pointer]:
+                - img "Tina Tasche" [ref=e635]
+                - generic [ref=e637]:
+                  - generic [ref=e638]: Auto OEM
+                  - generic [ref=e639]:
+                    - generic [ref=e640]:
+                      - text: Play
+                      - img [ref=e642]
+                    - generic [ref=e644]: Tina Tasche
+                    - generic [ref=e645]: Van Horn Auto Group
+              - generic [ref=e647] [cursor=pointer]:
+                - img "Amir Alahwal" [ref=e648]
+                - generic [ref=e650]:
+                  - generic [ref=e651]: Auto OEM
+                  - generic [ref=e652]:
+                    - generic [ref=e653]:
+                      - text: Play
+                      - img [ref=e655]
+                    - generic [ref=e657]: Amir Alahwal
+                    - generic [ref=e658]: Unstoppable Auto Group
+              - generic [ref=e660] [cursor=pointer]:
+                - img "Amber Damico" [ref=e661]
+                - generic [ref=e663]:
+                  - generic [ref=e664]: Auto OEM
+                  - generic [ref=e665]:
+                    - generic [ref=e666]:
+                      - text: Play
+                      - img [ref=e668]
+                    - generic [ref=e670]: Amber Damico
+                    - generic [ref=e671]: BCS Auto Sales
+              - generic [ref=e673] [cursor=pointer]:
+                - img "Alex Lawrence" [ref=e674]
+                - generic [ref=e676]:
+                  - generic [ref=e677]: Auto OEM
+                  - generic [ref=e678]:
+                    - generic [ref=e679]:
+                      - text: Play
+                      - img [ref=e681]
+                    - generic [ref=e683]: Alex Lawrence
+                    - generic [ref=e684]: EV Auto
+              - generic [ref=e686] [cursor=pointer]:
+                - img "Chuck Shwan" [ref=e687]
+                - generic [ref=e689]:
+                  - generic [ref=e690]: Auto OEM
+                  - generic [ref=e691]:
+                    - generic [ref=e692]:
+                      - text: Play
+                      - img [ref=e694]
+                    - generic [ref=e696]: Chuck Shwan
+                    - generic [ref=e697]: Muscatell Automotive
+              - generic [ref=e699] [cursor=pointer]:
+                - img "Jason Harris" [ref=e700]
+                - generic [ref=e702]:
+                  - generic [ref=e703]: Auto OEM
+                  - generic [ref=e704]:
+                    - generic [ref=e705]:
+                      - text: Play
+                      - img [ref=e707]
+                    - generic [ref=e709]: Jason Harris
+                    - generic [ref=e710]: The Strategy with Jason
+              - generic [ref=e712] [cursor=pointer]:
+                - img "Erica Estes" [ref=e713]
+                - generic [ref=e715]:
+                  - generic [ref=e716]: HVAC
+                  - generic [ref=e717]:
+                    - generic [ref=e718]:
+                      - text: Play
+                      - img [ref=e720]
+                    - generic [ref=e722]: Erica Estes
+                    - generic [ref=e723]: Southern Heating & Cooling
+              - generic [ref=e725] [cursor=pointer]:
+                - img "Reed Borton" [ref=e726]
+                - generic [ref=e728]:
+                  - generic [ref=e729]: HVAC
+                  - generic [ref=e730]:
+                    - generic [ref=e731]:
+                      - text: Play
+                      - img [ref=e733]
+                    - generic [ref=e735]: Reed Borton
+                    - generic [ref=e736]: Premier Air Colorado
+              - generic [ref=e738] [cursor=pointer]:
+                - img "Devron Larson" [ref=e739]
+                - generic [ref=e741]:
+                  - generic [ref=e742]: Home Services
+                  - generic [ref=e743]:
+                    - generic [ref=e744]:
+                      - text: Play
+                      - img [ref=e746]
+                    - generic [ref=e748]: Devron Larson
+                    - generic [ref=e749]: Power Plus Cleaning
+              - generic [ref=e751] [cursor=pointer]:
+                - img "Kellie Waldron" [ref=e752]
+                - generic [ref=e754]:
+                  - generic [ref=e755]: HVAC
+                  - generic [ref=e756]:
+                    - generic [ref=e757]:
+                      - text: Play
+                      - img [ref=e759]
+                    - generic [ref=e761]: Kellie Waldron
+                    - generic [ref=e762]: AllSeasons HVAC/R LLC
+              - generic [ref=e764] [cursor=pointer]:
+                - img "Morganne" [ref=e765]
+                - generic [ref=e767]:
+                  - generic [ref=e768]: Home Service
+                  - generic [ref=e769]:
+                    - generic [ref=e770]:
+                      - text: Play
+                      - img [ref=e772]
+                    - generic [ref=e774]: Morganne
+                    - generic [ref=e775]: EZ Flow Plumbing
+              - generic [ref=e777] [cursor=pointer]:
+                - img "Crissy Russo" [ref=e778]
+                - generic [ref=e780]:
+                  - generic [ref=e781]: Home Service
+                  - generic [ref=e782]:
+                    - generic [ref=e783]:
+                      - text: Play
+                      - img [ref=e785]
+                    - generic [ref=e787]: Crissy Russo
+                    - generic [ref=e788]: Junk King
+              - generic [ref=e790] [cursor=pointer]:
+                - img "Jessica Hansen" [ref=e791]
+                - generic [ref=e793]:
+                  - generic [ref=e794]: Jewelry
+                  - generic [ref=e795]:
+                    - generic [ref=e796]:
+                      - text: Play
+                      - img [ref=e798]
+                    - generic [ref=e800]: Jessica Hansen
+                    - generic [ref=e801]: Wilson's Jewelry
+              - generic [ref=e803] [cursor=pointer]:
+                - img "Kelly Christal" [ref=e804]
+                - generic [ref=e806]:
+                  - generic [ref=e807]: Furniture
+                  - generic [ref=e808]:
+                    - generic [ref=e809]:
+                      - text: Play
+                      - img [ref=e811]
+                    - generic [ref=e813]: Kelly Christal
+                    - generic [ref=e814]: Dakota Mattress
+              - generic [ref=e816] [cursor=pointer]:
+                - img "Mark Kinsley" [ref=e817]
+                - generic [ref=e819]:
+                  - generic [ref=e820]: Retail
+                  - generic [ref=e821]:
+                    - generic [ref=e822]:
+                      - text: Play
+                      - img [ref=e824]
+                    - generic [ref=e826]: Mark Kinsley
+                    - generic [ref=e827]: The FAM
+              - generic [ref=e829] [cursor=pointer]:
+                - img "Brian Morgan" [ref=e830]
+                - generic [ref=e832]:
+                  - generic [ref=e833]: Furniture
+                  - generic [ref=e834]:
+                    - generic [ref=e835]:
+                      - text: Play
+                      - img [ref=e837]
+                    - generic [ref=e839]: Brian Morgan
+                    - generic [ref=e840]: Couch Potatoes
+              - generic [ref=e842] [cursor=pointer]:
+                - img "Jay Villegas" [ref=e843]
+                - generic [ref=e845]:
+                  - generic [ref=e846]: HVAC
+                  - generic [ref=e847]:
+                    - generic [ref=e848]:
+                      - text: Play
+                      - img [ref=e850]
+                    - generic [ref=e852]: Jay Villegas
+                    - generic [ref=e853]: Frontier Air
+              - generic [ref=e855] [cursor=pointer]:
+                - img "Kyle Farr" [ref=e856]
+                - generic [ref=e858]:
+                  - generic [ref=e859]: Medspa
+                  - generic [ref=e860]:
+                    - generic [ref=e861]:
+                      - text: Play
+                      - img [ref=e863]
+                    - generic [ref=e865]: Kyle Farr
+                    - generic [ref=e866]: Kyle Farr Aesthetics
+              - generic [ref=e868] [cursor=pointer]:
+                - img "Tarik Elmas" [ref=e869]
+                - generic [ref=e871]:
+                  - generic [ref=e872]: Medspa
+                  - generic [ref=e873]:
+                    - generic [ref=e874]:
+                      - text: Play
+                      - img [ref=e876]
+                    - generic [ref=e878]: Tarik Elmas
+                    - generic [ref=e879]: Tinytox Collab
+              - generic [ref=e881] [cursor=pointer]:
+                - img "Abigail Fraher" [ref=e882]
+                - generic [ref=e884]:
+                  - generic [ref=e885]: Medspa
+                  - generic [ref=e886]:
+                    - generic [ref=e887]:
+                      - text: Play
+                      - img [ref=e889]
+                    - generic [ref=e891]: Abigail Fraher
+                    - generic [ref=e892]: Kate Somerville
+              - generic [ref=e894] [cursor=pointer]:
+                - img "Lisa" [ref=e895]
+                - generic [ref=e897]:
+                  - generic [ref=e898]: Medspa
+                  - generic [ref=e899]:
+                    - generic [ref=e900]:
+                      - text: Play
+                      - img [ref=e902]
+                    - generic [ref=e904]: Lisa
+                    - generic [ref=e905]: SkinBoss
+              - generic [ref=e907] [cursor=pointer]:
+                - img "Cortney Hall" [ref=e908]
+                - generic [ref=e910]:
+                  - generic [ref=e911]: Medspa
+                  - generic [ref=e912]:
+                    - generic [ref=e913]:
+                      - text: Play
+                      - img [ref=e915]
+                    - generic [ref=e917]: Cortney Hall
+                    - generic [ref=e918]: Imago Medspa
+              - generic [ref=e920] [cursor=pointer]:
+                - img "Jennifer Welch" [ref=e921]
+                - generic [ref=e923]:
+                  - generic [ref=e924]: Services
+                  - generic [ref=e925]:
+                    - generic [ref=e926]:
+                      - text: Play
+                      - img [ref=e928]
+                    - generic [ref=e930]: Jennifer Welch
+                    - generic [ref=e931]: Shire Marketing
+          - link "More customer stories" [ref=e933] [cursor=pointer]:
+            - /url: /customer-stories
+        - generic [ref=e935]:
+          - link "Video Never miss a call again. Introducing Podium's new AI Voice agent. Never miss a call again. Introducing Podium's new AI Voice agent." [ref=e936] [cursor=pointer]:
+            - /url: https://www.podium.com/case-study/ai-voice-home-services/
+            - generic [ref=e937]:
+              - generic [ref=e938]: Video
+              - img "Never miss a call again. Introducing Podium's new AI Voice agent." [ref=e939]
+            - generic [ref=e940]: Never miss a call again. Introducing Podium's new AI Voice agent.
+          - 'link "Podcast Car Dealership Guy: Rise of the AI Employee in car dealerships. Car Dealership Guy: Rise of the AI Employee in car dealerships." [ref=e941] [cursor=pointer]':
+            - /url: https://www.dealershipguy.com/106-rise-of-the-ai-employee-in-car-dealerships-hack-to-converting-99-of-customers-raising-420/
+            - generic [ref=e942]:
+              - generic [ref=e943]: Podcast
+              - 'img "Car Dealership Guy: Rise of the AI Employee in car dealerships." [ref=e944]'
+            - generic [ref=e945]: "Car Dealership Guy: Rise of the AI Employee in car dealerships."
+          - link "Customer Story Arctic Air boosts revenue 30% and transforms customer service with AI Employee. Arctic Air boosts revenue 30% and transforms customer service with AI Employee." [ref=e946] [cursor=pointer]:
+            - /url: https://www.podium.com/case-study/arctic-air/
+            - generic [ref=e947]:
+              - generic [ref=e948]: Customer Story
+              - img "Arctic Air boosts revenue 30% and transforms customer service with AI Employee." [ref=e949]
+            - generic [ref=e950]: Arctic Air boosts revenue 30% and transforms customer service with AI Employee.
+        - generic [ref=e953]:
+          - generic [ref=e954]:
+            - heading "“AI is here to stay and it’s only going to get more powerful. Our vision is to keep you at the forefront of this innovation...”" [level=2] [ref=e956]:
+              - generic [ref=e957]: “AI
+              - generic [ref=e958]: is
+              - generic [ref=e959]: here
+              - generic [ref=e960]: to
+              - generic [ref=e961]: stay
+              - generic [ref=e962]: and
+              - generic [ref=e963]: it’s
+              - generic [ref=e964]: only
+              - generic [ref=e965]: going
+              - generic [ref=e966]: to
+              - generic [ref=e967]: get
+              - generic [ref=e968]: more
+              - generic [ref=e969]: powerful.
+              - generic [ref=e970]: Our
+              - generic [ref=e971]: vision
+              - generic [ref=e972]: is
+              - generic [ref=e973]: to
+              - generic [ref=e974]: keep
+              - generic [ref=e975]: you
+              - generic [ref=e976]: at
+              - generic [ref=e977]: the
+              - generic [ref=e978]: forefront
+              - generic [ref=e979]: of
+              - generic [ref=e980]: this
+              - generic [ref=e981]: innovation...”
+            - generic [ref=e982]:
+              - img "Eric" [ref=e984]
+              - paragraph [ref=e986]: — Eric Rea, Co-Founder & CEO
+          - generic [ref=e988]:
+            - generic "Open video modal" [ref=e989]
+            - button "Open video modal" [ref=e990] [cursor=pointer]
+        - generic [ref=e992]:
+          - generic [ref=e993]:
+            - heading "Get started today." [level=4] [ref=e994]
+            - paragraph [ref=e995]: Grow and scale your business with an all-in-one lead conversion platform.
+          - link "Watch a demo" [ref=e997] [cursor=pointer]:
+            - /url: /watch-demo/home/
+      - generic [ref=e999]:
+        - button "Select your industry:"
+        - button [ref=e1001] [cursor=pointer]:
+          - img [ref=e1002]
+        - generic [ref=e1005]:
+          - generic [ref=e1006]:
+            - link "Auto" [ref=e1007] [cursor=pointer]:
+              - /url: /experience/auto
+            - link "Aesthetics & Wellness" [ref=e1008] [cursor=pointer]:
+              - /url: /experience/wellness
+            - link "Home Services" [ref=e1009] [cursor=pointer]:
+              - /url: /experience/home_services
+            - link "Retail" [ref=e1010] [cursor=pointer]:
+              - /url: /experience/retail
+            - link "Other" [ref=e1011] [cursor=pointer]:
+              - /url: /
+          - generic [ref=e1012]:
+            - text: Already a Podium customer?
+            - link "Sign in." [ref=e1013] [cursor=pointer]:
+              - /url: https://auth.podium.com
+  - contentinfo [ref=e1014]:
+    - contentinfo [ref=e1015]:
+      - generic [ref=e1016]:
+        - generic [ref=e1018]:
+          - list [ref=e1019]:
+            - listitem [ref=e1020]:
+              - link "AI Salesperson" [ref=e1021] [cursor=pointer]:
+                - /url: /product/ai-employee
+            - listitem [ref=e1022]:
+              - link "AI Scheduler" [ref=e1023] [cursor=pointer]:
+                - /url: /product/ai-employee
+            - listitem [ref=e1024]:
+              - link "AI Marketer" [ref=e1025] [cursor=pointer]:
+                - /url: /product/ai-employee
+            - listitem [ref=e1026]:
+              - link "AI Concierge" [ref=e1027] [cursor=pointer]:
+                - /url: /product/ai-employee
+            - listitem [ref=e1028]:
+              - link "AI Reputation Specialist" [ref=e1029] [cursor=pointer]:
+                - /url: /product/ai-employee
+          - paragraph [ref=e1030]: AI Employee
+        - generic [ref=e1032]:
+          - list [ref=e1033]:
+            - listitem [ref=e1034]:
+              - link "Reviews" [ref=e1035] [cursor=pointer]:
+                - /url: /product/reviews
+            - listitem [ref=e1036]:
+              - link "Google Reviews" [ref=e1037] [cursor=pointer]:
+                - /url: /product/reviews#google-reviews
+            - listitem [ref=e1038]:
+              - link "Facebook Reviews" [ref=e1039] [cursor=pointer]:
+                - /url: /product/reviews#facebook-reviews
+            - listitem [ref=e1040]:
+              - link "Phones & Calling" [ref=e1041] [cursor=pointer]:
+                - /url: /product/phones
+            - listitem [ref=e1042]:
+              - link "SMS Messaging" [ref=e1043] [cursor=pointer]:
+                - /url: /product/messaging-platform
+            - listitem [ref=e1044]:
+              - link "Website Contact Forms" [ref=e1045] [cursor=pointer]:
+                - /url: /product/website-contact-forms
+            - listitem [ref=e1046]:
+              - link "Third-Party Websites" [ref=e1047] [cursor=pointer]:
+                - /url: /product/third-party-websites
+            - listitem [ref=e1048]:
+              - link "Website Chat" [ref=e1049] [cursor=pointer]:
+                - /url: /product/webchat
+            - listitem [ref=e1050]:
+              - link "Social Messaging" [ref=e1051] [cursor=pointer]:
+                - /url: /product/channels
+            - listitem [ref=e1052]:
+              - link "Inbox" [ref=e1053] [cursor=pointer]:
+                - /url: /product/inbox
+            - listitem [ref=e1054]:
+              - link "Payments" [ref=e1055] [cursor=pointer]:
+                - /url: /product/payments
+            - listitem [ref=e1056]:
+              - link "Automations" [ref=e1057] [cursor=pointer]:
+                - /url: /product/automations
+            - listitem [ref=e1058]:
+              - link "Integrations" [ref=e1059] [cursor=pointer]:
+                - /url: /marketplace
+            - listitem [ref=e1060]:
+              - link "Mobile App" [ref=e1061] [cursor=pointer]:
+                - /url: /product/mobile-app
+            - listitem [ref=e1062]:
+              - link "Contact Profiles" [ref=e1063] [cursor=pointer]:
+                - /url: /product/contacts
+            - listitem [ref=e1064]:
+              - link "Text Marketing" [ref=e1065] [cursor=pointer]:
+                - /url: /product/text-marketing
+            - listitem [ref=e1066]:
+              - link "Surveys" [ref=e1067] [cursor=pointer]:
+                - /url: /product/surveys
+          - paragraph [ref=e1068]: Solutions
+        - generic [ref=e1070]:
+          - list [ref=e1071]:
+            - listitem [ref=e1072]:
+              - link "Automotive OEM" [ref=e1073] [cursor=pointer]:
+                - /url: /industry/automotive-oem
+            - listitem [ref=e1074]:
+              - link "Auto Body Shop" [ref=e1075] [cursor=pointer]:
+                - /url: /industry/auto-body-shop
+            - listitem [ref=e1076]:
+              - link "Medical Spa" [ref=e1077] [cursor=pointer]:
+                - /url: /industry/medspa
+            - listitem [ref=e1078]:
+              - link "Dental" [ref=e1079] [cursor=pointer]:
+                - /url: /industry/dental
+            - listitem [ref=e1080]:
+              - link "HVAC" [ref=e1081] [cursor=pointer]:
+                - /url: /industry/hvac
+            - listitem [ref=e1082]:
+              - link "Plumbing" [ref=e1083] [cursor=pointer]:
+                - /url: /industry/plumbing
+            - listitem [ref=e1084]:
+              - link "Jewelry" [ref=e1085] [cursor=pointer]:
+                - /url: /industry/jewelry
+            - listitem [ref=e1086]:
+              - link "Furniture" [ref=e1087] [cursor=pointer]:
+                - /url: /industry/furniture
+            - listitem [ref=e1088]:
+              - link "Appliance" [ref=e1089] [cursor=pointer]:
+                - /url: /industry/appliance
+            - listitem [ref=e1090]:
+              - link "Mattress" [ref=e1091] [cursor=pointer]:
+                - /url: /industry/mattress
+            - listitem [ref=e1092]:
+              - link "Large Business" [ref=e1093] [cursor=pointer]:
+                - /url: /industry/large-businesses
+          - paragraph [ref=e1094]: Business Types
+        - generic [ref=e1095]:
+          - generic [ref=e1096]:
+            - list [ref=e1097]:
+              - listitem [ref=e1098]:
+                - link "Pricing" [ref=e1099] [cursor=pointer]:
+                  - /url: /getpricing
+              - listitem [ref=e1100]:
+                - link "Blogs & Guides" [ref=e1101] [cursor=pointer]:
+                  - /url: /resource-center
+              - listitem [ref=e1102]:
+                - link "Customer Stories" [ref=e1103] [cursor=pointer]:
+                  - /url: /customer-stories
+              - listitem [ref=e1104]:
+                - link "Refer a Business" [ref=e1105] [cursor=pointer]:
+                  - /url: /referral-program
+              - listitem [ref=e1106]:
+                - link "Contact Sales" [ref=e1107] [cursor=pointer]:
+                  - /url: /contact-sales
+              - listitem [ref=e1108]:
+                - link "Download for iOS" [ref=e1109] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/podium-interaction-platform/id971412288
+              - listitem [ref=e1110]:
+                - link "Download for Android" [ref=e1111] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.ionicframework.ionicapp410897&hl=en_US&gl=US
+            - paragraph [ref=e1112]: Resources
+          - generic [ref=e1113]:
+            - list [ref=e1114]:
+              - listitem [ref=e1115]:
+                - link "Online Reputation Grader" [ref=e1116] [cursor=pointer]:
+                  - /url: /online-reputation-grader
+              - listitem [ref=e1117]:
+                - link "Google Review Link Generator" [ref=e1118] [cursor=pointer]:
+                  - /url: /google-review-link
+              - listitem [ref=e1119]:
+                - link "Texting Templates" [ref=e1120] [cursor=pointer]:
+                  - /url: /texting-templates
+              - listitem [ref=e1121]:
+                - link "Test Drive Webchat" [ref=e1122] [cursor=pointer]:
+                  - /url: /webchat-in-action
+            - paragraph [ref=e1123]: Free Tools
+        - generic [ref=e1124]:
+          - generic [ref=e1125]:
+            - list [ref=e1126]:
+              - listitem [ref=e1127]:
+                - link "About Us" [ref=e1128] [cursor=pointer]:
+                  - /url: /about-us
+              - listitem [ref=e1129]:
+                - link "Contact Us" [ref=e1130] [cursor=pointer]:
+                  - /url: /contact-us
+              - listitem [ref=e1131]:
+                - link "Careers" [ref=e1132] [cursor=pointer]:
+                  - /url: /careers
+              - listitem [ref=e1133]:
+                - link "Help Center" [ref=e1134] [cursor=pointer]:
+                  - /url: /knowledgebase/s
+              - listitem [ref=e1135]:
+                - link "Press" [ref=e1136] [cursor=pointer]:
+                  - /url: /press
+              - listitem [ref=e1137]:
+                - link "Legal" [ref=e1138] [cursor=pointer]:
+                  - /url: https://legal.podium.com
+            - paragraph [ref=e1139]: Company
+          - generic [ref=e1140]:
+            - list [ref=e1141]:
+              - listitem [ref=e1142]:
+                - link "Become a Partner" [ref=e1143] [cursor=pointer]:
+                  - /url: https://partners.podium.com/
+              - listitem [ref=e1144]:
+                - link "Find a Solution Partner" [ref=e1145] [cursor=pointer]:
+                  - /url: /experts
+              - listitem [ref=e1146]:
+                - link "Integrations" [ref=e1147] [cursor=pointer]:
+                  - /url: /integrations
+              - listitem [ref=e1148]:
+                - link "Marketplace" [ref=e1149] [cursor=pointer]:
+                  - /url: /marketplace
+              - listitem [ref=e1150]:
+                - link "Developer Platform" [ref=e1151] [cursor=pointer]:
+                  - /url: https://developer.podium.com
+            - paragraph [ref=e1152]: Partners
+      - generic [ref=e1153]:
+        - link "facebook icon" [ref=e1154] [cursor=pointer]:
+          - /url: https://www.facebook.com/podium/
+          - img "facebook icon" [ref=e1157]
+        - link "instagram icon" [ref=e1158] [cursor=pointer]:
+          - /url: https://www.instagram.com/podium/
+          - img "instagram icon" [ref=e1161]
+        - link "linkedin icon" [ref=e1162] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/podiumhq/
+          - img "linkedin icon" [ref=e1165]
+        - link "twitter icon" [ref=e1166] [cursor=pointer]:
+          - /url: https://twitter.com/podiumhq/
+          - img "twitter icon" [ref=e1169]
+      - generic [ref=e1170]:
+        - paragraph [ref=e1171]: © Podium Corp Inc. 2026
+        - list [ref=e1172]:
+          - listitem [ref=e1173]:
+            - link "Sitemap" [ref=e1174] [cursor=pointer]:
+              - /url: /sitemap
+          - listitem [ref=e1175]:
+            - link "Terms & Conditions" [ref=e1176] [cursor=pointer]:
+              - /url: https://legal.podium.com/#termsofservice-us
+          - listitem [ref=e1177]:
+            - link "Privacy Policy" [ref=e1178] [cursor=pointer]:
+              - /url: https://legal.podium.com/#privacypolicy-us
+          - listitem [ref=e1179]:
+            - link "Privacy Center" [ref=e1180] [cursor=pointer]:
+              - /url: https://privacy.podium.com/
+          - listitem [ref=e1181]:
+            - button "Do Not Sell or Share My Personal Information" [ref=e1182] [cursor=pointer]
+      - img [ref=e1184]
+  - alert [ref=e1192]

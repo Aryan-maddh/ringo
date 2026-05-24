@@ -1,0 +1,185 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ripe Lead" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - img [ref=e8]
+            - img [ref=e12]
+          - generic [ref=e14]:
+            - generic [ref=e15]: Ripe
+            - generic [ref=e16]: Lead
+      - button "Open menu" [ref=e17] [cursor=pointer]:
+        - img [ref=e18]
+    - generic [ref=e20]:
+      - heading "Blog" [level=1] [ref=e21]
+      - paragraph [ref=e22]: Insights on AI, the trades, and converting more leads into booked jobs.
+      - generic [ref=e23]:
+        - button "All" [ref=e24] [cursor=pointer]
+        - button "AI & Automation" [ref=e25] [cursor=pointer]
+        - button "Lead Generation" [ref=e26] [cursor=pointer]
+        - button "Compliance" [ref=e27] [cursor=pointer]
+        - button "Case Studies" [ref=e28] [cursor=pointer]
+    - generic [ref=e29]:
+      - generic [ref=e30]: Featured
+      - generic [ref=e31]:
+        - generic [ref=e35]:
+          - generic [ref=e36]: Case Studies
+          - heading "How AI Texting Booked 47 Jobs in One Weekend for a Dallas Plumber" [level=2] [ref=e37]
+          - generic [ref=e38]: 6 min read
+        - generic [ref=e39]:
+          - generic [ref=e40]: Case Studies
+          - heading "How AI Texting Booked 47 Jobs in One Weekend for a Dallas Plumber" [level=2] [ref=e41]
+          - paragraph [ref=e42]: Marcus ran his plumbing business solo for six years. He was good at the work — great, even — but every missed call felt like money walking out the door. Then he set up Ripe Lead on a Friday afternoon, and by Sunday evening his calendar was full.
+          - generic [ref=e43]:
+            - generic [ref=e44]: JO
+            - generic [ref=e45]:
+              - generic [ref=e46]: Jamie Okafor
+              - generic [ref=e47]: May 18, 2026 · 6 min read
+            - link "Read article" [ref=e48] [cursor=pointer]:
+              - /url: "#"
+              - text: Read article
+              - img [ref=e49]
+    - generic [ref=e52]:
+      - generic [ref=e54] [cursor=pointer]:
+        - generic [ref=e55]: Compliance
+        - 'heading "TCPA Compliance for Contractors: The 2026 Guide" [level=3] [ref=e56]'
+        - paragraph [ref=e57]: Everything you need to know about A2P 10DLC registration, opt-out handling, and quiet hours — without the legalese.
+        - generic [ref=e58]:
+          - generic [ref=e59]: PS
+          - generic [ref=e60]:
+            - generic [ref=e61]: Priya Sharma
+            - generic [ref=e62]: May 14, 2026
+          - generic [ref=e63]: 8 min read
+      - generic [ref=e65] [cursor=pointer]:
+        - generic [ref=e66]: Lead Generation
+        - 'heading "WhatsApp Business for Plumbers: Why It Books More Jobs" [level=3] [ref=e67]'
+        - paragraph [ref=e68]: WhatsApp messages have a 98% open rate. SMS has 82%. Here's how to leverage both without managing two inboxes.
+        - generic [ref=e69]:
+          - generic [ref=e70]: MC
+          - generic [ref=e71]:
+            - generic [ref=e72]: Marcus Chen
+            - generic [ref=e73]: May 10, 2026
+          - generic [ref=e74]: 5 min read
+      - generic [ref=e76] [cursor=pointer]:
+        - generic [ref=e77]: AI & Automation
+        - 'heading "The 11-Second Reply: Why Speed Beats Price Every Time" [level=3] [ref=e78]'
+        - paragraph [ref=e79]: Customers who get a response within 60 seconds are 391% more likely to book. Here's the data behind why reply speed is your biggest competitive advantage.
+        - generic [ref=e80]:
+          - generic [ref=e81]: AR
+          - generic [ref=e82]:
+            - generic [ref=e83]: Alex Rivera
+            - generic [ref=e84]: May 5, 2026
+          - generic [ref=e85]: 4 min read
+      - generic [ref=e87] [cursor=pointer]:
+        - generic [ref=e88]: Case Studies
+        - 'heading "From 3 Missed Calls to 3 Booked Jobs: A Case Study" [level=3] [ref=e89]'
+        - paragraph [ref=e90]: Aisha runs a one-person HVAC shop in Phoenix. In her first week with Ripe Lead, she converted three calls she would have completely missed into confirmed appointments.
+        - generic [ref=e91]:
+          - generic [ref=e92]: JO
+          - generic [ref=e93]:
+            - generic [ref=e94]: Jamie Okafor
+            - generic [ref=e95]: Apr 28, 2026
+          - generic [ref=e96]: 5 min read
+      - generic [ref=e98] [cursor=pointer]:
+        - generic [ref=e99]: AI & Automation
+        - heading "How to Write an AI Voice That Sounds Like You" [level=3] [ref=e100]
+        - paragraph [ref=e101]: The difference between "I'm an AI assistant" and "Hey! It's Pacific Plumbing — sorry we missed you." This guide walks you through crafting a voice profile that sounds human.
+        - generic [ref=e102]:
+          - generic [ref=e103]: MC
+          - generic [ref=e104]:
+            - generic [ref=e105]: Marcus Chen
+            - generic [ref=e106]: Apr 21, 2026
+          - generic [ref=e107]: 6 min read
+      - generic [ref=e109] [cursor=pointer]:
+        - generic [ref=e110]: Lead Generation
+        - 'heading "Instagram DMs vs SMS: Which Converts Better for Trades?" [level=3] [ref=e111]'
+        - paragraph [ref=e112]: We analyzed 40,000 conversations across both channels. The winner surprised us — and the margin was bigger than anyone expected.
+        - generic [ref=e113]:
+          - generic [ref=e114]: JO
+          - generic [ref=e115]:
+            - generic [ref=e116]: Jamie Okafor
+            - generic [ref=e117]: Apr 15, 2026
+          - generic [ref=e118]: 7 min read
+    - generic [ref=e120]:
+      - generic [ref=e121]: Newsletter
+      - heading "Stay sharp. Get the weekly roundup." [level=2] [ref=e122]
+      - paragraph [ref=e123]: AI, lead conversion, and growing a trades business. No fluff. No spam.
+      - generic [ref=e124]:
+        - textbox "your@email.com" [ref=e125]
+        - button "Subscribe" [ref=e126] [cursor=pointer]
+      - generic [ref=e127]: No spam. Unsubscribe anytime.
+    - contentinfo [ref=e128]:
+      - generic [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - img [ref=e134]
+              - img [ref=e138]
+            - generic [ref=e140]:
+              - generic [ref=e141]: Ripe
+              - generic [ref=e142]: Lead
+          - generic [ref=e143]: Missed-call autoresponder for plumbers, electricians, salons, and the rest of the builders of America.
+          - generic [ref=e144]:
+            - generic [ref=e145]: SOC 2 Type II
+            - generic [ref=e146]: TCPA · A2P 10DLC
+        - generic [ref=e147]:
+          - generic [ref=e148]: Product
+          - link "Features" [ref=e149] [cursor=pointer]:
+            - /url: "#"
+          - link "Pricing" [ref=e150] [cursor=pointer]:
+            - /url: "#"
+          - link "Integrations" [ref=e151] [cursor=pointer]:
+            - /url: "#"
+          - link "Changelog" [ref=e152] [cursor=pointer]:
+            - /url: "#"
+          - link "Status" [ref=e153] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e154]:
+          - generic [ref=e155]: Trades
+          - link "Plumbing" [ref=e156] [cursor=pointer]:
+            - /url: "#"
+          - link "Electrical" [ref=e157] [cursor=pointer]:
+            - /url: "#"
+          - link "HVAC" [ref=e158] [cursor=pointer]:
+            - /url: "#"
+          - link "Salons" [ref=e159] [cursor=pointer]:
+            - /url: "#"
+          - link "Cleaning" [ref=e160] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e161]:
+          - generic [ref=e162]: Company
+          - link "About" [ref=e163] [cursor=pointer]:
+            - /url: "#"
+          - link "Customers" [ref=e164] [cursor=pointer]:
+            - /url: "#"
+          - link "Careers" [ref=e165] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact" [ref=e166] [cursor=pointer]:
+            - /url: "#"
+          - link "Press" [ref=e167] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e168]:
+          - generic [ref=e169]: Resources
+          - link "Docs" [ref=e170] [cursor=pointer]:
+            - /url: "#"
+          - link "API" [ref=e171] [cursor=pointer]:
+            - /url: "#"
+          - link "Compliance" [ref=e172] [cursor=pointer]:
+            - /url: "#"
+          - link "Playbook" [ref=e173] [cursor=pointer]:
+            - /url: "#"
+          - link "Help center" [ref=e174] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e175]:
+        - generic [ref=e176]: © 2026 Ripe Lead, Inc. · 548 Market St, San Francisco
+        - generic [ref=e177]:
+          - link "Privacy" [ref=e178] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms" [ref=e179] [cursor=pointer]:
+            - /url: "#"
+          - link "DPA" [ref=e180] [cursor=pointer]:
+            - /url: "#"
+  - button "Open Next.js Dev Tools" [ref=e186] [cursor=pointer]:
+    - img [ref=e187]

@@ -1,0 +1,1041 @@
+- generic [ref=e3]:
+  - navigation [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - link [ref=e10] [cursor=pointer]:
+          - /url: ../
+        - generic [ref=e15]:
+          - link "Log in" [ref=e19] [cursor=pointer]:
+            - /url: https://framer.com/r/login
+            - generic [ref=e21]: Log in
+          - link "Sign up" [ref=e25] [cursor=pointer]:
+            - /url: https://www.framer.com/r/signup/
+            - generic [ref=e27]: Sign up
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - paragraph: Copy
+                  - generic:
+                    - paragraph: Logo as SVG
+            - generic:
+              - link "Brand Guidelines":
+                - /url: ../brand
+                - generic:
+                  - generic:
+                    - generic:
+                      - paragraph: Brand
+                  - generic:
+                    - paragraph: Guidelines
+      - generic [ref=e28]:
+        - generic [ref=e32] [cursor=pointer]: Product
+        - generic [ref=e36] [cursor=pointer]: Teams
+        - generic [ref=e40] [cursor=pointer]: Resources
+        - generic [ref=e44] [cursor=pointer]: Community
+        - generic [ref=e48] [cursor=pointer]: Support
+        - link "Enterprise" [ref=e50] [cursor=pointer]:
+          - /url: ../enterprise/
+          - generic [ref=e52]: Enterprise
+        - link "Pricing" [ref=e54] [cursor=pointer]:
+          - /url: ../pricing
+          - generic [ref=e56]: Pricing
+  - generic [ref=e57]:
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - heading "Make the web more creative" [level=1] [ref=e62]:
+          - generic [ref=e63]: Make
+          - generic [ref=e64]: the
+          - generic [ref=e65]: web
+          - generic [ref=e66]: more
+          - generic [ref=e67]: creative
+        - paragraph [ref=e69]:
+          - generic [ref=e70]: We’re
+          - generic [ref=e71]: "on"
+          - generic [ref=e72]: a
+          - generic [ref=e73]: mission
+          - generic [ref=e74]: to
+          - generic [ref=e75]: build
+          - generic [ref=e76]: the
+          - generic [ref=e77]: best
+          - generic [ref=e78]: tool
+          - generic [ref=e79]: for
+          - generic [ref=e80]: designing
+          - generic [ref=e81]: and
+          - generic [ref=e82]: publishing
+          - generic [ref=e83]: incredible
+          - generic [ref=e84]: sites.
+          - generic [ref=e85]: Join
+          - generic [ref=e86]: us
+          - generic [ref=e87]: and
+          - generic [ref=e88]: shape
+          - generic [ref=e89]: the
+          - generic [ref=e90]: future
+          - generic [ref=e91]: of
+          - generic [ref=e92]: the
+          - generic [ref=e93]: web.
+      - generic [ref=e94]:
+        - link "Company" [ref=e96] [cursor=pointer]:
+          - /url: ./#company
+          - paragraph [ref=e98]: Company
+        - link "Positions" [ref=e100] [cursor=pointer]:
+          - /url: ./#positions
+          - paragraph [ref=e102]: Positions
+    - generic [ref=e103]:
+      - group [ref=e105]:
+        - listitem [ref=e106]:
+          - img "Spectrum Shader" [ref=e111]
+        - listitem [ref=e112]
+        - listitem [ref=e117]:
+          - img "Holo Shader" [ref=e122]
+        - listitem [ref=e123]
+        - listitem [ref=e128]:
+          - img "Holo Shader" [ref=e133]
+      - group [ref=e135]:
+        - listitem [ref=e136]
+        - listitem [ref=e141]:
+          - img "Bento Grids" [ref=e146]
+        - listitem [ref=e147]:
+          - img "Chromatic Aberration Shader" [ref=e152]
+        - listitem [ref=e153]:
+          - img "Shaders in Framer" [ref=e158]
+        - listitem [ref=e159]
+    - generic [ref=e164]:
+      - paragraph [ref=e166]:
+        - generic [ref=e167]:
+          - generic [ref=e168]: At
+          - generic [ref=e169]: Framer,
+          - generic [ref=e170]: we’re
+          - generic [ref=e171]: building
+          - generic [ref=e172]: the
+          - generic [ref=e173]: best
+          - generic [ref=e174]: team
+          - generic [ref=e175]: to
+          - generic [ref=e176]: win
+          - generic [ref=e177]: the
+          - generic [ref=e178]: web.
+        - generic [ref=e179]: Tackle
+        - generic [ref=e180]: big
+        - generic [ref=e181]: projects,
+        - generic [ref=e182]: create
+        - generic [ref=e183]: real
+        - generic [ref=e184]: impact,
+        - generic [ref=e185]: and
+        - generic [ref=e186]: see
+        - generic [ref=e187]: results
+        - generic [ref=e188]: every
+        - generic [ref=e189]: day—all
+        - generic [ref=e190]: supported
+        - generic [ref=e191]: by
+        - generic [ref=e192]: the
+        - generic [ref=e193]: tools
+        - generic [ref=e194]: and
+        - generic [ref=e195]: flexibility
+        - generic [ref=e196]: to
+        - generic [ref=e197]: keep
+        - generic [ref=e198]: you
+        - generic [ref=e199]: ahead.
+      - generic [ref=e200]:
+        - generic [ref=e201]:
+          - paragraph [ref=e205]: Full-time
+          - paragraph [ref=e209]: Remote first
+          - paragraph [ref=e213]: Flex schedule
+        - generic [ref=e214]:
+          - paragraph [ref=e218]: Great gear
+          - paragraph [ref=e222]: Team retreat
+          - paragraph [ref=e226]: Modern tools
+        - generic [ref=e227]:
+          - paragraph [ref=e231]: Equity plan
+          - paragraph [ref=e235]: Unlimited PTO
+          - paragraph [ref=e239]: Growth budget
+    - generic [ref=e240]:
+      - group [ref=e242]:
+        - listitem [ref=e243]:
+          - generic [ref=e245]:
+            - generic:
+              - generic:
+                - paragraph: Adam Seckel
+        - listitem [ref=e247]:
+          - generic [ref=e249]:
+            - generic:
+              - generic:
+                - paragraph: Ahmad Atieh
+        - listitem [ref=e251]:
+          - generic [ref=e253]:
+            - generic:
+              - generic:
+                - paragraph: Alejandro Mustelier Cornell
+        - listitem [ref=e255]:
+          - generic [ref=e257]:
+            - generic:
+              - generic:
+                - paragraph: Alex Gray
+        - listitem [ref=e259]:
+          - generic [ref=e261]:
+            - generic:
+              - generic:
+                - paragraph: Alexander Ryzhikov
+        - listitem [ref=e263]:
+          - generic [ref=e265]:
+            - generic:
+              - generic:
+                - paragraph: Alice Pinho
+        - listitem [ref=e267]:
+          - generic [ref=e269]:
+            - generic:
+              - generic:
+                - paragraph: Alkan Orgun
+        - listitem [ref=e271]:
+          - generic [ref=e273]:
+            - generic:
+              - generic:
+                - paragraph: Andrea Antersijn
+        - listitem [ref=e275]:
+          - generic [ref=e277]:
+            - generic:
+              - generic:
+                - paragraph: Andreas van der Griendt
+        - listitem [ref=e279]:
+          - generic [ref=e281]:
+            - generic:
+              - generic:
+                - paragraph: Andreas Kohn
+        - listitem [ref=e283]:
+          - generic [ref=e285]:
+            - generic:
+              - generic:
+                - paragraph: Andreu Gordillo Vázquez
+        - listitem [ref=e287]:
+          - generic [ref=e289]:
+            - generic:
+              - generic:
+                - paragraph: Andrey Ozornin
+        - listitem [ref=e291]:
+          - generic [ref=e293]:
+            - generic:
+              - generic:
+                - paragraph: Andrey Kuzmin
+        - listitem [ref=e295]:
+          - generic [ref=e297]:
+            - generic:
+              - generic:
+                - paragraph: Andy Orsow
+        - listitem [ref=e299]:
+          - generic [ref=e301]:
+            - generic:
+              - generic:
+                - paragraph: Annabelle Wynn Jones
+        - listitem [ref=e303]:
+          - generic [ref=e305]:
+            - generic:
+              - generic:
+                - paragraph: Aroa Gil Bo
+        - listitem [ref=e307]:
+          - generic [ref=e309]:
+            - generic:
+              - generic:
+                - paragraph: Artur Fortunato
+        - listitem [ref=e311]:
+          - generic [ref=e313]:
+            - generic:
+              - generic:
+                - paragraph: Ash Kulkarni
+        - listitem [ref=e315]:
+          - generic [ref=e317]:
+            - generic:
+              - generic:
+                - paragraph: Ashley Worth
+        - listitem [ref=e319]:
+          - generic [ref=e321]:
+            - generic:
+              - generic:
+                - paragraph: Asmita Gupta
+      - group [ref=e324]:
+        - listitem [ref=e325]:
+          - generic [ref=e327]:
+            - generic:
+              - generic:
+                - paragraph: Ben Fryc
+        - listitem [ref=e329]:
+          - generic [ref=e331]:
+            - generic:
+              - generic:
+                - paragraph: Benjamin den Boer
+        - listitem [ref=e333]:
+          - generic [ref=e335]:
+            - generic:
+              - generic:
+                - paragraph: Berci Varga
+        - listitem [ref=e337]:
+          - generic [ref=e339]:
+            - generic:
+              - generic:
+                - paragraph: Brooke Mendoza
+        - listitem [ref=e341]:
+          - generic [ref=e343]:
+            - generic:
+              - generic:
+                - paragraph: Cal Morris
+        - listitem [ref=e345]:
+          - generic [ref=e347]:
+            - generic:
+              - generic:
+                - paragraph: Carla Giordano
+        - listitem [ref=e349]:
+          - generic [ref=e351]:
+            - generic:
+              - generic:
+                - paragraph: Carles Núñez
+        - listitem [ref=e353]:
+          - generic [ref=e355]:
+            - generic:
+              - generic:
+                - paragraph: Catarina Freitas
+        - listitem [ref=e357]:
+          - generic [ref=e359]:
+            - generic:
+              - generic:
+                - paragraph: Chase Gonzalez
+        - listitem [ref=e361]:
+          - generic [ref=e363]:
+            - generic:
+              - generic:
+                - paragraph: Chris Hoo
+        - listitem [ref=e365]:
+          - generic [ref=e367]:
+            - generic:
+              - generic:
+                - paragraph: Claudia Minardi
+        - listitem [ref=e369]:
+          - generic [ref=e371]:
+            - generic:
+              - generic:
+                - paragraph: Conor Mc Clure
+        - listitem [ref=e373]:
+          - generic [ref=e375]:
+            - generic:
+              - generic:
+                - paragraph: Constant Druon
+        - listitem [ref=e377]:
+          - generic [ref=e379]:
+            - generic:
+              - generic:
+                - paragraph: Cédric Boirard
+        - listitem [ref=e381]:
+          - generic [ref=e383]:
+            - generic:
+              - generic:
+                - paragraph: Damian Jankowski
+        - listitem [ref=e385]:
+          - generic [ref=e387]:
+            - generic:
+              - generic:
+                - paragraph: Dani Valentine
+        - listitem [ref=e389]:
+          - generic [ref=e391]:
+            - generic:
+              - generic:
+                - paragraph: Daniela Dias
+        - listitem [ref=e393]:
+          - generic [ref=e395]:
+            - generic:
+              - generic:
+                - paragraph: Daniël Illouz
+        - listitem [ref=e397]:
+          - generic [ref=e399]:
+            - generic:
+              - generic:
+                - paragraph: Dotti Mate
+        - listitem [ref=e401]:
+          - generic [ref=e403]:
+            - generic:
+              - generic:
+                - paragraph: Doug Ward
+      - group [ref=e406]:
+        - listitem [ref=e407]:
+          - generic [ref=e409]:
+            - generic:
+              - generic:
+                - paragraph: Dylan Campbell
+        - listitem [ref=e411]:
+          - generic [ref=e413]:
+            - generic:
+              - generic:
+                - paragraph: Edoardo Mercati
+        - listitem [ref=e415]:
+          - generic [ref=e417]:
+            - generic:
+              - generic:
+                - paragraph: Eelco Lempsink
+        - listitem [ref=e419]:
+          - generic [ref=e421]:
+            - generic:
+              - generic:
+                - paragraph: Eimear Hussey
+        - listitem [ref=e423]:
+          - generic [ref=e425]:
+            - generic:
+              - generic:
+                - paragraph: Ellie Neumann
+        - listitem [ref=e427]:
+          - generic [ref=e429]:
+            - generic:
+              - generic:
+                - paragraph: Elmar Burke
+        - listitem [ref=e431]:
+          - generic [ref=e433]:
+            - generic:
+              - generic:
+                - paragraph: Emili Ivanova
+        - listitem [ref=e435]:
+          - generic [ref=e437]:
+            - generic:
+              - generic:
+                - paragraph: Erik Booij
+        - listitem [ref=e439]:
+          - generic [ref=e441]:
+            - generic:
+              - generic:
+                - paragraph: Eugene Stativka
+        - listitem [ref=e443]:
+          - generic [ref=e445]:
+            - generic:
+              - generic:
+                - paragraph: Ferran Delgado
+        - listitem [ref=e447]:
+          - generic [ref=e449]:
+            - generic:
+              - generic:
+                - paragraph: Floris Verloop
+        - listitem [ref=e451]:
+          - generic [ref=e453]:
+            - generic:
+              - generic:
+                - paragraph: Francisco Lourenço
+        - listitem [ref=e455]:
+          - generic [ref=e457]:
+            - generic:
+              - generic:
+                - paragraph: Fumito Kikuchi
+        - listitem [ref=e459]:
+          - generic [ref=e461]:
+            - generic:
+              - generic:
+                - paragraph: Gasim Gasimzada
+        - listitem [ref=e463]:
+          - generic [ref=e465]:
+            - generic:
+              - generic:
+                - paragraph: Gena Belogortcev
+        - listitem [ref=e467]:
+          - generic [ref=e469]:
+            - generic:
+              - generic:
+                - paragraph: George Field
+        - listitem [ref=e471]:
+          - generic [ref=e473]:
+            - generic:
+              - generic:
+                - paragraph: Giuseppe Recupero
+        - listitem [ref=e475]:
+          - generic [ref=e477]:
+            - generic:
+              - generic:
+                - paragraph: Guillem Robledo Llauradó
+        - listitem [ref=e479]:
+          - generic [ref=e481]:
+            - generic:
+              - generic:
+                - paragraph: Hannah Somsen
+        - listitem [ref=e483]:
+          - generic [ref=e485]:
+            - generic:
+              - generic:
+                - paragraph: Hayley Findlay
+      - group [ref=e488]:
+        - listitem [ref=e489]:
+          - generic [ref=e491]:
+            - generic:
+              - generic:
+                - paragraph: Herlon Aguiar
+        - listitem [ref=e493]:
+          - generic [ref=e495]:
+            - generic:
+              - generic:
+                - paragraph: Hunter Caron
+        - listitem [ref=e497]:
+          - generic [ref=e499]:
+            - generic:
+              - generic:
+                - paragraph: Ivan Akulov
+        - listitem [ref=e501]:
+          - generic [ref=e503]:
+            - generic:
+              - generic:
+                - paragraph: Jacob Groß
+        - listitem [ref=e505]:
+          - generic [ref=e507]:
+            - generic:
+              - generic:
+                - paragraph: Jason Gelfat
+        - listitem [ref=e509]:
+          - generic [ref=e511]:
+            - generic:
+              - generic:
+                - paragraph: Jay Patel
+        - listitem [ref=e513]:
+          - generic [ref=e515]:
+            - generic:
+              - generic:
+                - paragraph: Jonas Treub
+        - listitem [ref=e517]:
+          - generic [ref=e519]:
+            - generic:
+              - generic:
+                - paragraph: Joost Damhuis
+        - listitem [ref=e521]:
+          - generic [ref=e523]:
+            - generic:
+              - generic:
+                - paragraph: Joran Entjes
+        - listitem [ref=e525]:
+          - generic [ref=e527]:
+            - generic:
+              - generic:
+                - paragraph: Jorn van Dijk
+        - listitem [ref=e529]:
+          - generic [ref=e531]:
+            - generic:
+              - generic:
+                - paragraph: Joseph Angelo Todaro
+        - listitem [ref=e533]:
+          - generic [ref=e535]:
+            - generic:
+              - generic:
+                - paragraph: Jurre Houtkamp
+        - listitem [ref=e537]:
+          - generic [ref=e539]:
+            - generic:
+              - generic:
+                - paragraph: Justin Jones
+        - listitem [ref=e541]:
+          - generic [ref=e543]:
+            - generic:
+              - generic:
+                - paragraph: Kaloyan Videlov
+        - listitem [ref=e545]:
+          - generic [ref=e547]:
+            - generic:
+              - generic:
+                - paragraph: Kate Morgan
+        - listitem [ref=e549]:
+          - generic [ref=e551]:
+            - generic:
+              - generic:
+                - paragraph: Kimmie Glass
+        - listitem [ref=e553]:
+          - generic [ref=e555]:
+            - generic:
+              - generic:
+                - paragraph: Koen Rouwhorst
+        - listitem [ref=e557]:
+          - generic [ref=e559]:
+            - generic:
+              - generic:
+                - paragraph: Koen Bok
+        - listitem [ref=e561]:
+          - generic [ref=e563]:
+            - generic:
+              - generic:
+                - paragraph: Konstantin Pschera
+        - listitem [ref=e565]:
+          - generic [ref=e567]:
+            - generic:
+              - generic:
+                - paragraph: Kye Bedford
+      - group [ref=e570]:
+        - listitem [ref=e571]:
+          - generic [ref=e573]:
+            - generic:
+              - generic:
+                - paragraph: Lauren Firks
+        - listitem [ref=e575]:
+          - generic [ref=e577]:
+            - generic:
+              - generic:
+                - paragraph: Lina Sizov
+        - listitem [ref=e579]:
+          - generic [ref=e581]:
+            - generic:
+              - generic:
+                - paragraph: Matej Konrad
+        - listitem [ref=e583]:
+          - generic [ref=e585]:
+            - generic:
+              - generic:
+                - paragraph: Mathieu Brunet
+        - listitem [ref=e587]:
+          - generic [ref=e589]:
+            - generic:
+              - generic:
+                - paragraph: Melissa Rofman
+        - listitem [ref=e591]:
+          - generic [ref=e593]:
+            - generic:
+              - generic:
+                - paragraph: Monika Michalczyk
+        - listitem [ref=e595]:
+          - generic [ref=e597]:
+            - generic:
+              - generic:
+                - paragraph: Neha Obilisetty
+        - listitem [ref=e599]:
+          - generic [ref=e601]:
+            - generic:
+              - generic:
+                - paragraph: Nic Robinson
+        - listitem [ref=e603]:
+          - generic [ref=e605]:
+            - generic:
+              - generic:
+                - paragraph: Nick Lucas
+        - listitem [ref=e607]:
+          - generic [ref=e609]:
+            - generic:
+              - generic:
+                - paragraph: Nick Butler
+        - listitem [ref=e611]:
+          - generic [ref=e613]:
+            - generic:
+              - generic:
+                - paragraph: Nick Donohoe
+        - listitem [ref=e615]:
+          - generic [ref=e617]:
+            - generic:
+              - generic:
+                - paragraph: Niek Kruse
+        - listitem [ref=e619]:
+          - generic [ref=e621]:
+            - generic:
+              - generic:
+                - paragraph: Niels van Hoorn
+        - listitem [ref=e623]:
+          - generic [ref=e625]:
+            - generic:
+              - generic:
+                - paragraph: Onne Gorter
+        - listitem [ref=e627]:
+          - generic [ref=e629]:
+            - generic:
+              - generic:
+                - paragraph: Oscar Carlsson
+        - listitem [ref=e631]:
+          - generic [ref=e633]:
+            - generic:
+              - generic:
+                - paragraph: Pablo Rodríguez Caballero
+        - listitem [ref=e635]:
+          - generic [ref=e637]:
+            - generic:
+              - generic:
+                - paragraph: Paddy Fraser
+        - listitem [ref=e639]:
+          - generic [ref=e641]:
+            - generic:
+              - generic:
+                - paragraph: Paul Lapkin
+        - listitem [ref=e643]:
+          - generic [ref=e645]:
+            - generic:
+              - generic:
+                - paragraph: Pedro Martinho
+        - listitem [ref=e647]:
+          - generic [ref=e649]:
+            - generic:
+              - generic:
+                - paragraph: Phil Pincus
+    - generic [ref=e651]:
+      - paragraph [ref=e653]: We’re always hiring exceptional people to shape Framer’s future. Here are the roles we’re actively hiring for.
+      - generic [ref=e656]:
+        - generic [ref=e657]:
+          - paragraph [ref=e661] [cursor=pointer]: All
+          - paragraph [ref=e665] [cursor=pointer]: Creator
+          - paragraph [ref=e669] [cursor=pointer]: Engineering
+          - paragraph [ref=e673] [cursor=pointer]: Growth
+          - paragraph [ref=e677] [cursor=pointer]: GTM
+          - paragraph [ref=e681] [cursor=pointer]: Marketing
+          - paragraph [ref=e685] [cursor=pointer]: Product
+        - generic [ref=e687]:
+          - link "Enterprise Marketing Designer Marketing Team Remote" [ref=e689] [cursor=pointer]:
+            - /url: ./enterprise-marketing-designer
+            - generic [ref=e690]:
+              - paragraph [ref=e692]: Enterprise Marketing Designer
+              - paragraph [ref=e694]: Marketing Team
+            - paragraph [ref=e696]: Remote
+          - link "Agency Lead GTM Team Remote" [ref=e699] [cursor=pointer]:
+            - /url: ./agency-lead
+            - generic [ref=e700]:
+              - paragraph [ref=e702]: Agency Lead
+              - paragraph [ref=e704]: GTM Team
+            - paragraph [ref=e706]: Remote
+          - link "Educational Content Producer for Framer Academy Marketing Team United States" [ref=e709] [cursor=pointer]:
+            - /url: ./educational-content-producer-for-framer-academy
+            - generic [ref=e710]:
+              - paragraph [ref=e712]: Educational Content Producer for Framer Academy
+              - paragraph [ref=e714]: Marketing Team
+            - paragraph [ref=e716]: United States
+          - link "Marketing Designer Marketing Team Remote" [ref=e719] [cursor=pointer]:
+            - /url: ./marketing-designer
+            - generic [ref=e720]:
+              - paragraph [ref=e722]: Marketing Designer
+              - paragraph [ref=e724]: Marketing Team
+            - paragraph [ref=e726]: Remote
+          - link "Product Designer Product Team Remote" [ref=e729] [cursor=pointer]:
+            - /url: ./product-designer
+            - generic [ref=e730]:
+              - paragraph [ref=e732]: Product Designer
+              - paragraph [ref=e734]: Product Team
+            - paragraph [ref=e736]: Remote
+          - link "Senior Product Engineer Product Team Remote" [ref=e739] [cursor=pointer]:
+            - /url: ./senior-product-engineer
+            - generic [ref=e740]:
+              - paragraph [ref=e742]: Senior Product Engineer
+              - paragraph [ref=e744]: Product Team
+            - paragraph [ref=e746]: Remote
+          - link "Senior Site Reliability Engineer Engineering Team Remote" [ref=e749] [cursor=pointer]:
+            - /url: ./senior-site-reliability-engineer
+            - generic [ref=e750]:
+              - paragraph [ref=e752]: Senior Site Reliability Engineer
+              - paragraph [ref=e754]: Engineering Team
+            - paragraph [ref=e756]: Remote
+          - link "Staff/Principal Backend Engineer Engineering Team Remote" [ref=e759] [cursor=pointer]:
+            - /url: ./principal-backend-engineer
+            - generic [ref=e760]:
+              - paragraph [ref=e762]: Staff/Principal Backend Engineer
+              - paragraph [ref=e764]: Engineering Team
+            - paragraph [ref=e766]: Remote
+          - link "Tech Lead Engineering Team Remote" [ref=e769] [cursor=pointer]:
+            - /url: ./tech-lead
+            - generic [ref=e770]:
+              - paragraph [ref=e772]: Tech Lead
+              - paragraph [ref=e774]: Engineering Team
+            - paragraph [ref=e776]: Remote
+          - link "Web Designer Marketing Team Remote" [ref=e779] [cursor=pointer]:
+            - /url: ./web-designer
+            - generic [ref=e780]:
+              - paragraph [ref=e782]: Web Designer
+              - paragraph [ref=e784]: Marketing Team
+            - paragraph [ref=e786]: Remote
+  - contentinfo [ref=e790]:
+    - generic [ref=e791]:
+      - generic [ref=e793]:
+        - link [ref=e796] [cursor=pointer]:
+          - /url: ../
+        - generic [ref=e798]:
+          - link "Twitter / X" [ref=e799] [cursor=pointer]:
+            - /url: https://x.com/framer
+          - link "Threads" [ref=e801] [cursor=pointer]:
+            - /url: https://www.threads.com/@framer
+          - link "TikTok" [ref=e803] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@framer
+          - link "Instagram" [ref=e805] [cursor=pointer]:
+            - /url: https://www.instagram.com/framer/
+          - link "LinkedIn" [ref=e807] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/framer/
+          - link "YouTube" [ref=e809] [cursor=pointer]:
+            - /url: https://www.youtube.com/@Framer
+        - link "Loading status loading" [ref=e814] [cursor=pointer]:
+          - /url: https://www.framerstatus.com/
+          - generic [ref=e818]: Loading status
+          - generic [ref=e820]: loading
+        - generic [ref=e822]:
+          - paragraph [ref=e824]: Downloads
+          - generic [ref=e825]:
+            - link "Mac" [ref=e826] [cursor=pointer]:
+              - /url: https://updates.framer.com/electron/darwin/arm64/Framer.zip?_ga=2.113395847.1447313862.1646043056-273660571.1642151053
+              - paragraph [ref=e829]: Mac
+            - link "Windows" [ref=e830] [cursor=pointer]:
+              - /url: https://updates.framer.com/electron/win32/x64/Framer.exe?_ga=2.113395847.1447313862.1646043056-273660571.1642151053
+              - paragraph [ref=e833]: Windows
+        - link "CCPA" [ref=e834] [cursor=pointer]:
+          - /url: https://app.eu.vanta.com/framer.com/trust/ow67ujg7iav0t6qtd1o6r2
+          - paragraph [ref=e841]: CCPA
+      - generic [ref=e842]:
+        - generic [ref=e843]:
+          - list [ref=e844]:
+            - listitem [ref=e845]:
+              - generic [ref=e847]: Product
+            - listitem [ref=e848]:
+              - link "AI" [ref=e849] [cursor=pointer]:
+                - /url: ../ai/
+                - generic [ref=e851]: AI
+            - listitem [ref=e852]:
+              - link "Design" [ref=e853] [cursor=pointer]:
+                - /url: ../design/
+                - generic [ref=e855]: Design
+            - listitem [ref=e856]:
+              - link "Publish" [ref=e857] [cursor=pointer]:
+                - /url: ../publish/
+                - generic [ref=e859]: Publish
+            - listitem [ref=e860]:
+              - link "Collaborate" [ref=e861] [cursor=pointer]:
+                - /url: ../collaborate/
+                - generic [ref=e863]: Collaborate
+            - listitem [ref=e864]:
+              - link "Convert" [ref=e865] [cursor=pointer]:
+                - /url: ../convert/
+                - generic [ref=e867]: Convert
+            - listitem [ref=e868]:
+              - link "CMS" [ref=e869] [cursor=pointer]:
+                - /url: ../cms/
+                - generic [ref=e871]: CMS
+            - listitem [ref=e872]:
+              - link "SEO" [ref=e873] [cursor=pointer]:
+                - /url: ../seo/
+                - generic [ref=e875]: SEO
+            - listitem [ref=e876]:
+              - link "Hosting" [ref=e877] [cursor=pointer]:
+                - /url: ../hosting/
+                - generic [ref=e879]: Hosting
+            - listitem [ref=e880]:
+              - link "Performance" [ref=e881] [cursor=pointer]:
+                - /url: ../performance/
+                - generic [ref=e883]: Performance
+            - listitem [ref=e884]:
+              - link "Updates New" [ref=e885] [cursor=pointer]:
+                - /url: ../updates
+                - generic [ref=e887]: Updates
+                - paragraph [ref=e892]: New
+          - list [ref=e893]:
+            - listitem [ref=e894]:
+              - generic [ref=e896]: Business
+            - listitem [ref=e897]:
+              - link "Pricing" [ref=e898] [cursor=pointer]:
+                - /url: ../pricing
+                - generic [ref=e900]: Pricing
+            - listitem [ref=e901]:
+              - link "Switch" [ref=e902] [cursor=pointer]:
+                - /url: ../switch/
+                - generic [ref=e904]: Switch
+            - listitem [ref=e905]:
+              - link "Startups" [ref=e906] [cursor=pointer]:
+                - /url: ../startups/
+                - generic [ref=e908]: Startups
+            - listitem [ref=e909]:
+              - link "Agencies" [ref=e910] [cursor=pointer]:
+                - /url: ../agencies/
+                - generic [ref=e912]: Agencies
+            - listitem [ref=e913]:
+              - link "Enterprise" [ref=e914] [cursor=pointer]:
+                - /url: ../enterprise/
+                - generic [ref=e916]: Enterprise
+        - generic [ref=e917]:
+          - list [ref=e918]:
+            - listitem [ref=e919]:
+              - generic [ref=e921]: Solutions
+            - listitem [ref=e922]:
+              - link "Figma to HTML" [ref=e923] [cursor=pointer]:
+                - /url: ../solutions/figma-to-html/
+                - generic [ref=e925]: Figma to HTML
+            - listitem [ref=e926]:
+              - link "Website builder" [ref=e927] [cursor=pointer]:
+                - /url: ../solutions/website-builder/
+                - generic [ref=e929]: Website builder
+            - listitem [ref=e930]:
+              - link "Portfolio maker" [ref=e931] [cursor=pointer]:
+                - /url: ../solutions/portfolio-website/
+                - generic [ref=e933]: Portfolio maker
+            - listitem [ref=e934]:
+              - link "Landing pages" [ref=e935] [cursor=pointer]:
+                - /url: ../solutions/landing-pages/
+                - generic [ref=e937]: Landing pages
+            - listitem [ref=e938]:
+              - link "UI/UX design" [ref=e939] [cursor=pointer]:
+                - /url: ../solutions/ui-ux-design/
+                - generic [ref=e941]: UI/UX design
+            - listitem [ref=e942]:
+              - link "No-code" [ref=e943] [cursor=pointer]:
+                - /url: ../solutions/no-code-website-builder/
+                - generic [ref=e945]: No-code
+          - list [ref=e946]:
+            - listitem [ref=e947]:
+              - generic [ref=e949]: Compare
+            - listitem [ref=e950]:
+              - link "AEM" [ref=e952] [cursor=pointer]:
+                - /url: ../compare/framer-vs-adobe-experience-manager
+                - generic [ref=e954]: AEM
+              - link "Sanity" [ref=e956] [cursor=pointer]:
+                - /url: ../compare/framer-vs-sanity
+                - generic [ref=e958]: Sanity
+              - link "Claude Code" [ref=e960] [cursor=pointer]:
+                - /url: ../compare/framer-vs-claude-code
+                - generic [ref=e962]: Claude Code
+              - link "Squarespace" [ref=e964] [cursor=pointer]:
+                - /url: ../compare/framer-vs-squarespace
+                - generic [ref=e966]: Squarespace
+              - link "WordPress" [ref=e968] [cursor=pointer]:
+                - /url: ../compare/framer-vs-wordpress
+                - generic [ref=e970]: WordPress
+              - link "Webflow" [ref=e972] [cursor=pointer]:
+                - /url: ../compare/framer-vs-webflow
+                - generic [ref=e974]: Webflow
+              - link "Lovable" [ref=e976] [cursor=pointer]:
+                - /url: ../compare/framer-vs-lovable
+                - generic [ref=e978]: Lovable
+              - link "Figma" [ref=e980] [cursor=pointer]:
+                - /url: ../compare/framer-vs-figma
+                - generic [ref=e982]: Figma
+              - link "Wix" [ref=e984] [cursor=pointer]:
+                - /url: ../compare/framer-vs-wix
+                - generic [ref=e986]: Wix
+              - link "Codex" [ref=e988] [cursor=pointer]:
+                - /url: ../compare/framer-vs-codex
+                - generic [ref=e990]: Codex
+              - link "Unbounce" [ref=e992] [cursor=pointer]:
+                - /url: ../compare/framer-vs-unbounce
+                - generic [ref=e994]: Unbounce
+              - link "Contentful" [ref=e996] [cursor=pointer]:
+                - /url: ../compare/framer-vs-contentful
+                - generic [ref=e998]: Contentful
+              - link "Ceros" [ref=e1000] [cursor=pointer]:
+                - /url: ../compare/framer-vs-ceros
+                - generic [ref=e1002]: Ceros
+              - link "Readymag" [ref=e1004] [cursor=pointer]:
+                - /url: ../compare/framer-vs-readymag
+                - generic [ref=e1006]: Readymag
+        - list [ref=e1008]:
+          - listitem [ref=e1009]:
+            - generic [ref=e1011]: Resources
+          - listitem [ref=e1012]:
+            - link "Marketplace" [ref=e1013] [cursor=pointer]:
+              - /url: https://www.framer.com/marketplace/
+              - generic [ref=e1015]: Marketplace
+          - listitem [ref=e1016]:
+            - link "Templates" [ref=e1017] [cursor=pointer]:
+              - /url: https://www.framer.com/marketplace/templates/
+              - generic [ref=e1019]: Templates
+          - listitem [ref=e1020]:
+            - link "Components" [ref=e1021] [cursor=pointer]:
+              - /url: https://www.framer.com/marketplace/components/
+              - generic [ref=e1023]: Components
+          - listitem [ref=e1024]:
+            - link "Plugins" [ref=e1025] [cursor=pointer]:
+              - /url: https://www.framer.com/marketplace/plugins/
+              - generic [ref=e1027]: Plugins
+          - listitem [ref=e1028]:
+            - link "Vectors" [ref=e1029] [cursor=pointer]:
+              - /url: https://www.framer.com/marketplace/vectors/
+              - generic [ref=e1031]: Vectors
+          - listitem [ref=e1032]:
+            - link "Free domains" [ref=e1033] [cursor=pointer]:
+              - /url: ../domains/
+              - generic [ref=e1035]: Free domains
+          - listitem [ref=e1036]:
+            - link "AEO scanner New" [ref=e1037] [cursor=pointer]:
+              - /url: ../aeo
+              - generic [ref=e1039]: AEO scanner
+              - paragraph [ref=e1044]: New
+          - listitem [ref=e1045]:
+            - link "State of Sites" [ref=e1046] [cursor=pointer]:
+              - /url: https://www.framer.com/state-of-sites-2026/
+              - generic [ref=e1048]: State of Sites
+          - listitem [ref=e1049]:
+            - link "Case studies" [ref=e1050] [cursor=pointer]:
+              - /url: ../stories/
+              - generic [ref=e1052]: Case studies
+          - listitem [ref=e1053]:
+            - link "Developers" [ref=e1054] [cursor=pointer]:
+              - /url: ../developers/
+              - generic [ref=e1056]: Developers
+          - listitem [ref=e1057]:
+            - link "Newsletter" [ref=e1058] [cursor=pointer]:
+              - /url: ../newsletter
+              - generic [ref=e1060]: Newsletter
+          - listitem [ref=e1061]:
+            - link "Support" [ref=e1062] [cursor=pointer]:
+              - /url: ../help/
+              - generic [ref=e1064]: Support
+          - listitem [ref=e1065]:
+            - link "Contact" [ref=e1066] [cursor=pointer]:
+              - /url: ../contact/
+              - generic [ref=e1068]: Contact
+          - listitem [ref=e1069]:
+            - link "Guides" [ref=e1070] [cursor=pointer]:
+              - /url: ../guides
+              - generic [ref=e1072]: Guides
+          - listitem [ref=e1073]:
+            - link "Brand" [ref=e1074] [cursor=pointer]:
+              - /url: ../brand
+              - generic [ref=e1076]: Brand
+          - listitem [ref=e1077]:
+            - link "Blog" [ref=e1078] [cursor=pointer]:
+              - /url: ../blog/
+              - generic [ref=e1080]: Blog
+        - generic [ref=e1081]:
+          - list [ref=e1082]:
+            - listitem [ref=e1083]:
+              - generic [ref=e1085]: Company
+            - listitem [ref=e1086]:
+              - link "Meetups" [ref=e1087] [cursor=pointer]:
+                - /url: ../meetups/
+                - generic [ref=e1089]: Meetups
+            - listitem [ref=e1090]:
+              - link "Careers" [ref=e1091] [cursor=pointer]:
+                - /url: ./
+                - generic [ref=e1093]: Careers
+            - listitem [ref=e1094]:
+              - link "Security" [ref=e1095] [cursor=pointer]:
+                - /url: ../legal/security/
+                - generic [ref=e1097]: Security
+            - listitem [ref=e1098]:
+              - link "Abuse" [ref=e1099] [cursor=pointer]:
+                - /url: mailto:abuse@framer.com
+                - generic [ref=e1101]: Abuse
+            - listitem [ref=e1102]:
+              - link "Media" [ref=e1103] [cursor=pointer]:
+                - /url: ../brand
+                - generic [ref=e1105]: Media
+            - listitem [ref=e1106]:
+              - link "Legal" [ref=e1107] [cursor=pointer]:
+                - /url: ../legal/terms-of-service/
+                - generic [ref=e1109]: Legal
+            - listitem [ref=e1110]:
+              - link "Store" [ref=e1111] [cursor=pointer]:
+                - /url: ../store
+                - generic [ref=e1113]: Store
+            - listitem [ref=e1114]:
+              - link "Trust center" [ref=e1115] [cursor=pointer]:
+                - /url: https://app.eu.vanta.com/framer.com/trust/ow67ujg7iav0t6qtd1o6r2
+                - generic [ref=e1117]: Trust center
+          - list [ref=e1118]:
+            - listitem [ref=e1119]:
+              - generic [ref=e1121]: Programs
+            - listitem [ref=e1122]:
+              - link "Experts" [ref=e1123] [cursor=pointer]:
+                - /url: ../expert/apply/
+                - generic [ref=e1125]: Experts
+            - listitem [ref=e1126]:
+              - link "Creators" [ref=e1127] [cursor=pointer]:
+                - /url: ../creators
+                - generic [ref=e1129]: Creators
+            - listitem [ref=e1130]:
+              - link "Students" [ref=e1131] [cursor=pointer]:
+                - /url: ../education/students/
+                - generic [ref=e1133]: Students
+            - listitem [ref=e1134]:
+              - link "Ambassadors" [ref=e1135] [cursor=pointer]:
+                - /url: ../education/ambassadors/
+                - generic [ref=e1137]: Ambassadors
+    - generic [ref=e1138]:
+      - generic [ref=e1139]:
+        - paragraph [ref=e1141]: Get an AI summary of Framer
+        - generic [ref=e1142]:
+          - link "OpenAI summary of Framer" [ref=e1143] [cursor=pointer]:
+            - /url: https://chat.openai.com/?q=As%20a%20potential%20Framer%20customer%2C%20I%20want%20to%20clearly%20understand%20what%20I%20get%20when%20I%20use%20Framer%20and%20how%20it%20fits%20into%20my%20workflow.%0A%0AExplain%20the%20experience%20step%20by%20step%3A%20what%20I%20can%20create%2C%20what%20I%20control%2C%20what%20Framer%20handles%20for%20me%2C%20and%20how%20things%20evolve%20over%20time.%20Describe%20what%20I%20see%20in%20the%20editor%20and%20dashboard%2C%20how%20publishing%20works%2C%20how%20updates%20are%20managed%2C%20and%20what%20outputs%20I%20end%20up%20with%20(sites%2C%20pages%2C%20components%2C%20analytics%2C%20performance%2C%20etc.).%0A%0AClarify%20the%20key%20features%20and%20systems%20involved%E2%80%94design%20tools%2C%20CMS%2C%20components%2C%20interactions%2C%20hosting%2C%20performance%2C%20collaboration%2C%20and%20any%20metrics%20or%20insights%20Framer%20provides.%20Include%20how%20often%20things%20update%20(e.g.%20content%20changes%2C%20deployments%2C%20analytics%20refresh).%0A%0AExplain%20this%20simply%20and%20concretely%2C%20as%20if%20you%20were%20describing%20the%20real%2C%20day-to-day%20experience%20of%20building%20and%20running%20a%20website%20with%20Framer%20for%20the%20first%20time.
+          - link "Gemini summary of Framer" [ref=e1145] [cursor=pointer]:
+            - /url: https://www.google.com/search?udm=50&q=As%20a%20potential%20Framer%20customer%2C%20I%20want%20to%20clearly%20understand%20what%20I%20get%20when%20I%20use%20Framer%20and%20how%20it%20fits%20into%20my%20workflow.%0A%0AExplain%20the%20experience%20step%20by%20step%2C%20as%20if%20describing%20the%20real%2C%20day-to-day%20use%20of%20the%20product.%20Cover%20what%20I%20can%20create%2C%20what%20I%20control%2C%20what%20Framer%20handles%20automatically%2C%20and%20how%20things%20change%20over%20time.%0A%0ADescribe%20what%20I%20see%20in%20the%20editor%20and%20dashboard%2C%20how%20publishing%20works%2C%20how%20updates%20are%20made%2C%20and%20what%20the%20final%20outputs%20are%2C%20such%20as%20websites%2C%20pages%2C%20components%2C%20performance%2C%20and%20analytics.%0A%0AExplain%20this%20simply%20and%20concretely%2C%20focused%20on%20what%20a%20first-time%20user%20would%20actually%20experience.
+          - link "Perplexity summary of Framer" [ref=e1147] [cursor=pointer]:
+            - /url: https://www.perplexity.ai/search?q=As%20a%20potential%20Framer%20customer%2C%20I%20want%20to%20clearly%20understand%20what%20I%20get%20when%20I%20use%20Framer%20and%20how%20it%20fits%20into%20my%20workflow.%0A%0AExplain%20the%20experience%20step%20by%20step%3A%20what%20I%20can%20create%2C%20what%20I%20control%2C%20what%20Framer%20handles%20for%20me%2C%20and%20how%20things%20evolve%20over%20time.%20Describe%20what%20I%20see%20in%20the%20editor%20and%20dashboard%2C%20how%20publishing%20works%2C%20how%20updates%20are%20managed%2C%20and%20what%20outputs%20I%20end%20up%20with.%0A%0AExplain%20this%20simply%20and%20concretely%2C%20as%20if%20you%20were%20describing%20the%20real%2C%20day-to-day%20experience%20of%20using%20Framer.
+      - paragraph [ref=e1152]: © Framer B.V.

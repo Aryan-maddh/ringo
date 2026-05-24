@@ -1,0 +1,726 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - img [ref=e6]
+        - generic [ref=e8]: ringo.
+      - generic [ref=e9]:
+        - link "How it works" [ref=e10] [cursor=pointer]:
+          - /url: "#how-it-works"
+        - link "Channels" [ref=e11] [cursor=pointer]:
+          - /url: "#channels"
+        - link "Product" [ref=e12] [cursor=pointer]:
+          - /url: "#features"
+        - link "Pricing" [ref=e13] [cursor=pointer]:
+          - /url: "#pricing"
+        - link "Customers" [ref=e14] [cursor=pointer]:
+          - /url: "#customers"
+      - generic [ref=e15]:
+        - link "Sign in" [ref=e16] [cursor=pointer]:
+          - /url: /login
+        - link "Start free · 7 days" [ref=e17] [cursor=pointer]:
+          - /url: /onboarding
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]: New · SMS · WhatsApp · Instagram · Facebook — one inbox
+        - heading "Every missed call, answered in 11s." [level=1] [ref=e23]:
+          - text: Every missed call,
+          - text: answered in 11s.
+        - generic [ref=e24]: Ringo replies to missed calls, WhatsApp pings, Instagram DMs & Facebook messages — instantly, in your voice — books the job, lands the lead in one inbox.
+        - generic [ref=e26]:
+          - textbox "(415) 555-0136" [ref=e27]
+          - button "Try it on my phone" [ref=e28] [cursor=pointer]:
+            - text: Try it on my phone
+            - img [ref=e29]
+        - generic [ref=e31]:
+          - generic [ref=e32]: WORKS ON
+          - generic [ref=e33]:
+            - generic [ref=e34] [cursor=pointer]:
+              - img [ref=e35]
+              - text: SMS
+            - generic [ref=e37] [cursor=pointer]:
+              - img [ref=e38]
+              - text: WhatsApp
+            - generic [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+              - text: Instagram
+            - generic [ref=e46] [cursor=pointer]:
+              - img [ref=e47]
+              - text: Facebook
+            - generic [ref=e49] [cursor=pointer]:
+              - img [ref=e50]
+              - text: Messenger
+            - generic [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - text: Google Business
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - img [ref=e61]
+            - text: No credit card
+          - generic [ref=e63]:
+            - img [ref=e64]
+            - text: Keep your number
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - text: Live in 4 minutes
+      - generic [ref=e70]:
+        - generic [ref=e75]:
+          - generic [ref=e76]: INCOMING CALL
+          - img [ref=e82]
+          - generic [ref=e84]: Jenna Holcomb
+          - generic [ref=e85]: +1 (415) 555-0136
+          - generic [ref=e86]:
+            - img [ref=e88]
+            - img [ref=e91]
+        - generic [ref=e97]: Missed call · +1
+    - generic [ref=e99]:
+      - generic [ref=e100]: Trusted infrastructure · built on the rails you already know
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - generic [ref=e105]: tw
+          - text: Twilio Partner
+        - generic [ref=e106]:
+          - generic [ref=e108]: S
+          - text: Stripe Verified
+        - generic [ref=e109]:
+          - img [ref=e111]
+          - text: A2P 10DLC Certified
+        - generic [ref=e113]:
+          - img [ref=e115]
+          - text: SOC 2 Type II
+        - generic [ref=e117]:
+          - generic [ref=e119]: HH
+          - text: HIPAA Ready
+        - generic [ref=e120]:
+          - generic [ref=e122]: G
+          - text: Google Cloud
+        - generic [ref=e123]:
+          - generic [ref=e125]: JB
+          - text: Jobber Integration
+        - generic [ref=e126]:
+          - generic [ref=e128]: Z
+          - text: Zapier Compatible
+        - generic [ref=e129]:
+          - generic [ref=e131]: GC
+          - text: Google Calendar
+        - generic [ref=e132]:
+          - img [ref=e134]
+          - text: TCPA Compliant
+        - generic [ref=e136]:
+          - generic [ref=e138]: tw
+          - text: Twilio Partner
+        - generic [ref=e139]:
+          - generic [ref=e141]: S
+          - text: Stripe Verified
+        - generic [ref=e142]:
+          - img [ref=e144]
+          - text: A2P 10DLC Certified
+        - generic [ref=e146]:
+          - img [ref=e148]
+          - text: SOC 2 Type II
+        - generic [ref=e150]:
+          - generic [ref=e152]: HH
+          - text: HIPAA Ready
+        - generic [ref=e153]:
+          - generic [ref=e155]: G
+          - text: Google Cloud
+        - generic [ref=e156]:
+          - generic [ref=e158]: JB
+          - text: Jobber Integration
+        - generic [ref=e159]:
+          - generic [ref=e161]: Z
+          - text: Zapier Compatible
+        - generic [ref=e162]:
+          - generic [ref=e164]: GC
+          - text: Google Calendar
+        - generic [ref=e165]:
+          - img [ref=e167]
+          - text: TCPA Compliant
+    - generic [ref=e171]:
+      - paragraph [ref=e172]: Ringo by the numbers
+      - generic [ref=e173]:
+        - generic [ref=e175]:
+          - generic [ref=e176]: 0.0M+
+          - generic [ref=e177]: Missed calls answered
+        - generic [ref=e180]:
+          - generic [ref=e181]: 0K+
+          - generic [ref=e182]: Jobs booked for customers
+        - generic [ref=e185]:
+          - generic [ref=e186]: 0s
+          - generic [ref=e187]: Avg AI response time
+        - generic [ref=e190]:
+          - generic [ref=e191]: $0M+
+          - generic [ref=e192]: Revenue recovered
+    - generic [ref=e195]:
+      - generic [ref=e196]:
+        - generic [ref=e197]: How Ringo works
+        - heading "Watch a missed call become a booked job." [level=2] [ref=e198]
+        - generic [ref=e199]: Three steps. Four-minute setup. No new phone, no new number.
+      - generic [ref=e200]:
+        - generic [ref=e201]:
+          - button "STEP 01 Customer rings — you can't pick up A 30-second carrier code routes unanswered calls to Ringo. Real calls still ring your phone first." [ref=e202] [cursor=pointer]:
+            - generic [ref=e204]:
+              - img [ref=e206]
+              - generic [ref=e208]:
+                - generic [ref=e209]: STEP 01
+                - generic [ref=e210]: Customer rings — you can't pick up
+            - generic [ref=e211]: A 30-second carrier code routes unanswered calls to Ringo. Real calls still ring your phone first.
+          - button "STEP 02 Ringo texts back in 11 seconds The model writes a friendly, on-brand reply — gathering address, issue, and urgency before the lead cools off." [ref=e212] [cursor=pointer]:
+            - generic [ref=e213]:
+              - img [ref=e215]
+              - generic [ref=e217]:
+                - generic [ref=e218]: STEP 02
+                - generic [ref=e219]: Ringo texts back in 11 seconds
+            - generic [ref=e220]: The model writes a friendly, on-brand reply — gathering address, issue, and urgency before the lead cools off.
+          - button "STEP 03 You wake up to a booked job Confirmed appointments land on your calendar; quotes and leads land in your inbox. Pick the cherries." [ref=e221] [cursor=pointer]:
+            - generic [ref=e222]:
+              - img [ref=e224]
+              - generic [ref=e226]:
+                - generic [ref=e227]: STEP 03
+                - generic [ref=e228]: You wake up to a booked job
+            - generic [ref=e229]: Confirmed appointments land on your calendar; quotes and leads land in your inbox. Pick the cherries.
+        - generic [ref=e238]:
+          - generic [ref=e239]: INCOMING CALL
+          - img [ref=e245]
+          - generic [ref=e247]: Jenna Holcomb
+          - generic [ref=e248]: +1 (415) 555-0136
+          - generic [ref=e249]:
+            - img [ref=e251]
+            - img [ref=e254]
+    - generic [ref=e258]:
+      - generic [ref=e260]:
+        - generic [ref=e261]: One inbox
+        - heading "Every channel. One Ringo." [level=2] [ref=e262]
+        - generic [ref=e263]: SMS, WhatsApp, Instagram DMs, Facebook Messenger, Google Business chat — every customer message lands in one place and gets a reply in 11 seconds.
+      - generic [ref=e264]:
+        - img
+        - generic [ref=e265]:
+          - generic [ref=e266]:
+            - generic [ref=e267]:
+              - img [ref=e270]
+              - generic [ref=e272]:
+                - generic [ref=e273]: SMS
+                - generic [ref=e274]: SMS & MMS · A2P 10DLC
+            - generic [ref=e276]:
+              - img [ref=e279]
+              - generic [ref=e282]:
+                - generic [ref=e283]: WhatsApp
+                - generic [ref=e284]: WhatsApp Business API
+            - generic [ref=e286]:
+              - img [ref=e289]
+              - generic [ref=e293]:
+                - generic [ref=e294]: Instagram
+                - generic [ref=e295]: Instagram DMs & comments
+            - generic [ref=e297]:
+              - img [ref=e300]
+              - generic [ref=e302]:
+                - generic [ref=e303]: Facebook
+                - generic [ref=e304]: Facebook Messenger
+            - generic [ref=e306]:
+              - img [ref=e309]
+              - generic [ref=e314]:
+                - generic [ref=e315]: Google Business
+                - generic [ref=e316]: Google Business chat
+          - generic [ref=e318]:
+            - generic [ref=e319]:
+              - generic [ref=e320]: R
+              - generic [ref=e321]:
+                - generic [ref=e322]: Ringo Inbox
+                - generic [ref=e323]: Today · 6 conversations
+              - generic [ref=e324]: LIVE
+            - generic [ref=e326]:
+              - generic [ref=e327] [cursor=pointer]:
+                - generic [ref=e329]:
+                  - generic [ref=e330]: SK
+                  - img [ref=e332]
+                - generic [ref=e335]:
+                  - generic [ref=e336]: Sarah K.
+                  - generic [ref=e337]: Can you do tomorrow morning?
+                - generic [ref=e338]: BOOKED
+              - generic [ref=e339] [cursor=pointer]:
+                - generic [ref=e341]:
+                  - generic [ref=e342]: M
+                  - img [ref=e344]
+                - generic [ref=e348]:
+                  - generic [ref=e349]: "@marcoplumb"
+                  - generic [ref=e350]: Hey — do you do gas lines?
+                - generic [ref=e351]: REPLYING
+              - generic [ref=e352] [cursor=pointer]:
+                - generic [ref=e354]:
+                  - generic [ref=e355]: JH
+                  - img [ref=e357]
+                - generic [ref=e359]:
+                  - generic [ref=e360]: Jenna Holcomb
+                  - generic [ref=e361]: kitchen sink leak, 2204 folsom
+                - generic [ref=e362]: BOOKED
+              - generic [ref=e363] [cursor=pointer]:
+                - generic [ref=e365]:
+                  - generic [ref=e366]: MB
+                  - img [ref=e368]
+                - generic [ref=e370]:
+                  - generic [ref=e371]: Mike Brennan
+                  - generic [ref=e372]: Need a quote for water heater
+                - generic [ref=e373]: REPLYING
+              - generic [ref=e374] [cursor=pointer]:
+                - generic [ref=e376]:
+                  - generic [ref=e377]: LP
+                  - img [ref=e379]
+                - generic [ref=e382]:
+                  - generic [ref=e383]: Lina Park
+                  - generic [ref=e384]: water in basement again 😬
+                - generic [ref=e385]: WAITING
+              - generic [ref=e386] [cursor=pointer]:
+                - generic [ref=e388]:
+                  - generic [ref=e389]: AP
+                  - img [ref=e391]
+                - generic [ref=e396]:
+                  - generic [ref=e397]: Aisha Patel
+                  - generic [ref=e398]: Saturday emergency call possible?
+                - generic [ref=e399]: BOOKED
+            - generic [ref=e400]:
+              - generic [ref=e401]:
+                - generic [ref=e402]: Replied
+                - generic [ref=e403]: 6/6
+              - generic [ref=e404]:
+                - generic [ref=e405]: Booked
+                - generic [ref=e406]: "3"
+              - generic [ref=e407]:
+                - generic [ref=e408]: Avg
+                - generic [ref=e409]: 9s
+        - generic [ref=e410]:
+          - generic [ref=e411]:
+            - img [ref=e413]
+            - text: SMS
+          - generic [ref=e415]:
+            - img [ref=e417]
+            - text: WhatsApp
+          - generic [ref=e420]:
+            - img [ref=e422]
+            - text: Instagram
+          - generic [ref=e426]:
+            - img [ref=e428]
+            - text: Facebook
+          - generic [ref=e430]:
+            - img [ref=e432]
+            - text: Messenger
+          - generic [ref=e435]:
+            - img [ref=e437]
+            - text: Google Business
+          - generic [ref=e442]:
+            - img [ref=e444]
+            - text: Call
+          - generic [ref=e446]:
+            - img [ref=e448]
+            - text: Voicemail
+    - generic [ref=e453]:
+      - generic [ref=e454]:
+        - generic [ref=e457]:
+          - generic [ref=e458]: got a leak under sink, can u come today
+          - generic [ref=e459]: Yep! Shut your angle stops first. We can be there 1–2 PM, $95 trip applied to repair. ✓?
+        - generic [ref=e464]: Speaks like you
+        - generic [ref=e465]: A model fine-tuned on your trade. No "as an AI" — just a plumber, electrician, or stylist who answers fast.
+      - generic [ref=e466]:
+        - generic [ref=e467]:
+          - img [ref=e469]
+          - generic [ref=e472]:
+            - generic [ref=e473]: A2P 10DLC
+            - generic [ref=e474]: Opt-out
+            - generic [ref=e475]: Quiet hours
+        - generic [ref=e476]: TCPA-clean by default
+        - generic [ref=e477]: A2P 10DLC registration, opt-out handling, and quiet hours — all built in. No fines, no headaches.
+      - generic [ref=e478]:
+        - generic [ref=e479]:
+          - generic [ref=e480]:
+            - img [ref=e482]
+            - generic [ref=e485]:
+              - generic [ref=e486]: Auto Warranty Co.
+              - generic [ref=e487]: +1 (555) 010-…
+            - generic [ref=e488]: BLOCKED
+          - generic [ref=e489]:
+            - img [ref=e491]
+            - generic [ref=e493]:
+              - generic [ref=e494]: Jenna Holcomb
+              - generic [ref=e495]: real customer · drain repair
+            - generic [ref=e496]: REPLIED
+          - generic [ref=e497]:
+            - generic [ref=e498]: "142"
+            - generic [ref=e499]: spam calls blocked this month
+        - generic [ref=e500]: Spam & robocall guard
+        - generic [ref=e501]: Ringo silently ignores known spam numbers so your inbox stays full of real customers, not warranty calls.
+      - generic [ref=e502]:
+        - generic [ref=e505]:
+          - generic [ref=e506]:
+            - generic [ref=e507]: GC
+            - generic [ref=e508]: Google Cal
+          - generic [ref=e509]:
+            - generic [ref=e510]: JB
+            - generic [ref=e511]: Jobber
+          - generic [ref=e512]:
+            - generic [ref=e513]: SL
+            - generic [ref=e514]: Slack
+          - generic [ref=e515]:
+            - generic [ref=e516]: ZP
+            - generic [ref=e517]: Zapier
+        - generic [ref=e518]: Works with your tools
+        - generic [ref=e519]: Drops bookings into Google Calendar and Jobber, fires Slack alerts, and Zapiers everywhere else.
+    - generic [ref=e522]:
+      - generic [ref=e523]:
+        - generic [ref=e524]: Built for the trades
+        - heading "Replies that sound like you wrote them at 11:43 AM between jobs." [level=2] [ref=e525]
+        - generic [ref=e526]: Templates are tuned per trade — emergency keywords, trip-charge handling, calendar holds, parts-ordering disclaimers. Drop in your prices and tone once; Ringo speaks fluent plumber from then on.
+        - generic [ref=e527]:
+          - generic [ref=e528]:
+            - img [ref=e530]
+            - text: Detects emergency keywords like "leak", "no power", "burst"
+          - generic [ref=e532]:
+            - img [ref=e534]
+            - text: Pulls service area from ZIP — politely declines out-of-area calls
+          - generic [ref=e536]:
+            - img [ref=e538]
+            - text: Confirms appointments and adds them to your calendar
+          - generic [ref=e540]:
+            - img [ref=e542]
+            - text: Re-engages no-shows 48h later with a one-touch reschedule link
+      - generic [ref=e544]:
+        - generic [ref=e545]:
+          - button "Plumbing" [ref=e546] [cursor=pointer]
+          - button "Electrical" [ref=e547] [cursor=pointer]
+          - button "HVAC" [ref=e548] [cursor=pointer]
+          - button "Salon" [ref=e549] [cursor=pointer]
+        - generic [ref=e550]:
+          - generic [ref=e551]: 11:42 AM · missed call from +1 (415) 555-0117
+          - generic [ref=e552]: Hi Jenna! This is Pacific Plumbing 👋 sorry we missed you — Marco’s on a job. What’s going on, & what’s the address?
+          - generic [ref=e553]: "sink leaking under cabinet. 2204 folsom #3"
+          - generic [ref=e554]:
+            - text: Got it. Shut the angle stops below the basin first. We can be there
+            - strong [ref=e555]: 1–2 PM today
+            - text: — $95 trip applied to repair. ✓?
+          - generic [ref=e556]: yes!! 🙏
+          - generic [ref=e557]: ✓ BOOKED · 1:00 PM · added to Google Calendar
+    - generic [ref=e560]:
+      - generic [ref=e561]: Pricing
+      - heading "Pay for jobs saved. Not seats." [level=2] [ref=e562]
+      - generic [ref=e563]:
+        - generic [ref=e565]:
+          - generic [ref=e566]: Solo
+          - generic [ref=e567]: For one-truck operators
+          - generic [ref=e568]:
+            - generic [ref=e569]: $29
+            - generic [ref=e570]: / mo, billed monthly
+          - button "Start free" [ref=e571] [cursor=pointer]
+          - generic [ref=e572]:
+            - generic [ref=e573]:
+              - img [ref=e574]
+              - generic [ref=e576]: 1 number
+            - generic [ref=e577]:
+              - img [ref=e578]
+              - generic [ref=e580]: 100 AI replies / mo
+            - generic [ref=e581]:
+              - img [ref=e582]
+              - generic [ref=e584]: Google Calendar sync
+            - generic [ref=e585]:
+              - img [ref=e586]
+              - generic [ref=e588]: Spam guard
+            - generic [ref=e589]:
+              - img [ref=e590]
+              - generic [ref=e592]: SMS & voicemail
+        - generic [ref=e593]:
+          - generic [ref=e595]: Most popular
+          - generic [ref=e596]:
+            - generic [ref=e597]: Crew
+            - generic [ref=e598]: Most owners pick this
+            - generic [ref=e599]:
+              - generic [ref=e600]: $79
+              - generic [ref=e601]: / mo, billed monthly
+            - button "Start free · 7 days" [ref=e602] [cursor=pointer]
+            - generic [ref=e603]:
+              - generic [ref=e604]:
+                - img [ref=e605]
+                - generic [ref=e607]: 3 numbers + after-hours line
+              - generic [ref=e608]:
+                - img [ref=e609]
+                - generic [ref=e611]: Unlimited AI replies
+              - generic [ref=e612]:
+                - img [ref=e613]
+                - generic [ref=e615]: Jobber, Slack & Zapier
+              - generic [ref=e616]:
+                - img [ref=e617]
+                - generic [ref=e619]: Lead scoring + AI brief
+              - generic [ref=e620]:
+                - img [ref=e621]
+                - generic [ref=e623]: Team inbox · 5 seats
+        - generic [ref=e625]:
+          - generic [ref=e626]: Shop
+          - generic [ref=e627]: For multi-location teams
+          - generic [ref=e628]:
+            - generic [ref=e629]: $149
+            - generic [ref=e630]: / mo, billed monthly
+          - button "Talk to sales" [ref=e631] [cursor=pointer]
+          - generic [ref=e632]:
+            - generic [ref=e633]:
+              - img [ref=e634]
+              - generic [ref=e636]: Unlimited numbers
+            - generic [ref=e637]:
+              - img [ref=e638]
+              - generic [ref=e640]: Multi-location routing
+            - generic [ref=e641]:
+              - img [ref=e642]
+              - generic [ref=e644]: Custom voice training
+            - generic [ref=e645]:
+              - img [ref=e646]
+              - generic [ref=e648]: SOC 2 + DPA
+            - generic [ref=e649]:
+              - img [ref=e650]
+              - generic [ref=e652]: Priority human support
+      - generic [ref=e653]: All plans include carrier & A2P fees. Cancel any time. 14-day refund.
+    - generic [ref=e656]:
+      - generic [ref=e657]:
+        - generic [ref=e658]: Customers
+        - heading "Loved by the builders of America." [level=2] [ref=e659]
+        - generic [ref=e660]: Real shops, real revenue saved — from solo plumbers to multi-truck fleets.
+      - generic [ref=e662]:
+        - generic [ref=e663]:
+          - generic [ref=e665]: “Booked $4,200 in jobs my first weekend on Ringo. Clients have no clue it's automated — they just think I'm fast.”
+          - generic [ref=e666]:
+            - generic [ref=e667]: MR
+            - generic [ref=e668]:
+              - generic [ref=e669]: Marco Reyes
+              - generic [ref=e670]: Pacific Plumbing · SF
+            - generic [ref=e671]:
+              - img [ref=e672]
+              - img [ref=e674]
+              - img [ref=e676]
+              - img [ref=e678]
+              - img [ref=e680]
+        - generic [ref=e682]:
+          - generic [ref=e684]: “I run my salon alone between cuts. Ringo replies while I have scissors in my hand. Easily 15 saved bookings a month.”
+          - generic [ref=e685]:
+            - generic [ref=e686]: LP
+            - generic [ref=e687]:
+              - generic [ref=e688]: Lina Park
+              - generic [ref=e689]: Salon Lume · Austin
+            - generic [ref=e690]:
+              - img [ref=e691]
+              - img [ref=e693]
+              - img [ref=e695]
+              - img [ref=e697]
+              - img [ref=e699]
+        - generic [ref=e701]:
+          - generic [ref=e703]: “The TCPA stuff used to terrify me. Ringo set up our 10DLC in a day and I haven't thought about it since.”
+          - generic [ref=e704]:
+            - generic [ref=e705]: DW
+            - generic [ref=e706]:
+              - generic [ref=e707]: Dre Whitfield
+              - generic [ref=e708]: Brightspark Electric · Denver
+            - generic [ref=e709]:
+              - img [ref=e710]
+              - img [ref=e712]
+              - img [ref=e714]
+              - img [ref=e716]
+              - img [ref=e718]
+        - generic [ref=e720]:
+          - generic [ref=e722]: “Used to lose 4–5 leads a week to voicemail. Now my mornings start with a list of booked jobs, not missed calls.”
+          - generic [ref=e723]:
+            - generic [ref=e724]: AP
+            - generic [ref=e725]:
+              - generic [ref=e726]: Aisha Patel
+              - generic [ref=e727]: Patel HVAC · Phoenix
+            - generic [ref=e728]:
+              - img [ref=e729]
+              - img [ref=e731]
+              - img [ref=e733]
+              - img [ref=e735]
+              - img [ref=e737]
+        - generic [ref=e739]:
+          - generic [ref=e741]: “The replies sound exactly like me. Customers reply back thinking they're texting my cell — and I never have to lift a finger.”
+          - generic [ref=e742]:
+            - generic [ref=e743]: TV
+            - generic [ref=e744]:
+              - generic [ref=e745]: Tony Vega
+              - generic [ref=e746]: Vega Roofing · San Diego
+            - generic [ref=e747]:
+              - img [ref=e748]
+              - img [ref=e750]
+              - img [ref=e752]
+              - img [ref=e754]
+              - img [ref=e756]
+        - generic [ref=e758]:
+          - generic [ref=e760]: “Setup took less than coffee. By lunch Ringo had already booked an emergency call I would've missed in surgery.”
+          - generic [ref=e761]:
+            - generic [ref=e762]: DT
+            - generic [ref=e763]:
+              - generic [ref=e764]: Dr. Mei Tanaka
+              - generic [ref=e765]: Tanaka Dental · Seattle
+            - generic [ref=e766]:
+              - img [ref=e767]
+              - img [ref=e769]
+              - img [ref=e771]
+              - img [ref=e773]
+              - img [ref=e775]
+        - generic [ref=e777]:
+          - generic [ref=e779]: “Booked $4,200 in jobs my first weekend on Ringo. Clients have no clue it's automated — they just think I'm fast.”
+          - generic [ref=e780]:
+            - generic [ref=e781]: MR
+            - generic [ref=e782]:
+              - generic [ref=e783]: Marco Reyes
+              - generic [ref=e784]: Pacific Plumbing · SF
+            - generic [ref=e785]:
+              - img [ref=e786]
+              - img [ref=e788]
+              - img [ref=e790]
+              - img [ref=e792]
+              - img [ref=e794]
+        - generic [ref=e796]:
+          - generic [ref=e798]: “I run my salon alone between cuts. Ringo replies while I have scissors in my hand. Easily 15 saved bookings a month.”
+          - generic [ref=e799]:
+            - generic [ref=e800]: LP
+            - generic [ref=e801]:
+              - generic [ref=e802]: Lina Park
+              - generic [ref=e803]: Salon Lume · Austin
+            - generic [ref=e804]:
+              - img [ref=e805]
+              - img [ref=e807]
+              - img [ref=e809]
+              - img [ref=e811]
+              - img [ref=e813]
+        - generic [ref=e815]:
+          - generic [ref=e817]: “The TCPA stuff used to terrify me. Ringo set up our 10DLC in a day and I haven't thought about it since.”
+          - generic [ref=e818]:
+            - generic [ref=e819]: DW
+            - generic [ref=e820]:
+              - generic [ref=e821]: Dre Whitfield
+              - generic [ref=e822]: Brightspark Electric · Denver
+            - generic [ref=e823]:
+              - img [ref=e824]
+              - img [ref=e826]
+              - img [ref=e828]
+              - img [ref=e830]
+              - img [ref=e832]
+        - generic [ref=e834]:
+          - generic [ref=e836]: “Used to lose 4–5 leads a week to voicemail. Now my mornings start with a list of booked jobs, not missed calls.”
+          - generic [ref=e837]:
+            - generic [ref=e838]: AP
+            - generic [ref=e839]:
+              - generic [ref=e840]: Aisha Patel
+              - generic [ref=e841]: Patel HVAC · Phoenix
+            - generic [ref=e842]:
+              - img [ref=e843]
+              - img [ref=e845]
+              - img [ref=e847]
+              - img [ref=e849]
+              - img [ref=e851]
+        - generic [ref=e853]:
+          - generic [ref=e855]: “The replies sound exactly like me. Customers reply back thinking they're texting my cell — and I never have to lift a finger.”
+          - generic [ref=e856]:
+            - generic [ref=e857]: TV
+            - generic [ref=e858]:
+              - generic [ref=e859]: Tony Vega
+              - generic [ref=e860]: Vega Roofing · San Diego
+            - generic [ref=e861]:
+              - img [ref=e862]
+              - img [ref=e864]
+              - img [ref=e866]
+              - img [ref=e868]
+              - img [ref=e870]
+        - generic [ref=e872]:
+          - generic [ref=e874]: “Setup took less than coffee. By lunch Ringo had already booked an emergency call I would've missed in surgery.”
+          - generic [ref=e875]:
+            - generic [ref=e876]: DT
+            - generic [ref=e877]:
+              - generic [ref=e878]: Dr. Mei Tanaka
+              - generic [ref=e879]: Tanaka Dental · Seattle
+            - generic [ref=e880]:
+              - img [ref=e881]
+              - img [ref=e883]
+              - img [ref=e885]
+              - img [ref=e887]
+              - img [ref=e889]
+    - generic [ref=e896]:
+      - generic [ref=e897]:
+        - generic [ref=e898]: Free 7-day trial
+        - heading "Stop bleeding jobs to voicemail." [level=2] [ref=e900]
+        - generic [ref=e901]: Set up takes 4 minutes. The first job Ringo saves usually pays for the year.
+      - generic [ref=e902]:
+        - button "Start your free trial" [ref=e903] [cursor=pointer]:
+          - text: Start your free trial
+          - img [ref=e904]
+        - button "Book a 15-min walkthrough" [ref=e906] [cursor=pointer]
+        - generic [ref=e907]:
+          - generic [ref=e908]:
+            - img [ref=e909]
+            - text: No credit card
+          - generic [ref=e911]:
+            - img [ref=e912]
+            - text: Keep your number
+          - generic [ref=e914]:
+            - img [ref=e915]
+            - text: Live in 4 min
+    - contentinfo [ref=e917]:
+      - generic [ref=e918]:
+        - generic [ref=e919]:
+          - generic [ref=e920]:
+            - img [ref=e922]
+            - generic [ref=e924]: ringo.
+          - generic [ref=e925]: Missed-call autoresponder for plumbers, electricians, salons, and the rest of the builders of America.
+          - generic [ref=e926]:
+            - generic [ref=e927]: SOC 2 Type II
+            - generic [ref=e928]: TCPA · A2P 10DLC
+        - generic [ref=e929]:
+          - generic [ref=e930]: Product
+          - link "Features" [ref=e931] [cursor=pointer]:
+            - /url: "#"
+          - link "Pricing" [ref=e932] [cursor=pointer]:
+            - /url: "#"
+          - link "Integrations" [ref=e933] [cursor=pointer]:
+            - /url: "#"
+          - link "Changelog" [ref=e934] [cursor=pointer]:
+            - /url: "#"
+          - link "Status" [ref=e935] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e936]:
+          - generic [ref=e937]: Trades
+          - link "Plumbing" [ref=e938] [cursor=pointer]:
+            - /url: "#"
+          - link "Electrical" [ref=e939] [cursor=pointer]:
+            - /url: "#"
+          - link "HVAC" [ref=e940] [cursor=pointer]:
+            - /url: "#"
+          - link "Salons" [ref=e941] [cursor=pointer]:
+            - /url: "#"
+          - link "Cleaning" [ref=e942] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e943]:
+          - generic [ref=e944]: Company
+          - link "About" [ref=e945] [cursor=pointer]:
+            - /url: "#"
+          - link "Customers" [ref=e946] [cursor=pointer]:
+            - /url: "#"
+          - link "Careers" [ref=e947] [cursor=pointer]:
+            - /url: "#"
+          - link "Contact" [ref=e948] [cursor=pointer]:
+            - /url: "#"
+          - link "Press" [ref=e949] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e950]:
+          - generic [ref=e951]: Resources
+          - link "Docs" [ref=e952] [cursor=pointer]:
+            - /url: "#"
+          - link "API" [ref=e953] [cursor=pointer]:
+            - /url: "#"
+          - link "Compliance" [ref=e954] [cursor=pointer]:
+            - /url: "#"
+          - link "Playbook" [ref=e955] [cursor=pointer]:
+            - /url: "#"
+          - link "Help center" [ref=e956] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e957]:
+        - generic [ref=e958]: © 2026 Ringo, Inc. · 548 Market St, San Francisco
+        - generic [ref=e959]:
+          - link "Privacy" [ref=e960] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms" [ref=e961] [cursor=pointer]:
+            - /url: "#"
+          - link "DPA" [ref=e962] [cursor=pointer]:
+            - /url: "#"
+  - button "Open Next.js Dev Tools" [ref=e968] [cursor=pointer]:
+    - img [ref=e969]

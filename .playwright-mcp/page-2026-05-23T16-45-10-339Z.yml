@@ -1,0 +1,663 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - navigation [ref=e7]:
+      - generic [ref=e8]:
+        - link "Intercom" [ref=e9] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - list [ref=e13]:
+          - listitem [ref=e14]:
+            - button "Product" [ref=e15]:
+              - generic [ref=e16]:
+                - text: Product
+                - img [ref=e18]
+          - listitem [ref=e20]:
+            - link "Customers" [ref=e21] [cursor=pointer]:
+              - /url: /customers
+              - generic [ref=e22]: Customers
+          - listitem [ref=e23]:
+            - button "Resources" [ref=e24]:
+              - generic [ref=e25]:
+                - text: Resources
+                - img [ref=e27]
+          - listitem [ref=e29]:
+            - link "Pricing" [ref=e30] [cursor=pointer]:
+              - /url: /pricing
+              - generic [ref=e31]: Pricing
+        - list [ref=e32]:
+          - listitem [ref=e33]:
+            - link "Log in" [ref=e34] [cursor=pointer]:
+              - /url: https://app.intercom.com/admins/sign_in
+              - generic [ref=e35]: Log in
+          - listitem [ref=e36]:
+            - link "Contact sales" [ref=e37] [cursor=pointer]:
+              - /url: /contact-sales
+              - generic [ref=e38]: Contact sales
+          - listitem [ref=e39]:
+            - link "View demo" [ref=e40] [cursor=pointer]:
+              - /url: /view-demos
+              - generic [ref=e41]: View demo
+          - listitem [ref=e42]:
+            - link "Start free trial" [ref=e43] [cursor=pointer]:
+              - /url: https://app.intercom.com/admins/sign_up?solution_id=29
+        - list [ref=e44]:
+          - listitem [ref=e45]:
+            - link "Fin AI Agent" [ref=e47] [cursor=pointer]:
+              - /url: https://fin.ai
+              - text: Fin AI Agent
+              - img [ref=e48]
+  - main [ref=e50]:
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e57]:
+              - heading "The only helpdesk designed for the AI Agent era" [level=1] [ref=e58]:
+                - text: The only helpdesk designed
+                - text: for the AI Agent era
+              - img "Black ink illustration of a flower" [ref=e59]
+            - generic [ref=e60]:
+              - paragraph [ref=e61]:
+                - text: Intercom is the only helpdesk with a natively integrated AI Agent,
+                - link "Fin" [ref=e62] [cursor=pointer]:
+                  - /url: https://fin.ai
+                - text: ", meaning every customer conversation improves the next one, enabling perfect experiences that were never possible before."
+              - generic [ref=e63]:
+                - button "Start free trial" [ref=e64] [cursor=pointer]
+                - button "View demo" [ref=e65] [cursor=pointer]
+          - generic [ref=e68]:
+            - generic [ref=e70]:
+              - button "Fully-featured helpdesk" [ref=e72] [cursor=pointer]:
+                - generic [ref=e73]: Fully-featured helpdesk
+              - button "Natively integrated AI Agent" [ref=e76] [cursor=pointer]:
+                - generic [ref=e77]: Natively integrated AI Agent
+              - button "AI-powered Insights" [ref=e80] [cursor=pointer]:
+                - generic [ref=e81]: AI-powered Insights
+              - button "Self-improving system" [ref=e84] [cursor=pointer]:
+                - generic [ref=e85]: Self-improving system
+            - generic [ref=e88]:
+              - generic [ref=e90]:
+                - img "Decorative background image" [ref=e91]
+                - img "Helpdesk product UI" [ref=e96]
+              - img "Decorative background image" [ref=e100]
+              - generic [ref=e106]:
+                - img "Decorative background image" [ref=e107]
+                - img "Product UI" [ref=e110]
+              - generic [ref=e112]:
+                - img "Decorative background image" [ref=e113]
+                - img "Product UI" [ref=e116]
+        - generic [ref=e122]:
+          - img "Amazon logo" [ref=e123]:
+            - img [ref=e124]
+          - img "Amplitude logo" [ref=e126]:
+            - img [ref=e127]
+          - img "Anthropic logo" [ref=e129]:
+            - img [ref=e130]
+          - img "Autodesk logo" [ref=e132]:
+            - img [ref=e133]
+          - img "A24 logo" [ref=e135]:
+            - img [ref=e136]
+          - img "Clay logo" [ref=e138]:
+            - img [ref=e139]
+          - img "Crypto.com logo" [ref=e144]:
+            - img [ref=e145]
+          - img "Culture Amp logo" [ref=e150]:
+            - img [ref=e151]
+          - img "DoorDash logo" [ref=e153]:
+            - img [ref=e154]
+          - img "Etoro logo" [ref=e157]:
+            - img [ref=e158]
+          - img "Gamma logo" [ref=e160]:
+            - img [ref=e161]
+          - img "Jamf logo" [ref=e164]:
+            - img [ref=e165]
+          - img "Lightspeed logo" [ref=e168]:
+            - img [ref=e169]
+          - img "Linear logo" [ref=e171]:
+            - img [ref=e172]
+          - img "Lovable logo" [ref=e174]:
+            - img [ref=e175]
+          - img "Monday.com logo" [ref=e177]:
+            - img [ref=e178]
+          - img "Nuuly logo" [ref=e180]:
+            - img [ref=e181]
+          - img "Perplexity logo" [ref=e183]:
+            - img [ref=e184]
+          - img "Prizepicks logo" [ref=e186]:
+            - img [ref=e187]
+          - img "Rocket Money logo" [ref=e191]:
+            - img [ref=e192]
+          - img "Shutterstock logo" [ref=e194]:
+            - img [ref=e195]
+          - img "Toast logo" [ref=e197]:
+            - img [ref=e198]
+          - img "Vanta logo" [ref=e200]:
+            - img [ref=e201]
+          - img "WHOOP logo" [ref=e203]:
+            - img [ref=e204]
+      - generic [ref=e208]:
+        - generic [ref=e209]:
+          - heading "A complete solution for AI and human agents" [level=2] [ref=e210]
+          - paragraph [ref=e211]: Intercom and Fin are built together, so you have full visibility across your entire operation, and your team and Fin can collaborate seamlessly to deliver perfect customer experiences.
+          - generic [ref=e212]:
+            - button "Start free trial" [ref=e213] [cursor=pointer]
+            - button "View demo" [ref=e214] [cursor=pointer]
+        - img "Copilot product UI" [ref=e215]
+        - generic [ref=e216]:
+          - generic [ref=e217]:
+            - generic [ref=e218]:
+              - heading "AI-powered agent workspace" [level=3] [ref=e219]
+              - paragraph [ref=e220]: With an omnichannel inbox, AI-powered ticketing, and real-time assistance from Copilot, your human team has everything they need to onboard faster, work more efficiently, and deliver better customer experiences.
+            - img "Clouds" [ref=e222]
+          - generic [ref=e225]:
+            - img "Placeholder" [ref=e226]
+            - img "A kite in a blue sky" [ref=e227]
+        - generic [ref=e228]:
+          - generic [ref=e230]:
+            - generic [ref=e231]:
+              - img "Fin messenger UI" [ref=e232]
+              - img "Decorative background image" [ref=e233]
+            - generic [ref=e234]:
+              - heading "A seamless experience for customers and agents" [level=3] [ref=e235]
+              - paragraph [ref=e237]:
+                - text: A single solution means
+                - link "Fin" [ref=e238] [cursor=pointer]:
+                  - /url: https://fin.ai
+                - text: and your human team work from the same customer record, so handoffs have full context, no one switches between tools, and every customer gets a consistent, seamless experience.
+          - generic [ref=e240]:
+            - img "Fin messenger UI" [ref=e242]
+            - generic [ref=e243]:
+              - heading "AI-powered Insights across every interaction" [level=3] [ref=e244]
+              - paragraph [ref=e246]:
+                - text: Our AI engine automatically scores and organizes every conversation across
+                - link "Fin" [ref=e247] [cursor=pointer]:
+                  - /url: https://fin.ai
+                - text: and your human team, so you always understand quality, can spot emerging trends, and get alerted to what matters.
+              - link "Learn more" [ref=e249] [cursor=pointer]:
+                - /url: https://fin.ai/insights
+          - generic [ref=e251]:
+            - img "Fin messenger UI" [ref=e253]
+            - generic [ref=e254]:
+              - heading "A self-improving system" [level=3] [ref=e255]
+              - paragraph [ref=e257]:
+                - link "Fin" [ref=e258] [cursor=pointer]:
+                  - /url: https://fin.ai
+                - text: constantly improves by learning from your best human reps, and suggestions and assistance from Fin make your human team better. With everything in one system, managers get Recommendations on what to fix, from missing content to data integrations, and can act on them with one click.
+        - generic [ref=e259]:
+          - generic [ref=e261]:
+            - generic [ref=e262]: Fin AI Agent
+            - heading "A world-class AI Agent" [level=3] [ref=e264]
+            - img "Fin AI Agent noodle illustration" [ref=e265]
+            - paragraph [ref=e266]:
+              - text: Fin is a world-class AI Agent trusted by many of the most forward-thinking businesses in the world, including
+              - generic [ref=e267]:
+                - link "Anthropic" [ref=e268] [cursor=pointer]:
+                  - /url: https://fin.ai/customers/anthropic
+                - text: ","
+              - generic [ref=e269]:
+                - link "Clay" [ref=e270] [cursor=pointer]:
+                  - /url: https://fin.ai/customers/clay
+                - text: ","
+              - generic [ref=e271]:
+                - link "Lightspeed" [ref=e272] [cursor=pointer]:
+                  - /url: https://fin.ai/customers/lightspeed
+                - text: ","
+              - generic [ref=e273]:
+                - link "Rocket Money" [ref=e274] [cursor=pointer]:
+                  - /url: https://fin.ai/customers/rocket-money
+                - text: ","
+              - link "Gamma" [ref=e276] [cursor=pointer]:
+                - /url: https://fin.ai/customers/gamma
+              - text: ", and many"
+              - link "more" [ref=e277] [cursor=pointer]:
+                - /url: https://fin.ai/customers
+              - text: .
+            - button "Learn more" [ref=e278] [cursor=pointer]
+          - generic [ref=e280]:
+            - img "Fin AI Agent decorative background" [ref=e281]
+            - img "Fin AI Agent messenger UI" [ref=e282]
+        - figure [ref=e284]:
+          - img [ref=e286]
+          - generic [ref=e288]:
+            - blockquote [ref=e289]:
+              - paragraph [ref=e290]: “If you’re debating whether to build your own AI solution or buy one, as a fast-growing company in a complex space, my advice would be to buy – and specifically, buy Fin.”
+            - generic [ref=e291]:
+              - generic [ref=e292]: Isabel Larrow
+              - generic [ref=e293]: Product Support Operations at Anthropic
+          - img "Headshot of Isabel Larrow" [ref=e295]
+      - generic [ref=e298]:
+        - generic [ref=e299]:
+          - heading "A fully-featured AI-powered helpdesk" [level=2] [ref=e300]:
+            - generic [ref=e301]: A fully-featured
+            - text: AI-powered helpdesk
+          - paragraph [ref=e302]: Intercom has every feature your team needs to resolve queries faster, deliver personalized service, engage proactively, and continuously improve your customer experience.
+          - generic [ref=e303]:
+            - button "Start free trial" [ref=e304] [cursor=pointer]
+            - button "View demo" [ref=e305] [cursor=pointer]
+        - img "Copilot product UI" [ref=e306]
+        - generic [ref=e308]:
+          - heading "Resolve queries faster" [level=3] [ref=e309]
+          - generic [ref=e312]:
+            - generic [ref=e313]:
+              - img "Decorative ocean water" [ref=e314]
+              - generic [ref=e316]:
+                - img "Copilot product UI" [ref=e321]
+                - img "Ticketing UI" [ref=e326]
+                - img "Automations product UI" [ref=e331]
+            - generic [ref=e332]:
+              - generic [ref=e333]:
+                - button "Copilot Give every agent an AI assistant that pulls context from past conversations, surfaces instant answers from your knowledge base, and drafts replies, so your team resolves more queries, faster." [ref=e334] [cursor=pointer]:
+                  - generic [ref=e337]:
+                    - heading "Copilot" [level=4] [ref=e338]
+                    - paragraph [ref=e340]: Give every agent an AI assistant that pulls context from past conversations, surfaces instant answers from your knowledge base, and drafts replies, so your team resolves more queries, faster.
+                - link "Learn more" [ref=e343] [cursor=pointer]:
+                  - /url: /helpdesk/copilot
+              - generic [ref=e344]:
+                - button "AI-enhanced ticketing Convert any conversation into a ticket with one click, automatically categorized, prioritized, and routed to the right team, so every issue reaches the right person, with full context." [ref=e345] [cursor=pointer]:
+                  - generic [ref=e348]:
+                    - heading "AI-enhanced ticketing" [level=4] [ref=e349]
+                    - paragraph [ref=e351]: Convert any conversation into a ticket with one click, automatically categorized, prioritized, and routed to the right team, so every issue reaches the right person, with full context.
+                - link "Learn more" [ref=e354] [cursor=pointer]:
+                  - /url: /helpdesk/tickets
+              - button "No code automations Build powerful automations to route conversations, manage SLAs, and configure escalation triggers, without any engineering support." [ref=e356] [cursor=pointer]:
+                - generic [ref=e359]:
+                  - heading "No code automations" [level=4] [ref=e360]
+                  - paragraph [ref=e362]: Build powerful automations to route conversations, manage SLAs, and configure escalation triggers, without any engineering support.
+        - generic [ref=e364]:
+          - heading "Deliver tailored experiences across every channel" [level=3] [ref=e366]:
+            - generic [ref=e367]: Deliver tailored experiences
+            - text: across every channel
+          - generic [ref=e368]:
+            - generic [ref=e369]:
+              - heading "Omnichannel" [level=4] [ref=e370]
+              - generic [ref=e371]:
+                - paragraph [ref=e372]: Bring every conversation across email, chat, phone, WhatsApp, and social apps into one inbox, so your team works from one place and every customer gets a consistent experience regardless of how they reach out.
+                - link "Learn more" [ref=e373] [cursor=pointer]:
+                  - /url: /helpdesk/omnichannel
+                - generic [ref=e376]:
+                  - generic [ref=e377]:
+                    - generic "Discord" [ref=e378]:
+                      - img [ref=e379]
+                    - generic "API" [ref=e382]:
+                      - img [ref=e383]
+                    - generic "Email" [ref=e387]:
+                      - img [ref=e388]
+                    - generic "Facebook Messenger" [ref=e390]:
+                      - img [ref=e391]
+                    - generic "Instagram" [ref=e393]:
+                      - img [ref=e394]
+                    - generic "Messenger" [ref=e398]:
+                      - img [ref=e399]
+                    - generic "Slack" [ref=e403]:
+                      - img [ref=e404]
+                    - generic "Voice" [ref=e407]:
+                      - img [ref=e408]
+                    - generic "WhatsApp" [ref=e410]:
+                      - img [ref=e411]
+                  - generic [ref=e413]:
+                    - img [ref=e415]
+                    - img [ref=e419]
+                    - img [ref=e424]
+                    - img [ref=e427]
+                    - img [ref=e430]
+                    - img [ref=e435]
+                    - img [ref=e440]
+                    - img [ref=e444]
+                    - img [ref=e447]
+                  - generic [ref=e449]:
+                    - img [ref=e451]
+                    - img [ref=e455]
+                    - img [ref=e460]
+                    - img [ref=e463]
+                    - img [ref=e466]
+                    - img [ref=e471]
+                    - img [ref=e476]
+                    - img [ref=e480]
+                    - img [ref=e483]
+            - img "Decorative illustration showing a stream" [ref=e486]
+          - generic [ref=e488]:
+            - img "Customer intelligence UI" [ref=e490]
+            - generic [ref=e491]:
+              - generic [ref=e492]:
+                - heading "Live customer intelligence" [level=4] [ref=e493]
+                - paragraph [ref=e494]:
+                  - text: Access rich, real-time records for every user and company, with conversation history, behavioral data, and custom attributes, giving
+                  - link "Fin" [ref=e495] [cursor=pointer]:
+                    - /url: https://fin.ai
+                  - text: and your human team everything they need to deliver personal, tailored service.
+              - img "Decorative background image" [ref=e496]
+          - generic [ref=e497]:
+            - generic [ref=e498]:
+              - heading "Apps and integrations" [level=4] [ref=e499]
+              - generic [ref=e500]:
+                - paragraph [ref=e501]: Connect Intercom to over 350 integrations out of the box, including Salesforce, Stripe, and Jira, with powerful, flexible APIs for everything else, all quick to set up and easy to maintain.
+                - link "Learn more" [ref=e502] [cursor=pointer]:
+                  - /url: /app-store
+            - img "Logo wall showing Intercom, Hubspot, Zoho Desk and more" [ref=e504]
+        - generic [ref=e505]:
+          - generic [ref=e506]:
+            - heading "Engage customers at the right moment" [level=3] [ref=e507]:
+              - text: Engage customers
+              - generic [ref=e508]: at the right moment
+            - generic [ref=e511]:
+              - generic [ref=e512]:
+                - img "Decorative ocean water" [ref=e513]
+                - generic [ref=e515]:
+                  - img "Onbording wizard UI" [ref=e520]
+                  - img "Notification UI" [ref=e525]
+                  - img "Messaging sequences" [ref=e530]
+              - generic [ref=e531]:
+                - generic [ref=e532]:
+                  - button "Onboarding tools Onboard customers with interactive product tours, checklists, and in-app tooltips, so they get up to speed faster and get more value from your product, all without contacting support." [ref=e533] [cursor=pointer]:
+                    - generic [ref=e536]:
+                      - heading "Onboarding tools" [level=4] [ref=e537]
+                      - paragraph [ref=e539]: Onboard customers with interactive product tours, checklists, and in-app tooltips, so they get up to speed faster and get more value from your product, all without contacting support.
+                  - link "Learn more" [ref=e542] [cursor=pointer]:
+                    - /url: /helpdesk/outbound
+                - generic [ref=e543]:
+                  - button "Proactive notifications Keep customers informed about new features, known issues, and policy changes with in-product messages, mobile push notifications, and banners." [ref=e544] [cursor=pointer]:
+                    - generic [ref=e547]:
+                      - heading "Proactive notifications" [level=4] [ref=e548]
+                      - paragraph [ref=e550]: Keep customers informed about new features, known issues, and policy changes with in-product messages, mobile push notifications, and banners.
+                  - link "Learn more" [ref=e553] [cursor=pointer]:
+                    - /url: /helpdesk/outbound
+                - generic [ref=e554]:
+                  - button "Targeted messaging sequences Build omnichannel message journeys with a no-code visual builder, targeting customers precisely based on live behavioral data, product usage, and custom attributes." [ref=e555] [cursor=pointer]:
+                    - generic [ref=e558]:
+                      - heading "Targeted messaging sequences" [level=4] [ref=e559]
+                      - paragraph [ref=e561]: Build omnichannel message journeys with a no-code visual builder, targeting customers precisely based on live behavioral data, product usage, and custom attributes.
+                  - link "Learn more" [ref=e564] [cursor=pointer]:
+                    - /url: /helpdesk/outbound
+          - generic [ref=e565]:
+            - heading "Monitor and improve every interaction" [level=3] [ref=e566]:
+              - text: Monitor and improve
+              - generic [ref=e567]: every interaction
+            - generic [ref=e570]:
+              - generic [ref=e571]:
+                - img "Decorative green leafy backdrop" [ref=e572]
+                - generic [ref=e574]:
+                  - img "Insights product UI" [ref=e579]
+                  - img "Monitoring product UI" [ref=e584]
+                  - img "Reporting product UI" [ref=e589]
+              - generic [ref=e590]:
+                - generic [ref=e591]:
+                  - button "Insights The only solution with 100% coverage across your entire support operation, giving you actionable insights into what customers are asking, how they feel, and what's changing, with CX Score, Topics Explorer, and Trends." [ref=e592] [cursor=pointer]:
+                    - generic [ref=e595]:
+                      - heading "Insights" [level=4] [ref=e596]
+                      - paragraph [ref=e598]: The only solution with 100% coverage across your entire support operation, giving you actionable insights into what customers are asking, how they feel, and what's changing, with CX Score, Topics Explorer, and Trends.
+                  - link "Learn more" [ref=e601] [cursor=pointer]:
+                    - /url: https://fin.ai/insights
+                - generic [ref=e602]:
+                  - button "Always-on QA Monitor every AI and human conversation in real time, with AI-powered scoring against your custom standards and instant alerts the moment quality drops." [ref=e603] [cursor=pointer]:
+                    - generic [ref=e606]:
+                      - heading "Always-on QA" [level=4] [ref=e607]
+                      - paragraph [ref=e609]: Monitor every AI and human conversation in real time, with AI-powered scoring against your custom standards and instant alerts the moment quality drops.
+                  - link "Learn more" [ref=e612] [cursor=pointer]:
+                    - /url: https://fin.ai/insights
+                - generic [ref=e613]:
+                  - button "Reporting Access pre-built reports covering every support use case, and a fully customizable report builder with advanced filters and chart visualisations." [ref=e614] [cursor=pointer]:
+                    - generic [ref=e617]:
+                      - heading "Reporting" [level=4] [ref=e618]
+                      - paragraph [ref=e620]: Access pre-built reports covering every support use case, and a fully customizable report builder with advanced filters and chart visualisations.
+                  - link "Learn more" [ref=e623] [cursor=pointer]:
+                    - /url: /helpdesk/reporting
+          - figure [ref=e625]:
+            - img [ref=e627]
+            - generic [ref=e629]:
+              - blockquote [ref=e630]:
+                - paragraph [ref=e631]: “Our Lightspeed customer service agents are dramatically more efficient when using Copilot. In testing, agents using Copilot were able to close 31% more customer conversations daily.”
+              - generic [ref=e632]:
+                - generic [ref=e633]: Angelo Livanos
+                - generic [ref=e634]: Senior Director of Global Support at Lightspeed
+            - img "Headshot of Angelo Livanos" [ref=e636]
+      - generic [ref=e639]:
+        - heading "A true partner with deep domain expertise" [level=2] [ref=e641]:
+          - generic [ref=e642]: A true partner with
+          - text: deep domain expertise
+        - paragraph [ref=e644]: We partner with you to set up and scale industry-leading customer experiences, with deep domain expertise, thought leadership, and education to give your team an edge
+        - generic [ref=e645]:
+          - generic [ref=e646]:
+            - img "Security, reliability and transparency badges" [ref=e648]
+            - generic [ref=e649]:
+              - heading "The company you can trust" [level=3] [ref=e650]
+              - paragraph [ref=e651]: Fin is built for security, reliability, and transparency, meeting leading compliance standards.
+              - link "Learn more" [ref=e653] [cursor=pointer]:
+                - /url: https://trust.intercom.com
+          - generic [ref=e654]:
+            - img "Placeholder" [ref=e656]
+            - generic [ref=e657]:
+              - heading "Expert support, at every stage" [level=3] [ref=e658]
+              - paragraph [ref=e659]: Fin's Success and Services teams give you direct access to the experts behind the product, so you can launch and scale with confidence.
+              - link "Learn more" [ref=e661] [cursor=pointer]:
+                - /url: https://fin.ai/professional-services
+          - generic [ref=e662]:
+            - img "Placeholder" [ref=e664]
+            - generic [ref=e665]:
+              - heading "The AI Agent Blueprint" [level=3] [ref=e666]
+              - paragraph [ref=e667]: A practical guide to launching and scaling AI in customer service, built from real-world experience and best practices.
+              - link "Learn more" [ref=e669] [cursor=pointer]:
+                - /url: https://fin.ai/blueprint/introducing-ai-agents
+      - figure [ref=e674]:
+        - img [ref=e676]
+        - generic [ref=e681]:
+          - blockquote [ref=e682]:
+            - paragraph [ref=e683]: “I truly believe that the way the Intercom team has supported us is one of the most inspiring examples of strong customer success that I've seen.”
+          - generic [ref=e684]:
+            - generic [ref=e685]: George Dilthey
+            - generic [ref=e686]: Head of Support at Clay
+        - img "Portrait of George Dilthey" [ref=e688]
+      - generic [ref=e689]:
+        - img "Decorative background image" [ref=e690]
+        - generic [ref=e691]:
+          - heading "Transparent pricing" [level=2] [ref=e693]
+          - generic [ref=e695]:
+            - generic [ref=e696]:
+              - heading "Intercom with Fin" [level=3] [ref=e697]
+              - paragraph [ref=e698]:
+                - text: Combine Intercom with
+                - link "Fin" [ref=e699] [cursor=pointer]:
+                  - /url: https://fin.ai
+                - text: for a single, fully integrated customer service platform.
+              - generic [ref=e700]:
+                - generic [ref=e701]:
+                  - generic [ref=e702]: $29
+                  - generic [ref=e703]: Per Seat/Mo
+                - generic [ref=e704]: +
+                - generic [ref=e705]:
+                  - generic [ref=e706]: $0.99
+                  - button "Per Outcome" [ref=e708]:
+                    - generic [ref=e709]:
+                      - text: Per Outcome
+                      - img [ref=e710]
+            - button "Learn more" [ref=e712] [cursor=pointer]
+      - generic [ref=e714]:
+        - img
+        - generic:
+          - generic:
+            - img
+          - generic:
+            - img
+          - generic:
+            - img
+          - generic:
+            - img
+          - generic:
+            - img
+          - generic:
+            - img
+        - generic [ref=e715]:
+          - heading "Perfect customer experiences, powered by Intercom" [level=2] [ref=e716]
+          - generic [ref=e717]:
+            - button "Start free trial" [ref=e718] [cursor=pointer]
+            - button "View demo" [ref=e719] [cursor=pointer]
+  - contentinfo [ref=e722]:
+    - generic [ref=e723]:
+      - generic [ref=e725]:
+        - generic [ref=e726]: Helpdesk features
+        - list [ref=e727]:
+          - listitem [ref=e728]:
+            - link "Intercom 2" [ref=e729] [cursor=pointer]:
+              - /url: /intercom2
+          - listitem [ref=e730]:
+            - link "Inbox" [ref=e731] [cursor=pointer]:
+              - /url: https://www.intercom.com/helpdesk/inbox
+          - listitem [ref=e732]:
+            - link "Copilot" [ref=e733] [cursor=pointer]:
+              - /url: https://www.intercom.com/helpdesk/copilot
+          - listitem [ref=e734]:
+            - link "Tickets" [ref=e735] [cursor=pointer]:
+              - /url: https://www.intercom.com/helpdesk/tickets
+          - listitem [ref=e736]:
+            - link "Omnichannel" [ref=e737] [cursor=pointer]:
+              - /url: https://www.intercom.com/helpdesk/omnichannel
+          - listitem [ref=e738]:
+            - link "Help Center" [ref=e739] [cursor=pointer]:
+              - /url: https://www.intercom.com/helpdesk/help-center
+          - listitem [ref=e740]:
+            - link "Apps & Integrations" [ref=e741] [cursor=pointer]:
+              - /url: https://www.intercom.com/app-store
+          - listitem [ref=e742]:
+            - link "Reporting" [ref=e743] [cursor=pointer]:
+              - /url: https://www.intercom.com/helpdesk/reporting
+          - listitem [ref=e744]:
+            - link "Knowledge Hub" [ref=e745] [cursor=pointer]:
+              - /url: https://www.intercom.com/helpdesk/knowledge-hub
+          - listitem [ref=e746]:
+            - link "Outbound" [ref=e747] [cursor=pointer]:
+              - /url: https://www.intercom.com/helpdesk/outbound
+      - generic [ref=e748]:
+        - generic [ref=e749]:
+          - generic [ref=e750]: Fin features
+          - list [ref=e751]:
+            - listitem [ref=e752]:
+              - link "Fin overview" [ref=e753] [cursor=pointer]:
+                - /url: https://fin.ai
+            - listitem [ref=e754]:
+              - link "Capabilities" [ref=e755] [cursor=pointer]:
+                - /url: https://fin.ai/capabilities
+            - listitem [ref=e756]:
+              - link "AI Engine" [ref=e757] [cursor=pointer]:
+                - /url: https://fin.ai/ai-engine
+        - generic [ref=e758]:
+          - generic [ref=e759]: Pricing
+          - list [ref=e760]:
+            - listitem [ref=e761]:
+              - link "Intercom Suite pricing" [ref=e762] [cursor=pointer]:
+                - /url: https://www.intercom.com/pricing
+            - listitem [ref=e763]:
+              - link "Fin pricing" [ref=e764] [cursor=pointer]:
+                - /url: https://fin.ai/pricing
+      - generic [ref=e765]:
+        - generic [ref=e766]:
+          - generic [ref=e767]: Learn
+          - list [ref=e768]:
+            - listitem [ref=e769]:
+              - link "Events" [ref=e770] [cursor=pointer]:
+                - /url: https://events.intercom.com/
+            - listitem [ref=e771]:
+              - link "Intercom blog" [ref=e772] [cursor=pointer]:
+                - /url: https://www.intercom.com/blog/
+            - listitem [ref=e773]:
+              - link "Academy" [ref=e774] [cursor=pointer]:
+                - /url: https://academy.fin.ai
+            - listitem [ref=e775]:
+              - link "YouTube" [ref=e776] [cursor=pointer]:
+                - /url: https://www.youtube.com/@Intercominc
+            - listitem [ref=e777]:
+              - link "AI Blueprint for Service" [ref=e778] [cursor=pointer]:
+                - /url: https://fin.ai/blueprint/service
+            - listitem [ref=e779]:
+              - link "AI Blueprint for Sales" [ref=e780] [cursor=pointer]:
+                - /url: https://fin.ai/blueprint/sales
+            - listitem [ref=e781]:
+              - link "Learning Center" [ref=e782] [cursor=pointer]:
+                - /url: https://www.intercom.com/learning-center
+            - listitem [ref=e783]:
+              - link "2026 Transformation Report" [ref=e784] [cursor=pointer]:
+                - /url: /customer-transformation-report
+        - generic [ref=e785]:
+          - generic [ref=e786]: Evaluate
+          - list [ref=e787]:
+            - listitem [ref=e788]:
+              - link "Why choose Intercom" [ref=e789] [cursor=pointer]:
+                - /url: https://www.intercom.com/why-choose-intercom
+            - listitem [ref=e790]:
+              - link "Safety & security" [ref=e791] [cursor=pointer]:
+                - /url: https://trust.intercom.com/
+            - listitem [ref=e792]:
+              - link "ROI calculator" [ref=e793] [cursor=pointer]:
+                - /url: https://fin.ai/roi-calculator
+            - listitem [ref=e794]:
+              - link "Customer case studies" [ref=e795] [cursor=pointer]:
+                - /url: https://www.intercom.com/customers
+      - generic [ref=e796]:
+        - generic [ref=e797]:
+          - generic [ref=e798]: Support
+          - list [ref=e799]:
+            - listitem [ref=e800]:
+              - link "Changes" [ref=e801] [cursor=pointer]:
+                - /url: https://www.intercom.com/changes/en
+            - listitem [ref=e802]:
+              - link "Help Center" [ref=e803] [cursor=pointer]:
+                - /url: https://www.intercom.com/help/en/
+            - listitem [ref=e804]:
+              - link "Developer hub" [ref=e805] [cursor=pointer]:
+                - /url: https://developers.intercom.com/
+            - listitem [ref=e806]:
+              - link "Intercom community" [ref=e807] [cursor=pointer]:
+                - /url: https://community.intercom.com/
+            - listitem [ref=e808]:
+              - link "Status" [ref=e809] [cursor=pointer]:
+                - /url: https://www.intercomstatus.com/
+        - generic [ref=e810]:
+          - generic [ref=e811]: Company
+          - list [ref=e812]:
+            - listitem [ref=e813]:
+              - link "About" [ref=e814] [cursor=pointer]:
+                - /url: https://www.intercom.com/about
+            - listitem [ref=e815]:
+              - link "Careers" [ref=e816] [cursor=pointer]:
+                - /url: https://fin.ai/careers
+            - listitem [ref=e817]:
+              - link "Contact Press" [ref=e818] [cursor=pointer]:
+                - /url: mailto:press@intercom.com
+      - generic [ref=e819]:
+        - generic [ref=e820]:
+          - generic [ref=e821]: Programs
+          - list [ref=e822]:
+            - listitem [ref=e823]:
+              - link "Solution partner" [ref=e824] [cursor=pointer]:
+                - /url: https://www.intercom.com/solution-partner-program
+            - listitem [ref=e825]:
+              - link "Technology partner" [ref=e826] [cursor=pointer]:
+                - /url: https://www.intercom.com/technology-partner-program
+            - listitem [ref=e827]:
+              - link "Early stage" [ref=e828] [cursor=pointer]:
+                - /url: https://www.intercom.com/early-stage
+        - generic [ref=e829]:
+          - generic [ref=e830]: Intercom in action
+          - list [ref=e831]:
+            - listitem [ref=e832]:
+              - link "View demo" [ref=e833] [cursor=pointer]:
+                - /url: https://www.intercom.com/view-demos
+            - listitem [ref=e834]:
+              - link "Free trial" [ref=e835] [cursor=pointer]:
+                - /url: https://app.intercom.com/admins/sign_up
+            - listitem [ref=e836]:
+              - link "Contact sales" [ref=e837] [cursor=pointer]:
+                - /url: https://www.intercom.com/contact-sales
+            - listitem [ref=e838]:
+              - link "Sign in" [ref=e839] [cursor=pointer]:
+                - /url: https://app.intercom.com/admins/sign_in
+    - generic [ref=e841]:
+      - generic [ref=e842]:
+        - link "Terms" [ref=e843] [cursor=pointer]:
+          - /url: https://www.intercom.com/legal/terms-and-policies
+        - link "Privacy" [ref=e844] [cursor=pointer]:
+          - /url: https://www.intercom.com/legal/privacy
+        - link "Security" [ref=e845] [cursor=pointer]:
+          - /url: https://trust.intercom.com/
+      - generic [ref=e846]:
+        - generic:
+          - img "privacy check icon"
+        - button "Your Privacy Choices" [ref=e847]

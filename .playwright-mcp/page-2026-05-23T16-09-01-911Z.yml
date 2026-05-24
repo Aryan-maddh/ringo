@@ -1,0 +1,432 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - navigation "Secondary" [ref=e6]:
+        - generic [ref=e7]:
+          - paragraph [ref=e12]:
+            - text: Every lead, reminder, and follow-up — handled. Introducing outbound calling for AI Agent.
+            - link "Try it free with 500 minutes." [ref=e13] [cursor=pointer]:
+              - /url: https://aircall.io/get-started-outboundai/
+          - button [ref=e14] [cursor=pointer]:
+            - img [ref=e15]
+      - navigation "Primary" [ref=e18]:
+        - link "Homepage" [ref=e20] [cursor=pointer]:
+          - /url: /en/
+          - img [ref=e21]
+        - list [ref=e25]:
+          - listitem [ref=e26]:
+            - button "Why Aircall" [ref=e27]:
+              - generic [ref=e28]: Why Aircall
+              - img [ref=e29]
+          - listitem [ref=e31]:
+            - button "Solutions" [ref=e32]:
+              - generic [ref=e33]: Solutions
+              - img [ref=e34]
+          - listitem [ref=e36]:
+            - button "Resources" [ref=e37]:
+              - generic [ref=e38]: Resources
+              - img [ref=e39]
+          - listitem [ref=e41]:
+            - button "Partners" [ref=e42]:
+              - generic [ref=e43]: Partners
+              - img [ref=e44]
+          - listitem [ref=e46]:
+            - button "Company" [ref=e47]:
+              - generic [ref=e48]: Company
+              - img [ref=e49]
+          - listitem [ref=e51]:
+            - link "Pricing" [ref=e52] [cursor=pointer]:
+              - /url: /pricing/
+        - list [ref=e53]:
+          - listitem [ref=e54]:
+            - link "Login" [ref=e55] [cursor=pointer]:
+              - /url: https://dashboard.aircall.io
+          - listitem [ref=e56]:
+            - link "Talk to Sales" [ref=e57] [cursor=pointer]:
+              - /url: /contact-sales/
+          - listitem [ref=e58]:
+            - link "Get free access" [ref=e59] [cursor=pointer]:
+              - /url: /get-started/
+        - list [ref=e60]:
+          - listitem [ref=e61]:
+            - button "EN" [ref=e62]:
+              - text: EN
+              - img [ref=e63]
+    - main [ref=e65]:
+      - generic [ref=e67]:
+        - generic [ref=e74]:
+          - heading "Customer communications, evolved with AI that handles customer interactions, end to end." [level=1] [ref=e75]:
+            - text: Customer communications, evolved
+            - generic [ref=e76]:
+              - generic [ref=e77]: with AI that
+              - generic [ref=e78]: handles customer interactions, end to end.
+          - generic [ref=e79]:
+            - link "TRY FOR FREE" [ref=e80] [cursor=pointer]:
+              - /url: /get-started/
+            - link "TALK TO SALES" [ref=e81] [cursor=pointer]:
+              - /url: /contact-sales/
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - generic [ref=e84]: 23,000+ companies TRUST AIRCALL
+            - generic [ref=e85]: to power their customer communications
+          - generic [ref=e86]:
+            - img "1Password" [ref=e88]
+            - img "Burton" [ref=e90]
+            - img "Localize" [ref=e92]
+            - img "Pipedrive" [ref=e94]
+            - img "Quip" [ref=e96]
+            - img "Untuckit" [ref=e98]
+      - generic [ref=e101]:
+        - heading "Aircall" [level=2] [ref=e102]
+        - paragraph [ref=e103]:
+          - generic [ref=e104]: is
+          - generic [ref=e105]: the
+          - generic [ref=e106]: intuitive,
+          - generic [ref=e107]: AI-powered
+          - generic [ref=e108]: platform
+          - generic [ref=e109]: bringing
+          - generic [ref=e110]: together
+          - generic [ref=e111]: intelligent
+          - generic [ref=e112]: voice
+          - generic [ref=e113]: agents,
+          - generic [ref=e114]: automated
+          - generic [ref=e115]: workflows,
+          - generic [ref=e116]: "&"
+          - generic [ref=e117]: adaptive
+          - generic [ref=e118]: real-time
+          - generic [ref=e119]: coaching
+          - generic [ref=e120]: at
+          - generic [ref=e121]: scale.
+      - generic [ref=e123]:
+        - complementary "side navigation" [ref=e124]:
+          - link "TEAM-LED" [ref=e125] [cursor=pointer]:
+            - /url: "#feature-section-0"
+            - img [ref=e127]
+            - generic [ref=e133]: TEAM-LED
+          - link "AI-ASSISTED" [ref=e135] [cursor=pointer]:
+            - /url: "#feature-section-1"
+            - img [ref=e137]
+            - generic [ref=e140]: AI-ASSISTED
+          - link "AI-LED" [ref=e142] [cursor=pointer]:
+            - /url: "#feature-section-2"
+            - img [ref=e144]
+            - generic [ref=e148]: AI-LED
+        - generic [ref=e150]:
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - img [ref=e156]
+              - generic [ref=e161]:
+                - heading "Team-led customer conversations powered by a modern phone system." [level=3] [ref=e162]
+                - paragraph [ref=e163]: Native integrations with CRM, help desk, and business tools automatically sync conversations and customer data across your systems.
+            - generic [ref=e164]:
+              - generic [ref=e165]:
+                - button "Clear and reliable calling Enterprise-grade connectivity and crystal-clear audio keep every conversation stable, secure, and high quality." [expanded] [ref=e166] [cursor=pointer]:
+                  - generic [ref=e168]: Clear and reliable calling
+                  - paragraph [ref=e171]: Enterprise-grade connectivity and crystal-clear audio keep every conversation stable, secure, and high quality.
+                - button "One collaborative workspace A shared inbox keeps every conversation visible, giving your team the ability to collaborate in real time and step in without losing context." [ref=e172] [cursor=pointer]:
+                  - generic [ref=e174]: One collaborative workspace
+                  - paragraph [ref=e175]: A shared inbox keeps every conversation visible, giving your team the ability to collaborate in real time and step in without losing context.
+                - button "Connected across every channel Calls, SMS, and messaging live in one platform, keeping every interaction connected to your CRM, help desk, and business tools." [ref=e176] [cursor=pointer]:
+                  - generic [ref=e178]: Connected across every channel
+                  - paragraph [ref=e179]: Calls, SMS, and messaging live in one platform, keeping every interaction connected to your CRM, help desk, and business tools.
+              - generic [ref=e180]:
+                - generic [ref=e181]:
+                  - generic:
+                    - img "Clear and reliable calling"
+                - generic:
+                  - generic:
+                    - img "One collaborative workspace"
+                - generic:
+                  - generic:
+                    - img "Connected across every channel"
+          - generic [ref=e184]:
+            - generic [ref=e185]:
+              - img [ref=e187]
+              - generic [ref=e189]:
+                - heading "AI Assistants that support your team in real time." [level=3] [ref=e190]
+                - paragraph [ref=e191]: AI Assistants support your team during live conversations, analyze every interaction, and complete follow-up work automatically.
+            - generic [ref=e192]:
+              - generic:
+                - generic:
+                  - img "A soft gradient background transitioning from pastel pink and purple to light blue and green, creating a calming, ethereal effect."
+              - generic [ref=e193]:
+                - button "Live coaching during calls AI Assistants provide real-time guidance and suggested responses, improving performance in every conversation." [expanded] [ref=e194] [cursor=pointer]:
+                  - generic [ref=e196]: Live coaching during calls
+                  - paragraph [ref=e199]: AI Assistants provide real-time guidance and suggested responses, improving performance in every conversation.
+                - button "Live transcription and insights AI Assistants transcribe every call and analyze sentiment, topics, and key moments giving managers immediate visibility into performance and trends." [ref=e200] [cursor=pointer]:
+                  - generic [ref=e202]: Live transcription and insights
+                  - paragraph [ref=e203]: AI Assistants transcribe every call and analyze sentiment, topics, and key moments giving managers immediate visibility into performance and trends.
+                - button "Automated follow-ups and CRM updates AI Assistants capture notes, update CRM records, and create follow-up tasks automatically reducing manual work after every conversation." [ref=e204] [cursor=pointer]:
+                  - generic [ref=e206]: Automated follow-ups and CRM updates
+                  - paragraph [ref=e207]: AI Assistants capture notes, update CRM records, and create follow-up tasks automatically reducing manual work after every conversation.
+              - generic [ref=e208]:
+                - generic [ref=e209]:
+                  - generic:
+                    - img "Live coaching during calls"
+                - generic:
+                  - generic:
+                    - img "Live transcription and insights"
+                - generic:
+                  - generic:
+                    - img "Automated follow-ups and CRM updates"
+          - generic [ref=e212]:
+            - generic [ref=e213]:
+              - img [ref=e215]
+              - generic [ref=e218]:
+                - heading "AI Agents that provide 24/7 customer coverage." [level=3] [ref=e219]
+                - paragraph [ref=e220]: AI Agents answer instantly, resolve routine requests automatically, and escalate complex issues with full context when needed.
+            - generic [ref=e221]:
+              - generic [ref=e222]:
+                - button "Autonomous resolution AI Agents identify caller intent, gather key details, and resolve routine inquiries end to end." [expanded] [ref=e223] [cursor=pointer]:
+                  - generic [ref=e225]: Autonomous resolution
+                  - paragraph [ref=e228]: AI Agents identify caller intent, gather key details, and resolve routine inquiries end to end.
+                - button "Always-on availability AI Agents handle after-hours calls, manage peak volume, and respond to repetitive requests automatically." [ref=e229] [cursor=pointer]:
+                  - generic [ref=e231]: Always-on availability
+                  - paragraph [ref=e232]: AI Agents handle after-hours calls, manage peak volume, and respond to repetitive requests automatically.
+                - button "Escalation with full context AI Agents escalate complex issues with complete conversation history and customer context." [ref=e233] [cursor=pointer]:
+                  - generic [ref=e235]: Escalation with full context
+                  - paragraph [ref=e236]: AI Agents escalate complex issues with complete conversation history and customer context.
+              - generic [ref=e237]:
+                - generic [ref=e238]:
+                  - generic:
+                    - img "Autonomous resolution"
+                - generic:
+                  - generic:
+                    - img "Always-on availability"
+                - generic:
+                  - generic:
+                    - img "Escalation with full context"
+      - figure "Anthony Messina IT Manager" [ref=e241]:
+        - generic [ref=e243]:
+          - img [ref=e244]
+          - blockquote [ref=e246]:
+            - paragraph [ref=e247]: Aircall makes everything so simple for my team.
+            - paragraph [ref=e249]:
+              - text: You don’t need to be technical at all,
+              - text: that’s part of the beauty of it.
+        - img "A person with curly hair, wearing glasses, and a collared shirt, against a plain background." [ref=e252]
+        - generic [ref=e253]:
+          - generic [ref=e254]: Anthony Messina
+          - generic [ref=e255]: IT Manager
+      - generic [ref=e256]:
+        - generic:
+          - generic:
+            - img "Colorful gradient with soft transitions from blue and purple to vibrant red and orange on a dark background."
+        - generic [ref=e257]:
+          - generic [ref=e258]:
+            - heading "250+ integrations that connect every conversation to your business tools." [level=2] [ref=e259]
+            - paragraph [ref=e260]: Native integrations with CRM, help desk, and business tools automatically sync conversations and customer data across your systems.
+          - generic [ref=e261]:
+            - generic [ref=e265]: Salesforce
+            - generic [ref=e269]: HubSpot
+            - generic [ref=e273]: Zendesk
+            - generic [ref=e277]: Bullhorn
+            - generic [ref=e281]: monday.com
+            - generic [ref=e285]: Shopify
+            - generic [ref=e289]: Pipedrive
+            - generic [ref=e293]: Microsoft Teams
+          - link "See our integrations" [ref=e294] [cursor=pointer]:
+            - /url: /call-center-software-integrations/
+      - generic [ref=e295]:
+        - generic:
+          - generic:
+            - img
+        - generic [ref=e296]:
+          - heading "The definitive AI implementation guide, no developer needed." [level=2] [ref=e297]
+          - paragraph [ref=e299]:
+            - text: Launching an AI Agent is easy.
+            - text: Quickly go live with our AI Implementation Guide.
+        - link "GET YOUR COPY" [ref=e301] [cursor=pointer]:
+          - /url: /guides/ai-implementation-guide/
+      - generic [ref=e302]:
+        - generic [ref=e303]:
+          - heading "Upgrade your customer conversations today." [level=2] [ref=e304]
+          - generic [ref=e305]:
+            - link "Try for Free" [ref=e306] [cursor=pointer]:
+              - /url: /get-started/
+            - link "Talk to Sales" [ref=e307] [cursor=pointer]:
+              - /url: /contact-sales/
+        - generic [ref=e308]:
+          - generic [ref=e309]: Enterprise-grade security & compliance
+          - generic [ref=e310]:
+            - generic [ref=e313]:
+              - generic [ref=e314]: SOC2
+              - generic [ref=e315]: TYPE II
+            - generic [ref=e318]:
+              - generic [ref=e319]: GDPR
+              - generic [ref=e320]: EU PRIVACY
+            - generic [ref=e323]:
+              - generic [ref=e324]: HIPAA
+              - generic [ref=e325]: DATA PRIVACY
+    - contentinfo [ref=e326]:
+      - generic [ref=e327]:
+        - generic [ref=e329]:
+          - generic [ref=e330]:
+            - generic [ref=e331]: The customer communication and intelligence platform
+            - generic [ref=e332]:
+              - generic [ref=e333]:
+                - generic [ref=e334]: Follow us
+                - list [ref=e335]:
+                  - listitem [ref=e336]:
+                    - link "Facebook" [ref=e337] [cursor=pointer]:
+                      - /url: https://www.facebook.com/aircallapp
+                      - img [ref=e338]
+                  - listitem [ref=e340]:
+                    - link "Twitter" [ref=e341] [cursor=pointer]:
+                      - /url: https://twitter.com/aircall
+                      - img [ref=e342]
+                  - listitem [ref=e345]:
+                    - link "Linkedin" [ref=e346] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/aircall/
+                      - img [ref=e347]
+                  - listitem [ref=e349]:
+                    - link "Instagram" [ref=e350] [cursor=pointer]:
+                      - /url: https://www.instagram.com/aircall.io/
+                      - img [ref=e351]
+                  - listitem [ref=e353]:
+                    - link "Youtube" [ref=e354] [cursor=pointer]:
+                      - /url: https://www.youtube.com/channel/UCwoyTr1GRoGMw7NOy709TnQ
+                      - img [ref=e355]
+              - generic [ref=e357]:
+                - generic [ref=e358]: Mobile app
+                - list [ref=e359]:
+                  - listitem [ref=e360]:
+                    - link "Apple Store" [ref=e361] [cursor=pointer]:
+                      - /url: https://apps.apple.com/us/app/aircall/id1021338425
+                      - img [ref=e362]
+                  - listitem [ref=e364]:
+                    - link "Playstore" [ref=e365] [cursor=pointer]:
+                      - /url: https://play.google.com/store/apps/details?id=com.aircall&hl=en&gl=US&pli=1
+                      - img [ref=e366]
+          - navigation "Site" [ref=e369]:
+            - generic [ref=e371]:
+              - heading "Solutions" [level=6] [ref=e372]
+              - list [ref=e373]:
+                - listitem [ref=e374]:
+                  - link "Call Center" [ref=e375] [cursor=pointer]:
+                    - /url: /call-center-software/
+                - listitem [ref=e376]:
+                  - link "Support" [ref=e377] [cursor=pointer]:
+                    - /url: /inbound-call-center-software/
+                - listitem [ref=e378]:
+                  - link "Sales" [ref=e379] [cursor=pointer]:
+                    - /url: /outbound-call-center-software/
+                - listitem [ref=e380]:
+                  - link "Phone System" [ref=e381] [cursor=pointer]:
+                    - /url: /business-phone-system/
+                - listitem [ref=e382]:
+                  - link "Ecommerce" [ref=e383] [cursor=pointer]:
+                    - /url: /solution/industry/retail-ecommerce/
+                - listitem [ref=e384]:
+                  - link "Non-profits" [ref=e385] [cursor=pointer]:
+                    - /url: /nonprofits/
+            - generic [ref=e387]:
+              - heading "Product" [level=6] [ref=e388]
+              - list [ref=e389]:
+                - listitem [ref=e390]:
+                  - link "Integrations" [ref=e391] [cursor=pointer]:
+                    - /url: /call-center-software-integrations/
+                - listitem [ref=e392]:
+                  - link "Quality and reliability" [ref=e393] [cursor=pointer]:
+                    - /url: /quality-and-reliability/
+                - listitem [ref=e394]:
+                  - link "Apps" [ref=e395] [cursor=pointer]:
+                    - /url: /download/
+                - listitem [ref=e396]:
+                  - link "Pricing" [ref=e397] [cursor=pointer]:
+                    - /url: /pricing/
+                - listitem [ref=e398]:
+                  - link "Country coverage" [ref=e399] [cursor=pointer]:
+                    - /url: /countries/
+                - listitem [ref=e400]:
+                  - link "Local phone numbers" [ref=e401] [cursor=pointer]:
+                    - /url: /local-phone-numbers/
+            - generic [ref=e403]:
+              - heading "Features" [level=6] [ref=e404]
+              - list [ref=e405]:
+                - listitem [ref=e406]:
+                  - link "PowerDialer" [ref=e407] [cursor=pointer]:
+                    - /url: /call-center-software-features/power-dialer/
+                - listitem [ref=e408]:
+                  - link "IVR" [ref=e409] [cursor=pointer]:
+                    - /url: /call-center-software-features/ivr/
+                - listitem [ref=e410]:
+                  - link "Call Routing" [ref=e411] [cursor=pointer]:
+                    - /url: /call-center-software-features/call-routing/
+                - listitem [ref=e412]:
+                  - link "Call Center Analytics" [ref=e413] [cursor=pointer]:
+                    - /url: /call-center-software-features/analytics/
+                - listitem [ref=e414]:
+                  - link "CTI Integration" [ref=e415] [cursor=pointer]:
+                    - /url: /call-center-software-features/cti/
+                - listitem [ref=e416]:
+                  - link "Click to Dial" [ref=e417] [cursor=pointer]:
+                    - /url: /call-center-software-features/click-to-dial/
+                - listitem [ref=e418]:
+                  - link "WhatsApp in Aircall" [ref=e419] [cursor=pointer]:
+                    - /url: /products/whatsapp-in-aircall/
+            - generic [ref=e421]:
+              - heading "Resources" [level=6] [ref=e422]
+              - list [ref=e423]:
+                - listitem [ref=e424]:
+                  - link "Blog" [ref=e425] [cursor=pointer]:
+                    - /url: /blog/
+                - listitem [ref=e426]:
+                  - link "Knowledge Base" [ref=e427] [cursor=pointer]:
+                    - /url: https://support.aircall.io/hc/en-gb
+                - listitem [ref=e428]:
+                  - link "Customer Stories" [ref=e429] [cursor=pointer]:
+                    - /url: /customer-stories/
+                - listitem [ref=e430]:
+                  - link "Partner Stories" [ref=e431] [cursor=pointer]:
+                    - /url: /partner-stories/
+                - listitem [ref=e432]:
+                  - link "Become a Partner" [ref=e433] [cursor=pointer]:
+                    - /url: /partners/
+                - listitem [ref=e434]:
+                  - link "Build an Integration" [ref=e435] [cursor=pointer]:
+                    - /url: https://developer.aircall.io/
+                - listitem [ref=e436]:
+                  - link "VoIP" [ref=e437] [cursor=pointer]:
+                    - /url: /faq/voip/
+                - listitem [ref=e438]:
+                  - link "Glossary" [ref=e439] [cursor=pointer]:
+                    - /url: /glossary/
+            - generic [ref=e441]:
+              - heading "Company" [level=6] [ref=e442]
+              - list [ref=e443]:
+                - listitem [ref=e444]:
+                  - link "Contact Us" [ref=e445] [cursor=pointer]:
+                    - /url: /contact/
+                - listitem [ref=e446]:
+                  - link "About Us" [ref=e447] [cursor=pointer]:
+                    - /url: /about-us/
+                - listitem [ref=e448]:
+                  - link "Careers" [ref=e449] [cursor=pointer]:
+                    - /url: /careers/
+                - listitem [ref=e450]:
+                  - link "Press" [ref=e451] [cursor=pointer]:
+                    - /url: /press-room/
+                - listitem [ref=e452]:
+                  - link "Uptime" [ref=e453] [cursor=pointer]:
+                    - /url: https://status.aircall.io/
+        - generic [ref=e455]: Images are for illustrative purposes only and may not represent current available service features. Aircall makes no guarantees regarding the availability of any depicted features.
+        - generic [ref=e459]:
+          - paragraph [ref=e461]: Copyright Aircall 2026
+          - list [ref=e463]:
+            - listitem [ref=e464]:
+              - link "Legal" [ref=e465] [cursor=pointer]:
+                - /url: /legal/
+            - listitem [ref=e466]:
+              - link "Privacy Policy" [ref=e467] [cursor=pointer]:
+                - /url: /privacy/
+            - listitem [ref=e468]:
+              - link "Security" [ref=e469] [cursor=pointer]:
+                - /url: /security/
+            - listitem [ref=e470]:
+              - link "Sitemap" [ref=e471] [cursor=pointer]:
+                - /url: /sitemap/
+            - listitem [ref=e472]:
+              - link "Cookies Preferences" [ref=e473] [cursor=pointer]:
+                - /url: /#cookie-consent-popup
+  - alert [ref=e474]

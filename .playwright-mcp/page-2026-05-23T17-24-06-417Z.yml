@@ -1,0 +1,939 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link [ref=e7] [cursor=pointer]:
+          - /url: /home
+          - img [ref=e8]
+        - navigation "Main" [ref=e13]:
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - button "Products" [ref=e17] [cursor=pointer]:
+                - text: Products
+                - generic:
+                  - img
+              - generic:
+                - list:
+                  - listitem:
+                    - heading [level=5]:
+                      - link:
+                        - /url: /ai
+                        - text: AI Cloud
+                    - list:
+                      - listitem:
+                        - link:
+                          - /url: /ai-gateway
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: AI Gateway
+                            - paragraph: One endpoint, all your models
+                      - listitem:
+                        - link:
+                          - /url: /sandbox
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Sandbox
+                            - paragraph: Isolated, safe code execution
+                      - listitem:
+                        - link:
+                          - /url: /agent
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Vercel Agent
+                            - paragraph: An agent that knows your stack
+                      - listitem:
+                        - link:
+                          - /url: /ai-sdk
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: AI SDK
+                            - paragraph: The AI Toolkit for TypeScript
+                      - listitem:
+                        - link:
+                          - /url: https://v0.app
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: v0
+                            - paragraph: Build applications with AI
+                  - listitem:
+                    - heading [level=5]: Core Platform
+                    - list:
+                      - listitem:
+                        - link:
+                          - /url: /products/previews
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: CI/CD
+                            - paragraph: Helping teams ship 6× faster
+                      - listitem:
+                        - link:
+                          - /url: /cdn
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Content Delivery
+                            - paragraph: Fast, scalable, and reliable
+                      - listitem:
+                        - link:
+                          - /url: /fluid
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Fluid Compute
+                            - paragraph: Servers, in serverless form
+                      - listitem:
+                        - link:
+                          - /url: /workflows
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Workflow
+                            - paragraph: Long-running workflows at scale
+                      - listitem:
+                        - link:
+                          - /url: /products/observability
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Observability
+                            - paragraph: Trace every step
+                  - listitem:
+                    - heading [level=5]:
+                      - link:
+                        - /url: /security
+                        - text: Security
+                    - list:
+                      - listitem:
+                        - link:
+                          - /url: /security/bot-management
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Bot Management
+                            - paragraph: Scalable bot protection
+                      - listitem:
+                        - link:
+                          - /url: /botid
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: BotID
+                            - paragraph: Invisible CAPTCHA
+                      - listitem:
+                        - link:
+                          - /url: /security
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Platform Security
+                            - paragraph: DDoS Protection, Firewall
+                      - listitem:
+                        - link:
+                          - /url: /security/web-application-firewall
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Web Application Firewall
+                            - paragraph: Granular, custom protection
+            - listitem [ref=e18]:
+              - button "Resources" [ref=e19] [cursor=pointer]:
+                - text: Resources
+                - generic:
+                  - img
+              - generic:
+                - list:
+                  - listitem:
+                    - heading [level=5]: Company
+                    - list:
+                      - listitem:
+                        - link:
+                          - /url: /customers
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Customers
+                            - paragraph: Trusted by the best teams
+                      - listitem:
+                        - link:
+                          - /url: /blog
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Blog
+                            - paragraph: The latest posts and changes
+                      - listitem:
+                        - link:
+                          - /url: /changelog
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Changelog
+                            - paragraph: See what shipped
+                      - listitem:
+                        - link:
+                          - /url: /press
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Press
+                            - paragraph: Read the latest news
+                      - listitem:
+                        - link:
+                          - /url: /events
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Events
+                            - paragraph: Join us at an event
+                  - listitem:
+                    - heading [level=5]: Learn
+                    - list:
+                      - listitem:
+                        - link:
+                          - /url: /docs
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Docs
+                            - paragraph: Vercel documentation
+                      - listitem:
+                        - link:
+                          - /url: /academy
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Academy
+                            - paragraph: Linear courses to level up
+                      - listitem:
+                        - link:
+                          - /url: /kb
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Knowledge Base
+                            - paragraph: Find help quickly
+                      - listitem:
+                        - link:
+                          - /url: https://community.vercel.com/
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Community
+                            - paragraph: Join the conversation
+                  - listitem:
+                    - heading [level=5]: Open Source
+                    - list:
+                      - listitem:
+                        - link:
+                          - /url: /frameworks/nextjs
+                          - generic:
+                            - generic:
+                              - img
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Next.js
+                            - paragraph: The native Next.js platform
+                      - listitem:
+                        - link:
+                          - /url: https://nuxt.com/
+                          - generic:
+                            - generic:
+                              - img
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Nuxt
+                            - paragraph: The progressive web framework
+                      - listitem:
+                        - link:
+                          - /url: https://svelte.dev/
+                          - generic:
+                            - generic:
+                              - img
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Svelte
+                            - paragraph: The web’s efficient UI framework
+                      - listitem:
+                        - link:
+                          - /url: /solutions/turborepo
+                          - generic:
+                            - generic:
+                              - img
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Turborepo
+                            - paragraph: Speed with Enterprise scale
+            - listitem [ref=e20]:
+              - button "Solutions" [ref=e21] [cursor=pointer]:
+                - text: Solutions
+                - generic:
+                  - img
+              - generic:
+                - list:
+                  - listitem:
+                    - heading [level=5]: Use Cases
+                    - list:
+                      - listitem:
+                        - link:
+                          - /url: /ai
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: AI Apps
+                            - paragraph: Deploy at the speed of AI
+                      - listitem:
+                        - link:
+                          - /url: /solutions/composable-commerce
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Composable Commerce
+                            - paragraph: Power storefronts that convert
+                      - listitem:
+                        - link:
+                          - /url: /solutions/marketing-sites
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Marketing Sites
+                            - paragraph: Launch campaigns fast
+                      - listitem:
+                        - link:
+                          - /url: /solutions/multi-tenant-saas
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Multi-tenant Platforms
+                            - paragraph: Scale apps with one codebase
+                      - listitem:
+                        - link:
+                          - /url: /solutions/web-apps
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Web Apps
+                            - paragraph: Ship features, not infrastructure
+                  - listitem:
+                    - heading [level=5]: Tools
+                    - list:
+                      - listitem:
+                        - link:
+                          - /url: /marketplace
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Marketplace
+                            - paragraph: Extend and automate workflows
+                      - listitem:
+                        - link:
+                          - /url: /templates
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Templates
+                            - paragraph: Jumpstart app development
+                      - listitem:
+                        - link:
+                          - /url: /partners/solution-partners
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Partner Finder
+                            - paragraph: Get help from solution partners
+                  - listitem:
+                    - heading [level=5]: Users
+                    - list:
+                      - listitem:
+                        - link:
+                          - /url: /solutions/platform-engineering
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Platform Engineers
+                            - paragraph: Automate away repetition
+                      - listitem:
+                        - link:
+                          - /url: /solutions/design-engineering
+                          - generic:
+                            - generic:
+                              - img
+                          - generic:
+                            - generic: Design Engineers
+                            - paragraph: Deploy for every idea
+            - listitem [ref=e22]:
+              - link "Enterprise" [ref=e23] [cursor=pointer]:
+                - /url: /enterprise
+            - listitem [ref=e24]:
+              - link "Pricing" [ref=e25] [cursor=pointer]:
+                - /url: /pricing
+      - generic [ref=e28]:
+        - button "Ask AI" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]: Ask AI
+        - generic [ref=e31]:
+          - link "Log In" [ref=e33] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e34]: Log In
+          - generic [ref=e35]:
+            - link [ref=e36] [cursor=pointer]:
+              - /url: /signup
+              - generic [ref=e37]: Sign Up
+            - link "Sign Up" [ref=e38] [cursor=pointer]:
+              - /url: /signup
+              - generic [ref=e40]: Sign Up
+    - main [ref=e41]:
+      - generic [ref=e42]:
+        - navigation [ref=e43]:
+          - list [ref=e44]:
+            - listitem [ref=e45]:
+              - link "All Posts" [ref=e46] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e47]:
+              - link "Engineering" [ref=e48] [cursor=pointer]:
+                - /url: /blog/category/engineering
+            - listitem [ref=e49]:
+              - link "Community" [ref=e50] [cursor=pointer]:
+                - /url: /blog/category/community
+            - listitem [ref=e51]:
+              - link "Company News" [ref=e52] [cursor=pointer]:
+                - /url: /blog/category/company-news
+            - listitem [ref=e53]:
+              - link "Customers" [ref=e54] [cursor=pointer]:
+                - /url: /blog/category/customers
+            - listitem [ref=e55]:
+              - link "v0" [ref=e56] [cursor=pointer]:
+                - /url: /blog/category/v0
+            - listitem [ref=e57]:
+              - link "Security" [ref=e58] [cursor=pointer]:
+                - /url: /blog/category/security
+            - listitem [ref=e59]:
+              - link "Changelog" [ref=e60] [cursor=pointer]:
+                - /url: /changelog
+            - listitem [ref=e61]:
+              - link "Press" [ref=e62] [cursor=pointer]:
+                - /url: /press
+          - generic [ref=e63]:
+            - generic [ref=e65]:
+              - generic [ref=e66]: Search posts
+              - generic [ref=e67]:
+                - searchbox "Search posts" [ref=e68]
+                - img [ref=e70]
+            - link "RSS feed" [ref=e72] [cursor=pointer]:
+              - /url: /atom
+              - img [ref=e74]
+        - generic [ref=e77]:
+          - list [ref=e79]:
+            - heading "Featured articles" [level=1] [ref=e80]
+            - listitem [ref=e81]:
+              - article "Agentic Infrastructure" [ref=e82]:
+                - link [ref=e83] [cursor=pointer]:
+                  - /url: /blog/agentic-infrastructure
+                  - generic [ref=e84]:
+                    - img "Vercel Triangle" [ref=e86]:
+                      - img [ref=e87]
+                    - time [ref=e90]: Apr 9
+                  - heading "Agentic Infrastructure" [level=2] [ref=e91]
+                  - paragraph [ref=e93]: "Every generation of software eventually demands a new generation of infrastructure. First, we configured servers by hand. Next, the cloud turned infrastructure into APIs. Then, a more important shift: infrastructure derived from the application itself. LLMs and coding agents are driving the next transition, and it's happening fast. In just three months, weekly deployments on Vercel have doubled, and agents are driving the growth. Today, over 30% of deployments are initiated by coding agents, up 1000% from six months ago. Claude Code accounts for 75%, Lovable and v0 for 6%, and Cursor for 1.5%. Software is now agentic Agents are building, testing, and shipping AI-native software, and they're doing it at a velocity that breaks traditional operations. Vercel projects deployed by coding agents are 20 times more likely to call AI inference providers than those deployed by humans. Agents are writing software that uses AI, and agents are building agents. As the final actor shifts from human to machine, infrastructure has to adapt again. It has to work for software that acts on behalf of users, writes itself, and increasingly needs to understand its own behavior in production. This new generation of agentic software demands Agentic Infrastructure. It’s not one evolution, but three: Infrastructure for coding agents to deploy to Infrastructure for building and running agents Infrastructure that itself is agentic 1. Infrastructure for coding agents to deploy to The bottleneck for agentic engineering is operational friction. When a coding agent writes a feature, it requires a place to run, test, and verify the output, which ultimately means it needs a URL. If the path from code to running system involves manual Terraform state or clicks in a cloud console UI, the autonomous loop breaks. Agents need programmatic, deterministic deployment surfaces. This is why immutable deployments, preview URLs on every commit, and instant rollbacks aren't just developer experience upgrades anymore. They are absolute prerequisites for machine-driven software development. Vercel's CLI, API, MCP servers, and git integration give agents native access to a deployment surface where they can generate code, open a PR, get a preview URL, verify the output, and ship to production, all without human intervention. 2. Infrastructure for building and running agents Serverless workloads need functions, caching, and short-lived requests at the edge, but managing that stack yourself means config drift and hours debugging across systems. Vercel solved that by unifying every layer into the frontend cloud. Agent workloads are a fundamentally different shape. They require long-lived execution, multi-step orchestration, model routing, cost controls, sandboxed code execution, and abuse resistance. It's a more complex stack, and the penalty for running it yourself compounds: every wasted request burns inference dollars, provider outages take your agent offline, and untrusted code opens the door to prompt injection. Vercel's agentic infrastructure unifies every AI primitive we've built into a single, secure platform, the same way we did for serverless. AI SDK gives developers a unified way to build AI-powered applications across frameworks and providers, and AI SDK 6 adds an agent abstraction so developers can define an agent once and reuse it across interfaces and workflows. Chat SDK makes agents available across dozens of chat apps and platforms from a single codebase. AI Gateway gives teams a single endpoint for hundreds of models, with budgets, monitoring, routing, retries, and fallbacks. Fluid compute is designed for the unusual shape of AI workloads, where latency, concurrency, and idle waiting all matter at once. Workflows and Queues give agents a way to pause, resume, retry, maintain state, and offload background work. Sandbox gives them isolated execution environments for untrusted code. Observability lets teams trace what agents are doing and where they are going wrong. Together, these building blocks give developers everything they need to build and run agents in one place. But Vercel also puts each of them into a single system with shared context: code, model calls, and runtime behavior. That context is what turns the infrastructure itself into an agent. 3. Infrastructure that is itself agentic Traditional infrastructure is a one-way street: code goes in, logs come out, and a human reads the logs to fix the code. A unified platform provides complete visibility across every layer in real time, giving agents the ability to not just monitor production, but autonomously respond to it. When a latency spike hits a critical route or a model provider drops requests, Vercel doesn't wait for a human to notice. It investigates the anomaly, queries observability data, reads logs, inspects source code, performs root-cause analysis, and reviews proposed fixes in isolated sandboxes. The platform interprets what the developer intended, observes what the system actually did, and acts on the delta. Today, that still happens with human approval in the loop. Over time, the platform will take on more of that operational burden, not because it's replacing developers, but because it has enough context to act on their behalf. Where we're going The history of cloud computing is the history of removing the human from the machine. Agentic infrastructure is the next evolution, moving us from passive tools that wait for commands to proactive systems that act on our behalf. The companies that win the next decade will build on infrastructure that expects software to write, ship, and heal itself."
+                  - generic [ref=e94]:
+                    - img [ref=e97]
+                    - generic [ref=e98]: Tom Occhino
+            - listitem [ref=e99]:
+              - article "A new programming model for durable execution" [ref=e100]:
+                - link [ref=e101] [cursor=pointer]:
+                  - /url: /blog/a-new-programming-model-for-durable-execution
+                  - generic [ref=e102]:
+                    - img "Function" [ref=e104]:
+                      - img [ref=e105]
+                    - time [ref=e108]: Apr 16
+                  - heading "A new programming model for durable execution" [level=2] [ref=e109]
+                  - paragraph [ref=e111]: "The gap between prototypes and production-ready systems is huge. Code that's trivial to run locally falls apart the moment it needs to handle failures, restarts, and real traffic. Framework defined infrastructure solved this for web applications. When you deploy, Vercel infers the right configuration from the app itself. Workflows extends that model to long-running systems. Instead of managing a separate codebase for orchestration, durable workflows are an extension of your application code. Since launching in beta in October 2025, Workflows has processed over 100 million runs and over 500 million steps across more than 1,500 customers, with more than 200K npm downloads every week. Today, Vercel Workflows is generally available. Built for agents, backends, and long-running workloads Workflows is built for any workload that doesn’t fit in a single request. Agents: Deep integration with the AI SDK enables infinitely long running durable agents that can maintain state, tools, and handle external events or interruptions. AI SDK v7 is taking this further with WorkflowAgent. Backends: Workflow SDK proved this programming model in TypeScript codebases, and we're bringing it to a new language. The Workflow Python SDK is now in beta. Long-running workloads: Workflows can be used for any function that needs to execute reliably, including multi-step onboarding flows, payment processing, ETL pipelines, or any backend work that would otherwise require you to wire up your own queues and retry logic. How it works Shipping a reliable long-running process to production typically means splitting your code across queues, workers, status tables, retry logic, and monitoring. Dedicated orchestration services add yet another layer with long-lived background processes you run in Kubernetes, scale horizontally, and dedicate engineering time to keep healthy. They are distributed systems you pay for on top of your core application compute. Workflows eliminates the orchestrator entirely. All coordination runs in your application code, not a separate service. The infrastructure is built on three components: Event log: records every step input, output, stream chunk, sleep, hook, and error in a run. It is the single source of truth for execution state and history. Your functions on Fluid compute: each step runs as its own function invocation on Fluid compute. The workflow library inside each function handles dequeueing, state loading, encryption, execution, and handoff to the next step. Vercel Queues: each function enqueues the next step automatically. Queues run automatically on Vercel, in your own Postgres, or in-memory locally. Because there is no separate orchestration service, you only pay for the compute your steps actually use when functions are running. The programming model: your code is the orchestrator Workflows lets you write long-running functions in TypeScript or Python using normal control flow and a small API surface. In TypeScript you create a workflow with \"use workflow\", and isolate units of work with \"use step\". Workflows handles everything underneath: queues, retries, step isolation, observability, durable state, and streaming. At first glance, this looks like one function calling another, and that is exactly the point. Each step gets isolation, retries, persistence, observability, and durable continuation automatically. The orchestration lives in the application code, not in a separate system. A Next.js app with the Workflow SDK installed runs the same way locally as it does in production at scale, with the same code, real guarantees, and no separate orchestration tooling to configure. Vercel Workflows in action: Guillermo's infinite chess game One of the best examples from beta testing is Guillermo's infinite chess game. It continuously pits models against each other, feeding them the current board state, validating moves, rendering the game, and running matches indefinitely, turn after turn. Each chess match is a workflow run, and when a game ends, the last step starts a new run. Infinity is modeled as recursion across runs. Because every workflow run is pegged to a specific deployment, one game can safely finish on the version it started with while the next game begins on the latest deployment. That creates a clean upgrade boundary where each game remains stable within its version, and every new game picks up the latest improvements. If the backend code powering the chess match crashes or encounters transient errors, the workflow run automatically retries it without causing the application to fail. Why Workflows matters for agents Workflows is purpose-built for the agentic era. It is the only security-first, durable SDK made for building agents and made for agents to build with. Secure by default By default, Vercel Workflows encrypts all data, including step inputs, outputs, and stream chunks, before they leave your deployment. Nothing is readable in transit or at rest outside your environment, and decryption only happens inside the deployment running the workflow. Encryption is built in and free, not a security add-on you configure after the fact. This is possible because Workflows owns both orchestration and execution in the same environment, so encryption can happen automatically without a separate service or any extra infrastructure on your end. When you need to inspect encrypted data through the dashboard or workflow CLI, explicit decryption is supported with a full audit trail. For building agents Agents need more than longer timeouts, they need durable execution, reliable orchestration, resumable streams, and enough headroom to move large payloads through long-running systems. Durable agents Workflow SDK and AI SDK share a deep integration that gives agents durable execution, tool calling, state management, and the ability to handle external events or interruptions gracefully. Tools can be implemented as workflow steps for automatic retries or as regular workflow-level logic that uses primitives like sleep and hooks to suspend and resume cleanly. Agents process tool calls iteratively until completion, surviving restarts and failures along the way. AI SDK v7 takes this further with WorkflowAgent, a fully native implementation. Durable streams Durable streams persist agent output. getWritable() gives you a persistent stream that multiple clients can connect to, disconnect from, reconnect to later, and resume from any point. The workflow keeps running even if the user closes the browser. When they come back, the client reconnects and continues exactly where the stream left off, no Redis or custom pub/sub required. In this example, a flight booking agent streams itinerary updates as it plans a trip and searches for flights: The API route starts the workflow and returns the durable stream to the client. The run ID in the response header is what enables reconnection: If the user closes the browser mid-search, the workflow keeps running. When they re-connect, or share the link with a different user who opens the session, WorkflowChatTransport resumes the stream from the last event the client received. Hooks and sleep Workflows can suspend without incurring any compute. Hooks let a workflow wait for an external trigger to resume. Hooks are useful for building human-in-the-loop approval flows and integrating with third-party services. Sleep lets a workflow suspend for any specified amount of time, from minutes to days or months. Sleep is useful for email drip campaigns and date-sensitive use cases. Limits built for multimodal agents Workflows supports 50 MB per step payload and up to 2 GB across an entire run, with generous event limits. That's plenty of headroom for agents passing images, video, and large context across long execution chains. For agents to build with Workflows is not just great for building agents. It is also designed for coding agents to use directly. The programming model is agent-friendly Workflows code is ordinary TypeScript. A workflow is a function, a step is a function, and because orchestration lives in the application code itself, a coding agent only has to reason about one system. There is no separate orchestration layer to configure and no worker fleet to manage. Full observability from the CLI Workflow SDK ships with a CLI that any agent can use for inspecting and debugging your workflow runs. If a human can inspect runs in the dashboard, an agent can inspect the same workflow state from the terminal. This works locally with no config. For production deployments on Vercel, the CLI reuses your vercel CLI authentication with --backend vercel to make authenticated requests against the Vercel API. Agents can investigate state, inspect runs, and debug behavior without leaving the terminal. Workflows ships with a skill Agents can install the Workflows skill directly and use it to scaffold, debug, and manage workflows without hand-written product knowledge. Run Workflows anywhere Workflow SDK is open source and part of the same family as AI SDK and Chat SDK. The workflow npm package goes stable at GA with 200K+ weekly downloads and 75+ releases shipped during beta. Worlds are the adapter system that makes Workflows portable. Each World provides the three components a workflow needs (an event log, compute, and a queue), backed by different infrastructure. Managed: Vercel handles everything automatically. Deploy your app and Vercel Workflows runs on Fluid compute with Vercel Queues, zero-config E2E encryption, and built-in observability. Self-hosted: Run Workflows on your own infrastructure. We maintain a Postgres reference implementation that real customers run in production, and the Local World ships built in for development. Embedded: The SDK is not locked to one runtime, and the community is already building more Worlds, including adapters for MongoDB, Redis, Turso, Jazz Cloud, and Cloudflare. We'll continue to support anyone who wants to build Worlds. How Vercel customers use Workflows Mux powers durable video and AI pipelines Mux built their media intelligence layer on Workflows, handling execution, retries, and orchestration for AI inference across complex video pipelines. They also shipped \"use workflow\" and \"use step\" directives inside their own @mux/ai SDK, so any developer can npm install @mux/ai and get a durable, multi-step pipeline as a normal imported function. Durable runs hundreds of AI agents for 3 million small businesses Durable's most critical path is website creation: dozens of parallel AI steps orchestrated by Vercel Workflows to deliver a complete site in under 30 seconds. Their small dev team ripped out their self-hosted infrastructure entirely and rewrote on Workflows with 160+ directives across 75 files. Flora orchestrates creative AI agents across 50+ image models Flora runs their entire media generation pipeline on Vercel Workflows, orchestrating 50+ image models with no queues, no state machines, and no separate service. They use rollbacks for credit refunds, recursive workflows for user-defined multi-step pipelines, and getWritable for progress streaming. Their customers kick off jobs, close their laptop, and come back to completed results. What's next: Workflows 5 and Python support Workflows 5 Workflows 4 focused on getting the developer experience and SDK model right. Workflows 5 keeps the same programming model while pushing harder on performance and runtime efficiency. Here’s what we’re cooking: Native concurrency controls, including a lock primitive for coordinating work across multiple runs Globally deployed Workflows infrastructure A snapshot-based runtime to reduce replay overhead as event histories grow Better bundling and stronger Next.js integration Our goal is to make the overhead of opting into Workflows smaller and smaller until it is the obvious default for any project. Install workflow@beta to try Workflows 5 early (and share feedback on GitHub). Python support The Python SDK is now in beta, making Workflows available across the broader AI and backend ecosystem. Here's a quick taste of how the opening example in this post looks in Python: Get started Durability, reliability, observability, security, and streaming should be part of your product from the beginning, not chores you take on months later. When you use Workflows, we take on the complexity so you can focus on what makes your app unique. Learn more about Vercel Workflows or visit the Workflow SDK docs to get started. Vercel Workflows is generally available on April 16."
+                  - generic [ref=e112]:
+                    - img [ref=e115]
+                    - generic [ref=e116]: Pranay Prakash
+            - listitem [ref=e117]:
+              - article "Agent responsibly" [ref=e118]:
+                - link [ref=e119] [cursor=pointer]:
+                  - /url: /blog/agent-responsibly
+                  - generic [ref=e120]:
+                    - img "Status" [ref=e122]:
+                      - img [ref=e123]
+                    - time [ref=e126]: Mar 30
+                  - heading "Agent responsibly" [level=2] [ref=e127]
+                  - paragraph [ref=e129]: "The following is based on an internal talk given at Vercel. We're sharing it publicly because the problem it describes isn't unique to us, and the framework is useful for any team shipping with agents. Coding agents generate code at unprecedented speeds. In the hands of disciplined engineers, they are a productivity multiplier. But without rigorous judgment, they are a highly efficient way to ship bad assumptions directly to production. When teams deploy agent-generated code blindly, the fallout can be immediate and severe. A flawless-looking pull request can ship a query that passes tests, but scans every row in production. Retry logic that seems correct can cause a thundering herd on a downstream service. And a cache with no TTL can quietly grow until Redis dies. Green CI is no longer proof of safety. In an agentic world, passing CI is merely a reflection of the agent's ability to persuade your pipeline that a change is safe, even if it will immediately degrade your infrastructure at scale. False confidence Agent-generated code is dangerously convincing. It comes with a polished PR description, passes static analysis, follows repository conventions, and includes reasonable test coverage. On the surface, it looks like it was written by an experienced engineer. But an agent doesn't understand your production environment. It doesn't know your traffic patterns, your failure modes, or the implicit constraints of your shared infrastructure. It doesn't know that a Redis instance is near capacity, that a database is hardcoded to a specific region, or that a feature flag rollout will fundamentally change the load profile of a downstream system. The gap between \"this PR looks correct\" and \"this PR is safe to ship\" has always existed. Agents widen that gap by producing code that looks more flawless than ever, while remaining entirely blind to production realities. Leveraging vs. relying There is a fundamental difference between relying on AI and leveraging it. Relying means assuming that if the agent wrote it and the tests pass, it's ready to ship. The author never builds a mental model of the change. The result is massive PRs full of hidden assumptions that are impossible to review because neither the author nor the reviewer has a clear picture of what the code actually does. Leveraging means using agents to iterate quickly while maintaining complete ownership of the output. You know exactly how the code behaves under load. You understand the associated risks. You're comfortable owning them. Putting your name on a pull request means \"I have read this and I understand what it does.\" If you have to re-read your own PR to explain how it might impact production, the engineering process has failed. The litmus test is simple: would you be comfortable owning a production incident tied to this pull request? Guarding production The answer isn't to stop using agents. The productivity gains are undeniable and models will only get better. AI-assisted code review and analysis are incredibly powerful tools that catch bugs and surface risks humans miss. But relying solely on review, whether human or synthetic, is a losing battle against the sheer volume of agent-generated code. We've hit an inflection point where implementation is abundant. The scarce resource is no longer writing code, it's the judgment of what is safe to ship. All infrastructure must match that new reality. This isn't about wrapping the development lifecycle in red tape. It's about building a closed-loop system where agents can act with high autonomy because their environment is standardized, verification is easy, and deployment is safe by default. The organizing principle is simple: make the right thing easy to do. Self-driving deployments. Every change rolls out incrementally through gated pipelines. If a canary deployment degrades, the rollout stops and rolls back automatically. The system doesn't rely on an engineer babysitting a dashboard. It catches the problem, contains it to a fraction of traffic, and reverses it. When something goes wrong, it goes wrong in isolation, not globally. Continuous validation. The infrastructure tests itself continuously, not just at deploy. Load tests, chaos experiments, and disaster recovery exercises run on an ongoing basis. At Vercel, the database failover we rehearsed in production last summer is the reason a real Azure outage this year was a non-event for our customers. The systems that hold up under pressure are the ones that have been deliberately stressed. Executable guardrails. At Vercel, we are encoding operational knowledge as runnable tools instead of documentation. A safe-rollout skill isn't a Notion page explaining how feature flags work. It's a tool that wires the flag, generates a rollout plan with rollback conditions, and specifies how to verify expected behavior. When guardrails are executable, agents follow them autonomously and humans don't have to memorize them. The endgame isn't a world where engineers apply extraordinary rigor to every change. It's a world where the infrastructure itself is rigorous. Where shipping fast is safe by default because the system contains the blast radius, validates continuously, degrades gracefully, and encodes best practices as executable defaults. What we're investing in We aren't just theorizing. Our core platform team is actively building these guardrails into shared infrastructure: Stronger guardrails around shared infra, with runtime validation at every stage of the deployment pipeline Stricter static checks at PR time, especially around feature flags Production-mirroring end-to-end testing in staging Read-only agents that continuously verify system invariants in production, using specialized agents to audit the assumptions made by generative agents Metrics like defect-commit vs. defect-escape ratios to surface when risk is increasing across the platform Leverage agents, own the risk Our bar: leverage agents, don't rely on them. Low-quality code used to look like low-quality code. That's not the case anymore. AI tools are only going to get more powerful. The diffs will get larger, the code will get more convincing, and the temptation to blindly trust the output will grow. The engineers who thrive won't be the ones who generate the most code. They'll be the ones who maintain ruthless judgment over what they ship. Before you open your next PR, ask yourself: What does this do? How does it behave once rolled out? How can this adversely impact production or customers? Am I comfortable owning an incident tied to this code? If the answer is yes, you're leveraging AI. Ship it. If the answer is no, you have more work to do."
+                  - generic [ref=e130]:
+                    - img [ref=e133]
+                    - generic [ref=e134]: Matthew Binshtok
+          - region [ref=e135]:
+            - heading "Latest news." [level=1] [ref=e137]
+            - listitem [ref=e138]:
+              - article "AI Gateway production index" [ref=e139]:
+                - link [ref=e140] [cursor=pointer]:
+                  - /url: /blog/ai-gateway-production-index
+                  - generic [ref=e141]:
+                    - generic [ref=e143]: General
+                    - time [ref=e144]: May 12
+                  - heading "AI Gateway production index" [level=2] [ref=e145]
+                  - paragraph [ref=e147]: "Ask which AI model is best, and the answer changes before the ink dries. That's what happens in an industry where new models are released weekly. Every benchmark measures a different race, and every race crowns its own winner, but Vercel has a unique view of the industry through production workloads. AI Gateway serves tens of trillions of tokens across hundreds of models through real applications and agents. What we're seeing: Anthropic leads in spend despite a higher unit price, Google leads in volume OSS models are gaining traction, but there is no loyalty to specific labs OpenAI spend share is growing quickly after recent model updates High-volume workloads route across 30+ distinct models on average Agentic workloads carry 59% of all token volume (up 2x over 6 months) This report is built on data from seven months of production traffic from AI Gateway, with usage from over 200K+ unique teams. Anthropic leads in spend; Google leads in volume Cost and volume rankings disagree because they measure two different workloads, even for the same customer. By spend in April 2026, Anthropic took 61%, Google 21%, and OpenAI 12%. By token volume, the picture flipped. 38% of April traffic through AI Gateway routed to Google, 26% to Anthropic, 13% to OpenAI, and 10% to xAI. Smaller labs split the rest. Some models are positioned to win by being cheap enough per token to carry huge volume, while others are priced high enough to make sense only for quality-critical work. The different models are not competing for the same call. In aggregate the same customer base sits on both leaderboards, with premium reasoning calls landing on Claude Opus and cheap fast calls landing on Gemini Flash. Spend follows the high-stakes calls, and volume follows the low-stakes ones, with the labs each holding a different layer of the same applications. Volume-vs-spend also changes quickly at the lab level. A few specific signals: Gemini Flash helped Google take the lead on volume at a smaller share of spend Claude Opus helps Anthropic lead on spend with less volume than Google OpenAI's spend share tripled from March to April after the GPT-5.4/5.5 releases Google's spend share climbed from 8% in March to 21% in April as Gemini Flash usage scaled Spend follows the cost of being wrong The same cost/volume divide exists at a finer grain inside specific kinds workloads: Personal assistants account for 20% of cost on 40% of token volume Coding agents sit roughly balanced at 22% of cost on 20% of tokens Back office agents run at 6% of cost on 15% of tokens App generation runs at 7% of cost on 11% of tokens What a workload spends per token is a function of how expensive a wrong answer is to the use case. Personal assistants can run on cheap, fast models because mistakes only impact individual users and are quickly corrected. Back-office workflows pay for stronger reasoning because errors can trigger legal, financial, or operational risks that outweigh the per-call savings. The per-token economics are a stake map: applications spend more per token when mistakes cost more. The same pattern holds in a broader B2C/B2B split. B2C applications generate many low-cost calls, while B2B applications run fewer, more expensive ones. On a per-token basis, B2B costs roughly two times as much as B2C. No single provider wins across use cases Cutting the data by use case shows a fragmented provider landscape: Anthropic notably leads in software building Google over-indexes in consumer OpenAI is the most evenly distributed xAI and others are split across coding, consumer, and long-tail use cases Anthropic's pattern is concentration at the high-stakes layer. As the workload moves from back office to consumer, Anthropic's token share drops from 71% down to 7%. Its cost share follows a much shallower curve and keeps the lead through three of the four categories. The revenue concentrates wherever the answer has to be right, regardless of how much volume passes through. Google is the inverse shape. Its footprint concentrates in consumer, where Gemini Flash carries 28% of tokens at 15% of cost, and barely appears on the cost chart outside it. The position is a single-SKU bet that rises and falls with Flash adoption. xAI is a price wedge. Grok carries 20% of building tokens and 18% of outreach tokens at materially smaller cost shares in each. xAI wins on price-to-quality fit, and whoever matches the price closes the wedge. OpenAI is the most balanced of the four at 6% of building cost, 18% of consumer cost, and 28% of outreach cost. No single layer is load-bearing for OpenAI's overall share, which makes the company the least exposed of the four to disruption in any one layer. Open-weights families like Kimi, MiniMax, and GLM rotate through the consumer and building tiers where the cost ceiling is lowest. Their cost share stays small, and their token share inside consumer and building is large enough that any cost-only view of the market understates them. There is no single dominant provider across the whole market because there is no single dominant use case. The right question is not \"Who is winning AI?\", it is \"Which models are winning the use case I care about?\" The labs that look closest to even on a blended chart are competing for different layers of the same stack. Apps are becoming more agentic The shape of production AI requests has changed underneath all of this. In April 2026, 22.2% of AI Gateway requests ended with a tool call, up from 11.4% in October 2025. Measured by tokens, the shift is bigger. 58.9% of all tokens are now in tool-call requests, up from 31.6% six months ago. By both measures the agentic share roughly doubled in half a year, but the more telling number is the gap between the two shares. 22.2% of requests carry 58.9% of tokens, which means tool-using requests are about 2.6× more token-heavy than the rest. The cost surface of AI has shifted from chat-shaped to agent-shaped, while headline request counts barely budged. Every kind of round trip bills against the same meter, whether it's a function execution, an API call, a database query, or a code run, so an agent shipping ten tool calls bills roughly ten times the tokens a chat would. Where a chat bills one round trip per prompt, an agent bills a chain. Leaderboards rank one model, but production teams use 35+ at scale At scale, multi-model stops being a choice and becomes standard agent architecture. Teams running 1K to 10K requests averaged 3 distinct models. By the 10M+ requests bucket, the average is 35 models in regular use. The jump from 18 models in the 1M to 10M bucket to 35 in the 10M+ bucket is the inflection point. A 35-model fleet runs as a routing graph, with a cheap classifier for intent detection, a frontier model for the reasoning step, an embedding model for retrieval, a fast model for summarization, and a vision model for screenshots. Every one of those models is swappable. If a provider raises prices, degrades quality, or has an outage, traffic redistributes across the rest in hours. At the scale that produces most of the spend on the leaderboards, switching between labs is closer to a config change than to a vendor migration, and the standard story about lab lock-in inverts the higher you go on the request-volume curve. New models are adopted rapidly The same fleet design explains how fast new releases get absorbed. When a new version ships inside a model family, traffic moves to it within weeks. Claude Sonnet 4.6 absorbed most of the Sonnet family's share by its first full month after launch. The Opus family is moving through the same shape now, with Claude Opus 4.7 taking share from Opus 4.6 on a near-identical curve. Predecessor models stayed live and routable on AI Gateway throughout both windows, but teams moved anyway. The migration is a config change, and the labs no longer set the upgrade timeline of their own product lines. Provider outages have a hidden cost Roughly 3.5% of requests on AI Gateway complete after a fallback. That means the initial route hit an error, a rate limit, or a timeout, and the gateway reissued the request to a healthy alternative fast enough that the user still got a successful response. Measured in tokens the rescue rate runs at 5.1%, and in dollars at 4.9%. The token-weighted and cost-weighted rates run higher than the request-weighted rate because the requests that get rescued are, on average, bigger and more expensive than the ones that don't. Long context windows hit rate limits more often than short ones, multi-step agent runs accumulate failure across steps, and heavy reasoning calls time out under sustained load. Each of those failure modes targets the expensive end of the workload, which is why the dollar rate sits higher than the request rate. A provider's SLA measures request-level uptime, but a production application experiences cost-weighted uptime, and the two come apart on exactly the calls that paid for the model. Conclusion: Build for workload, not the lab Production workloads are designed for efficiency, reliability, and flexibility, not to match the latest model leaderboards. Across six cuts of the same data, the shape underneath stays the same. Different labs win different layers of the same applications, and the architecture that handles those layers is the one production teams at scale have already built for. This echoes the early cloud era. Teams expanded compute first (more instances, regions, redundancy) and squeezed per-unit cost later. The 35-model fleets visible at the top of the spend curve are the same patter at a faster cadence; the optimization that follows happens at the routing layer. For anyone shipping AI today: Plan for multiple models across providers Assume the need for fallbacks to optimize for uptime and cost Design routing as a core unit of architecture from the beginning We expect to revisit this data on a recurring cadence as the patterns shift. Live model rankings are available on the AI Gateway Leaderboards. About this data This analysis is based on anonymized, aggregate routing data from the Vercel AI Gateway through April 2026. A few notes on measurement: Spend uses market-rate pricing (published list price) to provide a normalized view across teams that bring their own API keys. Volume counts tokens routed through AI Gateway. B2C, B2B, and use-case classifications are aggregate. No individual team or workload is identified."
+                  - generic [ref=e148]:
+                    - generic [ref=e149]:
+                      - img [ref=e151]
+                      - img [ref=e153]
+                    - generic [ref=e154]: Harpreet and Yvonne
+            - listitem [ref=e155]:
+              - article "How Superset built the IDE for AI agents on Vercel" [ref=e156]:
+                - link [ref=e157] [cursor=pointer]:
+                  - /url: /blog/how-superset-built-the-ide-for-ai-agents-on-vercel
+                  - generic [ref=e158]:
+                    - generic [ref=e160]: Customers
+                    - time [ref=e161]: May 10
+                  - heading "How Superset built the IDE for AI agents on Vercel" [level=2] [ref=e162]
+                  - paragraph [ref=e164]: "Superset on Vercel 1,000–1,400 deployments per week ~600 preview deployments per day ~30 second average build time 57–64% week-over-week DAU growth Software development with AI started as a single engineer chatting with a single agent about a local repo. Today, developers direct fleets of agents in the cloud, but traditional tools were built for the old shape of the job: IDEs, terminals, and review systems designed for one developer moving one ticket at a time. Co-founders Kiet Ho, Satya Patel, and Avi Peltz, all former CTOs at YC-backed companies, built Superset as the IDE for multi-agent development. It runs up to 10 coding agents in parallel, each in its own isolated workspace. Developers use it to direct teams of agents generating code across multiple branches simultaneously. Running a team of agents in parallel changes what the platform underneath has to do. The product Superset offers its users only feels parallel because nothing on the platform forces the work to wait. If any layer slows down, even briefly, the parallelism on top collapses with it. Parallel agents need parallel infrastructure This workflow has a dependency that's invisible from the product surface. Every agent thread needs its own isolated environment, every branch needs a live URL, and every change needs a safe place to run. Without instant provisioning, parallel agents stop being parallel. CI pipelines have to be configured per branch, preview environments have to be managed by hand, and deploys back up behind one another. For a team running a dozen agents at once, that serialization is what breaks the product. Twelve workflows collapse into one queue, and a task that should take minutes takes hours. The developer is back to waiting, which is the exact problem Superset exists to solve. Six Next.js projects, no platform team Vercel was the default choice from the start, as all three founders had built on it at previous companies. From day one, Superset ran six Next.js projects on Vercel: the web app, marketing site, docs, and three supporting services. The team skipped platform engineering entirely and stayed focused on the product. Every branch a Superset developer or agent creates becomes a preview deployment automatically, often spinning up multiple services. At its peak, Superset generates roughly 600 preview deployments a day internally. Every branch gets a live URL, and the team never waits on a deploy queue. One AI stack for every workload Superset's AI stack grew with the product, and each piece of the Vercel platform was pulled in to solve a specific problem as functionality was added. Orchestration and model routing AI SDK and AI Elements run the agent orchestration itself, giving Superset a single interface for multi-model, multi-agent workflows. AI Gateway handles model routing without custom routing logic. Storage and compute Vercel Blob stores artifacts from agents and users, no object storage to manage. Fluid compute absorbs parallel tasks as agents fan out, scaling underneath without forcing the team to rearchitect. Active CPU pricing means cost is only incurred on actual compute, not round-trip time waiting on model responses. Operational controls Cron Jobs prevent parallel environments from piling up. BotID filters bots during high traffic periods, no custom middleware needed. As Superset has expanded into new product areas, the entire stack has stayed on Vercel. There's no second cloud to glue in, no orchestration layer to maintain, and no platform engineering team to keep it glued together. New surface areas gets built on the same primitives that handled the old surface area, which is what frees the team to keep moving on product instead of plumbing. Superset is its own super user The most credible proof how the Superset team uses Superset themselves. GitHub issues flow into Superset and get split across parallel workspaces, and Satya has tuned the team's setup to run up to a dozen instances at once. Multiple efforts move forward without anyone waiting on serial decisions. Compared to their previous dev workflows, Superset's commit graph looks exponential. Scaling through a Hacker News spike During a Hacker News \"Show HN\" launch, user counts tripled overnight. Superset absorbed the spike without anyone provisioning infrastructure mid-flight. That extends to incidents. If a customer reports an issue to Superset, their agents can spin up, write the fix, generate a preview, and merge the code in under thirty minutes. If the fix makes things worse, rollbacks are instant, so the cost of a bad deploy drops to near zero. \"Almost no time to deploy\" as the bar For Superset, immediate deployment matters because it keeps the loop between writing code, previewing it, and shipping it short enough that velocity never stalls, even across dozens of parallel workstreams. Build time averages around 30 seconds, and deployment volume runs between 1,000 and 1,400 a week. What's next The pattern for success is already clear: a product built for parallelism, by a team that works in parallel, on agentic infrastructure that doesn't force them back into a queue. Every new agent capability they ship to customers gets stress-tested first by their own engineers running a dozen at once. The dozen will become two dozen, and the infrastructure underneath was built to expect it. About Superset: Superset is built by a team of three ex-YC CTOs and its the IDE for the AI agents era, letting developers run multiple coding agents in parallel."
+                  - generic [ref=e165]:
+                    - img [ref=e168]
+                    - generic [ref=e169]: Rini Vasan
+            - listitem [ref=e170]:
+              - article "How KIKO Milano scales for Black Friday" [ref=e171]:
+                - link [ref=e172] [cursor=pointer]:
+                  - /url: /blog/how-kiko-milano-scales-for-black-friday
+                  - generic [ref=e173]:
+                    - generic [ref=e175]: Customers
+                    - time [ref=e176]: May 5
+                  - heading "How KIKO Milano scales for Black Friday" [level=2] [ref=e177]
+                  - paragraph [ref=e179]: "KIKO Milano on Vercel: Eliminated 3 weeks of Black Friday infrastructure prep 75% decrease in app build times Went from minimal releases to deploying multiple times per day KIKO Milano’s ecommerce team used to treat peak traffic as an operations project. Weeks before Black Friday, they had to manually scale AWS infrastructure and adjust application configuration, knowing that if demand exceeded forecasts, their site could slow down or even break, costing them real revenue. After migrating to Vercel, they removed manual prep from their playbook. Instead of provisioning infrastructure, their team now ships campaigns and tests daily. The Black Friday problem: manual scaling and stressful failure modes Before Vercel, KIKO ran their ecommerce app on AWS EC2 instances sized for normal traffic, then scaled by hand ahead of peak periods. This was their previous process leading into Black Friday: Manual scaling window: Black Friday prep began 2–3 weeks ahead of the event, then had to be unwound after the traffic spike passed. Infrastructure configuration: The infra team manually adjusted AWS EC2 capacity to support expected traffic. Application configuration: Scaling also required application-side changes, making peak readiness more than just an infrastructure task. War room prep: Chat channels and conference rooms were set up for teams to triage performance and downtime problems. Beyond the manual prep work, KIKO’s dev team had to anticipate failure modes that hurt the business. Slow navigation and site instability made it hard for users to purchase, and, in Ant’s words, they knew that at any point, “everything could break.” Worry-free delivery and automatic scaling Vercel changed the work from preparation to execution. With environments available on demand, faster builds, and automatic scaling during traffic spikes, Ant’s team stopped planning around infrastructure limits and focused on the ecommerce experience itself. Environments without the bottleneck KIKO's old setup ran on a fixed number of shared environments, which constrained how the team handled dev, test, pre-prod, and prod work in parallel. On Vercel, Ant described provisioning new environments as \"snapping your fingers,\" including spinning them up on the fly when a project calls for it. Cloning environment variables is quick, and many changes that used to require code edits now \"just require redeployment.\" Shipping faster without the operational tax The dev team’s old pipeline took around 20 minutes to run, which meant they had to keep releases to a minimum. Builds on Vercel finish in under four minutes on average, even with many locales and a large catalog of pre-rendered pages. The deployments view in the Vercel dashboard gives the team one place to check build status and surface failures without digging through logs. No more performance variability during traffic spikes Performance used to swing with traffic, which meant the team felt every spike. Ant said that on Vercel, \"everything scales automatically.\" That’s possible because their Next.js app runs on infrastructure that separates static delivery, cached pages, and dynamic compute, so each part can scale independently during traffic spikes, instead of forcing the team to size and tune servers ahead of time. Beyond Black Friday: velocity, SEO, and innovation The infrastructure migration didn’t just change how KIKO prepares for traffic spikes, it changed how much operational work the team carries every week. Ant estimates that Vercel saves his team almost an entire day per week when all of the friction is added up, and that time savings has made the team more confident: the platform works, they can ship quickly, and when they need support, they know Vercel is there with them. About KIKO Milano: KIKO Milano is a global beauty brand delivering cosmetics and ecommerce experiences to customers worldwide."
+                  - generic [ref=e180]:
+                    - img [ref=e183]
+                    - generic [ref=e184]: Meghan Schaefer
+            - listitem [ref=e185]:
+              - article "How General Intelligence used agents to build an agent platform on Vercel" [ref=e186]:
+                - link [ref=e187] [cursor=pointer]:
+                  - /url: /blog/how-general-intelligence-used-agents-to-build-an-agent-platform-on-vercel
+                  - generic [ref=e188]:
+                    - generic [ref=e190]: Customers
+                    - time [ref=e191]: May 4
+                  - heading "How General Intelligence used agents to build an agent platform on Vercel" [level=2] [ref=e192]
+                  - paragraph [ref=e194]: "General Intelligence on Vercel 8-person team (5 engineers) shipping 10 PRs and 70+ commits per engineer, per day 4,000+ preview branches with ~100 parallel app versions running at any moment 90% of SRE work automated through Vercel and their own agent (Cofounder) Cofounder launches with a managed Vercel account for every customer General Intelligence is building a platform that lets any founder run a company entirely with AI agents. Their vision is the one-person, billion-dollar company where every department is driven by agents. Their flagship product, Cofounder, gives founders a full team of agents that cover engineering, marketing, SEO, finance, sales, customer support, and operations. General Intelligence is an 8-person company with 5 engineers. To ship a platform that lets their customers run agentic companies, they had to operate as one themselves. They wanted to use Cofounder's CTO agent to build out other agentic business functions, and their developers quickly learned that was an infrastructure problem, not an agent problem. For a complex, multi-tenant platform, the requirement was total programmatic control: every action a human could take on the underlying cloud platform had to be available to a coding agent through a CLI or APIs. That meant killing deployments, changing DNS, managing billing, editing configs, all of it. Most cloud providers failed that test, and that's why General Intelligence migrated to Vercel. Agents need infrastructure built for agents A coding agent runs dozens of processes in parallel. It queries logs as data, parses errors as input, and treats every dashboard click as a missing API. The bottleneck stops being how fast the agent can write code and becomes how much of the cloud it can actually reach. Most clouds aren't shaped for that pattern. They're built for human developers: dashboards to click, consoles to read, APIs that cover some operations but stop short of others. The closer an agent gets to running development end-to-end, the more those gaps stack up. General Intelligence started out hosting on Render. It worked for the early product, but provisioning preview environments for the full stack was painful from day one. When they started building Cofounder's CTO agent, that pain became a blocker. The platform had to be reachable end-to-end through code, and Render's Python support couldn't keep up with what the agent needed. \"There are vendors that let an agent do 5% of the work, and vendors that let an agent do 50%,\" explained Pignanelli. \"We needed a platform that would let an agent do 100%.\" They evaluated vendors against that bar and made the choice to migrate to Vercel. How five engineers ship like a hundred Migrating to Vercel changed how General Intelligence builds software, and their engineers don't develop locally anymore. Every change Cofounder's CTO agent makes goes straight to a Git branch, spins up a preview environment, and gets tested end-to-end by a browser agent on the live URL. General Intelligence has over 4,000 branches in flight. At any moment during a workday, around 100 versions of their app are running on Vercel, each on its own preview environment with a coding agent or browser agent operating it. Earlier this year, Fluid compute grew 6.5x month-over-month, and most of that growth was internal engineering work: coding agents building business agents in Cofounder. Today, engineers ships an average of 10 PRs a day with 70+ commits each, on a token budget of $5,000 per engineer per month. Migrating Cofounder's Python backend to Vercel General Intelligence runs a Python backend, and they were one of the first teams to migrate a complex full stack app Vercel. They did it deliberately, because the agent had to drive deployments, configs, and compute across the whole stack, not just the frontend. Unifying on one platform shrank the surface area for the team and the agent to one CLI, one API, and one observability layer. When something breaks, the agent and the developers have the full picture in one place. Running Cofounder as a multi-tenant app on Vercel When a founder spins up a company on Cofounder, they get more than a set of agents, they get a real GitHub repository and a managed Vercel deployment, provisioned automatically through Vercel for Platforms. Each company also gets its own domain, with SSL and DNS handled automatically. The engineering agent inside the customer's company is Cofounder's CTO, the same product General Intelligence uses internally. It runs the same workflow: branches, preview environments, browser agents testing the live URL. What's next General Intelligence will keep building their own company on the same products they ship to customers. As they add new departments and agents, Pignanelli says Vercel allows them to focus on the customer, not configuring the cloud underneath. General Intelligence is building Cofounder, the first full-stack agent company platform."
+                  - generic [ref=e195]:
+                    - img [ref=e198]
+                    - generic [ref=e199]: Eric Dodds
+            - listitem [ref=e200]:
+              - 'article "Introducing deepsec: The security harness for finding vulnerabilities in your codebase" [ref=e201]':
+                - link [ref=e202] [cursor=pointer]:
+                  - /url: /blog/introducing-deepsec-find-and-fix-vulnerabilities-in-your-code-base
+                  - generic [ref=e203]:
+                    - generic [ref=e205]: General
+                    - time [ref=e206]: May 4
+                  - 'heading "Introducing deepsec: The security harness for finding vulnerabilities in your codebase" [level=2] [ref=e207]'
+                  - paragraph [ref=e209]: "Today we’re open sourcing deepsec: a security harness powered by coding agents. It runs on your own infrastructure and surfaces hard-to-find issues in large codebases. You can run deepsec on your laptop without setting up a cloud service for privileged source code access. For inference, you can use your existing Claude or Codex subscription without any additional setup. Scanning large repos can take multiple days on a single machine. To run research jobs in parallel, deepsec supports optional fanout to Vercel Sandboxes for remote execution. Scans on Vercel’s codebases routinely scale up to 1,000+ concurrent sandboxes. Architecture At its core, deepsec uses claude and codex to perform tailored investigation of a codebase using Opus 4.7 at max effort and GPT 5.5 at xhigh reasoning. Scans start with static analysis to identify security-sensitive files, then coding agents investigate each candidate, tracing data flows, checking for mitigations, and producing actionable findings with severity ratings. Here is the workflow: Scan: It starts by performing a regex-only scan of all files for security-sensitive areas that subsequent steps will focus on. Investigate: Agents investigate each file identified in the scan. Revalidate: A second agent run validates investigation findings to remove false positives and reclassify severity. Enrich: Once investigation is complete, an agent uses git metadata and other optional services to identify the contributors responsible for fixing each issue. Export: The export command formats the findings as instructions so that they can be turned into tickets for humans and coding agents. Running deepsec on production code deepsec has been highly useful on our own monorepos and for our customers' codebases. During development, we ran deepsec on several open source repositories of Vercel customers and partners. For example, deepsec scanned the open source version of dub.co. Dub is a marketing attribution platform for affiliate programs and short links that is also available as SaaS. It features authenticated access, interacts with a database, and runs several backend services, creating a large security surface. When we shared our deepsec findings with founder Steven Tey, he replied: Running against Vercel’s own monorepos, deepsec identified subtle edge cases in auth conditions, leading us to develop a custom scanner plugin that covers every authentication path in our code. False positives and best uses Some of deepsec's findings will be false positives. In our experience the false positive rate is roughly 10-20%. Given the impact of true positive findings in our own research, we’ve been happy with this outcome, and we built the revalidate step to have the agent further verify its findings to reduce false positives. deepsec works best for applications and services. It may be usable for libraries and frameworks, but those would likely require custom prompts and scanners. Customization and plugins deepsec ships with a plugin system for adapting it to your codebase. The most common plugins are custom scanners: regex matchers tuned to your auth model, data layer, or team conventions. We recommend using deepsec with your coding agent and asking it to write those matchers based on findings from an initial scan: Do I need access to a special “cyber model”? Both Anthropic and OpenAI offer “cyber” versions of their most capable models, fine-tuned to accept security tasks the base models won’t. deepsec works with these, but is also fully functional with off-the-shelf models. deepsec ships with a classifier that checks whether the task was refused after each research step. In our experience, for the prompt that deepsec is using, refusals are a non-issue for both Opus 4.7 and GPT 5.5. Getting started To get started, run npx deepsec init at the root of your repository. This will create a directory called ./.deepsec, which is used to configure the system and store a catalog of your deepsec investigations. From there, follow the output of the command. Read the full documentation on Github. Feedback welcome While we’ve used deepsec extensively, it is still early in its development. Feedback and contributions on GitHub are welcome."
+                  - generic [ref=e210]:
+                    - img [ref=e213]
+                    - generic [ref=e214]: Malte Ubl
+            - listitem [ref=e215]:
+              - article "How GitBook serves 30,000 sites with sub-second content updates" [ref=e216]:
+                - link [ref=e217] [cursor=pointer]:
+                  - /url: /blog/how-gitbook-serves-30000-sites-with-sub-second-content-updates
+                  - generic [ref=e218]:
+                    - generic [ref=e220]: Customers
+                    - time [ref=e221]: May 1
+                  - heading "How GitBook serves 30,000 sites with sub-second content updates" [level=2] [ref=e222]
+                  - paragraph [ref=e224]: "GitBook on Vercel 30,000 documentation sites hosted on a single Vercel deployment 120 million monthly page views served from the edge 40,000 cache invalidations processed daily, each resolved in under 300ms 41% of all traffic now comes from AI crawlers and automated systems GitBook hosts 30,000 documentation sites on Vercel, serving 120 million page views every month. Companies like n8n, Nvidia, and Zoom trust the platform to keep their docs fast and current. For modern engineering teams and coding agents, documentation is as critical as the production code it describes, and GitBook sits at the center of that expectation. GitBook's publishing model mirrors how teams ship software: propose changes, review, and merge. With 30,000 independently managed sites each on its own update cadence, keeping content fast and fresh was a complicated engineering problem. Before migrating to Vercel, site editors would hit merge, visit the published site to validate, and see old version of the content. \"One of our customers planned a large feature release, and on launch day, the docs lagged behind the rest of the product,\" says Steven Hall, Head of Engineering at GitBook. \"That was the moment we really internalized that docs are as important as your code going to production.\" Making merge mean live at multi-tenant scale GitBook's published content frontend runs on Next.js and is open source. When Vercel's use cache directive became available, the team saw a solution to their speed problem: cache individual data-fetching functions rather than full page responses. That meant expensive API calls were deduplicated across requests, and cache behavior became visible directly in code rather than buried in external configuration. The harder problem was invalidation. In a multi-tenant system, a broad cache purge is expensive and wasteful. One team merging a typo fix shouldn't trigger revalidation for 29,999 other sites. GitBook already had a reliable signal for when content becomes stale: a merge event, whether through GitBook's app, GitHub, or GitLab. The team built tag-based invalidation triggered directly by those events. Cached data is tagged by content unit, and when a merge occurs, only the affected tags are revalidated. Everything else stays cached. Today, when a change is merged, updated content becomes visible globally within 300 milliseconds. GitBook processes 40,000 of these invalidations daily. \"Outside of building our own caching, I don't think we considered anything else,\" says Hall. What changes when 41% of your traffic isn't human AI-driven traffic to GitBook documentation surged 5x year-over-year in 2025 and now accounts for 41% of all page views. LLMs and automated systems crawl docs programmatically, using GitBook as a source of truth for internal tooling, SDKs, and AI applications. That changes the infrastructure math. A human reader might visit a handful of pages on a single docs site, but an AI crawler can sweep every page across hundreds of sites in a single session, hitting cold cache paths that no human would visit. Multiply that across 30,000 sites and the caching foundation has to handle not just more traffic, but fundamentally less predictable traffic. Content still has to be immediately consistent after every change, and infrastructure costs have to stay predictable even as volume climbs. Hall says they didn't choose the caching architecture because of AI specifically, but it turned out to be the right foundation. \"We need fast docs regardless of whether AI or humans are reading them,\" he says. \"Our target is closer to 100% cache hits. Cache hits mean fast docs, and fast docs are a critical feature of GitBook.\" The next 30,000 sites The caching infrastructure isn't finished. Features like adaptive documentation, which modifies content based on who's reading it, make multi-tenant caching meaningfully more complex. And as AI traffic keeps climbing, the volume of requests flowing through 30,000 sites will only grow. \"Volume is going up everywhere,\" Hall says. \"Engineers shipping more means more docs changes. LLMs are crawling more pages every day. Our main goal is to maintain that high bar for latency and predictability as we scale.\" GitBook is an intelligent documentation platform used by more than 30,000 teams to create, publish, and maintain product and developer documentation at scale. GitBook's published content frontend is open-source."
+                  - generic [ref=e225]:
+                    - img [ref=e228]
+                    - generic [ref=e229]: Eric Dodds
+            - listitem [ref=e230]:
+              - article "2026 Vercel AI Accelerator recap" [ref=e231]:
+                - link [ref=e232] [cursor=pointer]:
+                  - /url: /blog/2026-vercel-ai-accelerator-recap
+                  - generic [ref=e233]:
+                    - generic [ref=e235]: General
+                    - time [ref=e236]: Apr 28
+                  - heading "2026 Vercel AI Accelerator recap" [level=2] [ref=e237]
+                  - paragraph [ref=e239]: "On April 16th, 39 teams took the stage to pitch investors at Demo Day. During the prior six weeks, founders worked shoulder-to-shoulder with the Vercel team, our partners, and industry leaders to shape their ideas into the next generation of AI applications. Six weeks with the 2026 cohort Teams from around the world joined the 2026 cohort, building agents, developer tools, consumer apps, and vertical AI for finance, security, healthcare, and robotics. Each week, the cohort joined two sessions: a hands-on technical workshop and a fireside chat with an external speaker. The workshops covered the technical side of building AI products, from agents and models to deployment and scale. The fireside chats brought in industry leaders, Vercel experts, and investors. Speakers included Peter Steinberger (OpenAI/OpenClaw) and the Windsurf team, with topics ranging from the state of AI to pricing, legal, sales, marketing, and fundraising. Builder day Halfway through the program, the cohort came together with the broader Vercel startup ecosystem for Builder Day at Vercel's office. The day combined technical workshops, hands-on office hours with engineers from accelerator partners like AWS and Anthropic, open time to build and connect, and a special fireside chat between Malte Ubl (Vercel CTO) and Stephen Haney (Paper CEO). $8M in infrastructure and credits Beyond the programming, every team got over $200K to build with on Vercel and across the AI stack: Vercel AI stack: AI Gateway, Sandbox, Workflows, Fluid Compute, v0, and more Partners: AWS, Anthropic, OpenAI, Browserbase, ElevenLabs, Auth0, WorkOS, Notion, Modal, Neon, Supabase, and more Demo Day After six weeks of building, the cohort showed their work at Demo Day. Auth0 hosted the event at their offices, and each team had a few minutes to present to a room of VCs, AI leaders, and partners, with a panel of judges from across the AI ecosystem selecting the winners. Winners On Demo Day, judges scored teams on problem validity, technology fit, product quality, and each team's final pitch. Three teams took home $100K+ in credits and prizes, and the first-place team also received an investment from Vercel Ventures. 1st: Rex Rex is building AI for the enterprise finance back office, unifying customer context across systems so agents can run accounts receivable end to end. In addition to credits, Rex received an investment from Vercel Ventures. 2nd: Hacktron AI Hacktron AI is an AI teammate for security. As AI writes more of the code shipping into production, vulnerabilities scale with it. Hacktron integrates into the development lifecycle to find and remediate real, exploitable issues. 3rd: Roots Roots is rebuilding how people buy and sell homes. Buyers save hundreds to thousands of dollars a month, and sellers net thousands more at closing. $100M+ in fundraising, and counting The 40 alumni from the last cohort have raised over $100M in venture funding, and several have been accepted to Y Combinator. Stably, the 2025 winner, is now converting enterprise pilots into contracts and shipping new product lines in hours instead of weeks. Other teams from past cohorts, including Jigsaw Stack, Belli AI, and General Translation, have signed enterprise customers and formed partnerships through the program. Apply to the next cohort If you're an early-stage founder building in AI, you can apply for the next AI Accelerator program. We will open applications later this year. Visit our startup hub to learn more and connect with our startups team."
+                  - generic [ref=e240]:
+                    - generic [ref=e241]:
+                      - img [ref=e243]
+                      - img [ref=e245]
+                      - img [ref=e247]
+                    - generic [ref=e248]: Alli, Caroline, and Madison
+            - listitem [ref=e249]:
+              - article "How Zo Computer improved AI reliability 20x on Vercel" [ref=e250]:
+                - link [ref=e251] [cursor=pointer]:
+                  - /url: /blog/how-zo-computer-improved-ai-reliability-20x-on-vercel
+                  - generic [ref=e252]:
+                    - generic [ref=e254]: Customers
+                    - time [ref=e255]: Apr 17
+                  - heading "How Zo Computer improved AI reliability 20x on Vercel" [level=2] [ref=e256]
+                  - paragraph [ref=e258]: "Zo Computer on Vercel 20x reduction in retry rate (7.5% → 0.34%) 99.93% chat success rate (up from 98%) P99 latency cut 38% (131s → 81s) New models added in less than 1 minute Every company has servers that store data, run services, and do work around the clock. Consumers just have apps. Rob Cheung, co-founder of Zo Computer, is closing that gap. Zo is a personal AI cloud: your own servers and data that power an always-on agent. \"Cloud is one of the best computing models of all time, and consumers have zero direct access because it's so complicated,\" explained Rob Cheung, co-founder and CEO of Zo. \"Now, with AI, it's finally possible for all of us to have cloud computers.\" Zo is a full computing environment, not just a chatbot. Rob laughs about his mom running servers and databases without knowing it. People use Zo to manage small businesses, do research, organize finances, and track health data. The 8-person company is two and a half years old and they have an ambitious goal: to onboard one million new users to personal cloud computing in 2026. That means millions of AI model calls every day, and when Zo users text their agent like a friend, they expect the same responsiveness. Death by a thousand adapters Zo gives users access to any model they want, and supports bring-your-own-key. That means their backend has to talk to every major provider: OpenAI, Anthropic, MiniMax, GLM, Fireworks, and more. Before they moved to Vercel, that meant custom adapter code for each model. Every provider required different handling for images, different key management, and different edge cases. On top of the code complexity, Zo's team was managing retries, provider routing, and fallback logic themselves. Every time a provider shipped a new model, an engineer had to write a new adapter, test the edge cases, and run the deployment pipeline. With new models released weekly, it was a constant drag on a small team building a consumer product, and their users felt it. Zo's baseline for AI model calls was a 98% success rate with a 7.5% retry rate. That means 1 in 50 messages failed or retried, adding up to tens of thousands of model fallbacks every day. AI SDK + AI Gateway: two layers, one integration Zo moved to Vercel's AI SDK and AI Gateway, which solved two distinct problems. AI SDK replaced the custom adapter code. Instead of per-provider implementations with bespoke edge case handling, Zo's engineers got a unified interface for every model, from image support to response format normalization. AI Gateway replaced the infrastructure-level complexity. Retries, fallback routing, provider health monitoring, and uptime were all handled at the routing layer in Vercel instead of in Zo's codebase. Rob's co-founder built APIs at Stripe, where developer experience was the product. He describes the combined effect of AI SDK and AI Gateway the same way: everything just works, and the pieces you don't see matter most. New model support went from an hour-long, multi-file code change to adding a config string in 30 seconds. The day MiniMax shipped M2.7, Zo had it live for users immediately. No adapter code, no edge case testing, no deploy cycle. For an 8-person team focusing on onboarding their first million users to personal cloud computing, cutting out interruptions for model support has been a huge relief. 20x improvement in reliability During the rollout, Zo ran Vercel and non-Vercel routes simultaneously, creating a live A/B comparison under identical production conditions. The results: Period Route POST error Chat success Retry rate Avg attempts Before switch Non-Vercel 4.59% 99.73% 7.52% 1.12 After switch Non-Vercel 10.38% 97.86% 17.07% 1.29 After switch Vercel 0.45% 99.93% 0.34% 1.00 The non-Vercel route actually degraded during the same period that Vercel held steady. Retry rate dropped from 7.5% to 0.34%, a 20x improvement. Average attempts per chat hit 1.00, meaning virtually every request succeeded on the first try. On MiniMax M2.5, Zo's most-used model, the latency improvement was significant. In an apples-to-apples comparison over the same window, Vercel handled 18,139 chats versus 21,105 on non-Vercel and still performed better across the board: Average latency improved 25.7% P95: 46s → 34s (25% improvement) P99: 131s → 81s (38% improvement) For Zo's users, the P99 number matters most because they text their agents constantly throughout the day. A 131-second worst-case wait breaks that experience completely, but now 99% of requests complete in under 81 seconds. By the end of the test, 91.88% of Zo's traffic routed through Vercel, handling 3.3x larger context windows (42,500 average input tokens vs. 12,700) at a lower error rate than the non-Vercel path. Scaling to a million personal cloud owners Vercel handles Zo's AI layer through AI SDK and AI Gateway and hosts their public-facing marketing site. With reliable AI infrastructure and no adapter code to maintain, the team can focus on the product instead of the plumbing. With the pace of model developments in AI, Rob used to worry about the work required to keep up. “Now I don’t worry about it,” he said, “because with Vercel, the infrastructure just works.” Zo Computer is a personal AI cloud platform that gives every user their own cloud computer, housing data, services, and a personal agent. Users interact through a conversational interfaces like iMessage, or log in and use the environment directly. Founded two and a half years ago, Zo is an 8-person team based in New York City. Learn more at zo.computer."
+                  - generic [ref=e259]:
+                    - img [ref=e262]
+                    - generic [ref=e263]: Eric Dodds
+            - listitem [ref=e264]:
+              - article "A new programming model for durable execution" [ref=e265]:
+                - link [ref=e266] [cursor=pointer]:
+                  - /url: /blog/a-new-programming-model-for-durable-execution
+                  - generic [ref=e267]:
+                    - generic [ref=e269]: General
+                    - time [ref=e270]: Apr 16
+                  - heading "A new programming model for durable execution" [level=2] [ref=e271]
+                  - paragraph [ref=e273]: "The gap between prototypes and production-ready systems is huge. Code that's trivial to run locally falls apart the moment it needs to handle failures, restarts, and real traffic. Framework defined infrastructure solved this for web applications. When you deploy, Vercel infers the right configuration from the app itself. Workflows extends that model to long-running systems. Instead of managing a separate codebase for orchestration, durable workflows are an extension of your application code. Since launching in beta in October 2025, Workflows has processed over 100 million runs and over 500 million steps across more than 1,500 customers, with more than 200K npm downloads every week. Today, Vercel Workflows is generally available. Built for agents, backends, and long-running workloads Workflows is built for any workload that doesn’t fit in a single request. Agents: Deep integration with the AI SDK enables infinitely long running durable agents that can maintain state, tools, and handle external events or interruptions. AI SDK v7 is taking this further with WorkflowAgent. Backends: Workflow SDK proved this programming model in TypeScript codebases, and we're bringing it to a new language. The Workflow Python SDK is now in beta. Long-running workloads: Workflows can be used for any function that needs to execute reliably, including multi-step onboarding flows, payment processing, ETL pipelines, or any backend work that would otherwise require you to wire up your own queues and retry logic. How it works Shipping a reliable long-running process to production typically means splitting your code across queues, workers, status tables, retry logic, and monitoring. Dedicated orchestration services add yet another layer with long-lived background processes you run in Kubernetes, scale horizontally, and dedicate engineering time to keep healthy. They are distributed systems you pay for on top of your core application compute. Workflows eliminates the orchestrator entirely. All coordination runs in your application code, not a separate service. The infrastructure is built on three components: Event log: records every step input, output, stream chunk, sleep, hook, and error in a run. It is the single source of truth for execution state and history. Your functions on Fluid compute: each step runs as its own function invocation on Fluid compute. The workflow library inside each function handles dequeueing, state loading, encryption, execution, and handoff to the next step. Vercel Queues: each function enqueues the next step automatically. Queues run automatically on Vercel, in your own Postgres, or in-memory locally. Because there is no separate orchestration service, you only pay for the compute your steps actually use when functions are running. The programming model: your code is the orchestrator Workflows lets you write long-running functions in TypeScript or Python using normal control flow and a small API surface. In TypeScript you create a workflow with \"use workflow\", and isolate units of work with \"use step\". Workflows handles everything underneath: queues, retries, step isolation, observability, durable state, and streaming. At first glance, this looks like one function calling another, and that is exactly the point. Each step gets isolation, retries, persistence, observability, and durable continuation automatically. The orchestration lives in the application code, not in a separate system. A Next.js app with the Workflow SDK installed runs the same way locally as it does in production at scale, with the same code, real guarantees, and no separate orchestration tooling to configure. Vercel Workflows in action: Guillermo's infinite chess game One of the best examples from beta testing is Guillermo's infinite chess game. It continuously pits models against each other, feeding them the current board state, validating moves, rendering the game, and running matches indefinitely, turn after turn. Each chess match is a workflow run, and when a game ends, the last step starts a new run. Infinity is modeled as recursion across runs. Because every workflow run is pegged to a specific deployment, one game can safely finish on the version it started with while the next game begins on the latest deployment. That creates a clean upgrade boundary where each game remains stable within its version, and every new game picks up the latest improvements. If the backend code powering the chess match crashes or encounters transient errors, the workflow run automatically retries it without causing the application to fail. Why Workflows matters for agents Workflows is purpose-built for the agentic era. It is the only security-first, durable SDK made for building agents and made for agents to build with. Secure by default By default, Vercel Workflows encrypts all data, including step inputs, outputs, and stream chunks, before they leave your deployment. Nothing is readable in transit or at rest outside your environment, and decryption only happens inside the deployment running the workflow. Encryption is built in and free, not a security add-on you configure after the fact. This is possible because Workflows owns both orchestration and execution in the same environment, so encryption can happen automatically without a separate service or any extra infrastructure on your end. When you need to inspect encrypted data through the dashboard or workflow CLI, explicit decryption is supported with a full audit trail. For building agents Agents need more than longer timeouts, they need durable execution, reliable orchestration, resumable streams, and enough headroom to move large payloads through long-running systems. Durable agents Workflow SDK and AI SDK share a deep integration that gives agents durable execution, tool calling, state management, and the ability to handle external events or interruptions gracefully. Tools can be implemented as workflow steps for automatic retries or as regular workflow-level logic that uses primitives like sleep and hooks to suspend and resume cleanly. Agents process tool calls iteratively until completion, surviving restarts and failures along the way. AI SDK v7 takes this further with WorkflowAgent, a fully native implementation. Durable streams Durable streams persist agent output. getWritable() gives you a persistent stream that multiple clients can connect to, disconnect from, reconnect to later, and resume from any point. The workflow keeps running even if the user closes the browser. When they come back, the client reconnects and continues exactly where the stream left off, no Redis or custom pub/sub required. In this example, a flight booking agent streams itinerary updates as it plans a trip and searches for flights: The API route starts the workflow and returns the durable stream to the client. The run ID in the response header is what enables reconnection: If the user closes the browser mid-search, the workflow keeps running. When they re-connect, or share the link with a different user who opens the session, WorkflowChatTransport resumes the stream from the last event the client received. Hooks and sleep Workflows can suspend without incurring any compute. Hooks let a workflow wait for an external trigger to resume. Hooks are useful for building human-in-the-loop approval flows and integrating with third-party services. Sleep lets a workflow suspend for any specified amount of time, from minutes to days or months. Sleep is useful for email drip campaigns and date-sensitive use cases. Limits built for multimodal agents Workflows supports 50 MB per step payload and up to 2 GB across an entire run, with generous event limits. That's plenty of headroom for agents passing images, video, and large context across long execution chains. For agents to build with Workflows is not just great for building agents. It is also designed for coding agents to use directly. The programming model is agent-friendly Workflows code is ordinary TypeScript. A workflow is a function, a step is a function, and because orchestration lives in the application code itself, a coding agent only has to reason about one system. There is no separate orchestration layer to configure and no worker fleet to manage. Full observability from the CLI Workflow SDK ships with a CLI that any agent can use for inspecting and debugging your workflow runs. If a human can inspect runs in the dashboard, an agent can inspect the same workflow state from the terminal. This works locally with no config. For production deployments on Vercel, the CLI reuses your vercel CLI authentication with --backend vercel to make authenticated requests against the Vercel API. Agents can investigate state, inspect runs, and debug behavior without leaving the terminal. Workflows ships with a skill Agents can install the Workflows skill directly and use it to scaffold, debug, and manage workflows without hand-written product knowledge. Run Workflows anywhere Workflow SDK is open source and part of the same family as AI SDK and Chat SDK. The workflow npm package goes stable at GA with 200K+ weekly downloads and 75+ releases shipped during beta. Worlds are the adapter system that makes Workflows portable. Each World provides the three components a workflow needs (an event log, compute, and a queue), backed by different infrastructure. Managed: Vercel handles everything automatically. Deploy your app and Vercel Workflows runs on Fluid compute with Vercel Queues, zero-config E2E encryption, and built-in observability. Self-hosted: Run Workflows on your own infrastructure. We maintain a Postgres reference implementation that real customers run in production, and the Local World ships built in for development. Embedded: The SDK is not locked to one runtime, and the community is already building more Worlds, including adapters for MongoDB, Redis, Turso, Jazz Cloud, and Cloudflare. We'll continue to support anyone who wants to build Worlds. How Vercel customers use Workflows Mux powers durable video and AI pipelines Mux built their media intelligence layer on Workflows, handling execution, retries, and orchestration for AI inference across complex video pipelines. They also shipped \"use workflow\" and \"use step\" directives inside their own @mux/ai SDK, so any developer can npm install @mux/ai and get a durable, multi-step pipeline as a normal imported function. Durable runs hundreds of AI agents for 3 million small businesses Durable's most critical path is website creation: dozens of parallel AI steps orchestrated by Vercel Workflows to deliver a complete site in under 30 seconds. Their small dev team ripped out their self-hosted infrastructure entirely and rewrote on Workflows with 160+ directives across 75 files. Flora orchestrates creative AI agents across 50+ image models Flora runs their entire media generation pipeline on Vercel Workflows, orchestrating 50+ image models with no queues, no state machines, and no separate service. They use rollbacks for credit refunds, recursive workflows for user-defined multi-step pipelines, and getWritable for progress streaming. Their customers kick off jobs, close their laptop, and come back to completed results. What's next: Workflows 5 and Python support Workflows 5 Workflows 4 focused on getting the developer experience and SDK model right. Workflows 5 keeps the same programming model while pushing harder on performance and runtime efficiency. Here’s what we’re cooking: Native concurrency controls, including a lock primitive for coordinating work across multiple runs Globally deployed Workflows infrastructure A snapshot-based runtime to reduce replay overhead as event histories grow Better bundling and stronger Next.js integration Our goal is to make the overhead of opting into Workflows smaller and smaller until it is the obvious default for any project. Install workflow@beta to try Workflows 5 early (and share feedback on GitHub). Python support The Python SDK is now in beta, making Workflows available across the broader AI and backend ecosystem. Here's a quick taste of how the opening example in this post looks in Python: Get started Durability, reliability, observability, security, and streaming should be part of your product from the beginning, not chores you take on months later. When you use Workflows, we take on the complexity so you can focus on what makes your app unique. Learn more about Vercel Workflows or visit the Workflow SDK docs to get started. Vercel Workflows is generally available on April 16."
+                  - generic [ref=e274]:
+                    - img [ref=e277]
+                    - generic [ref=e278]: Pranay Prakash
+            - listitem [ref=e279]:
+              - article "Agentic Infrastructure" [ref=e280]:
+                - link [ref=e281] [cursor=pointer]:
+                  - /url: /blog/agentic-infrastructure
+                  - generic [ref=e282]:
+                    - generic [ref=e284]: General
+                    - time [ref=e285]: Apr 9
+                  - heading "Agentic Infrastructure" [level=2] [ref=e286]
+                  - paragraph [ref=e288]: "Every generation of software eventually demands a new generation of infrastructure. First, we configured servers by hand. Next, the cloud turned infrastructure into APIs. Then, a more important shift: infrastructure derived from the application itself. LLMs and coding agents are driving the next transition, and it's happening fast. In just three months, weekly deployments on Vercel have doubled, and agents are driving the growth. Today, over 30% of deployments are initiated by coding agents, up 1000% from six months ago. Claude Code accounts for 75%, Lovable and v0 for 6%, and Cursor for 1.5%. Software is now agentic Agents are building, testing, and shipping AI-native software, and they're doing it at a velocity that breaks traditional operations. Vercel projects deployed by coding agents are 20 times more likely to call AI inference providers than those deployed by humans. Agents are writing software that uses AI, and agents are building agents. As the final actor shifts from human to machine, infrastructure has to adapt again. It has to work for software that acts on behalf of users, writes itself, and increasingly needs to understand its own behavior in production. This new generation of agentic software demands Agentic Infrastructure. It’s not one evolution, but three: Infrastructure for coding agents to deploy to Infrastructure for building and running agents Infrastructure that itself is agentic 1. Infrastructure for coding agents to deploy to The bottleneck for agentic engineering is operational friction. When a coding agent writes a feature, it requires a place to run, test, and verify the output, which ultimately means it needs a URL. If the path from code to running system involves manual Terraform state or clicks in a cloud console UI, the autonomous loop breaks. Agents need programmatic, deterministic deployment surfaces. This is why immutable deployments, preview URLs on every commit, and instant rollbacks aren't just developer experience upgrades anymore. They are absolute prerequisites for machine-driven software development. Vercel's CLI, API, MCP servers, and git integration give agents native access to a deployment surface where they can generate code, open a PR, get a preview URL, verify the output, and ship to production, all without human intervention. 2. Infrastructure for building and running agents Serverless workloads need functions, caching, and short-lived requests at the edge, but managing that stack yourself means config drift and hours debugging across systems. Vercel solved that by unifying every layer into the frontend cloud. Agent workloads are a fundamentally different shape. They require long-lived execution, multi-step orchestration, model routing, cost controls, sandboxed code execution, and abuse resistance. It's a more complex stack, and the penalty for running it yourself compounds: every wasted request burns inference dollars, provider outages take your agent offline, and untrusted code opens the door to prompt injection. Vercel's agentic infrastructure unifies every AI primitive we've built into a single, secure platform, the same way we did for serverless. AI SDK gives developers a unified way to build AI-powered applications across frameworks and providers, and AI SDK 6 adds an agent abstraction so developers can define an agent once and reuse it across interfaces and workflows. Chat SDK makes agents available across dozens of chat apps and platforms from a single codebase. AI Gateway gives teams a single endpoint for hundreds of models, with budgets, monitoring, routing, retries, and fallbacks. Fluid compute is designed for the unusual shape of AI workloads, where latency, concurrency, and idle waiting all matter at once. Workflows and Queues give agents a way to pause, resume, retry, maintain state, and offload background work. Sandbox gives them isolated execution environments for untrusted code. Observability lets teams trace what agents are doing and where they are going wrong. Together, these building blocks give developers everything they need to build and run agents in one place. But Vercel also puts each of them into a single system with shared context: code, model calls, and runtime behavior. That context is what turns the infrastructure itself into an agent. 3. Infrastructure that is itself agentic Traditional infrastructure is a one-way street: code goes in, logs come out, and a human reads the logs to fix the code. A unified platform provides complete visibility across every layer in real time, giving agents the ability to not just monitor production, but autonomously respond to it. When a latency spike hits a critical route or a model provider drops requests, Vercel doesn't wait for a human to notice. It investigates the anomaly, queries observability data, reads logs, inspects source code, performs root-cause analysis, and reviews proposed fixes in isolated sandboxes. The platform interprets what the developer intended, observes what the system actually did, and acts on the delta. Today, that still happens with human approval in the loop. Over time, the platform will take on more of that operational burden, not because it's replacing developers, but because it has enough context to act on their behalf. Where we're going The history of cloud computing is the history of removing the human from the machine. Agentic infrastructure is the next evolution, moving us from passive tools that wait for commands to proactive systems that act on our behalf. The companies that win the next decade will build on infrastructure that expects software to write, ship, and heal itself."
+                  - generic [ref=e289]:
+                    - img [ref=e292]
+                    - generic [ref=e293]: Tom Occhino
+            - listitem [ref=e294]:
+              - article "Zero Data Retention on AI Gateway" [ref=e295]:
+                - link [ref=e296] [cursor=pointer]:
+                  - /url: /blog/zdr-on-ai-gateway
+                  - generic [ref=e297]:
+                    - generic [ref=e299]: General
+                    - time [ref=e300]: Apr 8
+                  - heading "Zero Data Retention on AI Gateway" [level=2] [ref=e301]
+                  - paragraph [ref=e303]: Building with multiple AI models means wrestling with fragmented data policies. With many different model providers, it's not just fragmented, it's just too much time spent on the wrong things. You have to read through different terms of service, track which providers comply with your security requirements, and hope developers remember to configure opt-outs correctly on every request. What should be a straightforward policy becomes a manual, error-prone process because many providers do not offer Zero Data Retention (ZDR) by default. AI Gateway changes this by handling the negotiation and enforcement for you. Instead of managing policies provider by provider, you get the freedom to just build. AI Gateway ensures your data requirements are met automatically by only routing to providers where we have negotiated Zero Data Retention agreements. Models from OpenAI, Anthropic, Google, and more have ZDR providers available. Today, we are expanding AI Gateway's compliance capabilities with team-wide Zero Data Retention (ZDR), letting you enforce strict data policies across your entire team without touching any code. Gateway compliance features now include team-wide ZDR from the dashboard, per-request ZDR for specific sensitive workflows, and explicit controls to disallow prompt training. Toggle on in the AI Gateway Dashboard Settings, and all subsequent requests via AI Gateway will only route through ZDR-compliant providers. Team-wide Zero Data Retention Team-wide ZDR is available for Pro and Enterprise teams. It applies to every request your team makes, requiring no code changes. This is ideal for teams that want controls with complete assurance that no one can modify or misapply restrictions. Request-level controls Per-request ZDR lets you enforce data deletion on specific requests when only certain workflows handle sensitive data. This is useful when your app has proprietary information in certain queries but other requests are not as protected. You can enable request-level ZDR in all API formats supported by AI Gateway in the provider options. Team-wide and per-request settings work together. If either is enabled, ZDR is enforced. Disallow Prompt Training Disallow Prompt Training prevents providers from using your prompt data to train their models. This is a good default for any team sending proprietary code, internal documents, or business strategy through an LLM. This filter is available on the request-level. ZDR is a superset of this control. If you enable ZDR, training opt-out is already covered. Each response includes metadata showing which providers were considered and which were filtered out. This gives you an audit trail of how your data policies were enforced. All of these filters work with the AI SDK, Chat Completions API, Responses API, Anthropic Messages API, and OpenResponses API. Protecting data no longer requires custom logic in every route. By moving these rules to the gateway, compliance becomes infrastructure instead of application busywork. You get your control back, and your team gets to keep shipping. For pricing details, see Zero Data Retention pricing. View the models and providers that support Zero Data Retention and Disallow Prompt Training on the model subpages. Enable Zero Data Retention in your dashboard settings today, or read the documentation for full setup details.
+                  - generic [ref=e304]:
+                    - generic [ref=e305]:
+                      - img [ref=e307]
+                      - img [ref=e309]
+                    - generic [ref=e310]: Jerilyn and Dan
+            - listitem [ref=e311]:
+              - article "Optimizing Vercel Sandbox snapshots" [ref=e312]:
+                - link [ref=e313] [cursor=pointer]:
+                  - /url: /blog/optimizing-vercel-sandbox-snapshots
+                  - generic [ref=e314]:
+                    - generic [ref=e316]: General
+                    - time [ref=e317]: Apr 2
+                  - heading "Optimizing Vercel Sandbox snapshots" [level=2] [ref=e318]
+                  - paragraph [ref=e320]: "When we recently shipped filesystem snapshots in Vercel Sandbox to let teams capture and restore a sandbox's entire filesystem state, our initial engineering focus was entirely on reliability, making sure the system would never fail to snapshot or lose data. Once that foundation was stable, our attention turned to performance. p75 snapshot restores were taking over 40 seconds, and through parallelization and local caching, we brought that under one second. What a snapshot looks like on disk Vercel Sandbox runs on the same infrastructure as our internal builds product, Hive. Each sandbox is an isolated container inside a Firecracker microVM. A snapshot is a compressed copy of the sandbox's disk. We're working with two different files: The raw disk image (.img), which can be several GBs A compressed version in our custom VHS format (Vercel Hive Snapshot), which is what gets uploaded to and downloaded from S3 When you call sandbox.snapshot(), we compress the .img into a .vhs and upload it to S3. When you call Sandbox.create() with a snapshot, we download the .vhs and decompress it back. Without compression, every snapshot operation transfers hundreds of MBs to low GBs over the network, adding seconds to tens of seconds to every restore. Parallelize you shall With reliability in place, we turned to the restore path, which was painfully sequential. We'd download the entire .vhs file from S3 in a single request, wait for it to finish, then decompress it in a single thread. Snapshots range from 200MB to a few GBs, so that single S3 download alone could take several seconds to tens of seconds. We used the Range HTTP header to download chunks in parallel instead, with the AWS Go SDK's transfermanager API handling the orchestration. After benchmarking different concurrency levels and chunk sizes, we ended up with 2-5x faster downloads. We applied the same thinking to decompression. Our .vhs format stores a header and a frame for each allocated region of the disk image, so instead of decoding and decompressing frames one by one, we switched to one decoder feeding N decompression goroutines. That made the .vhs to .img restore 2-4x faster, depending on snapshot size. Even with both downloading and decompressing parallelized, the pipeline still wrote downloaded data to disk before decompression could begin. Piping S3 range request streams directly into decompression eliminated that intermediary step, cutting end-to-end restore time by another 2x. We… didn't cache? As you might have noticed, we so far only talked about improving the slow path, when we need to retrieve a snapshot from S3 on a cache miss. Well, we actually didn't have a fast path, so it was all cache misses. Yeah, we really didn't focus on performance at first. Our sandboxes run on metal instances with NVMe disks, giving us several terabytes of fast local storage that was mostly sitting unused. We put it to work with a local disk cache using LRU (least recently used) eviction, sized by total disk space rather than number of entries. We cache the decompressed .img directly rather than the compressed .vhs, so a cache hit skips both the download and the decompression. Once the cache fills up, the least recently used snapshots get evicted to make room. Most customers reuse a \"base\" snapshot across many sandboxes, which gives us a 95% cache hit rate. On those hits, boot time is bounded only by starting the microVM and container. From 40 seconds to sub-second p75 dropped from 40s to sub-second, and p95 went from 50s to 5s. With our cache hit rate, most sandbox boots skip the download and decompression pipeline entirely. There's more we can do. Cache affinity, for example, would route sandboxes to metal instances that already have the requested snapshot cached, potentially eliminating the cold path for popular snapshots. But that risks creating thundering herds and hotspotting certain machines, so we're being deliberate about it. Long term, we want the cold path fast enough that caching is a bonus, not a requirement. These optimizations already power Automatic Persistence, now in beta, which automatically snapshots a named sandbox's filesystem when you stop it and restores everything on resume. With sub-second restores, that stop-and-resume cycle feels instant. Filesystem snapshots are available today for all Vercel Sandboxes. Check the Sandbox documentation to get started."
+                  - generic [ref=e321]:
+                    - generic [ref=e322]:
+                      - img [ref=e324]
+                      - img [ref=e326]
+                      - generic [ref=e327]:
+                        - img [ref=e328]
+                        - generic [ref=e329]: "+2"
+                    - generic [ref=e330]: Tom, Rob, and 2 others
+            - button "Show more posts" [ref=e332] [cursor=pointer]:
+              - generic [ref=e333]: Show more posts
+          - generic [ref=e334]:
+            - generic [ref=e336]:
+              - paragraph [ref=e338]: Ready to deploy? Start building with a free account. Speak to an expert for your Pro or Enterprise needs.
+              - generic [ref=e339]:
+                - link "Start Deploying" [ref=e340] [cursor=pointer]:
+                  - /url: /new
+                  - generic [ref=e342]: Start Deploying
+                - link "Talk to an Expert" [ref=e343] [cursor=pointer]:
+                  - /url: /contact/sales
+                  - generic [ref=e345]: Talk to an Expert
+            - generic [ref=e347]:
+              - paragraph [ref=e349]: Explore Vercel Enterprise with an interactive product tour, trial, or a personalized demo.
+              - link "Explore Enterprise" [ref=e351] [cursor=pointer]:
+                - /url: /try-enterprise
+                - generic [ref=e353]: Explore Enterprise
+    - contentinfo [ref=e354]:
+      - navigation "Vercel Directory" [ref=e355]:
+        - generic [ref=e356]:
+          - generic [ref=e357]:
+            - heading "Get Started" [level=2] [ref=e358]
+            - list [ref=e359]:
+              - listitem [ref=e360]:
+                - link "Templates" [ref=e361] [cursor=pointer]:
+                  - /url: /templates
+              - listitem [ref=e362]:
+                - link "Supported frameworks" [ref=e363] [cursor=pointer]:
+                  - /url: /docs/frameworks
+              - listitem [ref=e364]:
+                - link "Marketplace" [ref=e365] [cursor=pointer]:
+                  - /url: /marketplace
+              - listitem [ref=e366]:
+                - link "Domains" [ref=e367] [cursor=pointer]:
+                  - /url: /domains
+          - generic [ref=e368]:
+            - heading "Build" [level=2] [ref=e369]
+            - list [ref=e370]:
+              - listitem [ref=e371]:
+                - link "Next.js on Vercel" [ref=e372] [cursor=pointer]:
+                  - /url: /frameworks/nextjs
+              - listitem [ref=e373]:
+                - link "Turborepo" [ref=e374] [cursor=pointer]:
+                  - /url: /solutions/turborepo
+              - listitem [ref=e375]:
+                - link "v0" [ref=e376] [cursor=pointer]:
+                  - /url: https://v0.app
+          - generic [ref=e377]:
+            - heading "Scale" [level=2] [ref=e378]
+            - list [ref=e379]:
+              - listitem [ref=e380]:
+                - link "Content delivery network" [ref=e381] [cursor=pointer]:
+                  - /url: /cdn
+              - listitem [ref=e382]:
+                - link "Fluid compute" [ref=e383] [cursor=pointer]:
+                  - /url: /fluid
+              - listitem [ref=e384]:
+                - link "CI/CD" [ref=e385] [cursor=pointer]:
+                  - /url: /products/previews
+              - listitem [ref=e386]:
+                - link "Observability" [ref=e387] [cursor=pointer]:
+                  - /url: /products/observability
+              - listitem [ref=e388]:
+                - link "AI Gateway New" [ref=e389] [cursor=pointer]:
+                  - /url: /ai-gateway
+                  - text: AI Gateway
+                  - generic [ref=e390]: New
+              - listitem [ref=e391]:
+                - link "Vercel Agent New" [ref=e392] [cursor=pointer]:
+                  - /url: /agent
+                  - text: Vercel Agent
+                  - generic [ref=e393]: New
+          - generic [ref=e394]:
+            - heading "Secure" [level=2] [ref=e395]
+            - list [ref=e396]:
+              - listitem [ref=e397]:
+                - link "Platform security" [ref=e398] [cursor=pointer]:
+                  - /url: /security
+              - listitem [ref=e399]:
+                - link "Web Application Firewall" [ref=e400] [cursor=pointer]:
+                  - /url: /security/web-application-firewall
+              - listitem [ref=e401]:
+                - link "Bot management" [ref=e402] [cursor=pointer]:
+                  - /url: /security/bot-management
+              - listitem [ref=e403]:
+                - link "BotID" [ref=e404] [cursor=pointer]:
+                  - /url: /botid
+              - listitem [ref=e405]:
+                - link "Sandbox New" [ref=e406] [cursor=pointer]:
+                  - /url: /sandbox
+                  - text: Sandbox
+                  - generic [ref=e407]: New
+          - generic [ref=e408]:
+            - heading "Resources" [level=2] [ref=e409]
+            - list [ref=e410]:
+              - listitem [ref=e411]:
+                - link "Pricing" [ref=e412] [cursor=pointer]:
+                  - /url: /pricing
+              - listitem [ref=e413]:
+                - link "Customers" [ref=e414] [cursor=pointer]:
+                  - /url: /customers
+              - listitem [ref=e415]:
+                - link "Enterprise" [ref=e416] [cursor=pointer]:
+                  - /url: /enterprise
+              - listitem [ref=e417]:
+                - link "Articles" [ref=e418] [cursor=pointer]:
+                  - /url: /i
+              - listitem [ref=e419]:
+                - link "Startups" [ref=e420] [cursor=pointer]:
+                  - /url: /startups
+              - listitem [ref=e421]:
+                - link "Solution partners" [ref=e422] [cursor=pointer]:
+                  - /url: /partners/solution-partners
+          - generic [ref=e423]:
+            - heading "Learn" [level=2] [ref=e424]
+            - list [ref=e425]:
+              - listitem [ref=e426]:
+                - link "Docs" [ref=e427] [cursor=pointer]:
+                  - /url: /docs
+              - listitem [ref=e428]:
+                - link "Blog" [ref=e429] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=e430]:
+                - link "Changelog" [ref=e431] [cursor=pointer]:
+                  - /url: /changelog
+              - listitem [ref=e432]:
+                - link "Knowledge Base" [ref=e433] [cursor=pointer]:
+                  - /url: /kb
+              - listitem [ref=e434]:
+                - link "Academy" [ref=e435] [cursor=pointer]:
+                  - /url: /academy
+              - listitem [ref=e436]:
+                - link "Community" [ref=e437] [cursor=pointer]:
+                  - /url: https://community.vercel.com
+          - generic [ref=e438]:
+            - heading "Frameworks" [level=2] [ref=e439]
+            - list [ref=e440]:
+              - listitem [ref=e441]:
+                - link "Next.js" [ref=e442] [cursor=pointer]:
+                  - /url: /frameworks/nextjs
+              - listitem [ref=e443]:
+                - link "Nuxt" [ref=e444] [cursor=pointer]:
+                  - /url: /docs/frameworks/full-stack/nuxt
+              - listitem [ref=e445]:
+                - link "Svelte" [ref=e446] [cursor=pointer]:
+                  - /url: /docs/frameworks/full-stack/sveltekit
+              - listitem [ref=e447]:
+                - link "Nitro" [ref=e448] [cursor=pointer]:
+                  - /url: /docs/frameworks/backend/nitro
+              - listitem [ref=e449]:
+                - link "Turbo" [ref=e450] [cursor=pointer]:
+                  - /url: /solutions/turborepo
+          - generic [ref=e451]:
+            - heading "SDKs" [level=2] [ref=e452]
+            - list [ref=e453]:
+              - listitem [ref=e454]:
+                - link "AI SDK" [ref=e455] [cursor=pointer]:
+                  - /url: https://ai-sdk.dev
+              - listitem [ref=e456]:
+                - link "Workflow SDK New" [ref=e457] [cursor=pointer]:
+                  - /url: https://workflow-sdk.dev
+                  - text: Workflow SDK
+                  - generic [ref=e458]: New
+              - listitem [ref=e459]:
+                - link "Flags SDK" [ref=e460] [cursor=pointer]:
+                  - /url: https://flags-sdk.dev
+              - listitem [ref=e461]:
+                - link "Chat SDK" [ref=e462] [cursor=pointer]:
+                  - /url: https://chat-sdk.dev
+              - listitem [ref=e463]:
+                - link "Streamdown AI New" [ref=e464] [cursor=pointer]:
+                  - /url: https://streamdown.ai
+                  - text: Streamdown AI
+                  - generic [ref=e465]: New
+          - generic [ref=e466]:
+            - heading "Use Cases" [level=2] [ref=e467]
+            - list [ref=e468]:
+              - listitem [ref=e469]:
+                - link "Composable commerce" [ref=e470] [cursor=pointer]:
+                  - /url: /solutions/composable-commerce
+              - listitem [ref=e471]:
+                - link "Multi-tenant platforms" [ref=e472] [cursor=pointer]:
+                  - /url: /solutions/multi-tenant-saas
+              - listitem [ref=e473]:
+                - link "Web apps" [ref=e474] [cursor=pointer]:
+                  - /url: /solutions/web-apps
+              - listitem [ref=e475]:
+                - link "Marketing sites" [ref=e476] [cursor=pointer]:
+                  - /url: /solutions/marketing-sites
+              - listitem [ref=e477]:
+                - link "Platform engineers" [ref=e478] [cursor=pointer]:
+                  - /url: /solutions/platform-engineering
+              - listitem [ref=e479]:
+                - link "Design engineers" [ref=e480] [cursor=pointer]:
+                  - /url: /solutions/design-engineering
+          - generic [ref=e481]:
+            - heading "Company" [level=2] [ref=e482]
+            - list [ref=e483]:
+              - listitem [ref=e484]:
+                - link "About" [ref=e485] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e486]:
+                - link "Careers" [ref=e487] [cursor=pointer]:
+                  - /url: /careers
+              - listitem [ref=e488]:
+                - link "Help" [ref=e489] [cursor=pointer]:
+                  - /url: /help
+              - listitem [ref=e490]:
+                - link "Press" [ref=e491] [cursor=pointer]:
+                  - /url: /press
+              - listitem [ref=e492]:
+                - link "Legal" [ref=e493] [cursor=pointer]:
+                  - /url: /legal
+              - listitem [ref=e494]:
+                - link "Privacy Policy" [ref=e495] [cursor=pointer]:
+                  - /url: /legal/privacy-policy
+          - generic [ref=e496]:
+            - heading "Community" [level=2] [ref=e497]
+            - list [ref=e498]:
+              - listitem [ref=e499]:
+                - link "Open source program" [ref=e500] [cursor=pointer]:
+                  - /url: /open-source-program
+              - listitem [ref=e501]:
+                - link "Events" [ref=e502] [cursor=pointer]:
+                  - /url: /events
+              - listitem [ref=e503]:
+                - link "Shipped on Vercel" [ref=e504] [cursor=pointer]:
+                  - /url: /shipped
+              - listitem [ref=e505]:
+                - link "GitHub" [ref=e506] [cursor=pointer]:
+                  - /url: https://github.com/vercel
+                  - img [ref=e507]
+                  - text: GitHub
+              - listitem [ref=e509]:
+                - link "LinkedIn" [ref=e510] [cursor=pointer]:
+                  - /url: https://linkedin.com/company/vercel
+                  - img [ref=e511]
+                  - text: LinkedIn
+              - listitem [ref=e513]:
+                - link "X" [ref=e514] [cursor=pointer]:
+                  - /url: https://x.com/vercel
+                  - img [ref=e515]
+                  - text: X
+              - listitem [ref=e517]:
+                - link "YouTube" [ref=e518] [cursor=pointer]:
+                  - /url: https://youtube.com/@VercelHQ
+                  - img [ref=e519]
+                  - text: YouTube
+          - list [ref=e522]:
+            - link "Vercel logo" [ref=e523] [cursor=pointer]:
+              - /url: /home
+              - img "Vercel logo" [ref=e524]
+        - generic [ref=e526]:
+          - link "Loading status…" [ref=e527] [cursor=pointer]:
+            - /url: https://vercel-status.com
+            - paragraph [ref=e530]: Loading status…
+          - group "Select a display theme:" [ref=e531]:
+            - generic [ref=e532]: "Select a display theme:"
+            - generic [ref=e533]:
+              - radio "system"
+              - generic [ref=e534] [cursor=pointer]:
+                - generic [ref=e535]: system
+                - img [ref=e536]
+            - generic [ref=e538]:
+              - radio "light"
+              - generic [ref=e539] [cursor=pointer]:
+                - generic [ref=e540]: light
+                - img [ref=e541]
+            - generic [ref=e543]:
+              - radio "dark"
+              - generic [ref=e544] [cursor=pointer]:
+                - generic [ref=e545]: dark
+                - img [ref=e546]

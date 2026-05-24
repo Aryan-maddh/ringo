@@ -7,51 +7,10 @@ import { Avatar } from '@/components/ringo/Avatar';
 import { Pill } from '@/components/ringo/Pill';
 import { IconTile } from '@/components/ringo/IconTile';
 import { RingoLogo } from '@/components/ringo/RingoLogo';
+import { SiteNav } from '@/components/ringo/SiteNav';
+import { SiteFooter } from '@/components/ringo/SiteFooter';
+import { openInquiry } from '@/components/ringo/InquiryModal';
 import { CHANNEL_META, ChannelGlyph, ChannelTile, type ChannelKey } from '@/components/ringo/ChannelLogos';
-
-// ── Nav (transparent over hero, frosted on scroll) ─────────────────────────
-
-const NAV_LINKS: { label: string; href: string }[] = [
-  { label: 'How it works', href: '#how-it-works' },
-  { label: 'Channels',     href: '#channels' },
-  { label: 'Product',      href: '#features' },
-  { label: 'Pricing',      href: '#pricing' },
-  { label: 'Customers',    href: '#customers' },
-];
-
-function LandingNav() {
-  const [scrolled, setScrolled] = useState(false);
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 80);
-    onScroll();
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
-
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    if (!href.startsWith('#')) return;
-    e.preventDefault();
-    const el = document.querySelector(href);
-    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  };
-
-  return (
-    <nav className={`r-land-nav ${scrolled ? 'r-nav-scrolled' : 'r-nav-transparent'}`} style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50, display: 'flex', alignItems: 'center', gap: 32, fontFamily: RINGO.font.ui, transition: 'background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease' }}>
-      <RingoLogo size={28} light={!scrolled} />
-      <div className="r-land-nav-links" style={{ fontSize: 14, fontWeight: 500 }}>
-        {NAV_LINKS.map(l => (
-          <a key={l.label} href={l.href} className="r-nav-link" onClick={(e) => handleClick(e, l.href)} style={{ textDecoration: 'none', transition: 'color 0.3s ease' }}>{l.label}</a>
-        ))}
-      </div>
-      <div style={{ marginLeft: 'auto', display: 'flex', gap: 10, alignItems: 'center' }}>
-        <a href="/login" className="r-nav-link" style={{ fontSize: 14, textDecoration: 'none', fontWeight: 500 }}>Sign in</a>
-        <a href="/onboarding" style={{ padding: '10px 16px', borderRadius: 10, background: 'linear-gradient(135deg,#7c3aed,#06b6d4)', color: '#fff !important', fontSize: 13.5, fontWeight: 600, textDecoration: 'none', boxShadow: '0 10px 22px -10px rgba(124,58,237,0.6)' }}>
-          <span style={{ color: '#fff' }}>Start free · 7 days</span>
-        </a>
-      </div>
-    </nav>
-  );
-}
 
 // ── LazyMount: reveal section on scroll into view ─────────────────────────
 
@@ -215,7 +174,7 @@ function HeroPhone() {
               {/* small "Ringo handling" hint */}
               <div className="r-anim-fade-up" style={{ position: 'relative', display: 'inline-flex', alignSelf: 'center', alignItems: 'center', gap: 6, padding: '5px 11px', borderRadius: 99, background: 'rgba(255,255,255,0.10)', border: '1px solid rgba(255,255,255,0.14)', color: 'rgba(255,255,255,0.85)', fontSize: 10, fontWeight: 700, letterSpacing: '0.05em', marginTop: 'auto', animationDelay: '0.6s' }}>
                 <span style={{ width: 5, height: 5, borderRadius: '50%', background: '#22c55e', boxShadow: '0 0 0 2px rgba(34,197,94,0.25)' }} />
-                RINGO IS REPLYING…
+                RIPE LEAD IS REPLYING…
               </div>
             </div>
           )}
@@ -235,7 +194,7 @@ function HeroPhone() {
                   <div style={{ fontSize: 10, color: RINGO.ink3 }}>active · {phase === 1 ? '11s ago' : 'just now'}</div>
                 </div>
                 <span style={{ display: 'inline-flex', alignItems: 'center', gap: 4, padding: '3px 7px', borderRadius: 99, background: 'linear-gradient(135deg,#ecfeff,#f5f3ff)', fontSize: 9, fontWeight: 800, color: '#7c3aed', letterSpacing: '0.06em' }}>
-                  <span style={{ width: 5, height: 5, borderRadius: '50%', background: '#7c3aed' }} />RINGO
+                  <span style={{ width: 5, height: 5, borderRadius: '50%', background: '#7c3aed' }} /> RIPE LEAD
                 </span>
               </div>
 
@@ -275,7 +234,7 @@ function HeroPhone() {
                       <span className="r-dot" /><span className="r-dot" /><span className="r-dot" />
                     </span>
                     <span style={{ fontSize: 10.5, color: RINGO.ink2, fontWeight: 600 }}>
-                      Ringo is replying…
+                      Ripe Lead is replying…
                     </span>
                   </>
                 ) : (
@@ -299,8 +258,167 @@ function HeroPhone() {
         ))}
       </div>
       <div style={{ marginTop: 10, textAlign: 'center', fontSize: 11, color: 'rgba(255,255,255,0.5)', letterSpacing: '0.08em', fontWeight: 700, textTransform: 'uppercase' }}>
-        {phase === 0 ? (lead.kind === 'call' ? `Missed call · ${lead.handle.split(' ')[0]}` : `New ${meta.label} message`) : phase === 1 ? 'Ringo replying' : 'Booked'}
+        {phase === 0 ? (lead.kind === 'call' ? `Missed call · ${lead.handle.split(' ')[0]}` : `New ${meta.label} message`) : phase === 1 ? 'Ripe Lead replying' : 'Booked'}
       </div>
+    </div>
+  );
+}
+
+// ── Animated KPI counter for the laptop dashboard ──────────────────────────
+
+function useViewportCount(target: number, decimals = 0, duration = 1800) {
+  const [val, setVal] = useState(0);
+  const ref = React.useRef<HTMLSpanElement>(null);
+  const startedRef = React.useRef(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const start = () => {
+      if (startedRef.current) return;
+      startedRef.current = true;
+      const t0 = performance.now();
+      let raf = 0;
+      const tick = (now: number) => {
+        const p = Math.min((now - t0) / duration, 1);
+        const eased = 1 - Math.pow(1 - p, 3);
+        setVal(parseFloat((eased * target).toFixed(decimals)));
+        if (p < 1) raf = requestAnimationFrame(tick);
+      };
+      raf = requestAnimationFrame(tick);
+      return () => cancelAnimationFrame(raf);
+    };
+    if (typeof IntersectionObserver === 'undefined') { start(); return; }
+    const io = new IntersectionObserver(([e]) => { if (e.isIntersecting) { start(); io.disconnect(); } }, { threshold: 0.3 });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [target, decimals, duration]);
+
+  return { ref, val };
+}
+
+function KPI({ prefix = '', value, decimals = 0, label, delta }: { prefix?: string; value: number; decimals?: number; label: string; delta: string }) {
+  const { ref, val } = useViewportCount(value, decimals);
+  const display = decimals > 0 ? val.toFixed(decimals) : Math.floor(val).toString();
+  return (
+    <div className="r-dash-stat">
+      <div className="r-dash-stat-label">{label}</div>
+      <div className="r-dash-stat-value" ref={ref}>{prefix}{display}</div>
+      <div className="r-dash-stat-delta">
+        <svg width="9" height="9" viewBox="0 0 9 9" fill="none" aria-hidden><path d="M2 6.5L4.5 3.5L7 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+        {delta}
+      </div>
+    </div>
+  );
+}
+
+// ── Laptop dashboard ────────────────────────────────────────────────────────
+
+type ConvStatus = 'replying' | 'replied' | 'booked';
+interface DashConv {
+  initials: string; grad: string;
+  name: string; ch: string; chColor: string;
+  msg: string;
+  status: ConvStatus;
+}
+
+const DASH_CONVS_BASE: DashConv[] = [
+  { initials: 'SK', grad: 'linear-gradient(135deg,#25d366,#128c7e)', name: 'Sarah Kowalski', ch: 'WA',  chColor: '#25d366', msg: 'Water heater leaking, can you come?', status: 'replying' },
+  { initials: 'MP', grad: 'linear-gradient(135deg,#dd2a7b,#8134af)', name: '@marcoplumb',    ch: 'IG',  chColor: '#dd2a7b', msg: 'Hey — do you do gas line work?',     status: 'replied'  },
+  { initials: 'JH', grad: 'linear-gradient(135deg,#7c3aed,#06b6d4)', name: 'Jenna Holcomb',  ch: 'SMS', chColor: '#7c3aed', msg: 'kitchen sink leak, 2204 folsom #3',   status: 'booked'   },
+];
+
+const DASH_INCOMING: DashConv[] = [
+  { initials: 'MB', grad: 'linear-gradient(135deg,#1877f2,#00b2ff)', name: 'Mike Brennan',   ch: 'FB',  chColor: '#1877f2', msg: 'Need a quote for new water heater',   status: 'replying' },
+  { initials: 'LP', grad: 'linear-gradient(135deg,#25d366,#128c7e)', name: 'Lina Park',      ch: 'WA',  chColor: '#25d366', msg: 'water in basement again 😬',          status: 'replying' },
+  { initials: 'AP', grad: 'linear-gradient(135deg,#4285f4,#34a853)', name: 'Aisha Patel',    ch: 'GBM', chColor: '#4285f4', msg: 'Saturday emergency call possible?',   status: 'replying' },
+  { initials: 'TV', grad: 'linear-gradient(135deg,#7c3aed,#06b6d4)', name: 'Tony Vega',      ch: 'SMS', chColor: '#7c3aed', msg: 'roof leak after the storm last night',status: 'replying' },
+  { initials: 'DC', grad: 'linear-gradient(135deg,#0284c7,#38bdf8)', name: 'Dre Whitfield',  ch: 'SMS', chColor: '#0284c7', msg: 'breaker box is buzzing, urgent',      status: 'replying' },
+  { initials: 'MT', grad: 'linear-gradient(135deg,#dd2a7b,#8134af)', name: '@drmeit',        ch: 'IG',  chColor: '#dd2a7b', msg: 'After-hours emergency tooth pain',    status: 'replying' },
+];
+
+function HeroLaptop() {
+  const [convs, setConvs] = useState<DashConv[]>(DASH_CONVS_BASE);
+  const [highlight, setHighlight] = useState<number | null>(null);
+  const [tick, setTick] = useState(0);
+  const incomingIdxRef = React.useRef(0);
+
+  // Every ~3.6s: highlight the top "replying" card and flip it to "booked",
+  // then drop the oldest card off the bottom and slide a brand-new lead in at the top.
+  useEffect(() => {
+    const id = setInterval(() => {
+      setHighlight(0);
+      setConvs(prev => {
+        const updated = [...prev];
+        updated[0] = { ...updated[0], status: 'booked' };
+        return updated;
+      });
+      setTimeout(() => {
+        setConvs(prev => {
+          const incoming = DASH_INCOMING[incomingIdxRef.current % DASH_INCOMING.length];
+          incomingIdxRef.current += 1;
+          // new lead arrives at top in "replying" state, oldest (last) falls off
+          return [incoming, ...prev.slice(0, -1)];
+        });
+        setHighlight(null);
+        setTick(t => t + 1);
+      }, 1500);
+    }, 3800);
+    return () => clearInterval(id);
+  }, []);
+
+  return (
+    <div className="r-hero-laptop-wrap">
+      <div className="r-laptop-bezel">
+        <div className="r-laptop-camera" aria-hidden />
+        <div className="r-laptop-screen">
+          <div className="r-dash">
+            {/* Top bar */}
+            <div className="r-dash-topbar">
+              <div className="r-dash-logo">R</div>
+              <div style={{ minWidth: 0 }}>
+                <div className="r-dash-title">Ripe Lead Dashboard</div>
+                <div className="r-dash-subtitle">Today · Sat Nov 11</div>
+              </div>
+              <span className="r-dash-live">LIVE</span>
+            </div>
+
+            {/* Stats */}
+            <div className="r-dash-stats">
+              <KPI value={47}   label="Calls"   delta="+18 today" />
+              <KPI value={23}   label="Booked"  delta="+12 today" />
+              <KPI prefix="$" value={4830} label="Saved" delta="+34%" />
+            </div>
+
+            {/* Conversation feed */}
+            <div className="r-dash-feed">
+              <div className="r-dash-feed-title">
+                <span>Live conversations</span>
+                <span style={{ color: '#a78bfa', textTransform: 'none', letterSpacing: 0 }}>● {convs.length} active</span>
+              </div>
+              {convs.map((c, i) => (
+                <div
+                  key={`${c.initials}-${tick}-${i}`}
+                  className={`r-dash-conv${highlight === i ? ' is-highlighted' : ''}`}
+                  style={{ animationDelay: `${i * 60}ms` }}
+                >
+                  <div className="r-dash-conv-side" style={{ background: c.grad }} />
+                  <div className="r-dash-conv-ava" style={{ background: c.grad }}>{c.initials}</div>
+                  <div className="r-dash-conv-body">
+                    <div className="r-dash-conv-name">
+                      <span>{c.name}</span>
+                      <span className="r-dash-conv-ch-tag" style={{ color: c.chColor }}>{c.ch}</span>
+                      <span className={`r-dash-conv-pill is-${c.status}`}>{c.status === 'booked' ? '✓ BOOKED' : c.status === 'replied' ? 'REPLIED' : 'REPLYING'}</span>
+                    </div>
+                    <div className="r-dash-conv-msg">{c.msg}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="r-laptop-base" aria-hidden />
     </div>
   );
 }
@@ -326,17 +444,17 @@ function Hero() {
           </h1>
 
           <div className="r-hero-mute" style={{ fontSize: 16.5, lineHeight: 1.55, maxWidth: 480, marginBottom: 26 }}>
-            Ringo replies to missed calls, WhatsApp pings, Instagram DMs &amp; Facebook messages — instantly, in your voice — books the job, lands the lead in one inbox.
+            Ripe Lead replies to missed calls, WhatsApp pings, Instagram DMs &amp; Facebook messages — instantly, in your voice — books the job, lands the lead in one inbox.
           </div>
 
           {/* CTA */}
           <div style={{ display: 'flex', gap: 10, alignItems: 'center', marginBottom: 22, flexWrap: 'wrap' }}>
-            <div className="r-hero-pill-input">
-              <input placeholder="(415) 555-0136" defaultValue="(415) 555-0136" style={{ border: 'none', outline: 'none', background: 'transparent', width: 180, fontFamily: RINGO.font.mono, fontSize: 14.5 }} />
-              <button onClick={() => { window.location.href = '/onboarding'; }} className="r-hover-lift" style={{ padding: '11px 18px', borderRadius: 10, border: 'none', cursor: 'pointer', background: 'linear-gradient(135deg,#7c3aed,#06b6d4)', color: '#fff', fontSize: 14, fontWeight: 700, display: 'flex', alignItems: 'center', gap: 6, boxShadow: '0 14px 28px -10px rgba(124,58,237,0.7)' }}>
-                Try it on my phone <Icon d={ICONS.arrow} size={14} />
-              </button>
-            </div>
+            <button onClick={openInquiry} className="r-hover-lift" style={{ padding: '14px 22px', borderRadius: 12, border: 'none', cursor: 'pointer', background: 'linear-gradient(135deg,#7c3aed,#06b6d4)', color: '#fff', fontSize: 14.5, fontWeight: 700, fontFamily: RINGO.font.ui, display: 'inline-flex', alignItems: 'center', gap: 8, boxShadow: '0 14px 28px -10px rgba(124,58,237,0.7)' }}>
+              Inquiry Now <Icon d={ICONS.arrow} size={14} />
+            </button>
+            <button onClick={openInquiry} style={{ padding: '14px 22px', borderRadius: 12, background: 'rgba(255,255,255,0.07)', border: '1px solid rgba(255,255,255,0.16)', color: '#fff', fontSize: 14.5, fontWeight: 600, fontFamily: RINGO.font.ui, cursor: 'pointer' }}>
+              Book a demo
+            </button>
           </div>
 
           {/* compact channel strip */}
@@ -352,7 +470,7 @@ function Hero() {
           </div>
 
           <div className="r-hero-mute2" style={{ display: 'flex', gap: 20, fontSize: 12.5, flexWrap: 'wrap' }}>
-            {['No credit card', 'Keep your number', 'Live in 4 minutes'].map(t => (
+            {['Keep your number', 'Live in 4 minutes', 'No long-term contracts'].map(t => (
               <span key={t} style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
                 <Icon d={ICONS.check} size={14} stroke={3} /> {t}
               </span>
@@ -360,9 +478,14 @@ function Hero() {
           </div>
         </div>
 
-        {/* 3-phase animated phone */}
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-          <HeroPhone />
+        {/* Composition: laptop dashboard + overlapping animated phone */}
+        <div className="r-hero-stage">
+          <HeroLaptop />
+          <div className="r-hero-phone-wrap">
+            <div className="r-hero-phone-scale">
+              <HeroPhone />
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -399,6 +522,121 @@ function LogoStrip() {
               <span className="r-trust-badge-icon" style={{ background: b.grad }}>{b.icon}</span>
               {b.label}
             </span>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+// ── Stats Counter ──────────────────────────────────────────────────────────
+
+interface StatDef {
+  prefix: string;
+  end: number;
+  decimals: number;
+  suffix: string;
+  label: string;
+  duration: number;
+}
+
+const STAT_ITEMS: StatDef[] = [
+  { prefix: '',  end: 2.4,  decimals: 1, suffix: 'M+', label: 'Missed calls answered',    duration: 1800 },
+  { prefix: '',  end: 180,  decimals: 0, suffix: 'K+', label: 'Jobs booked for customers', duration: 2000 },
+  { prefix: '',  end: 11,   decimals: 0, suffix: 's',  label: 'Avg AI response time',      duration: 1400 },
+  { prefix: '$', end: 18,   decimals: 0, suffix: 'M+', label: 'Revenue recovered',         duration: 2200 },
+];
+
+function useCountUp(end: number, decimals: number, duration: number, active: boolean) {
+  const [val, setVal] = useState(0);
+  const rafRef = React.useRef<number>(0);
+  useEffect(() => {
+    if (!active) return;
+    const startTime = performance.now();
+    const tick = (now: number) => {
+      const elapsed = now - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      setVal(parseFloat((eased * end).toFixed(decimals)));
+      if (progress < 1) rafRef.current = requestAnimationFrame(tick);
+    };
+    rafRef.current = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(rafRef.current);
+  }, [active, end, decimals, duration]);
+  return val;
+}
+
+function StatItem({ stat, active, last, mobile }: { stat: StatDef; active: boolean; last: boolean; mobile: boolean }) {
+  const count = useCountUp(stat.end, stat.decimals, stat.duration, active);
+  const display = stat.decimals > 0 ? count.toFixed(stat.decimals) : Math.floor(count).toString();
+
+  return (
+    <div style={{ flex: '1 1 0', display: 'flex', alignItems: 'stretch', minWidth: mobile ? '45%' : 0 }}>
+      <div style={{ flex: 1, padding: mobile ? '28px 20px' : '0 40px', textAlign: 'center', display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: 10 }}>
+        <div style={{
+          fontFamily: RINGO.font.head,
+          fontWeight: 800,
+          fontSize: mobile ? 44 : 'clamp(48px, 5.5vw, 76px)',
+          lineHeight: 1,
+          letterSpacing: '-0.03em',
+          color: '#fff',
+          fontVariantNumeric: 'tabular-nums',
+        }}>
+          {stat.prefix}{display}{stat.suffix}
+        </div>
+        <div style={{
+          fontSize: 11,
+          fontWeight: 600,
+          color: 'rgba(255,255,255,0.45)',
+          letterSpacing: '0.12em',
+          textTransform: 'uppercase',
+        }}>
+          {stat.label}
+        </div>
+      </div>
+      {!last && (
+        <div style={{ width: 1, background: 'rgba(255,255,255,0.1)', alignSelf: 'stretch', flexShrink: 0 }} />
+      )}
+    </div>
+  );
+}
+
+function StatsCounter() {
+  const [active, setActive] = useState(false);
+  const [mobile, setMobile] = useState(false);
+  const ref = React.useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const mq = window.matchMedia('(max-width: 680px)');
+    setMobile(mq.matches);
+    const fn = (e: MediaQueryListEvent) => setMobile(e.matches);
+    mq.addEventListener('change', fn);
+    return () => mq.removeEventListener('change', fn);
+  }, []);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const io = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) { setActive(true); io.disconnect(); } },
+      { threshold: 0.25 }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+
+  return (
+    <section style={{ background: 'linear-gradient(135deg, #0d0e1c 0%, #12103a 50%, #0a1628 100%)', padding: '80px 0', position: 'relative', overflow: 'hidden' }}>
+      <div aria-hidden style={{ position: 'absolute', inset: 0, background: 'radial-gradient(ellipse 60% 80% at 20% 50%, rgba(124,58,237,0.12) 0%, transparent 60%), radial-gradient(ellipse 50% 70% at 80% 50%, rgba(6,182,212,0.08) 0%, transparent 60%)', pointerEvents: 'none' }} />
+
+      <div className="r-land-pad" style={{ maxWidth: 1200, margin: '0 auto', position: 'relative' }}>
+        <p style={{ textAlign: 'center', fontSize: 11, fontWeight: 700, letterSpacing: '0.16em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.3)', marginBottom: 56, marginTop: 0 }}>
+          Ripe Lead by the numbers
+        </p>
+
+        <div ref={ref} style={{ display: 'flex', flexDirection: mobile ? 'column' : 'row', alignItems: 'stretch', flexWrap: mobile ? 'wrap' : 'nowrap' }}>
+          {STAT_ITEMS.map((stat, i) => (
+            <StatItem key={stat.label} stat={stat} active={active} last={i === STAT_ITEMS.length - 1} mobile={mobile} />
           ))}
         </div>
       </div>
@@ -448,7 +686,7 @@ function AnimatedPhone({ step }: { step: number }) {
                 <div style={{ fontSize: 10, color: RINGO.ink3 }}>active · 11s ago</div>
               </div>
               <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 5, padding: '4px 9px', borderRadius: 99, background: 'linear-gradient(135deg,#ecfeff,#f5f3ff)', fontSize: 9.5, fontWeight: 700, color: '#7c3aed' }}>
-                <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#7c3aed' }} /> RINGO
+                <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#7c3aed' }} />  RIPE LEAD
               </div>
             </div>
             <div style={{ flex: 1, padding: '14px 12px', display: 'flex', flexDirection: 'column', gap: 8, overflow: 'hidden' }}>
@@ -494,15 +732,15 @@ function HowItWorks() {
   }, []);
 
   const steps = [
-    { n: '01', g: RINGO.g1, ic: ICONS.phone, t: 'Customer rings — you can\'t pick up', d: 'A 30-second carrier code routes unanswered calls to Ringo. Real calls still ring your phone first.' },
-    { n: '02', g: RINGO.g3, ic: ICONS.ai,    t: 'Ringo texts back in 11 seconds',     d: 'The model writes a friendly, on-brand reply — gathering address, issue, and urgency before the lead cools off.' },
+    { n: '01', g: RINGO.g1, ic: ICONS.phone, t: 'Customer rings — you can\'t pick up', d: 'A 30-second carrier code routes unanswered calls to Ripe Lead. Real calls still ring your phone first.' },
+    { n: '02', g: RINGO.g3, ic: ICONS.ai,    t: 'Ripe Lead texts back in 11 seconds',     d: 'The model writes a friendly, on-brand reply — gathering address, issue, and urgency before the lead cools off.' },
     { n: '03', g: RINGO.g4, ic: ICONS.check, t: 'You wake up to a booked job',        d: 'Confirmed appointments land on your calendar; quotes and leads land in your inbox. Pick the cherries.' },
   ];
 
   return (
     <section className="r-land-section" style={{ paddingTop: 40, paddingBottom: 80, background: '#fff', borderTop: `1px solid ${RINGO.border}`, borderBottom: `1px solid ${RINGO.border}` }}>
       <div style={{ textAlign: 'center', marginBottom: 48 }}>
-        <div style={{ fontSize: 12, fontWeight: 700, color: RINGO.ink3, letterSpacing: '0.12em', textTransform: 'uppercase' }}>How Ringo works</div>
+        <div style={{ fontSize: 12, fontWeight: 700, color: RINGO.ink3, letterSpacing: '0.12em', textTransform: 'uppercase' }}>How Ripe Lead works</div>
         <h2 className="r-land-h2" style={{ fontFamily: RINGO.font.head, fontWeight: 700, letterSpacing: '-0.025em', margin: '10px 0 6px', color: RINGO.ink }}>Watch a missed call become a booked job.</h2>
         <div style={{ fontSize: 15, color: RINGO.ink3, maxWidth: 580, margin: '0 auto' }}>Three steps. Four-minute setup. No new phone, no new number.</div>
       </div>
@@ -694,7 +932,7 @@ function ChannelsConvergence() {
           <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 14 }}>
             <span style={{ width: 28, height: 28, borderRadius: 8, background: 'linear-gradient(135deg,#7c3aed,#06b6d4)', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontFamily: RINGO.font.head, fontWeight: 800, fontSize: 13 }}>R</span>
             <div style={{ flex: 1, minWidth: 0 }}>
-              <div style={{ fontFamily: RINGO.font.head, fontSize: 14, fontWeight: 800, letterSpacing: '-0.01em' }}>Ringo Inbox</div>
+              <div style={{ fontFamily: RINGO.font.head, fontSize: 14, fontWeight: 800, letterSpacing: '-0.01em' }}>Ripe Lead Inbox</div>
               <div style={{ fontSize: 10, color: RINGO.ink3 }}>Today · 6 conversations</div>
             </div>
             <span style={{ display: 'inline-flex', alignItems: 'center', gap: 5, padding: '3px 8px', borderRadius: 99, background: 'linear-gradient(135deg,#ecfdf5,#dbeafe)', fontSize: 9.5, fontWeight: 700, color: '#059669', letterSpacing: '0.06em' }}>
@@ -778,7 +1016,7 @@ function Channels() {
         <h2 className="r-land-h2" style={{ fontFamily: RINGO.font.head, fontWeight: 700, letterSpacing: '-0.025em', margin: '10px 0 8px', color: RINGO.ink }}>
           Every channel.{' '}
           <span style={{ backgroundImage: 'linear-gradient(120deg,#7c3aed,#06b6d4 45%,#059669)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-            One Ringo.
+            One Ripe Lead.
           </span>
         </h2>
         <div style={{ fontSize: 15, color: RINGO.ink3, maxWidth: 580, margin: '0 auto', lineHeight: 1.55 }}>
@@ -892,7 +1130,7 @@ function FeatureRow() {
   const features = [
     { card: <FeatureCardSpeaks />, t: 'Speaks like you',        d: 'A model fine-tuned on your trade. No "as an AI" — just a plumber, electrician, or stylist who answers fast.' },
     { card: <FeatureCardTCPA />,   t: 'TCPA-clean by default',  d: 'A2P 10DLC registration, opt-out handling, and quiet hours — all built in. No fines, no headaches.' },
-    { card: <FeatureCardSpam />,   t: 'Spam & robocall guard',  d: 'Ringo silently ignores known spam numbers so your inbox stays full of real customers, not warranty calls.' },
+    { card: <FeatureCardSpam />,   t: 'Spam & robocall guard',  d: 'Ripe Lead silently ignores known spam numbers so your inbox stays full of real customers, not warranty calls.' },
     { card: <FeatureCardTools />,  t: 'Works with your tools',  d: 'Drops bookings into Google Calendar and Jobber, fires Slack alerts, and Zapiers everywhere else.' },
   ];
   return (
@@ -926,7 +1164,7 @@ function LiveDemo() {
             Replies that sound like you wrote them at 11:43 AM between jobs.
           </h2>
           <div style={{ fontSize: 15, color: RINGO.ink3, lineHeight: 1.6, marginBottom: 20 }}>
-            Templates are tuned per trade — emergency keywords, trip-charge handling, calendar holds, parts-ordering disclaimers. Drop in your prices and tone once; Ringo speaks fluent plumber from then on.
+            Templates are tuned per trade — emergency keywords, trip-charge handling, calendar holds, parts-ordering disclaimers. Drop in your prices and tone once; Ripe Lead speaks fluent plumber from then on.
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
             {bullets.map((b, i) => (
@@ -974,9 +1212,9 @@ function LiveDemo() {
 
 function Pricing() {
   const plans = [
-    { name: 'Solo', price: '29', g: null, tag: 'For one-truck operators', cta: 'Start free', popular: false,
+    { name: 'Solo', price: '29', g: null, tag: 'For one-truck operators', cta: 'Inquiry Now', popular: false,
       fs: ['1 number', '100 AI replies / mo', 'Google Calendar sync', 'Spam guard', 'SMS & voicemail'] },
-    { name: 'Crew', price: '79', g: 'radial-gradient(120% 100% at 0% 0%, #1f1f3a 0%, #06081a 100%)', tag: 'Most owners pick this', cta: 'Start free · 7 days', popular: true,
+    { name: 'Crew', price: '79', g: 'radial-gradient(120% 100% at 0% 0%, #1f1f3a 0%, #06081a 100%)', tag: 'Most owners pick this', cta: 'Inquiry Now', popular: true,
       fs: ['3 numbers + after-hours line', 'Unlimited AI replies', 'Jobber, Slack & Zapier', 'Lead scoring + AI brief', 'Team inbox · 5 seats'] },
     { name: 'Shop', price: '149', g: null, tag: 'For multi-location teams', cta: 'Talk to sales', popular: false,
       fs: ['Unlimited numbers', 'Multi-location routing', 'Custom voice training', 'SOC 2 + DPA', 'Priority human support'] },
@@ -1001,7 +1239,7 @@ function Pricing() {
                 <span style={{ fontFamily: RINGO.font.head, fontSize: 48, fontWeight: 800, letterSpacing: '-0.025em' }}>${p.price}</span>
                 <span style={{ fontSize: 14, color: p.popular ? 'rgba(255,255,255,0.6)' : RINGO.ink3 }}>/ mo, billed monthly</span>
               </div>
-              <button onClick={() => { window.location.href = '/onboarding'; }} style={{ width: '100%', padding: '12px 16px', borderRadius: 11, border: 'none', cursor: 'pointer', fontFamily: RINGO.font.ui, fontSize: 13.5, fontWeight: 600, marginBottom: 18, background: p.popular ? '#fff' : 'linear-gradient(135deg,#7c3aed,#06b6d4)', color: p.popular ? RINGO.ink : '#fff' }}>{p.cta}</button>
+              <button onClick={openInquiry} style={{ width: '100%', padding: '12px 16px', borderRadius: 11, border: 'none', cursor: 'pointer', fontFamily: RINGO.font.ui, fontSize: 13.5, fontWeight: 600, marginBottom: 18, background: p.popular ? '#fff' : 'linear-gradient(135deg,#7c3aed,#06b6d4)', color: p.popular ? RINGO.ink : '#fff' }}>{p.cta}</button>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
                 {p.fs.map((f, j) => (
                   <div key={j} style={{ display: 'flex', gap: 10, alignItems: 'flex-start', fontSize: 13.5, color: p.popular ? 'rgba(255,255,255,0.85)' : RINGO.ink2 }}>
@@ -1013,7 +1251,7 @@ function Pricing() {
           </div>
         ))}
       </div>
-      <div style={{ marginTop: 24, fontSize: 13, color: RINGO.ink3 }}>All plans include carrier &amp; A2P fees. Cancel any time. 14-day refund.</div>
+      <div style={{ marginTop: 24, fontSize: 13, color: RINGO.ink3 }}>All plans include carrier &amp; A2P fees. Cancel anytime.</div>
     </section>
   );
 }
@@ -1022,12 +1260,12 @@ function Pricing() {
 
 function Testimonials() {
   const testimonials = [
-    { q: "Booked $4,200 in jobs my first weekend on Ringo. Clients have no clue it's automated — they just think I'm fast.", n: 'Marco Reyes',   r: 'Pacific Plumbing · SF',          g: RINGO.g1 },
-    { q: "I run my salon alone between cuts. Ringo replies while I have scissors in my hand. Easily 15 saved bookings a month.", n: 'Lina Park',    r: 'Salon Lume · Austin',            g: RINGO.g2 },
-    { q: "The TCPA stuff used to terrify me. Ringo set up our 10DLC in a day and I haven't thought about it since.", n: 'Dre Whitfield', r: 'Brightspark Electric · Denver',  g: RINGO.g3 },
+    { q: "Booked $4,200 in jobs my first weekend on Ripe Lead. Clients have no clue it's automated — they just think I'm fast.", n: 'Marco Reyes',   r: 'Pacific Plumbing · SF',          g: RINGO.g1 },
+    { q: "I run my salon alone between cuts. Ripe Lead replies while I have scissors in my hand. Easily 15 saved bookings a month.", n: 'Lina Park',    r: 'Salon Lume · Austin',            g: RINGO.g2 },
+    { q: "The TCPA stuff used to terrify me. Ripe Lead set up our 10DLC in a day and I haven't thought about it since.", n: 'Dre Whitfield', r: 'Brightspark Electric · Denver',  g: RINGO.g3 },
     { q: "Used to lose 4–5 leads a week to voicemail. Now my mornings start with a list of booked jobs, not missed calls.",       n: 'Aisha Patel',   r: 'Patel HVAC · Phoenix',           g: RINGO.g4 },
     { q: "The replies sound exactly like me. Customers reply back thinking they're texting my cell — and I never have to lift a finger.", n: 'Tony Vega',     r: 'Vega Roofing · San Diego',       g: RINGO.g1 },
-    { q: "Setup took less than coffee. By lunch Ringo had already booked an emergency call I would've missed in surgery.",        n: 'Dr. Mei Tanaka', r: 'Tanaka Dental · Seattle',        g: RINGO.g2 },
+    { q: "Setup took less than coffee. By lunch Ripe Lead had already booked an emergency call I would've missed in surgery.",        n: 'Dr. Mei Tanaka', r: 'Tanaka Dental · Seattle',        g: RINGO.g2 },
   ];
   // Duplicate so the marquee loops seamlessly with -50% translate
   const items = [...testimonials, ...testimonials];
@@ -1074,20 +1312,20 @@ function FinalCTA() {
           <div>
             <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '6px 12px', borderRadius: 99, background: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.16)', fontSize: 11.5, fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 16 }}>
               <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#22c55e', boxShadow: '0 0 0 3px rgba(34,197,94,0.25)' }} />
-              Free 7-day trial
+              Live in the same day
             </div>
             <h2 className="r-land-cta-h2" style={{ fontFamily: RINGO.font.head, fontWeight: 800, letterSpacing: '-0.03em', lineHeight: 1.04, margin: '0 0 16px' }}>Stop bleeding jobs to voicemail.</h2>
-            <div style={{ fontSize: 17, color: 'rgba(255,255,255,0.82)', maxWidth: 500, lineHeight: 1.55 }}>Set up takes 4 minutes. The first job Ringo saves usually pays for the year.</div>
+            <div style={{ fontSize: 17, color: 'rgba(255,255,255,0.82)', maxWidth: 500, lineHeight: 1.55 }}>Set up takes 4 minutes. The first job Ripe Lead saves usually pays for the year.</div>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-            <button onClick={() => { window.location.href = '/onboarding'; }} style={{ padding: '18px 24px', borderRadius: 12, border: 'none', cursor: 'pointer', background: '#fff', color: RINGO.ink, fontFamily: RINGO.font.ui, fontSize: 15.5, fontWeight: 700, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, boxShadow: '0 16px 32px -12px rgba(0,0,0,0.35)' }}>
-              Start your free trial <Icon d={ICONS.arrow} size={16} />
+            <button onClick={openInquiry} style={{ padding: '18px 24px', borderRadius: 12, border: 'none', cursor: 'pointer', background: '#fff', color: RINGO.ink, fontFamily: RINGO.font.ui, fontSize: 15.5, fontWeight: 700, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, boxShadow: '0 16px 32px -12px rgba(0,0,0,0.35)' }}>
+              Inquiry Now <Icon d={ICONS.arrow} size={16} />
             </button>
-            <button onClick={() => { window.location.href = '/onboarding'; }} style={{ padding: '18px 24px', borderRadius: 12, background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.18)', color: '#fff', fontFamily: RINGO.font.ui, fontSize: 15.5, fontWeight: 600, cursor: 'pointer' }}>
-              Book a 15-min walkthrough
+            <button onClick={openInquiry} style={{ padding: '18px 24px', borderRadius: 12, background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.18)', color: '#fff', fontFamily: RINGO.font.ui, fontSize: 15.5, fontWeight: 600, cursor: 'pointer' }}>
+              Book a demo
             </button>
             <div style={{ display: 'flex', gap: 16, marginTop: 4, fontSize: 12, color: 'rgba(255,255,255,0.65)', flexWrap: 'wrap', justifyContent: 'center' }}>
-              {['No credit card', 'Keep your number', 'Live in 4 min'].map(t => (
+              {['Keep your number', 'Live in 4 min', 'Cancel anytime'].map(t => (
                 <span key={t} style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
                   <Icon d={ICONS.check} size={13} stroke={3} /> {t}
                 </span>
@@ -1128,7 +1366,7 @@ function Footer() {
         ))}
       </div>
       <div style={{ maxWidth: 1320, margin: '40px auto 0', paddingTop: 18, borderTop: '1px solid rgba(255,255,255,0.08)', display: 'flex', flexWrap: 'wrap', gap: 12, justifyContent: 'space-between', fontSize: 12 }}>
-        <div>© 2026 Ringo, Inc. · 548 Market St, San Francisco</div>
+        <div>© 2026 Ripe Lead, Inc. · 548 Market St, San Francisco</div>
         <div style={{ display: 'flex', gap: 18 }}>
           {['Privacy', 'Terms', 'DPA'].map(l => <a key={l} href="#" style={{ color: 'inherit', textDecoration: 'none' }}>{l}</a>)}
         </div>
@@ -1148,9 +1386,10 @@ export default function Landing() {
 
   return (
     <div className="r-land-root" style={{ background: '#fff', color: RINGO.ink, fontFamily: RINGO.font.ui, overflowX: 'hidden' }}>
-      <LandingNav />
+      <SiteNav transparent={true} />
       <Hero />
       <LazyMount><LogoStrip /></LazyMount>
+      <LazyMount><StatsCounter /></LazyMount>
       <div id="how-it-works"><LazyMount><HowItWorks /></LazyMount></div>
       <div id="channels"><LazyMount><Channels /></LazyMount></div>
       <div id="features"><LazyMount><FeatureRow /></LazyMount></div>
@@ -1158,7 +1397,7 @@ export default function Landing() {
       <div id="pricing"><LazyMount><Pricing /></LazyMount></div>
       <div id="customers"><LazyMount><Testimonials /></LazyMount></div>
       <LazyMount><FinalCTA /></LazyMount>
-      <Footer />
+      <SiteFooter />
     </div>
   );
 }

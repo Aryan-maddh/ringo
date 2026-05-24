@@ -1,0 +1,497 @@
+- generic [ref=e2]:
+  - alert [ref=e3]: GoHighLevel - It's time to take your Agency to the Next Level
+  - generic [ref=e6]:
+    - generic: 
+    - text: 
+    - generic [ref=e8]:
+      - generic [ref=e23]:
+        - link "Login" [ref=e27] [cursor=pointer]:
+          - /url: https://app.gohighlevel.com/
+          - generic [ref=e29]: Login
+        - button "Start 14-day trial" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35]: Start 14-day trial
+      - generic [ref=e41]:
+        - paragraph [ref=e45]: Power up your business with AI
+        - heading "The AI-powered business operating system" [level=1] [ref=e49]
+        - paragraph [ref=e53]: All the tools you need to capture, nurture and close new leads into bookings, sales, reviews and repeat customers!
+        - button "Start 14 Day Free Trial" [ref=e55] [cursor=pointer]:
+          - generic [ref=e56]:
+            - generic [ref=e57]: Start 14 Day Free Trial
+            - generic [ref=e58]: 
+      - generic [ref=e67]:
+        - generic [ref=e75]:
+          - generic [ref=e77]:
+            - generic [ref=e78]: 0+
+            - generic [ref=e79]: AI VOICE CALLS
+          - generic [ref=e81]:
+            - generic [ref=e82]: 7.2B
+            - generic [ref=e83]: LEADS GENERATED
+          - generic [ref=e85]:
+            - generic [ref=e86]: 7M
+            - generic [ref=e87]: APPOINTMENTS BOOKED
+          - generic [ref=e89]:
+            - generic [ref=e90]: $7M+
+            - generic [ref=e91]: SALES FACILITATED IN 2025
+        - generic [ref=e95]:
+          - heading "We’re in the business of helping you grow your business" [level=2] [ref=e99]
+          - paragraph [ref=e103]: HighLevel is the AI-powered operating system powering the growth of businesses around the world.
+        - generic [ref=e105]:
+          - generic [ref=e107]:
+            - img "Best Software Top 50 Agentic AI Products" [ref=e113]
+            - img "Capterra" [ref=e119]
+            - img "Best Content Management Software Products 2026" [ref=e125]
+          - generic [ref=e127]:
+            - img "Best Marketing & Digital Advertising Software Products 2026" [ref=e133]
+            - img "Best Sales Software Products 2026" [ref=e139]
+            - img "Marketing Automation UsersMostLikely To Recommend_Mid-Market_Nps" [ref=e145]
+          - generic [ref=e147]:
+            - img "MarketingAutomation EasiestToDoBusinessWith_Mid-Market_EaseOfDoingBusiness" [ref=e153]
+            - img "Best_Software_Products_2026" [ref=e159]
+            - img "MarketingAutomation_EasiestAdmin_Mid-Market_EaseOfAdmin" [ref=e165]
+      - generic [ref=e167]:
+        - generic [ref=e171]:
+          - heading "Your all-in-one solution for business growth" [level=2] [ref=e175]
+          - paragraph [ref=e179]: All the tools you need in one AI-powered platform
+        - generic [ref=e183]:
+          - link "Capture" [ref=e185] [cursor=pointer]:
+            - /url: "#tab-1"
+            - generic [ref=e187]: Capture
+          - link "Nurture" [ref=e189] [cursor=pointer]:
+            - /url: "#tab-2"
+            - generic [ref=e191]: Nurture
+          - link "Close" [ref=e193] [cursor=pointer]:
+            - /url: "#tab-3"
+            - generic [ref=e195]: Close
+          - link "Evangelize" [ref=e197] [cursor=pointer]:
+            - /url: "#tab-4"
+            - generic [ref=e199]: Evangelize
+          - link "Reactivate" [ref=e201] [cursor=pointer]:
+            - /url: "#tab-5"
+            - generic [ref=e203]: Reactivate
+        - generic [ref=e205]:
+          - generic [ref=e207]:
+            - heading "Get more leads in the door" [level=2] [ref=e216]
+            - paragraph [ref=e220]: Attract the right people, turn interest into leads and keep your pipeline full.
+            - generic [ref=e222]:
+              - list [ref=e228]:
+                - listitem [ref=e229]:
+                  - paragraph [ref=e230]: CRM
+                - listitem [ref=e231]:
+                  - paragraph [ref=e232]: Voice AI
+                - listitem [ref=e233]:
+                  - paragraph [ref=e234]: Forms, Surveys & Quizzes
+                - listitem [ref=e235]:
+                  - paragraph [ref=e236]: Websites, Funnels & Landing Pages
+                - listitem [ref=e237]:
+                  - paragraph [ref=e238]: Webinar Funnels
+                - listitem [ref=e239]:
+                  - paragraph [ref=e240]: Chat Widget / Conversation AI
+                - listitem [ref=e241]:
+                  - paragraph [ref=e242]: Call Tracking
+                - listitem [ref=e243]:
+                  - paragraph [ref=e244]: Inbound SMS & Social DMs
+                - listitem [ref=e245]:
+                  - paragraph [ref=e246]: Social Planner
+              - list [ref=e252]:
+                - listitem [ref=e253]:
+                  - paragraph [ref=e254]: Missed Call Text-Back
+                - listitem [ref=e255]:
+                  - paragraph [ref=e256]: AI Biz Card Scanner
+                - listitem [ref=e257]:
+                  - paragraph [ref=e258]: QR Codes
+                - listitem [ref=e259]:
+                  - paragraph [ref=e260]: Prospecting Tool
+                - listitem [ref=e261]:
+                  - paragraph [ref=e262]: Ad Manager (Google/FB/Insta Ads)
+            - button "Start 14 Day Free Trial" [ref=e268] [cursor=pointer]:
+              - generic [ref=e269]:
+                - generic [ref=e270]: Start 14 Day Free Trial
+                - generic [ref=e271]: 
+          - generic [ref=e273]: 
+        - text:        
+      - generic [ref=e287]:
+        - heading "We exist to remove friction from growth and give business owners the systems they need to operate, scale and win" [level=2] [ref=e291]
+        - generic [ref=e293]:
+          - generic [ref=e295]:
+            - paragraph [ref=e299]: All-in-one
+            - paragraph [ref=e303]: A truly all-in-one platform built for operators, not just marketers
+          - generic [ref=e312]:
+            - paragraph [ref=e316]: AI as the foundation
+            - paragraph [ref=e320]: Deep AI integration across the full business lifecycle
+          - generic [ref=e329]:
+            - paragraph [ref=e333]: Community-driven
+            - paragraph [ref=e337]: A community-led ecosystem focused on execution and outcomes
+        - generic [ref=e348]:
+          - generic [ref=e350]:
+            - paragraph [ref=e359]: Debbie DuBois
+            - paragraph [ref=e363]: Compass Marketing Creative
+          - paragraph [ref=e374]: I felt completely supported as soon as I join the platform...These guys care about my business and have taken my business to the next level. The technology is continuing to shift and change while getting better and better. They are providing new services and things that I love.
+      - generic [ref=e376]:
+        - generic [ref=e380]:
+          - heading "Join the movement" [level=2] [ref=e384]
+          - paragraph [ref=e388]: Our thriving community of the most successful and visionary digital marketers on the planet. Get all the training and resources you need to start or grow your business.
+        - generic [ref=e390]:
+          - generic [ref=e392]:
+            - heading "By Marketers, For Marketers" [level=3] [ref=e396]
+            - paragraph [ref=e400]: HighLevel was built and powered by marketers focused on the traditional issues marketing professionals face day to day. Once success was found, it was introduced to the market to help marketers face common challenges.
+          - generic [ref=e409]:
+            - heading "Community Driven Development" [level=3] [ref=e413]
+            - paragraph [ref=e417]: HighLevel is committed to helping the Marketing world. We've built a community-driven Ideas Board where you can share and vote on ideas to help lead the direction of development.
+          - generic [ref=e426]:
+            - heading "Network With Other Successful Marketers" [level=3] [ref=e430]
+            - paragraph [ref=e434]: Connect with other ambitious agency owners, entrepreneurs and marketing professionals who are scaling successful businesses with HighLevel.
+        - generic [ref=e447]:
+          - heading "What's included with HighLevel" [level=2] [ref=e451]
+          - button "Start 14 Day Free Trial" [ref=e458] [cursor=pointer]:
+            - generic [ref=e459]:
+              - generic [ref=e460]: Start 14 Day Free Trial
+              - generic [ref=e461]: 
+      - generic [ref=e467]:
+        - heading "Everything you need to grow your business; even on the go!" [level=2] [ref=e471]
+        - paragraph [ref=e475]: We make it easy to run your business top to bottom and on the go, with real support when you need it.
+        - paragraph [ref=e479]:
+          - strong [ref=e480]: "Mobile App:"
+          - text: Run your business from anywhere.
+        - paragraph [ref=e484]:
+          - strong [ref=e485]: "Award-winning support:"
+          - text: Get real help from real people.
+        - paragraph [ref=e489]:
+          - strong [ref=e490]: "Automation:"
+          - text: Set it up once and let it run.
+        - button "Start 14 Day Free Trial" [ref=e492] [cursor=pointer]:
+          - generic [ref=e493]:
+            - generic [ref=e494]: Start 14 Day Free Trial
+            - generic [ref=e495]: 
+      - generic [ref=e504]:
+        - heading "See Our Pricing" [level=2] [ref=e512]
+        - generic [ref=e514]:
+          - generic [ref=e516]:
+            - paragraph [ref=e520]: Starter
+            - heading "$97 /Month" [level=2] [ref=e524]:
+              - text: $97
+              - emphasis [ref=e525]: /Month
+            - paragraph [ref=e529]: Perfect for freelancers & solo marketers
+            - paragraph [ref=e533]: 3 Sub-Accounts
+            - paragraph [ref=e537]: Unlimited Contacts
+            - paragraph [ref=e541]: Unlimited Users
+            - paragraph [ref=e545]: 24/7 Support
+            - paragraph [ref=e549]: All Core Features
+            - button "Start Your Trial" [ref=e551] [cursor=pointer]:
+              - generic [ref=e553]: Start Your Trial
+            - paragraph [ref=e557]: Experience it for 14 Days FREE
+          - generic [ref=e559]:
+            - paragraph [ref=e563]: MOST POPULAR
+            - paragraph [ref=e567]: Unlimited
+            - heading "$297 /Month" [level=2] [ref=e571]:
+              - text: $297
+              - emphasis [ref=e572]: /Month
+            - paragraph [ref=e576]: Built for growing agencies
+            - paragraph [ref=e580]:
+              - strong [ref=e581]: Everything in Starter Plan and...
+            - paragraph [ref=e585]: Unlimited Sub-Accounts
+            - paragraph [ref=e589]: User/Agent Reporting
+            - paragraph [ref=e593]: Rebill Phone & Email (no markup)
+            - paragraph [ref=e597]: Basic API Access
+            - button "Start Your Trial" [ref=e599] [cursor=pointer]:
+              - generic [ref=e601]: Start Your Trial
+            - paragraph [ref=e605]: Experience it for 14 Days FREE
+      - generic [ref=e607]:
+        - heading "Discover More Success Stories!" [level=2] [ref=e615]
+        - generic [ref=e628]:
+          - generic [ref=e630]:
+            - paragraph [ref=e632]: really groundbreaking product particularly for marketing agency owners...
+            - generic [ref=e634]:
+              - img "Gustavo Muñuz Castro" [ref=e635]
+              - generic [ref=e637]: Gustavo Muñuz Castro
+          - generic [ref=e639]:
+            - paragraph [ref=e641]: it's a great product and i look forward to work with you for a long time...
+            - generic [ref=e643]:
+              - img "Matt Plapp" [ref=e644]
+              - generic [ref=e646]: Matt Plapp
+          - generic [ref=e648]:
+            - paragraph [ref=e650]: when you join high level we get joining a really amazing community...
+            - generic [ref=e652]:
+              - img "Ian Almasi" [ref=e653]
+              - generic [ref=e655]: Ian Almasi
+          - generic [ref=e657]:
+            - paragraph [ref=e659]: I've been able to provide my clients with automated follow-up and lead nurturing...
+            - generic [ref=e661]:
+              - img "Christine Seale" [ref=e662]
+              - generic [ref=e664]: Christine Seale
+      - generic [ref=e670]:
+        - heading "Built to make things easier" [level=2] [ref=e674]
+        - paragraph [ref=e678]: HighLevel gives you the systems to attract leads, close customers and keep them coming back. Less friction. Better follow-up. More momentum.
+        - button "Start 14 Day Free Trial" [ref=e680] [cursor=pointer]:
+          - generic [ref=e681]:
+            - generic [ref=e682]: Start 14 Day Free Trial
+            - generic [ref=e683]: 
+      - generic [ref=e692]:
+        - heading "Integrates With Your Favorite Tools" [level=2] [ref=e700]:
+          - strong [ref=e701]: Integrates With Your Favorite Tools
+        - generic [ref=e709]:
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+          - link "Logo":
+            - /url: "#"
+            - generic:
+              - img "Logo"
+      - generic [ref=e711]:
+        - generic [ref=e720]:
+          - generic [ref=e722]:
+            - paragraph [ref=e726]: HIGHLEVEL VS
+            - paragraph [ref=e730]:
+              - link "HighLevel Vs ActiveCampaign" [ref=e731] [cursor=pointer]:
+                - /url: https://www.gohighlevel.com/highlevel-vs-activecampaign
+            - paragraph [ref=e735]:
+              - link "HighLevel Vs Hubspot" [ref=e736] [cursor=pointer]:
+                - /url: https://www.gohighlevel.com/highlevel-vs-hubspot
+            - generic [ref=e739]:
+              - link "HighLevel Vs ClickFunnels " [ref=e740] [cursor=pointer]:
+                - /url: https://www.gohighlevel.com/highlevel-vs-clickfunnels
+                - paragraph [ref=e741]: HighLevel Vs ClickFunnels 
+              - list [ref=e742]:
+                - listitem [ref=e743]:
+                  - link "HighLevel Vs Keap" [ref=e744] [cursor=pointer]:
+                    - /url: https://www.gohighlevel.com/highlevel-vs-keap
+                - listitem [ref=e745]:
+                  - link "HighLevel Vs LinkTree" [ref=e746] [cursor=pointer]:
+                    - /url: https://www.gohighlevel.com/highlevel-vs-linktree
+                - listitem [ref=e747]:
+                  - link "HighLevel Vs Kartra" [ref=e748] [cursor=pointer]:
+                    - /url: https://www.gohighlevel.com/highlevel-vs-kartra
+                - listitem [ref=e749]:
+                  - link "HighLevel Vs Vendasta" [ref=e750] [cursor=pointer]:
+                    - /url: https://www.gohighlevel.com/highlevel-vs-vendasta
+                - listitem [ref=e751]:
+                  - link "HighLevel Vs SharpSpring" [ref=e752] [cursor=pointer]:
+                    - /url: https://www.gohighlevel.com/highlevel-vs-sharpspring
+                - listitem [ref=e753]:
+                  - link "HighLevel Vs Klaviyo" [ref=e754] [cursor=pointer]:
+                    - /url: https://www.gohighlevel.com/highlevel-vs-klaviyo
+                - listitem [ref=e755]:
+                  - link "HighLevel Vs Zoho" [ref=e756] [cursor=pointer]:
+                    - /url: https://www.gohighlevel.com/highlevel-vs-zoho
+                - listitem [ref=e757]:
+                  - link "HighLevel Vs Salesforce" [ref=e758] [cursor=pointer]:
+                    - /url: https://www.gohighlevel.com/highlevel-vs-salesforce
+          - generic [ref=e760]:
+            - paragraph [ref=e764]: ABOUT HIGHLEVEL
+            - paragraph [ref=e768]:
+              - link "Who We Are" [ref=e769] [cursor=pointer]:
+                - /url: https://www.gohighlevel.com/about-us
+            - paragraph [ref=e773]:
+              - link "Careers" [ref=e774] [cursor=pointer]:
+                - /url: https://www.gohighlevel.com/careers
+            - paragraph [ref=e778]:
+              - link "Blogs" [ref=e779] [cursor=pointer]:
+                - /url: https://www.gohighlevel.com/blog
+            - paragraph [ref=e783]:
+              - link "Events" [ref=e784] [cursor=pointer]:
+                - /url: https://www.gohighlevel.com/events
+            - generic [ref=e787]:
+              - link "Affiliate Program " [ref=e788] [cursor=pointer]:
+                - /url: javascript:;
+                - paragraph [ref=e789]: Affiliate Program 
+              - text: 
+              - list [ref=e790]:
+                - listitem [ref=e791]:
+                  - link "Affiliate Login" [ref=e792] [cursor=pointer]:
+                    - /url: https://gohighlevel.firstpromoter.com
+                - listitem [ref=e793]:
+                  - link "Become an Affiliate" [ref=e794] [cursor=pointer]:
+                    - /url: https://www.gohighlevel.com/joinaffiliate
+                - listitem [ref=e795]:
+                  - link "Affiliate Agreement" [ref=e796] [cursor=pointer]:
+                    - /url: https://www.gohighlevel.com/affiliate-policy
+          - generic [ref=e798]:
+            - paragraph [ref=e802]: CONTACT US
+            - paragraph [ref=e806]:
+              - strong [ref=e807]: Corporate HQ
+            - paragraph [ref=e811]:
+              - text: 1801 N. Lamar St.
+              - text: Suite 600
+              - text: Dallas, Texas 75202
+            - paragraph [ref=e814]:
+              - text: "Toll Free:"
+              - link "+1 888 732 4197" [ref=e815] [cursor=pointer]:
+                - /url: tel:+18887324197
+          - generic [ref=e817]:
+            - paragraph [ref=e821]: SOCIALS
+            - link "https://facebook.com/highlevelreviews" [ref=e825] [cursor=pointer]:
+              - /url: https://facebook.com/highlevelreviews
+            - link "https://instagram.com/gohighlevel/" [ref=e830] [cursor=pointer]:
+              - /url: https://instagram.com/gohighlevel/
+            - link "https://twitter.com/gohighlevel" [ref=e835] [cursor=pointer]:
+              - /url: https://twitter.com/gohighlevel
+            - link "https://youtube.com/channel/UCXFiV4qDX5ipE-DQcsm1j4g" [ref=e840] [cursor=pointer]:
+              - /url: https://youtube.com/channel/UCXFiV4qDX5ipE-DQcsm1j4g
+            - link "https://linkedin.com/company/highlevel" [ref=e845] [cursor=pointer]:
+              - /url: https://linkedin.com/company/highlevel
+        - generic [ref=e851]:
+          - link "https://www.gohighlevel.com" [ref=e857] [cursor=pointer]:
+            - /url: https://www.gohighlevel.com
+          - generic [ref=e860]:
+            - paragraph [ref=e864]: © 2026 HighLevel, Inc. | All Rights Reserved
+            - button "Your Privacy Choices" [ref=e868] [cursor=pointer]:
+              - img [ref=e869]
+              - text: Your Privacy Choices
+          - paragraph [ref=e875]:
+            - link "Privacy Policy" [ref=e876] [cursor=pointer]:
+              - /url: https://www.gohighlevel.com/privacy-policy
+            - text: "|"
+            - link "Terms of Service" [ref=e877] [cursor=pointer]:
+              - /url: https://www.gohighlevel.com/terms-of-service
+            - text: "|"
+            - link "Privacy and Security" [ref=e878] [cursor=pointer]:
+              - /url: https://www.gohighlevel.com/privacy-and-security
+      - generic [ref=e882]:
+        - heading "Take your marketing to the next level!" [level=2] [ref=e888]
+        - button "14 DAY FREE TRIAL No obligation, cancel at any time" [ref=e892] [cursor=pointer]:
+          - generic [ref=e894]: 14 DAY FREE TRIAL
+          - generic [ref=e896]: No obligation, cancel at any time
