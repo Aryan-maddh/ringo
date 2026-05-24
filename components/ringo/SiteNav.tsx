@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { RINGO } from '@/components/ringo/tokens';
 import { RingoLogo } from '@/components/ringo/RingoLogo';
@@ -38,9 +39,6 @@ export function SiteNav({ transparent = false }: SiteNavProps) {
     return () => { document.body.style.overflow = ''; };
   }, [menuOpen]);
 
-  // Close drawer on route change (link click)
-  useEffect(() => { setMenuOpen(false); }, [pathname]);
-
   const isTransparentMode = transparent;
   const showFrosted = !isTransparentMode || scrolled || menuOpen;
 
@@ -74,9 +72,9 @@ export function SiteNav({ transparent = false }: SiteNavProps) {
         fontFamily: RINGO.font.ui,
       }}>
         {/* Logo */}
-        <a href="/" style={{ display: 'inline-flex', alignItems: 'center', textDecoration: 'none', flexShrink: 0 }}>
+        <Link href="/" style={{ display: 'inline-flex', alignItems: 'center', textDecoration: 'none', flexShrink: 0 }} onClick={() => setMenuOpen(false)}>
           <RingoLogo size={28} light={isTransparentMode && !scrolled && !menuOpen} />
-        </a>
+        </Link>
 
         {/* Center nav links (desktop only) */}
         <div className="r-nav-links" style={{
@@ -88,7 +86,7 @@ export function SiteNav({ transparent = false }: SiteNavProps) {
           {NAV_LINKS.map(link => {
             const isActive = pathname === link.href;
             return (
-              <a
+              <Link
                 key={link.label}
                 href={link.href}
                 style={{
@@ -106,14 +104,14 @@ export function SiteNav({ transparent = false }: SiteNavProps) {
                 }}
               >
                 {link.label}
-              </a>
+              </Link>
             );
           })}
         </div>
 
         {/* Right side (desktop) */}
         <div className="r-nav-cta" style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 8 }}>
-          <a
+          <Link
             href="/login"
             style={{
               display: 'inline-block',
@@ -128,7 +126,7 @@ export function SiteNav({ transparent = false }: SiteNavProps) {
             }}
           >
             Sign in
-          </a>
+          </Link>
           <button
             onClick={openInquiry}
             style={{
@@ -205,9 +203,10 @@ export function SiteNav({ transparent = false }: SiteNavProps) {
           {NAV_LINKS.map(link => {
             const isActive = pathname === link.href;
             return (
-              <a
+              <Link
                 key={link.label}
                 href={link.href}
+                onClick={() => setMenuOpen(false)}
                 style={{
                   display: 'flex',
                   alignItems: 'center',
@@ -228,14 +227,15 @@ export function SiteNav({ transparent = false }: SiteNavProps) {
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden>
                   <path d="M3 7h8M8 4l3 3-3 3" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-              </a>
+              </Link>
             );
           })}
 
           <div style={{ height: 1, background: RINGO.border, margin: '14px 6px' }} />
 
-          <a
+          <Link
             href="/login"
+            onClick={() => setMenuOpen(false)}
             style={{
               display: 'block',
               padding: '14px 14px',
@@ -249,9 +249,12 @@ export function SiteNav({ transparent = false }: SiteNavProps) {
             }}
           >
             Sign in
-          </a>
+          </Link>
           <button
-            onClick={openInquiry}
+            onClick={() => {
+              setMenuOpen(false);
+              openInquiry();
+            }}
             style={{
               display: 'inline-flex',
               alignItems: 'center',

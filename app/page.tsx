@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState, type CSSProperties } from 'react';
+import React, { useEffect, useState, useSyncExternalStore, type CSSProperties } from 'react';
 import { RINGO } from '@/components/ringo/tokens';
 import { Icon, ICONS } from '@/components/ringo/Icon';
 import { Avatar } from '@/components/ringo/Avatar';
@@ -13,6 +13,20 @@ import { openInquiry } from '@/components/ringo/InquiryModal';
 import { CHANNEL_META, ChannelGlyph, ChannelTile, type ChannelKey } from '@/components/ringo/ChannelLogos';
 
 // ── LazyMount: reveal section on scroll into view ─────────────────────────
+
+function subscribeToMobileQuery(callback: () => void) {
+  const mq = window.matchMedia('(max-width: 680px)');
+  mq.addEventListener('change', callback);
+  return () => mq.removeEventListener('change', callback);
+}
+
+function getMobileQuerySnapshot() {
+  return window.matchMedia('(max-width: 680px)').matches;
+}
+
+function getServerMobileQuerySnapshot() {
+  return false;
+}
 
 function LazyMount({ children, threshold = 0 }: { children: React.ReactNode; threshold?: number }) {
   const [visible, setVisible] = useState(false);
@@ -268,7 +282,7 @@ function HeroPhone() {
 
 function useViewportCount(target: number, decimals = 0, duration = 1800) {
   const [val, setVal] = useState(0);
-  const ref = React.useRef<HTMLSpanElement>(null);
+  const ref = React.useRef<HTMLDivElement>(null);
   const startedRef = React.useRef(false);
 
   useEffect(() => {
@@ -603,16 +617,8 @@ function StatItem({ stat, active, last, mobile }: { stat: StatDef; active: boole
 
 function StatsCounter() {
   const [active, setActive] = useState(false);
-  const [mobile, setMobile] = useState(false);
+  const mobile = useSyncExternalStore(subscribeToMobileQuery, getMobileQuerySnapshot, getServerMobileQuerySnapshot);
   const ref = React.useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const mq = window.matchMedia('(max-width: 680px)');
-    setMobile(mq.matches);
-    const fn = (e: MediaQueryListEvent) => setMobile(e.matches);
-    mq.addEventListener('change', fn);
-    return () => mq.removeEventListener('change', fn);
-  }, []);
 
   useEffect(() => {
     const el = ref.current;

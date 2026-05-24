@@ -18,7 +18,12 @@ function useFadeUp(delay = 0) {
     io.observe(el);
     return () => io.disconnect();
   }, []);
-  return { ref, style: { opacity: vis ? 1 : 0, transform: vis ? 'translateY(0)' : 'translateY(36px)', transition: `opacity 0.7s ${delay}ms cubic-bezier(0.16,1,0.3,1), transform 0.7s ${delay}ms cubic-bezier(0.16,1,0.3,1)` } as React.CSSProperties };
+  const style: React.CSSProperties = {
+    opacity: vis ? 1 : 0,
+    transform: vis ? 'translateY(0)' : 'translateY(36px)',
+    transition: `opacity 0.7s ${delay}ms cubic-bezier(0.16,1,0.3,1), transform 0.7s ${delay}ms cubic-bezier(0.16,1,0.3,1)`,
+  };
+  return [ref, style] as const;
 }
 
 // ── Timeline item ──────────────────────────────────────────────────────────
@@ -32,9 +37,9 @@ interface TimelineItemProps {
 }
 
 function TimelineItem({ year, heading, description, isLast = false, delay = 0 }: TimelineItemProps) {
-  const fade = useFadeUp(delay);
+  const [fadeRef, fadeStyle] = useFadeUp(delay);
   return (
-    <div ref={fade.ref} style={{ ...fade.style, display: 'flex', gap: 28, position: 'relative' }}>
+    <div ref={fadeRef} style={{ ...fadeStyle, display: 'flex', gap: 28, position: 'relative' }}>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flexShrink: 0 }}>
         <div style={{
           padding: '6px 14px',
@@ -123,9 +128,9 @@ function TeamCard({ initials, name, role, bio, grad }: TeamCardProps) {
 // ── About page ─────────────────────────────────────────────────────────────
 
 export default function AboutPage() {
-  const heroFade = useFadeUp(0);
-  const missionLeft = useFadeUp(0);
-  const missionRight = useFadeUp(150);
+  const [heroFadeRef, heroFadeStyle] = useFadeUp(0);
+  const [missionLeftRef, missionLeftStyle] = useFadeUp(0);
+  const [missionRightRef, missionRightStyle] = useFadeUp(150);
 
   return (
     <div style={{ background: '#fff', color: RINGO.ink, fontFamily: RINGO.font.ui, overflowX: 'hidden' }}>
@@ -142,7 +147,7 @@ export default function AboutPage() {
         <div aria-hidden style={{ position: 'absolute', left: '25%', top: '-5%', width: 600, height: 600, background: 'radial-gradient(closest-side,rgba(124,58,237,0.2),transparent)', filter: 'blur(60px)', pointerEvents: 'none' }} />
         <div aria-hidden style={{ position: 'absolute', right: '20%', bottom: '-10%', width: 400, height: 400, background: 'radial-gradient(closest-side,rgba(6,182,212,0.12),transparent)', filter: 'blur(60px)', pointerEvents: 'none' }} />
 
-        <div ref={heroFade.ref} style={{ ...heroFade.style, position: 'relative', maxWidth: 800 }}>
+        <div ref={heroFadeRef} style={{ ...heroFadeStyle, position: 'relative', maxWidth: 800 }}>
           <div style={{ display: 'inline-flex', alignItems: 'center', gap: 6, padding: '6px 16px', borderRadius: 99, background: 'transparent', border: '1px solid rgba(124,58,237,0.5)', fontSize: 11, fontWeight: 700, color: '#a78bfa', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: 36 }}>
             OUR STORY
           </div>
@@ -158,7 +163,7 @@ export default function AboutPage() {
             We believe every missed call is a missed opportunity.
           </h1>
           <p style={{ fontSize: 18, color: 'rgba(255,255,255,0.55)', lineHeight: 1.65, margin: '0 auto 56px', maxWidth: 600 }}>
-            Ripe Lead was built by a team who watched great contractors lose jobs simply because they couldn't answer the phone fast enough.
+            Ripe Lead was built by a team who watched great contractors lose jobs simply because they couldn&apos;t answer the phone fast enough.
           </p>
 
           {/* Inline stats row */}
@@ -180,13 +185,13 @@ export default function AboutPage() {
       {/* ── Mission ──────────────────────────────────────────────────────── */}
       <section style={{ padding: 'clamp(72px, 8vw, 108px) clamp(16px, 4vw, 48px)', background: '#fff' }}>
         <div className="r-mk-mission-grid" style={{ maxWidth: 1100, margin: '0 auto' }}>
-          <div ref={missionLeft.ref} style={missionLeft.style}>
+          <div ref={missionLeftRef} style={missionLeftStyle}>
             <div style={{ fontSize: 11, fontWeight: 700, color: RINGO.ink3, letterSpacing: '0.14em', textTransform: 'uppercase', marginBottom: 14 }}>OUR MISSION</div>
             <h2 style={{ fontFamily: RINGO.font.head, fontSize: 'clamp(24px, 3vw, 38px)', fontWeight: 900, letterSpacing: '-0.03em', lineHeight: 1.1, color: RINGO.ink, margin: '0 0 24px' }}>
               Make every contractor unreachable — in a good way.
             </h2>
             <p style={{ fontSize: 16, color: RINGO.ink3, lineHeight: 1.7, margin: '0 0 16px' }}>
-              The best contractors we know aren't glued to their phones — they're on the job, doing the work that earns their reputation. But the moment they miss a call, they risk losing that lead to someone who picked up.
+              The best contractors we know aren&apos;t glued to their phones — they&apos;re on the job, doing the work that earns their reputation. But the moment they miss a call, they risk losing that lead to someone who picked up.
             </p>
             <p style={{ fontSize: 16, color: RINGO.ink3, lineHeight: 1.7, margin: '0 0 16px' }}>
               Ripe Lead gives every contractor the response time of a 24/7 call center without the overhead. We handle the reply, the qualification, the booking — so the contractor handles the job.
@@ -195,7 +200,7 @@ export default function AboutPage() {
               We measure success one way: jobs booked that would otherwise have been lost to voicemail.
             </p>
           </div>
-          <div ref={missionRight.ref} style={missionRight.style}>
+          <div ref={missionRightRef} style={missionRightStyle}>
             <div className="r-mk-mission-stats" style={{ padding: 'clamp(28px, 4vw, 40px)', borderRadius: 24, background: 'linear-gradient(160deg,#1a1040 0%,#0d1c3a 60%,#061224 100%)', color: '#fff', boxShadow: '0 40px 80px -24px rgba(0,0,0,0.4)', border: '1px solid rgba(255,255,255,0.07)' }}>
               {[
                 { value: '4 min', label: 'Setup time' },
