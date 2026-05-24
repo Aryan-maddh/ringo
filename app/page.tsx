@@ -425,10 +425,10 @@ function HeroLaptop() {
 
 function Hero() {
   return (
-    <section className="r-land-section r-hero-dark r-hero-section" style={{ position: 'relative', overflow: 'hidden', paddingBottom: 80 }}>
+    <section className="r-land-section r-hero-dark r-hero-section" style={{ position: 'relative', overflow: 'hidden', paddingBottom: 80, minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
       <HeroBackdrop />
 
-      <div className="r-land-hero-grid" style={{ position: 'relative', zIndex: 1, alignItems: 'center' }}>
+      <div className="r-land-hero-grid" style={{ position: 'relative', zIndex: 1, alignItems: 'center', width: '100%' }}>
         <div>
           <div className="r-hero-eyebrow">
             <span style={{ width: 7, height: 7, borderRadius: '50%', background: 'linear-gradient(135deg,#a78bfa,#22d3ee)' }} />
