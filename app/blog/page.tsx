@@ -17,7 +17,12 @@ function useFadeUp(delay = 0) {
     io.observe(el);
     return () => io.disconnect();
   }, []);
-  return { ref, style: { opacity: vis ? 1 : 0, transform: vis ? 'translateY(0)' : 'translateY(36px)', transition: `opacity 0.7s ${delay}ms cubic-bezier(0.16,1,0.3,1), transform 0.7s ${delay}ms cubic-bezier(0.16,1,0.3,1)` } as React.CSSProperties };
+  const style: React.CSSProperties = {
+    opacity: vis ? 1 : 0,
+    transform: vis ? 'translateY(0)' : 'translateY(36px)',
+    transition: `opacity 0.7s ${delay}ms cubic-bezier(0.16,1,0.3,1), transform 0.7s ${delay}ms cubic-bezier(0.16,1,0.3,1)`,
+  };
+  return [ref, style] as const;
 }
 
 // ── Types & data ───────────────────────────────────────────────────────────
@@ -161,12 +166,12 @@ function AuthorAvatar({ initials, grad, size = 32 }: { initials: string; grad: s
 
 function ArticleCard({ article, delay }: { article: Article; delay: number }) {
   const [hovered, setHovered] = React.useState(false);
-  const fade = useFadeUp(delay);
+  const [fadeRef, fadeStyle] = useFadeUp(delay);
   return (
     <div
-      ref={fade.ref}
+      ref={fadeRef}
       style={{
-        ...fade.style,
+        ...fadeStyle,
         display: 'flex', flexDirection: 'column',
         borderRadius: 18, background: '#fff',
         border: `1px solid ${RINGO.border}`,

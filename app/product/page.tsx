@@ -18,7 +18,12 @@ function useFadeUp(delay = 0) {
     io.observe(el);
     return () => io.disconnect();
   }, []);
-  return { ref, style: { opacity: vis ? 1 : 0, transform: vis ? 'translateY(0)' : 'translateY(36px)', transition: `opacity 0.7s ${delay}ms cubic-bezier(0.16,1,0.3,1), transform 0.7s ${delay}ms cubic-bezier(0.16,1,0.3,1)` } as React.CSSProperties };
+  const style: React.CSSProperties = {
+    opacity: vis ? 1 : 0,
+    transform: vis ? 'translateY(0)' : 'translateY(36px)',
+    transition: `opacity 0.7s ${delay}ms cubic-bezier(0.16,1,0.3,1), transform 0.7s ${delay}ms cubic-bezier(0.16,1,0.3,1)`,
+  };
+  return [ref, style] as const;
 }
 
 // ── Hero mock inbox ────────────────────────────────────────────────────────
@@ -124,7 +129,7 @@ function MockVoiceProfile() {
         <div style={{ fontSize: 10, fontWeight: 700, color: 'rgba(255,255,255,0.4)', letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: 10 }}>Sample reply</div>
         <div style={{ padding: '12px 14px', background: 'rgba(255,255,255,0.05)', borderRadius: 12, border: '1px solid rgba(255,255,255,0.07)' }}>
           <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.75)', lineHeight: 1.5 }}>
-            "Yep — shut your angle stops first. We can be there 1–2 PM, $95 trip fee applied to repair. ✓?"
+            &ldquo;Yep — shut your angle stops first. We can be there 1–2 PM, $95 trip fee applied to repair. ✓?&rdquo;
           </div>
           <div style={{ fontSize: 9.5, color: 'rgba(255,255,255,0.3)', marginTop: 8 }}>Sent by Ripe Lead · 11s response</div>
         </div>
@@ -225,11 +230,11 @@ interface FeatureSectionProps {
 }
 
 function FeatureSection({ eyebrow, headline, body, bullets, mockup, flip = false }: FeatureSectionProps) {
-  const textFade = useFadeUp(0);
-  const mockFade = useFadeUp(120);
+  const [textFadeRef, textFadeStyle] = useFadeUp(0);
+  const [mockFadeRef, mockFadeStyle] = useFadeUp(120);
   return (
     <div className="r-mk-feature-row" style={{ borderBottom: `1px solid ${RINGO.border}` }}>
-      <div ref={textFade.ref} style={{ ...textFade.style, order: flip ? 1 : 0 }}>
+      <div ref={textFadeRef} style={{ ...textFadeStyle, order: flip ? 1 : 0 }}>
         <div style={{ fontSize: 11, fontWeight: 700, color: '#7c3aed', letterSpacing: '0.14em', textTransform: 'uppercase', marginBottom: 14 }}>{eyebrow}</div>
         <h2 style={{ fontFamily: RINGO.font.head, fontSize: 'clamp(26px, 3vw, 40px)', fontWeight: 900, letterSpacing: '-0.03em', lineHeight: 1.08, color: RINGO.ink, margin: '0 0 18px' }}>{headline}</h2>
         <p style={{ fontSize: 17, lineHeight: 1.65, color: RINGO.ink3, margin: '0 0 28px' }}>{body}</p>
@@ -244,7 +249,7 @@ function FeatureSection({ eyebrow, headline, body, bullets, mockup, flip = false
           ))}
         </div>
       </div>
-      <div ref={mockFade.ref} className="r-mk-feature-mockup" style={{ ...mockFade.style, order: flip ? 0 : 1 }}>
+      <div ref={mockFadeRef} className="r-mk-feature-mockup" style={{ ...mockFadeStyle, order: flip ? 0 : 1 }}>
         {mockup}
       </div>
     </div>
@@ -256,10 +261,10 @@ function FeatureSection({ eyebrow, headline, body, bullets, mockup, flip = false
 interface IntTileProps { name: string; icon: React.ReactNode; grad: string; desc: string; delay: number; }
 
 function IntTile({ name, icon, grad, desc, delay }: IntTileProps) {
-  const fade = useFadeUp(delay);
+  const [fadeRef, fadeStyle] = useFadeUp(delay);
   return (
-    <div ref={fade.ref} style={{
-      ...fade.style,
+    <div ref={fadeRef} style={{
+      ...fadeStyle,
       display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center',
       padding: '28px 16px', borderRadius: 18, background: '#fff', border: `1px solid ${RINGO.border}`,
       boxShadow: '0 8px 24px -16px rgba(15,21,53,0.15)', gap: 12,
@@ -274,9 +279,9 @@ function IntTile({ name, icon, grad, desc, delay }: IntTileProps) {
 // ── Product page ───────────────────────────────────────────────────────────
 
 export default function ProductPage() {
-  const heroFade = useFadeUp(0);
-  const heroCta = useFadeUp(150);
-  const heroMock = useFadeUp(250);
+  const [heroFadeRef, heroFadeStyle] = useFadeUp(0);
+  const [heroCtaRef, heroCtaStyle] = useFadeUp(150);
+  const [heroMockRef, heroMockStyle] = useFadeUp(250);
 
   const integrations = [
     { name: 'Calendar',     icon: <Calendar size={24} />,      grad: 'linear-gradient(135deg,#4285f4,#34a853)', desc: 'Auto-book appointments' },
@@ -310,7 +315,7 @@ export default function ProductPage() {
         <div aria-hidden style={{ position: 'absolute', left: '30%', top: '-10%', width: 700, height: 700, background: 'radial-gradient(closest-side,rgba(124,58,237,0.22),transparent)', filter: 'blur(60px)', pointerEvents: 'none' }} />
         <div aria-hidden style={{ position: 'absolute', right: '20%', bottom: '-10%', width: 500, height: 500, background: 'radial-gradient(closest-side,rgba(6,182,212,0.15),transparent)', filter: 'blur(60px)', pointerEvents: 'none' }} />
 
-        <div ref={heroFade.ref} style={{ ...heroFade.style, position: 'relative', maxWidth: 860, width: '100%' }}>
+        <div ref={heroFadeRef} style={{ ...heroFadeStyle, position: 'relative', maxWidth: 860, width: '100%' }}>
           {/* Eyebrow pill */}
           <div style={{ display: 'inline-flex', alignItems: 'center', gap: 6, padding: '6px 16px', borderRadius: 99, background: 'transparent', border: '1px solid rgba(124,58,237,0.5)', fontSize: 11, fontWeight: 700, color: '#a78bfa', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: 32 }}>
             THE AI ENGINE
@@ -334,7 +339,7 @@ export default function ProductPage() {
           </p>
         </div>
 
-        <div ref={heroCta.ref} className="r-mk-hero-cta" style={{ ...heroCta.style, position: 'relative', marginBottom: 72 }}>
+        <div ref={heroCtaRef} className="r-mk-hero-cta" style={{ ...heroCtaStyle, position: 'relative', marginBottom: 72 }}>
           <button onClick={openInquiry} className="r-mk-cta-primary" style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '15px 32px', borderRadius: 12, border: 'none', cursor: 'pointer', background: 'linear-gradient(135deg,#7c3aed,#06b6d4)', color: '#fff', fontSize: 15, fontWeight: 700, fontFamily: RINGO.font.ui, boxShadow: '0 20px 48px -12px rgba(124,58,237,0.65)' }}>
             Inquiry Now <ArrowRight size={16} />
           </button>
@@ -343,7 +348,7 @@ export default function ProductPage() {
           </a>
         </div>
 
-        <div ref={heroMock.ref} style={{ ...heroMock.style, width: '100%', maxWidth: 860, position: 'relative' }}>
+        <div ref={heroMockRef} style={{ ...heroMockStyle, width: '100%', maxWidth: 860, position: 'relative' }}>
           <HeroInboxMock />
         </div>
       </section>

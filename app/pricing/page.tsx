@@ -18,7 +18,12 @@ function useFadeUp(delay = 0) {
     io.observe(el);
     return () => io.disconnect();
   }, []);
-  return { ref, style: { opacity: vis ? 1 : 0, transform: vis ? 'translateY(0)' : 'translateY(36px)', transition: `opacity 0.7s ${delay}ms cubic-bezier(0.16,1,0.3,1), transform 0.7s ${delay}ms cubic-bezier(0.16,1,0.3,1)` } as React.CSSProperties };
+  const style: React.CSSProperties = {
+    opacity: vis ? 1 : 0,
+    transform: vis ? 'translateY(0)' : 'translateY(36px)',
+    transition: `opacity 0.7s ${delay}ms cubic-bezier(0.16,1,0.3,1), transform 0.7s ${delay}ms cubic-bezier(0.16,1,0.3,1)`,
+  };
+  return [ref, style] as const;
 }
 
 // ── Feature table row (component so hooks can be called at top level) ─────
@@ -26,13 +31,13 @@ function useFadeUp(delay = 0) {
 interface TableRowData { label: string; starter: boolean | string; pro: boolean | string; agency: boolean | string; }
 
 function FeatureTableRow({ row, index, total }: { row: TableRowData; index: number; total: number }) {
-  const fade = useFadeUp(index * 40);
+  const [fadeRef, fadeStyle] = useFadeUp(index * 40);
   return (
     <div
-      ref={fade.ref}
+      ref={fadeRef}
       className="r-mk-pricing-table-row"
       style={{
-        ...fade.style,
+        ...fadeStyle,
         background: index % 2 === 0 ? '#fff' : '#fafbff',
         borderBottom: index < total - 1 ? `1px solid ${RINGO.border}` : 'none',
       }}
@@ -87,9 +92,9 @@ function TableCell({ val, isDark }: { val: boolean | string; isDark?: boolean })
 // ── FAQ accordion item ─────────────────────────────────────────────────────
 
 function FAQItem({ q, a, isOpen, onToggle }: { q: string; a: string; isOpen: boolean; onToggle: () => void }) {
-  const fade = useFadeUp(0);
+  const [fadeRef, fadeStyle] = useFadeUp(0);
   return (
-    <div ref={fade.ref} style={{ ...fade.style, borderBottom: `1px solid ${RINGO.border}` }}>
+    <div ref={fadeRef} style={{ ...fadeStyle, borderBottom: `1px solid ${RINGO.border}` }}>
       <button
         onClick={onToggle}
         style={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 16, padding: '22px 0', background: 'transparent', border: 'none', cursor: 'pointer', textAlign: 'left', fontFamily: RINGO.font.ui }}
