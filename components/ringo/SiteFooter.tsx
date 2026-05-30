@@ -4,6 +4,7 @@ import React from 'react';
 import { RINGO } from '@/components/ringo/tokens';
 import { RingoLogo } from '@/components/ringo/RingoLogo';
 import { Pill } from '@/components/ringo/Pill';
+import { WhatsAppButton } from '@/components/ringo/WhatsAppButton';
 
 export function SiteFooter() {
   const cols: [string, string[]][] = [
@@ -14,6 +15,7 @@ export function SiteFooter() {
   ];
 
   return (
+    <>
     <footer style={{
       paddingTop: 48,
       paddingBottom: 32,
@@ -77,5 +79,7 @@ export function SiteFooter() {
         </div>
       </div>
     </footer>
+    <WhatsAppButton />
+    </>
   );
 }

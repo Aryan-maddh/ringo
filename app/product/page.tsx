@@ -96,33 +96,59 @@ function HeroInboxMock() {
 
 // ── Feature section mockups ────────────────────────────────────────────────
 
+// Phone mockup shell — wraps feature mockups in a realistic mobile device frame
+// (matching the hero phone on the home page) instead of a flat card.
+function PhoneFrame({ children, screenBg }: { children: React.ReactNode; screenBg: string }) {
+  return (
+    <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+      <div style={{
+        position: 'relative',
+        width: 300,
+        maxWidth: '100%',
+        borderRadius: 46,
+        background: 'linear-gradient(180deg,#1a2150,#06081a)',
+        padding: 8,
+        boxShadow: '0 60px 120px -32px rgba(0,0,0,0.55), 0 0 0 1px rgba(255,255,255,0.06), inset 0 0 0 1px rgba(255,255,255,0.08), 0 0 80px -16px rgba(124,58,237,0.4)',
+      }}>
+        {/* notch */}
+        <div style={{ position: 'absolute', left: '50%', top: 16, transform: 'translateX(-50%)', width: 98, height: 24, borderRadius: 99, background: '#06081a', zIndex: 3 }} />
+        <div style={{
+          borderRadius: 38,
+          background: screenBg,
+          overflow: 'hidden',
+          height: 588,
+          display: 'flex',
+          flexDirection: 'column',
+          paddingTop: 44,
+        }}>
+          {children}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function MockVoiceProfile() {
   return (
-    <div style={{
-      borderRadius: 20,
-      background: 'linear-gradient(160deg,#1a1040 0%,#0d1c3a 60%,#061224 100%)',
-      padding: 28,
-      border: '1px solid rgba(255,255,255,0.07)',
-      boxShadow: '0 40px 80px -24px rgba(0,0,0,0.5)',
-    }}>
-      <div style={{ position: 'relative' }}>
+    <PhoneFrame screenBg="linear-gradient(160deg,#1a1040 0%,#0d1c3a 60%,#061224 100%)">
+      <div style={{ padding: '8px 16px 18px', display: 'flex', flexDirection: 'column', flex: 1, overflow: 'hidden' }}>
         <div style={{ fontSize: 10, fontWeight: 700, color: 'rgba(255,255,255,0.4)', letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: 12 }}>Voice Profile</div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '14px 16px', background: 'rgba(255,255,255,0.06)', borderRadius: 14, border: '1px solid rgba(255,255,255,0.08)', marginBottom: 16 }}>
-          <div style={{ width: 40, height: 40, borderRadius: 12, background: 'linear-gradient(135deg,#7c3aed,#06b6d4)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 16, color: '#fff', fontWeight: 800 }}>P</div>
-          <div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '14px 14px', background: 'rgba(255,255,255,0.06)', borderRadius: 14, border: '1px solid rgba(255,255,255,0.08)', marginBottom: 18 }}>
+          <div style={{ width: 40, height: 40, borderRadius: 12, background: 'linear-gradient(135deg,#7c3aed,#06b6d4)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 16, color: '#fff', fontWeight: 800, flexShrink: 0 }}>P</div>
+          <div style={{ minWidth: 0 }}>
             <div style={{ fontSize: 14, fontWeight: 700, color: '#fff' }}>Pacific Plumbing</div>
             <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.45)', marginTop: 1 }}>Custom voice · Plumber</div>
           </div>
-          <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 5, padding: '4px 10px', borderRadius: 99, background: 'rgba(34,197,94,0.15)', border: '1px solid rgba(34,197,94,0.25)' }}>
+          <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 5, padding: '4px 9px', borderRadius: 99, background: 'rgba(34,197,94,0.15)', border: '1px solid rgba(34,197,94,0.25)', flexShrink: 0 }}>
             <span style={{ width: 5, height: 5, borderRadius: '50%', background: '#22c55e' }} />
             <span style={{ fontSize: 9, fontWeight: 700, color: '#22c55e', letterSpacing: '0.06em' }}>ACTIVE</span>
           </div>
         </div>
 
         <div style={{ fontSize: 10, fontWeight: 700, color: 'rgba(255,255,255,0.4)', letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: 10 }}>Tone settings</div>
-        <div style={{ display: 'flex', gap: 8, marginBottom: 16 }}>
+        <div style={{ display: 'flex', gap: 8, marginBottom: 18, flexWrap: 'wrap' }}>
           {['Friendly', 'Direct', 'Local'].map((t, i) => (
-            <span key={t} style={{ padding: '6px 12px', borderRadius: 99, background: i === 0 ? 'rgba(124,58,237,0.25)' : 'rgba(255,255,255,0.06)', border: i === 0 ? '1px solid rgba(124,58,237,0.5)' : '1px solid rgba(255,255,255,0.08)', fontSize: 11, fontWeight: 600, color: i === 0 ? '#a78bfa' : 'rgba(255,255,255,0.5)', cursor: 'pointer' }}>{t}</span>
+            <span key={t} style={{ padding: '6px 12px', borderRadius: 99, background: i === 0 ? 'rgba(124,58,237,0.25)' : 'rgba(255,255,255,0.06)', border: i === 0 ? '1px solid rgba(124,58,237,0.5)' : '1px solid rgba(255,255,255,0.08)', fontSize: 11, fontWeight: 600, color: i === 0 ? '#a78bfa' : 'rgba(255,255,255,0.5)' }}>{t}</span>
           ))}
         </div>
 
@@ -134,7 +160,7 @@ function MockVoiceProfile() {
           <div style={{ fontSize: 9.5, color: 'rgba(255,255,255,0.3)', marginTop: 8 }}>Sent by Ripe Lead · 11s response</div>
         </div>
       </div>
-    </div>
+    </PhoneFrame>
   );
 }
 
@@ -146,20 +172,20 @@ function MockInboxChannels() {
     { ch: 'FB',  grad: 'linear-gradient(135deg,#1877f2,#00b2ff)', name: 'Mike Brennan',  msg: 'Need a water heater quote',  status: 'BOOKED',   statusBg: '#ecfdf5', statusCol: '#059669' },
   ];
   return (
-    <div style={{ borderRadius: 20, background: '#f6f7fb', padding: 20, border: `1px solid ${RINGO.border}`, boxShadow: '0 40px 80px -24px rgba(15,21,53,0.2)' }}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 14 }}>
-        <div style={{ width: 30, height: 30, borderRadius: 9, background: 'linear-gradient(135deg,#7c3aed,#06b6d4)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: 13 }}>R</div>
-        <div>
+    <PhoneFrame screenBg="#f6f7fb">
+      <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '8px 16px 14px' }}>
+        <div style={{ width: 30, height: 30, borderRadius: 9, background: 'linear-gradient(135deg,#7c3aed,#06b6d4)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: 13, flexShrink: 0 }}>R</div>
+        <div style={{ minWidth: 0 }}>
           <div style={{ fontSize: 13, fontWeight: 800, color: RINGO.ink }}>Ripe Lead Inbox</div>
           <div style={{ fontSize: 10, color: RINGO.ink3 }}>All channels unified</div>
         </div>
-        <span style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 4, padding: '3px 8px', borderRadius: 99, background: '#ecfdf5', fontSize: 9, fontWeight: 700, color: '#059669' }}>
+        <span style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 4, padding: '3px 8px', borderRadius: 99, background: '#ecfdf5', fontSize: 9, fontWeight: 700, color: '#059669', flexShrink: 0 }}>
           <span style={{ width: 5, height: 5, borderRadius: '50%', background: '#059669' }} /> LIVE
         </span>
       </div>
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 9, padding: '0 14px 16px' }}>
         {channels.map((c, i) => (
-          <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '10px 12px', background: '#fff', borderRadius: 12, border: `1px solid ${RINGO.border}`, position: 'relative', overflow: 'hidden' }}>
+          <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '11px 12px', background: '#fff', borderRadius: 12, border: `1px solid ${RINGO.border}`, position: 'relative', overflow: 'hidden', boxShadow: '0 4px 12px -6px rgba(15,21,53,0.12)' }}>
             <div style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: 3, background: c.grad }} />
             <span style={{ width: 28, height: 28, borderRadius: 8, background: c.grad, color: '#fff', fontSize: 9, fontWeight: 800, display: 'inline-flex', alignItems: 'center', justifyContent: 'center', letterSpacing: '-0.02em', flexShrink: 0 }}>{c.ch}</span>
             <div style={{ flex: 1, minWidth: 0 }}>
@@ -170,7 +196,7 @@ function MockInboxChannels() {
           </div>
         ))}
       </div>
-    </div>
+    </PhoneFrame>
   );
 }
 
@@ -183,38 +209,40 @@ function MockCalendar() {
     { time: '4:00 PM', name: 'Mike Brennan', job: 'Water heater quote', booked: true, grad: 'linear-gradient(135deg,#1877f2,#06b6d4)' },
   ];
   return (
-    <div style={{ borderRadius: 20, background: 'linear-gradient(160deg,#f5f3ff 0%,#ecfdf5 100%)', padding: 22, border: `1px solid ${RINGO.border}`, boxShadow: '0 40px 80px -24px rgba(15,21,53,0.2)' }}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '10px 14px', background: '#fff', borderRadius: 12, border: `1px solid ${RINGO.border}`, marginBottom: 14 }}>
-        <div style={{ width: 32, height: 32, borderRadius: 8, background: 'linear-gradient(135deg,#4285f4,#34a853)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 900, fontSize: 13 }}>G</div>
-        <div>
-          <div style={{ fontSize: 12, fontWeight: 700, color: RINGO.ink }}>Google Calendar</div>
-          <div style={{ fontSize: 9.5, color: RINGO.ink3 }}>Today · Auto-sync on</div>
-        </div>
-        <span style={{ marginLeft: 'auto', fontSize: 9, fontWeight: 700, color: '#059669', background: '#ecfdf5', padding: '2px 8px', borderRadius: 6 }}>SYNCED</span>
-      </div>
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-        {slots.map((s, i) => (
-          <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '10px 14px', background: s.booked ? '#fff' : 'rgba(255,255,255,0.5)', borderRadius: 12, border: s.booked ? `1px solid ${RINGO.border}` : '1px dashed #d1d5e4', position: 'relative', overflow: 'hidden', opacity: s.booked ? 1 : 0.6 }}>
-            {s.booked && <div style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: 3, background: s.grad }} />}
-            <div style={{ fontSize: 11, fontWeight: 700, color: RINGO.ink3, width: 54, flexShrink: 0 }}>{s.time}</div>
-            {s.booked ? (
-              <div style={{ flex: 1, minWidth: 0 }}>
-                <div style={{ fontSize: 12, fontWeight: 700, color: RINGO.ink }}>{s.name}</div>
-                <div style={{ fontSize: 10, color: RINGO.ink3 }}>{s.job}</div>
-              </div>
-            ) : (
-              <div style={{ flex: 1, fontSize: 12, color: RINGO.ink4 }}>Available</div>
-            )}
-            {s.booked && (
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="6.5" stroke="#22c55e" strokeWidth="1.2"/><path d="M4.5 7l2 2 3.5-3" stroke="#22c55e" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/></svg>
-            )}
+    <PhoneFrame screenBg="linear-gradient(160deg,#f5f3ff 0%,#ecfdf5 100%)">
+      <div style={{ display: 'flex', flexDirection: 'column', flex: 1, padding: '8px 14px 16px', overflow: 'hidden' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '10px 12px', background: '#fff', borderRadius: 12, border: `1px solid ${RINGO.border}`, marginBottom: 12 }}>
+          <div style={{ width: 32, height: 32, borderRadius: 8, background: 'linear-gradient(135deg,#4285f4,#34a853)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 900, fontSize: 13, flexShrink: 0 }}>G</div>
+          <div style={{ minWidth: 0 }}>
+            <div style={{ fontSize: 12, fontWeight: 700, color: RINGO.ink }}>Google Calendar</div>
+            <div style={{ fontSize: 9.5, color: RINGO.ink3 }}>Today · Auto-sync on</div>
           </div>
-        ))}
+          <span style={{ marginLeft: 'auto', fontSize: 9, fontWeight: 700, color: '#059669', background: '#ecfdf5', padding: '2px 8px', borderRadius: 6, flexShrink: 0 }}>SYNCED</span>
+        </div>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+          {slots.map((s, i) => (
+            <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '9px 12px', background: s.booked ? '#fff' : 'rgba(255,255,255,0.5)', borderRadius: 12, border: s.booked ? `1px solid ${RINGO.border}` : '1px dashed #d1d5e4', position: 'relative', overflow: 'hidden', opacity: s.booked ? 1 : 0.6 }}>
+              {s.booked && <div style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: 3, background: s.grad }} />}
+              <div style={{ fontSize: 11, fontWeight: 700, color: RINGO.ink3, width: 50, flexShrink: 0 }}>{s.time}</div>
+              {s.booked ? (
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <div style={{ fontSize: 12, fontWeight: 700, color: RINGO.ink, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{s.name}</div>
+                  <div style={{ fontSize: 10, color: RINGO.ink3, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{s.job}</div>
+                </div>
+              ) : (
+                <div style={{ flex: 1, fontSize: 12, color: RINGO.ink4 }}>Available</div>
+              )}
+              {s.booked && (
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" style={{ flexShrink: 0 }}><circle cx="7" cy="7" r="6.5" stroke="#22c55e" strokeWidth="1.2"/><path d="M4.5 7l2 2 3.5-3" stroke="#22c55e" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/></svg>
+              )}
+            </div>
+          ))}
+        </div>
+        <div style={{ marginTop: 12, padding: '9px 14px', background: 'linear-gradient(135deg,rgba(124,58,237,0.08),rgba(6,182,212,0.08))', borderRadius: 10 }}>
+          <span style={{ fontSize: 12, fontWeight: 600, color: '#7c3aed' }}>3 jobs auto-booked while you slept</span>
+        </div>
       </div>
-      <div style={{ marginTop: 12, padding: '8px 14px', background: 'linear-gradient(135deg,rgba(124,58,237,0.08),rgba(6,182,212,0.08))', borderRadius: 10 }}>
-        <span style={{ fontSize: 12, fontWeight: 600, color: '#7c3aed' }}>3 jobs auto-booked while you slept</span>
-      </div>
-    </div>
+    </PhoneFrame>
   );
 }
 

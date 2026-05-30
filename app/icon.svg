@@ -1,0 +1,23 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rl-tile" x1="2" y1="2" x2="30" y2="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8b5cf6"/>
+      <stop offset="0.48" stop-color="#6d28d9"/>
+      <stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+    <radialGradient id="rl-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(26 27) rotate(-90) scale(13)">
+      <stop stop-color="#22d3ee" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rl-r" x1="14" y1="8" x2="18" y2="24" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#a5f3fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="10" fill="url(#rl-tile)"/>
+  <rect width="32" height="32" rx="10" fill="url(#rl-glow)"/>
+  <rect x="0.5" y="0.5" width="31" height="31" rx="9.5" fill="none" stroke="#fff" stroke-opacity="0.18"/>
+  <text x="14" y="22.5" font-family="Manrope, Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="-1.2" fill="url(#rl-r)" text-anchor="middle">R</text>
+  <!-- AI sparkle, top-right -->
+  <path d="M24 5 Q25.1 10.4 30 11 Q25.1 11.6 24 17 Q22.9 11.6 18 11 Q22.9 10.4 24 5 Z" fill="#fff"/>
+</svg>

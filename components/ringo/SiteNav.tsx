@@ -12,6 +12,7 @@ interface SiteNavProps {
 }
 
 const NAV_LINKS = [
+  { label: 'Home',     href: '/' },
   { label: 'Product',  href: '/product' },
   { label: 'About Us', href: '/about' },
   { label: 'Blog',     href: '/blog' },
