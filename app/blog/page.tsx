@@ -211,6 +211,7 @@ function ArticleCard({ article, delay }: { article: Article; delay: number }) {
 export default function BlogPage() {
   const [activeCategory, setActiveCategory] = useState<Category>('All');
   const [email, setEmail] = useState('');
+  const [heroRef, heroStyle] = useFadeUp(0);
 
   const filtered = activeCategory === 'All' ? ARTICLES : ARTICLES.filter(a => a.category === activeCategory);
 
@@ -227,7 +228,7 @@ export default function BlogPage() {
         background: '#fff',
         borderBottom: `1px solid ${RINGO.border}`,
       }}>
-        <div style={{ maxWidth: 1100, margin: '0 auto' }}>
+        <div ref={heroRef} style={{ ...heroStyle, maxWidth: 1100, margin: '0 auto' }}>
           <h1 style={{ fontFamily: RINGO.font.head, fontSize: 'clamp(36px, 6vw, 56px)', fontWeight: 900, letterSpacing: '-0.04em', color: RINGO.ink, margin: '0 0 14px' }}>
             Blog
           </h1>

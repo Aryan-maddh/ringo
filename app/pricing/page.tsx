@@ -122,6 +122,7 @@ function FAQItem({ q, a, isOpen, onToggle }: { q: string; a: string; isOpen: boo
 export default function PricingPage() {
   const [annual, setAnnual] = useState(false);
   const [openFaq, setOpenFaq] = useState<number | null>(0);
+  const [heroRef, heroStyle] = useFadeUp(0);
 
   const monthlyPrices = { starter: 49, pro: 99, agency: 249 };
   const prices = annual
@@ -152,7 +153,7 @@ export default function PricingPage() {
           opacity: 0.85,
         }} />
 
-        <div style={{ maxWidth: 680, position: 'relative' }}>
+        <div ref={heroRef} style={{ ...heroStyle, maxWidth: 680, position: 'relative' }}>
           <h1 style={{ fontFamily: RINGO.font.head, fontSize: 'clamp(36px, 5vw, 60px)', fontWeight: 900, letterSpacing: '-0.04em', color: '#0d0e1c', margin: '0 0 16px', lineHeight: 1.04 }}>
             Simple pricing that scales with you
           </h1>
